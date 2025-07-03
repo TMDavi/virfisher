@@ -1,0 +1,10 @@
+workdir: /MP_Data/virfisher
+
+threads: 4
+mem_mb: 256000
+
+samples:
+    'sample_01':
+        forward: 'data/sample_01_R1.fastq'
+        reverseR: 'data/sample_01_R2.fastq'
+    

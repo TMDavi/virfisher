@@ -1,0 +1,13 @@
+name: deepvirfinder_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - tensorflow=1.14
+  - keras=2.2.4
+  - numpy
+  - pandas
+  - h5py
+  - deepvirfinder
