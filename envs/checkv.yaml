@@ -1,0 +1,9 @@
+name: checkv_env
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - checkv
+  - diamond=2.1.8
+  - hmmer=3.3
+  - prodigal-gv=2.6.3
