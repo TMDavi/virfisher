@@ -1,10 +1,12 @@
 import os
 configfile: 'config_read.yaml'
 
+
+
 # Main target rule
 rule all:
     input:
-        "results/idxstats_table.txt"
+        "mapped_reads/idxstats_table.txt"
 
 # Align reads to contigs using Bowtie2
 rule bowtie:
@@ -12,7 +14,7 @@ rule bowtie:
         forward = lambda wildcards: os.path.abspath(config["samples"][wildcards.sample]["forward"]),
         reverseR = lambda wildcards: os.path.abspath(config["samples"][wildcards.sample]["reverseR"])
     output:
-        temp("results/{sample}/mapped_reads/{sample}_vs_contigs.sam")
+        temp("mapped_reads/{sample}/{sample}_vs_contigs.sam")
     log:
         "logs/bowtie2/{sample}.log"
     benchmark:
@@ -25,45 +27,45 @@ rule bowtie:
 # Convert SAM to BAM
 rule samtools_view:
     input:
-        "results/{sample}/mapped_reads/{sample}_vs_contigs.sam"
+        "mapped_reads/{sample}/{sample}_vs_contigs.sam"
     output:
-        temp("results/{sample}/mapped_reads/{sample}_vs_contigs.bam")
+        temp("mapped_reads/{sample}/{sample}_vs_contigs.bam")
     shell:
         "samtools view -Sb {input} >> {output}"
 
 # Sort BAM
 rule samtools_sort:
     input:
-        "results/{sample}/mapped_reads/{sample}_vs_contigs.bam"
+        "mapped_reads/{sample}/{sample}_vs_contigs.bam"
     output:
-        temp("results/{sample}/mapped_reads/{sample}_vs_contigs_sorted.bam")
+        temp("mapped_reads/{sample}/{sample}_vs_contigs_sorted.bam")
     shell:
         "samtools sort -o {output} {input}"
 
 # Index sorted BAM (optional, temporary)
 rule samtools_index:
     input:
-        "results/{sample}/mapped_reads/{sample}_vs_contigs_sorted.bam"
+        "mapped_reads/{sample}/{sample}_vs_contigs_sorted.bam"
     output:
-        temp("results/{sample}/mapped_reads/{sample}_vs_contigs_sorted.bam.bai")
+        temp("mapped_reads/{sample}/{sample}_vs_contigs_sorted.bam.bai")
     shell:
         "samtools index {input}"
 
 # Get idxstats from BAM
 rule samtools_idxstats:
     input:
-        "results/{sample}/mapped_reads/{sample}_vs_contigs_sorted.bam"
+        "mapped_reads/{sample}/{sample}_vs_contigs_sorted.bam"
     output:
-        "results/{sample}/mapped_reads/{sample}_vs_contigs_sorted.idxstats"
+        "mapped_reads/{sample}/{sample}_vs_contigs_sorted.idxstats"
     shell:
         "samtools idxstats {input} >> {output}"
 
 # Calculate per-contig coverage using CoverM
 rule genome_coverage:
     input:
-        "results/{sample}/mapped_reads/{sample}_vs_contigs_sorted.bam"
+        "mapped_reads/{sample}/{sample}_vs_contigs_sorted.bam"
     output:
-        "results/{sample}/mapped_reads/{sample}_contig_coverage.txt"
+        "mapped_reads/{sample}/{sample}_contig_coverage.txt"
     conda:
         "/MP_Data/mambaforge/envs/coverm"
     shell:
@@ -74,10 +76,10 @@ rule genome_coverage:
 
 rule join_idxstats:
     input:
-        expand("results/{sample}/mapped_reads/{sample}_vs_contigs_sorted.idxstats",
+        expand("mapped_reads/{sample}/{sample}_vs_contigs_sorted.idxstats",
                sample=config["samples"].keys())
     output:
-        "results/idxstats_table.txt"
+        "mapped_reads/idxstats_table.txt"
     shell:
         """
         python scripts/process_map_data.py -i {input} -o {output}

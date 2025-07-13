@@ -7,7 +7,7 @@ rule all:
 
 rule rename_contigs:
     input:
-        assembly = 'results/{sample}/assembly/metaspades/scaffolds.fasta'
+        assembly = lambda wildcards: os.path.abspath(config["samples"][wildcards.sample])
     output:
         temp("results/{sample}/{sample}_scaffolds.fasta")
     params:
@@ -17,30 +17,19 @@ rule rename_contigs:
 
 rule concatenate_contigs:
     input:
-        expand("results/{sample}/assembly/{sample}_scaffolds.fasta", sample=list(config["samples"].keys()))
+        expand("results/{sample}/{sample}_scaffolds.fasta", sample=list(config["samples"].keys()))
     output:
-        temp("results/concatenated_scaffolds.fasta")
+        "results/concatenated_scaffolds.fasta"
     shell:
         "cat {input} > {output}"
 
-rule filter_contigs_length:
-    input:
-        "data/concatenated_scaffolds.fasta"
-    output:
-        "data/filtered_contigs.fasta"
-    shell:
-        """
-        seqkit seq -m 1500 {input} > {output}
-        """
-
 rule construct_bowtieDB:
     input:
-        "results/filtered_scaffolds.fasta"
+        "results/concatenated_scaffolds.fasta"
     output:
         "bowtieDB/contigs.1.bt2l"
-    params:
+   params:
         db_name = "bowtieDB/contigs"
     threads: 30
     shell:
         "bowtie2-build -f {input} {params.db_name} --large-index --threads {threads}"
-
