@@ -60,15 +60,17 @@ rule mergeviralcontigs:
         dvf = "results/{sample}/deepvirfinder/filtered_scaffolds.fasta",
         virsorter = "results/{sample}/virsorter2/final-viral-combined.fa"
     output:
-        "results/{sample}/merged_viral_contigs.fasta"
+        "results/{sample}/merged_viral/merged_viral_contigs.fasta"
+    params:
+        outdir = "results/{sample}/merged_viral_step1"
     shell:
         """
-        python scripts/mergecontigs.py --output {output} --dvf_file {input.dvf} --vs2_file {input.virsorter}
+        python scripts/mergecontigs.py -o {params.outdir} -f {input.dvf} {input.virsorter}
         """
 
 rule checkv:
     input:
-        assembly = "results/{sample}/merged_viral_contigs.fasta"
+        assembly = "results/{sample}/merged_viral_step1/merged_viral_contigs.fasta"
     output:
         "results/{sample}/checkv/viruses.fna",
         "results/{sample}/checkv/proviruses.fna",

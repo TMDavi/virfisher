@@ -197,6 +197,6 @@ pyrightconfig.json
 
 #databases
 databases/
-viral_HMMs/
+programs/
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode

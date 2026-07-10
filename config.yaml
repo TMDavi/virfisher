@@ -1,10 +1,25 @@
-workdir: /MP_Data/virfisher
-
-threads: 4
-mem_mb: 256000
-
+resources:
+  threads: 4
+  mem_mb: 256000
 samples:
-    'sample_01':
-        forward: 'data/sample_01_R1.fastq'
-        reverseR: 'data/sample_01_R2.fastq'
-    
+  sample1_raw:
+    forward: /MP_Data/virfisher/data/sample1_raw_R1.fastq.gz
+    reverseR: /MP_Data/virfisher/data/sample1_raw_R2.fastq.gz
+  sample2_raw:
+    forward: /MP_Data/virfisher/data/sample2_raw_R1.fastq.gz
+    reverseR: /MP_Data/virfisher/data/sample2_raw_R2.fastq.gz
+  sample3_raw:
+    forward: /MP_Data/virfisher/data/sample3_raw_R1.fastq.gz
+    reverseR: /MP_Data/virfisher/data/sample3_raw_R2.fastq.gz
+  sample4_raw:
+    forward: /MP_Data/virfisher/data/sample4_raw_R1.fastq.gz
+    reverseR: /MP_Data/virfisher/data/sample4_raw_R2.fastq.gz
+  sample5_raw:
+    forward: /MP_Data/virfisher/data/sample5_raw_R1.fastq.gz
+    reverseR: /MP_Data/virfisher/data/sample5_raw_R2.fastq.gz
+fastp:
+  quality: 20
+bowtie2: {}
+metaspades:
+  klist: 27,37,47,57,67,77,87,97,107,117,127
+  mem_gb: 500
