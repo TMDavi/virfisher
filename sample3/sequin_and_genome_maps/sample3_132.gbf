@@ -1,0 +1,133 @@
+LOCUS       sample3_132             2573 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;g_Mohonavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Mohonavirus sp. ctT3Q4B (unknown)
+  ORGANISM  Mohonavirus sp. ctT3Q4B
+            Unclassified.
+REFERENCE   1  (bases 1 to 2573)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2573)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2573
+                     /organism="Mohonavirus sp. ctT3Q4B"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(3..392)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MSTFTNFTNIKFDTSWMSKRGSSSRDLGYTGVSVVPVEPIGDSV
+                     RCSDTKGFMEIPISQVKDIQELAKGFLLGALFQQGLKIDDVVFYPCPTIELANQKGEP
+                     VYIHVTENTFQLETWFQKKDVYFEKLEQ"
+     CDS             complement(474..692)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MKRRNNHVTLVVYKNGNRSEKEKLYGVEGVHYINTSHQEVYEAL
+                     GMYYTNIIVEDGVSEEEKDFCMKRLVSK"
+     CDS             complement(857..1870)
+                     /inference="protein motif CDD:cd05781"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase B"
+                     /translation="MGHKRLPEDKVIAILKGLFVENKGCTQLALEVLGRKSRESSIRH
+                     IKNVYEKHGNYFGVSLDGVDVKIKPKQKCKYPHPKVLLIDLETAPCKMYGWSLWNQNF
+                     GLNQIESEWFILSYCAKWLGSDDVIYNDLKGKVDTEDDYQLLSELWELMNQADIVVGQ
+                     NHRRFDIKRLNARLIMNGFRPYSPVKTEDTLDIAKRKFGFTSNKLEWMTDKLCVEFKK
+                     QKHGQFAGFELWKQCLLENEDAWNEMKIYNIFDVLSLEELWLKLRAWDDRSVNYALYL
+                     DDTNIRCTCGSTHLVKDGFAYTSLSKFQQYRCEDCNSFIRGRVNLFSKEKRTSLLMNV
+                     TNR"
+     CDS             complement(1873..2106)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MYEDVPHVEFKGYRIYHPEGKLALLKTEEYWTPSKIQRTLKCGY
+                     APAMLLIEYAQSLGVLDLEEDSYGRFKVLVEGE"
+     CDS             complement(2107..2394)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MKAIYEFYWDCRRQGSVQGLFIAEKSEVEKAIGSNVYFGEILGK
+                     HSEVYGTLDEDDLTIKTEDQDFIQKFEELIGITDTISGYNPLHYIEELDEE"
+     CDS             complement(2396..2572)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="-
+                     ERNPVDGCVRIIDNDTGKYVGIKGKIFKAKSLTKVAEVLFRLRYGYEMQLNLAKKEE"
+ORIGIN      
+        1 aattgttcta acttctcaaa atacacatcc ttcttttgga accaagtttc aagttggaat
+       61 gtattttctg ttacatgaat ataaacaggt tcacctttct gattagcgag ttcaatagtt
+      121 ggacaaggat agaatacaac atcatcaatc ttcaaccctt gctggaatag tgcgcctagt
+      181 aagaaacctt ttgccaattc ctgaatatct ttaacttggg aaatcgggat ttccatgaaa
+      241 cctttggtat cagagcaacg tacagaatca ccaataggtt cgactgggac aacactaaca
+      301 cctgtataac ctaagtcacg actgctgcta ccacgcttac tcatccaaga tgtgtcgaat
+      361 ttaatatttg taaagtttgt aaatgtgctc atatttgtat ctcctttatt atttaatttg
+      421 taaaaccaca ggtcttctac tttacctgtg aagttgctgc tgttgactaa atcttacttt
+      481 gaaactaaac gtttcataca gaagtccttc tcttcttcac taacaccatc ctctacgata
+      541 atgttagtat aatacattcc gagagcttcg taaacctctt gatgagaagt gttaatatag
+      601 tggacacctt ctaccccata aagtttctct ttctcagaac gattaccatt tttataaact
+      661 acaagtgtaa catgattatt cctcctcttc atacaaattc aaagcttggc atagctcatc
+      721 caagattaca ccattttgca acaagaactc atcagtttgc cagaaggatt ctcctgacgt
+      781 ggggacacgt ccattgcaat gcttcacgaa tagtgaaagt aggtactctt ttgtttcttt
+      841 attcattatg ttgtccttat cggttggtaa cattcattaa taggcttgta cgcttctctt
+      901 tagagaatag gtttactcgt ccacgaatga aactattaca atcttcacaa cggtattgct
+      961 ggaacttact taagcttgta taagcaaaac catccttaac taagtgtgtc gaaccacatg
+     1021 tgcatcgaat attggtgtca tccaagtaaa gagcatagtt aacacttcga tcatcccaag
+     1081 ctcgtagttt cagccacaac tcttcaaggg aaagcacatc aaaaatattg tagattttca
+     1141 tctcgttcca agcatcttca ttttcaagta agcattgttt ccaaagttcg aaacctgcaa
+     1201 attgaccatg cttttgtttc ttaaactcaa cacaaagttt atctgtcatc cactcaagct
+     1261 tgttagatgt gaacccaaac ttacgttttg cgatatcaag agtatcttct gttttgactg
+     1321 gtgaataggg tcggaaacca ttcattatca aacgtgcgtt cagcctctta atatcaaagc
+     1381 gacggtgatt ttgtcctaca acaatatctg cttgattcat gagttcccac aactcagata
+     1441 gtaactgata atcatcttct gtgtcaacct tacctttcaa atcattgtaa attacgtcgt
+     1501 cgctaccaag ccatttagca caatagctta gaataaacca ttcactttca atctgattca
+     1561 aaccgaagtt ctggttccat aaactccaac catacatttt gcatggagct gtctctaggt
+     1621 caattagtaa cactttcggg tgcggatact tacatttttg ctttggctta attttaacat
+     1681 caacaccatc caaactcaca ccaaaataat taccgtgctt ctcatacaca ttcttaatat
+     1741 ggcgaatact actctcacga gatttacgtc ccagcacttc cagtgctagt tgtgtgcaac
+     1801 ctttgttttc tacaaacaat ccttttaaga ttgcaatcac tttatcttct ggtaaacgtt
+     1861 tatgacccaa aattattctc cttcaaccaa aactttaaat ctaccgtaac tatcttcttc
+     1921 caagtccaac acacctaaag attgtgcgta ttcaataaga agcattgctg gtgcataacc
+     1981 acatttcaat gtacgttgaa ttttactcgg tgtccagtat tcctcagttt tcaatagtgc
+     2041 taattttcct tctgggtggt aaatacgata acctttaaat tcaacatgtg gaacatcttc
+     2101 gtacatttat tcctcatcca actcttcaat ataatgtaaa gggttataac ctgaaattgt
+     2161 atctgtaata cctatcaact cttcaaactt ctgaataaaa tcttggtctt ctgttttgat
+     2221 ggtcaaatcg tcttcatcta aagtcccgta aacttcacta tgtttaccta ggatttcccc
+     2281 aaaataaaca ttagagccaa tagctttctc cacctcagat ttttctgcaa taaacaaccc
+     2341 ttgcacgcta ccttgacgac ggcaatccca ataaaattca taaatagctt tcatattatt
+     2401 cttctttctt cgccagattc aattgcattt cataaccata tcgcaaacga aataacactt
+     2461 ctgcaacttt ggttaaactt ttcgccttga agattttacc cttaattcca acatacttgc
+     2521 ctgtatcatt atcaatgatt cgaacacatc cgtcaacagg gttacgttct gtg
+//

@@ -1,0 +1,95 @@
+LOCUS       sample3_205             1781 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;f_Casjensviridae;g_Chivirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Chivirus sp. ctB9OQJ (unknown)
+  ORGANISM  Chivirus sp. ctB9OQJ
+            Unclassified.
+REFERENCE   1  (bases 1 to 1781)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1781)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1781
+                     /organism="Chivirus sp. ctB9OQJ"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             3..254
+                     /inference="protein motif PDB:2L6Q_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Head Tail Connector Protein"
+                     /translation="-
+                     PEECRAQYRLMLKEAMDAYHQLNLGGSVRVVVDQNSERVEYTAANRQSLWAYIVRLQN
+                     AINSDNPCAAFMGLPGSPAGFLFP"
+     CDS             251..1780
+                     /inference="protein motif PFAM:PF05136.12"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Portal Protein"
+                     /translation="MTEKKRSTTQRAKKAAKTADVATLDATPQNPSALGGGLEGAERN
+                     TREMFRWTPAIISPDQQIAQDGTLALSRAQDIVQNDGYAFGAVAIHRDSVVGSQYKLN
+                     SKPNSLVLGAPEGWADEFQEVVEARFNMVAESPENWFDARRMNTLTGLVRLAVGGFIM
+                     TGEVLASCEWMKPKGTRMQRRPFGTAIQMISPYRLSNPDNIMDDKYLRSGVKLDEMGA
+                     PIGYWLRKAFPGDPTDLEQWRWEYQPARFDWGRRRMIHIIEALLPGQTRGISEMVAAL
+                     KQMKMTRNFQEVTLQNAIVNATYAAAIESELPSDVVFNQMGMGQTPFGDILKTYMGSL
+                     AEYIAGSKNIAIDGAKIPHLFPGTKLKMQPAGTPGGVGTDYEESLLRNIAASLGLSYE
+                     QFSRDYTKTNYSSARASMAETWKYMESRKKLVADRFASMIYTLWLEEEVNAGNVPLPP
+                     GFTWRDFYDPMKRDALCNAEWIGASRGQIDEKKETEAAILRIKNGLSTYEAEIARLGG
+                     DF"
+ORIGIN      
+        1 tgacaccaga agaatgccgc gcgcaatatc gcctcatgct caaagaagcg atggatgcgt
+       61 accaccaatt aaacctcggc ggctcggtgc gcgtcgtggt ggatcagaac agtgaacgcg
+      121 tggaatatac cgcagcgaac cgacaaagcc tatgggccta catcgttcga ctgcaaaacg
+      181 cgattaattc ggacaaccct tgcgcggcct tcatgggcct accaggttca ccagcaggat
+      241 tcttattccc atgaccgaga aaaagagaag cactacacaa cgggcgaaga aagcggcaaa
+      301 gaccgccgac gtcgctacgt tggacgccac gccgcagaat ccttcggcac tcggtggcgg
+      361 cttagagggg gccgaacgga acacgcgtga aatgttccgc tggacgcctg ccatcatttc
+      421 accagaccag cagatcgccc aagacggtac gctggcgctt tcgcgtgcgc aggacatcgt
+      481 acagaacgac ggctacgcat ttggcgcggt ggcgattcac cgtgacagcg tcgtcggctc
+      541 gcagtacaaa ctcaactcga aaccgaattc gctggtgctc ggcgcgccgg aaggttgggc
+      601 ggatgaattt caggaggtag tcgaggcgcg cttcaacatg gtggccgagt ctcctgaaaa
+      661 ctggttcgat gcccgccgga tgaacacgct gaccgggctt gtccgtctgg ccgttggcgg
+      721 cttcatcatg accggggaag ttctggcgtc atgcgagtgg atgaagccga agggaacccg
+      781 tatgcagcgc cgtccgttcg gcactgcgat ccagatgatt tcgccgtacc gtctgtccaa
+      841 cccggacaac atcatggacg acaagtatct gcgctccggc gtcaaactgg atgaaatggg
+      901 cgctccgatc ggctactggc tgcgtaaagc gttcccgggc gacccgactg acctcgaaca
+      961 atggcgatgg gaataccagc ccgctcgctt cgattggggc cgacgtcgga tgatccacat
+     1021 catcgaagcg ctgctgccgg gccagactcg cggtatcagt gaaatggtcg cagcgttgaa
+     1081 gcagatgaag atgacccgaa actttcagga agtcacgctg caaaacgcca tcgtcaacgc
+     1141 gacctacgcg gccgccatcg aatcagaatt gccgtctgac gtggtcttca atcagatggg
+     1201 gatgggacag acgccgttcg gcgacatcct gaaaacctac atggggagtc tggccgagta
+     1261 catcgccgga tcgaaaaaca tcgcaatcga cggggcgaaa atcccgcacc tgttccccgg
+     1321 tacgaaactg aaaatgcagc ccgcaggaac gccgggcgga gtcggaaccg attatgaaga
+     1381 atcgttgctc aggaacatcg ccgcatcact cggcctttcg tacgagcagt tcagccgcga
+     1441 ctatacgaaa acgaactact cttctgcccg cgcttcgatg gctgaaacgt ggaagtacat
+     1501 ggaaagccgt aaaaagctgg tagccgaccg tttcgcgtcg atgatttata cgttgtggtt
+     1561 ggaagaagag gttaacgctg gtaatgttcc actgccgccg ggcttcactt ggcgcgactt
+     1621 ctacgacccg atgaaacgtg acgcgctttg caacgcagaa tggatcggcg cgagtcgcgg
+     1681 ccagatcgac gagaagaaag aaaccgaagc cgctatcctt cgcatcaaga atggcctgtc
+     1741 aacgtacgaa gcagaaatcg cccgcctcgg tggggacttc c
+//

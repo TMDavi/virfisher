@@ -1,0 +1,249 @@
+>Feature sample3_5@C0 Table1
+2	382	CDS
+			protein_id	lcl|sample3_5_1
+			product	Small Terminase
+			inference	protein motif CDD:COG3728
+351	1682	CDS
+			protein_id	lcl|sample3_5_2
+			product	Large Terminase
+			inference	protein motif PDB:5OEA_B
+1740	3194	CDS
+			protein_id	lcl|sample3_5_3
+			product	Portal protein
+			inference	protein motif CDD:TIGR01542
+3200	4339	CDS
+			protein_id	lcl|sample3_5_4
+			product	minor capsid protein
+			inference	protein motif PFAM:PF06152.10
+4418	5017	CDS
+			protein_id	lcl|sample3_5_5
+			product	minor structural protein
+			inference	protein motif PFAM:PF06810.10
+5040	5876	CDS
+			protein_id	lcl|sample3_5_6
+			product	Major Capsid protein
+			inference	protein motif PDB:4AN5_F
+5876	6034	CDS
+			protein_id	lcl|sample3_5_7
+			product	Arc like repressor
+			inference	protein motif PFAM:PF08198.10
+6036	6431	CDS
+			protein_id	lcl|sample3_5_8
+			product	Head Tail Connector Protein
+			inference	protein motif CDD:cd08053
+6431	6793	CDS
+			protein_id	lcl|sample3_5_9
+			product	Minor capsid protein
+			inference	protein motif PFAM:PF10665.8
+6793	7131	CDS
+			protein_id	lcl|sample3_5_10
+			product	Minor capsid protein
+			inference	protein motif PFAM:PF11114.7
+7131	7538	CDS
+			protein_id	lcl|sample3_5_11
+			product	Minor capsid protein
+			inference	protein motif PFAM:PF12691.6
+7541	7978	CDS
+			protein_id	lcl|sample3_5_12
+			product	tail tube protein
+			inference	protein motif PFAM:PF08813.10
+8001	8240	CDS
+			protein_id	lcl|sample3_5_13
+			product	major tail protein
+			inference	protein motif PFAM:PF16461.4
+8293	8715	CDS
+			protein_id	lcl|sample3_5_14
+			product	Phage tail assembly chaperone protein Gp14 ()A118
+			inference	protein motif CDD:pfam10666
+8721	9323	CDS
+			protein_id	lcl|sample3_5_15
+			product	Bacteriophage Gp15 protein
+			inference	protein motif CDD:pfam06854
+9334	14700	CDS
+			protein_id	lcl|sample3_5_16
+			product	tail tape measure protein 
+			inference	protein motif Uniprot:Q9T1A7_BPA18
+14724	15524	CDS
+			protein_id	lcl|sample3_5_17
+			product	Distal Tail Protein
+			inference	protein motif PDB:2X8K_A
+15521	16561	CDS
+			protein_id	lcl|sample3_5_18
+			product	tail protein
+			inference	protein motif PDB:3GS9_A
+16562	17587	CDS
+			protein_id	lcl|sample3_5_19
+			product	Minor structural protein
+			inference	protein motif PDB:5EFV_A
+17584	18651	CDS
+			protein_id	lcl|sample3_5_20
+			product	Distal Tail protein
+			inference	protein motif PDB:4DIV_C
+18648	18989	CDS
+			protein_id	lcl|sample3_5_21
+			product	tail fiber protein
+			inference	protein motif PFAM:PF09693.9
+18990	19136	CDS
+			protein_id	lcl|sample3_5_22
+			product	phage uncharacterized protein, XkdX family
+			inference	protein motif CDD:TIGR01669
+19173	19538	CDS
+			protein_id	lcl|sample3_5_23
+			product	Protein gp23 (Bacteriophage A118)
+			inference	protein motif CDD:pfam10669
+19551	19832	CDS
+			protein_id	lcl|sample3_5_24
+			product	Phage_holin_5_1
+			inference	protein motif PFAM:PF06946.10
+19832	20701	CDS
+			protein_id	lcl|sample3_5_25
+			product	L-Ala-D-Glu peptidase, also known as L-alanyl-D-glutamate endopeptidase
+			inference	protein motif CDD:cd14845
+21195	21746	CDS
+			protein_id	lcl|sample3_5_26
+			product	hypothetical protein
+			note	no search hits
+22336	22965	CDS
+			protein_id	lcl|sample3_5_27
+			product	hypothetical protein
+			note	no search hits
+22988	23170	CDS
+			protein_id	lcl|sample3_5_28
+			product	hypothetical protein
+			note	no search hits
+23413	23646	CDS
+			protein_id	lcl|sample3_5_29
+			product	hypothetical protein
+			note	no search hits
+23643	23849	CDS
+			protein_id	lcl|sample3_5_30
+			product	hypothetical protein
+			note	no search hits
+25300	24098	CDS
+			protein_id	lcl|sample3_5_31
+			product	Integrase
+			inference	protein motif PDB:1Z19_B
+26106	25366	CDS
+			protein_id	lcl|sample3_5_32
+			product	hypothetical protein
+			note	no search hits
+26669	26241	CDS
+			protein_id	lcl|sample3_5_33
+			product	Repressor protein
+			inference	protein motif PDB:1PRA_A
+26832	27053	CDS
+			protein_id	lcl|sample3_5_34
+			product	DNA-binding transcriptional regulator, XRE-family HTH domain  [Transcription]
+			inference	protein motif CDD:COG1476
+27034	27294	CDS
+			protein_id	lcl|sample3_5_35
+			product	hypothetical protein
+			note	no search hits
+27306	27590	CDS
+			protein_id	lcl|sample3_5_36
+			product	hypothetical protein
+			note	no search hits
+27603	28382	CDS
+			protein_id	lcl|sample3_5_37
+			product	KilA protein
+			inference	protein motif PFAM:PF03374.13
+28506	29030	CDS
+			protein_id	lcl|sample3_5_38
+			product	transcriptional regulator
+			inference	protein motif PFAM:PF13744.5
+29037	29222	CDS
+			protein_id	lcl|sample3_5_39
+			product	Predicted site-specific integrase-resolvase  [Mobilome: prophages, transposons]
+			inference	protein motif CDD:COG2452
+29321	29449	CDS
+			protein_id	lcl|sample3_5_40
+			product	hypothetical protein
+			note	no search hits
+29544	29738	CDS
+			protein_id	lcl|sample3_5_41
+			product	hypothetical protein
+			note	no search hits
+29735	30211	CDS
+			protein_id	lcl|sample3_5_42
+			product	resistance protein
+			inference	protein motif PFAM:PF05565.10
+30217	30876	CDS
+			protein_id	lcl|sample3_5_43
+			product	ERF superfamily
+			inference	protein motif CDD:pfam04404
+30893	31870	CDS
+			protein_id	lcl|sample3_5_44
+			product	replisome organiser
+			inference	protein motif PFAM:PF09681.9
+31867	32034	CDS
+			protein_id	lcl|sample3_5_45
+			product	host nuclease inhibitor
+			inference	protein motif PFAM:PF04936.11
+32330	32539	CDS
+			protein_id	lcl|sample3_5_46
+			product	hypothetical protein
+			note	no search hits
+32536	33144	CDS
+			protein_id	lcl|sample3_5_47
+			product	Protein of unknown function (DUF1642)
+			inference	protein motif CDD:pfam07852
+33141	33509	CDS
+			protein_id	lcl|sample3_5_48
+			product	hypothetical protein
+			note	no search hits
+33506	33682	CDS
+			protein_id	lcl|sample3_5_49
+			product	hypothetical protein
+			note	no search hits
+33669	34130	CDS
+			protein_id	lcl|sample3_5_50
+			product	phage uncharacterized protein TIGR01671
+			inference	protein motif CDD:TIGR01671
+34127	34648	CDS
+			protein_id	lcl|sample3_5_51
+			product	hypothetical protein
+			note	no search hits
+34645	35085	CDS
+			protein_id	lcl|sample3_5_52
+			product	KOG1665, AFH1-interacting protein FIP2, contains BTB/POZ domain and pentapeptide repeats [General function prediction only]
+			inference	protein motif CDD:KOG1665
+35082	35282	CDS
+			protein_id	lcl|sample3_5_53
+			product	hypothetical protein
+			note	no search hits
+35282	35764	CDS
+			protein_id	lcl|sample3_5_54
+			product	Single stranded DNA binding protein
+			inference	protein motif PDB:1Z9F_A
+35785	35976	CDS
+			protein_id	lcl|sample3_5_55
+			product	hypothetical protein
+			note	no search hits
+36065	36325	CDS
+			protein_id	lcl|sample3_5_56
+			product	Endonuclease
+			inference	protein motif PFAM:PF06356.10
+36329	36712	CDS
+			protein_id	lcl|sample3_5_57
+			product	Large Terminase
+			inference	protein motif CDD:COG5525
+36705	36830	CDS
+			protein_id	lcl|sample3_5_58
+			product	hypothetical protein
+			note	no search hits
+36842	37006	CDS
+			protein_id	lcl|sample3_5_59
+			product	hypothetical protein
+			note	no search hits
+37025	37459	CDS
+			protein_id	lcl|sample3_5_60
+			product	phage transcriptional regulator, ArpU family
+			inference	protein motif CDD:TIGR01637
+37820	38383	CDS
+			protein_id	lcl|sample3_5_61
+			product	hypothetical protein
+			note	no search hits
+38480	38653	CDS
+			protein_id	lcl|sample3_5_62
+			product	hypothetical protein
+			note	no search hits

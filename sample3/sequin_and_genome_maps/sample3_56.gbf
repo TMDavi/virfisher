@@ -1,0 +1,232 @@
+LOCUS       sample3_56              5463 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;-_Azeredovirinae;g_Phietavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Phietavirus sp. ctZ30R7 (unknown)
+  ORGANISM  Phietavirus sp. ctZ30R7
+            Unclassified.
+REFERENCE   1  (bases 1 to 5463)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 5463)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..5463
+                     /organism="Phietavirus sp. ctZ30R7"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             1..126
+                     /inference="protein motif PFAM:PF05565.10"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="resistance protein"
+                     /translation="-KDYWLSQAPKLNSKQLIDDLKAGKDIPGVELKVTESLVIK"
+     CDS             126..899
+                     /inference="protein motif PFAM:PF13479.5"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="AAA domain protein"
+                     /translation="MSEEQDILQELGIEEINEDTQNYYSIMVYGKSGTGKTTLATREN
+                     NAFIIDIHEDGTQVTRQGFVKRVDNYIAFRNTIASIESIVNTARQKGKLLDVVVIETA
+                     QKLRDITLTHVMNTHKVKKARIQDYGETSKLIVNSIRHLLKVKDKLGFHVVLTGHEGL
+                     NSEDKDENGKIINPRISIEVQPAIHNNLVTQFDIIGHTFIEDHTDENGNATHDYVFSV
+                     EPSNLYTTKVRHNPQITINIPGIKNASISKIIDMAQNGN"
+     CDS             930..1481
+                     /inference="protein motif PDB:3EIV_D"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Single stranded DNA binding protein"
+                     /translation="MKITGQAQFTKETNQEKFYNGSAGFQAGEFTVKVKNIEFNDREN
+                     RYFTIVFENDEGKQYKHNQFVPPYKYDFQEKQLIELVTRLGIKLNLPSLDFDTNDLIG
+                     KFCHLVLKWKFNEDEGKYFTDFSFIKPYKKGDDVVNKPIPKTDKQKAEENNGAQQQTS
+                     MSQQSNPFESSGQFGYDDQDLAF"
+     CDS             1494..2186
+                     /inference="protein motif PFAM:PF16784.4"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Putative HNHc nuclease"
+                     /translation="MQYITRYQKDNDGTYSVVATGVELEQSHIDLLENGYPLKAEVEV
+                     PDNKKLSIEQRKKIFAMCRDIELHWGEPVESTRKLLQTELEIEKGYEEISLRDCSMKV
+                     ARELIELIIAFMFHHQIPMSVETSKLLSEDKALLYWATINRNCVICGKPHADLAHYEA
+                     VGRGMNRNKMNHYDKHVLALCREHHNEQHAIGVKSFDDKYHLHDSWIKVDERLNKMLK
+                     GENNGRSIMDKT"
+     CDS             2158..2961
+                     /inference="protein motif PFAM:PF09681.9"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="phage replisome organiser"
+                     /translation="MGEVSWIKLKVGMFDDSKIKYIEALPERDTIITIWVKLLTLSGK
+                     YNEQGYIMLSENLPYNEEMLANEFSRPINSIRLAIQTFETLGMIEKVNGVIKVTNWEK
+                     HQNIEGLEKIRAQNRLRKQKQRENNRKLLNGHVTSRDSHATEEDKELDKELERDKEKD
+                     IDKNLSSNNSATDVTHEQFEEWWKLYNKKKDKKMSFTKFKSCLKKHTFEQIMQGTREY
+                     LKTITDKQYQKYPKTFLTNESYMNDYSEEIKETGIDQLERMKYDESYWD"
+     CDS             2971..3744
+                     /inference="protein motif PDB:4M4W_K"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Replicative helicase"
+                     /translation="MKPLFNEKINESLKKYQPIEVILRQNCDKCGHQYDLYKFENGYE
+                     YKDGCECEIQRLAYEEYKRNKQKKLDYIFNQSNVNPALRNATVNNYKPQNEKQVQAKQ
+                     TAIEYVQGFSTKEPKSLILQGSYGTGKSHLAYAIAKAVKAKGHTVAFMHIPMLMDRIK
+                     ATYNKNAVETTDELVRLLSDIDLLVLDDMGVENTEHTLNKLFSIVDNRVGKNNIFTTN
+                     FSNKELNQNMNWQRINSRMKHNARKVRVIGDDFRERDAW"
+     CDS             3909..4130
+                     /inference="protein motif CDD:pfam11673"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Protein of unknown function (DUF3269)"
+                     /translation="MPKEKYYLYREDGTEDIKVIKYKENENEVYSLSGAHFSDEKKIM
+                     TDSDLKRFKGAHGLLYEQELGLQATIFDI"
+     CDS             4141..4545
+                     /inference="protein motif PFAM:PF06356.10"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Endonuclease"
+                     /translation="MSKYNAKKVEYKGIVFDSKVECEYYQYLESNMNGINYDHIEIQP
+                     KFELLPKLDKQRKIEYIADFALYLNGKLIEVIDIKGMPTEVAKLKAKIFRHKYRTIKL
+                     NWICKAPKYTGKTWITYEELIKARRERKREMK"
+     CDS             4550..4735
+                     /inference="protein motif CDD:pfam11310"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Protein of unknown function (DUF3113)"
+                     /translation="MQQQAYINATIDIRVLTEVEYQHFDDVDKEKETLADYLYNNPDE
+                     ILEYDNLKIRNVNVEVE"
+     CDS             4736..4993
+                     /inference="protein motif PDB:2FJR_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Repressor protein CI"
+                     /translation="MKLNEVFATNLRVIMARDNVSVQDLHNETGVSRSTISGYKNGKA
+                     EMVNLNVLDKLADALGVNVSELFTRNHNTHKLEDWIKTVNV"
+     CDS             5005..5376
+                     /inference="protein motif PFAM:PF07768.10"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="PVL ORF 50 like protein"
+                     /translation="MAKTARIVRIHDKPYRFSEFEMELIESHGITPGMVSKRVKDGWE
+                     LHEAMDAPEGMRLSEYREKKTIERLEQARLERKLERQRKKEAELRRKKPHLFNVPQKH
+                     SRDPYWFDITYNQMFKKWQEA"
+     CDS             5377..5463
+                     /inference="protein motif CDD:pfam06194"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Phage Conserved Open Reading Frame 51"
+                     /translation="MPKTDSACKEYLNQFFGSKRYLYQDNERV"
+ORIGIN      
+        1 ccaaaggatt attggctatc acaagccccg aaacttaatt ctaagcaact aatcgatgat
+       61 ttgaaagctg ggaaagatat tcctggcgtt gaattaaagg taacagaaag cctggtgatt
+      121 aagtgatgag tgaggaacaa gacattttac aagaactagg tattgaagaa attaacgaag
+      181 atactcagaa ctattattca attatggtat atggcaaatc aggaaccgga aagacgactt
+      241 tagccactag agaaaacaac gcttttatta ttgatattca cgaagatggc actcaagtaa
+      301 cgcggcaagg ttttgtgaag agggtcgaca attacattgc ttttagaaac acaattgcga
+      361 gtattgaatc gattgtaaat acagctagac aaaaaggaaa gttacttgat gtggttgtaa
+      421 ttgaaacagc tcaaaaatta agagatataa cgctaactca tgtaatgaat acgcataaag
+      481 tcaaaaaagc gagaatacaa gattatgggg aaacatctaa attgatcgtt aactcgatta
+      541 ggcacctatt aaaggttaaa gataagctcg gatttcacgt tgtgcttaca ggacatgaag
+      601 ggcttaactc agaagataaa gatgagaacg gaaaaattat taaccctaga atatcaattg
+      661 aagtacaacc ggcaatacac aataacttag taactcagtt cgacattata ggacacacat
+      721 ttatagaaga tcatacagat gagaacggaa atgcgacaca cgattatgtg ttttctgtag
+      781 aaccttctaa tttatataca actaaagtta ggcataatcc gcaaataaca atcaatattc
+      841 caggtattaa aaatgcttca atttcaaaaa ttatagatat ggcacaaaac ggaaactaat
+      901 aaaaaaacta aaaaggacgg tatttaatta tgaaaatcac aggacaagcg caatttacta
+      961 aagaaacaaa tcaagaaaag ttttataacg gctcagcagg gtttcaagct ggagaattca
+     1021 cagtgaaagt taaaaatatt gaattcaatg atagagaaaa tagatatttc acaatcgtat
+     1081 ttgaaaatga tgaaggcaaa caatataaac ataatcaatt tgtaccgccg tataaatatg
+     1141 atttccaaga aaaacaattg attgaattag ttactcgatt aggtattaag ttaaatcttc
+     1201 ctagcttaga ttttgatacc aatgatctta ttggtaagtt ttgtcacttg gtattgaaat
+     1261 ggaaattcaa tgaagatgaa ggtaagtatt ttacggattt ttcatttatt aaaccttaca
+     1321 aaaagggcga tgatgttgtt aacaaaccta ttccgaagac agataagcaa aaagctgaag
+     1381 aaaataacgg ggcacaacaa caaacatcaa tgtctcaaca aagcaatcca tttgaaagca
+     1441 gtggccaatt tggatatgac gaccaagatt tagcgtttta aggtgtggtt taaatgcaat
+     1501 acattacaag ataccagaaa gataatgacg gcacttattc cgtcgttgct actggtgttg
+     1561 aacttgaaca aagtcacatt gacttgctag aaaacggata tccactaaaa gcagaagtag
+     1621 aggttccgga caataaaaag ttatctatag aacaacgtaa aaaaatattc gcaatgtgta
+     1681 gagatataga acttcactgg ggcgaaccag tggaatcaac tagaaaatta ttacaaacag
+     1741 aattggaaat tgaaaaaggt tatgaggaaa tcagtctgcg tgactgttca atgaaagtcg
+     1801 caagggagtt aatagaactg attatagcgt ttatgtttca tcatcaaata cctatgagtg
+     1861 tagaaacgag taagttgtta agtgaagata aagcgttatt atattgggct acaatcaacc
+     1921 gcaactgtgt aatatgcgga aagcctcacg cagacctggc acattatgaa gcagtcggca
+     1981 gaggcatgaa cagaaacaag atgaaccact atgacaaaca tgtattagcg ctatgtcgcg
+     2041 aacatcataa cgagcaacat gcgattggcg ttaagtcgtt tgatgataaa taccacttgc
+     2101 atgactcgtg gataaaagtt gatgagaggc tcaataaaat gctgaaagga gaaaacaatg
+     2161 ggagaagtat catggataaa acttaaagtt ggcatgtttg atgacagcaa aatcaaatat
+     2221 atcgaagctt tacccgaaag agatacgatc ataaccattt gggttaagct gctaacttta
+     2281 tcaggaaagt acaacgaaca aggttacatt atgttatctg aaaacttgcc gtataacgaa
+     2341 gaaatgttag caaatgagtt tagccgacct attaactcaa taaggttagc aattcaaact
+     2401 tttgagacat tgggcatgat tgaaaaagtt aatggtgtca taaaagtgac aaactgggaa
+     2461 aagcaccaaa acatcgaagg actcgagaaa atcagggcgc agaacaggtt gaggaaacaa
+     2521 aagcaacgag aaaacaacag aaaattgcta aatggtcacg tgacgtcacg tgacagtcac
+     2581 gcaacagaag aagataaaga attagataaa gaattagaaa gagataaaga aaaagatata
+     2641 gataagaact taagttcaaa taatagcgca actgacgtta cgcatgagca atttgaggaa
+     2701 tggtggaaac tttacaacaa gaaaaaagat aagaagatgt ctttcactaa attcaaatca
+     2761 tgcttaaaga aacatacttt tgagcaaatc atgcaaggta ctcgagaata tttaaaaact
+     2821 attacagaca aacaatatca aaagtaccct aaaacatttt taactaacga aagctatatg
+     2881 aatgattata gcgaagagat taaagaaact ggcatagatc aattggaacg tatgaagtac
+     2941 gacgaaagtt attgggacta ggaggatctt atgaaaccgt tattcaacga aaaaataaac
+     3001 gagagtttaa aaaaatatca accaatcgaa gtaatactaa gacagaattg tgataaatgt
+     3061 gggcatcaat atgacttata taagtttgaa aatggatatg aatacaaaga tggttgcgaa
+     3121 tgtgaaattc aaagattggc ttatgaagaa tacaaaagga ataaacaaaa gaaacttgat
+     3181 tatattttta atcaatcaaa tgttaatccg gctttaagaa atgcaacagt aaacaactat
+     3241 aagccacaaa atgaaaaaca agtacaagct aaacaaacag caatagagta cgttcaaggc
+     3301 ttctctacaa aagagccaaa atcattaata ttgcaaggtt catacggaac tggtaaaagc
+     3361 cacctagcat acgctatcgc aaaagcagtt aaagctaaag gacatacggt tgcttttatg
+     3421 cacataccaa tgttgatgga tcgtatcaaa gcgacataca acaaaaatgc agtagagact
+     3481 acagacgagc tagtcagatt gctaagtgat attgatttac ttgtactaga tgatatgggt
+     3541 gtagaaaaca cagaacacac tttaaataaa cttttcagca ttgttgataa cagagtaggt
+     3601 aaaaacaata tctttacaac aaactttagt aataaagaac taaatcaaaa tatgaactgg
+     3661 caacgtatca attcgagaat gaaacacaac gcaagaaaag taagagtaat cggagacgat
+     3721 ttcagggagc gagacgcatg gtaaccaaag aatttttaaa aactaaactt gagtgttcag
+     3781 atatgtacgc tcagaaactc atagatgagg cacagggcga tgaaaatagg ttgtacgacc
+     3841 tatttatcca aaaacttgca gaacgtcaca cacgccccgc tatcgtcgaa tattaaggag
+     3901 tgttaaaaat gccgaaagaa aaatattact tataccgaga agatggcaca gaagatatta
+     3961 aggtcatcaa gtataaagag aatgagaatg aagtttattc gctctcagga gcccatttca
+     4021 gcgacgaaaa gaaaattatg actgatagtg acctaaaacg cttcaaaggc gctcacgggc
+     4081 ttctatatga gcaagagcta ggattacaag caacgatatt tgatatttag aggtggcaca
+     4141 gtgagtaaat acaacgctaa gaaagttgag tacaaaggaa ttgtatttga tagcaaagta
+     4201 gagtgcgaat attaccaata tttagaaagt aatatgaatg gcattaatta tgatcatatc
+     4261 gaaatacaac cgaaatttga attattacca aaattagata aacaacgaaa gattgaatat
+     4321 attgcagact tcgcgttata tctcaatggc aaactgattg aagttatcga cattaaaggt
+     4381 atgccaaccg aagtagcaaa acttaaagct aagattttca gacataaata cagaaccata
+     4441 aaactcaatt ggatatgtaa agcacctaag tatacaggta aaacatggat tacgtacgag
+     4501 gaattaatta aagcaagacg agaacgcaaa agagaaatga agtgatctaa tgcaacaaca
+     4561 agcatatata aatgcaacga ttgatataag ggtacttacg gaagttgaat atcagcattt
+     4621 tgatgatgtg gataaagaaa aagaaacgct ggcagattac ttatataaca atcctgacga
+     4681 aatactagag tatgacaatt taaaaattag aaatgtaaat gtagaggtgg aataaatgaa
+     4741 gttgaacgaa gtattcgcaa ctaatttaag agtaatcatg gctagagata acgtaagtgt
+     4801 tcaagatttg cacaacgaaa ctggcgtatc aagatcaact attagtggat ataaaaacgg
+     4861 aaaagctgag atggttaact taaatgtatt agataaattg gcagatgctc taggtgttaa
+     4921 tgtaagtgaa ctatttacta gaaatcacaa cacacacaaa ttagaggatt ggattaaaac
+     4981 agtaaatgta tagaggtgga ataaatggcg aaaacagcaa gaattgtaag gatacatgat
+     5041 aaaccgtata ggttcagtga atttgaaatg gagttaattg aaagtcacgg tataacaccc
+     5101 gggatggttt ctaaaagagt aaaagacggt tgggaactac atgaagcaat ggacgcacca
+     5161 gaaggcatgc gtttaagcga gtacagagaa aagaaaacaa tagaaagact ggaacaagct
+     5221 agactcgaac gcaaattgga aagacagcga aagaaagagg ctgagctaag aagaaagaag
+     5281 ccacatttgt ttaatgtacc tcaaaaacat tcacgtgatc cgtactggtt cgatattact
+     5341 tataaccaaa tgtttaagaa atggcaggaa gcataaatgc caaaaactga tagcgcatgt
+     5401 aaagaatact taaaccaatt ctttggatct aagagatatc tgtatcagga taacgaacga
+     5461 gtg
+//

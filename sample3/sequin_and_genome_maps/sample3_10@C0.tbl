@@ -1,0 +1,129 @@
+>Feature sample3_10@C0 Table1
+125	835	CDS
+			protein_id	lcl|sample3_10_1
+			product	Repressor protein CI
+			inference	protein motif PDB:2FJR_A
+847	993	CDS
+			protein_id	lcl|sample3_10_2
+			product	hypothetical protein
+			note	no search hits
+990	1175	CDS
+			protein_id	lcl|sample3_10_3
+			product	hypothetical protein
+			note	no search hits
+1211	1660	CDS
+			protein_id	lcl|sample3_10_4
+			product	hypothetical protein
+			note	no search hits
+1770	1895	CDS
+			protein_id	lcl|sample3_10_5
+			product	hypothetical protein
+			note	no search hits
+2506	1892	CDS
+			protein_id	lcl|sample3_10_6
+			product	hypothetical protein
+			note	no search hits
+2619	3665	CDS
+			protein_id	lcl|sample3_10_7
+			product	Integrase
+			inference	protein motif PDB:1Z19_B
+4912	4157	CDS
+			protein_id	lcl|sample3_10_8
+			product	Endolysin
+			inference	protein motif PDB:4CSH_C
+5178	4924	CDS
+			protein_id	lcl|sample3_10_9
+			product	Bacteriophage holin
+			inference	protein motif PFAM:PF04531.12
+7214	5328	CDS
+			protein_id	lcl|sample3_10_10
+			product	Endolysin
+			inference	protein motif PDB:4OLS_C
+7713	7339	CDS
+			protein_id	lcl|sample3_10_11
+			product	hypothetical protein
+			note	no search hits
+9006	7735	CDS
+			protein_id	lcl|sample3_10_12
+			product	Distal Tail protein
+			inference	protein motif PDB:4DIV_C
+10066	9023	CDS
+			protein_id	lcl|sample3_10_13
+			product	tail protein
+			inference	protein motif PDB:3GS9_A
+10770	10078	CDS
+			protein_id	lcl|sample3_10_14
+			product	virion structural protein
+			inference	protein motif PFAM:PF10651.8
+12171	10774	CDS
+			protein_id	lcl|sample3_10_15
+			product	tail protein
+			inference	protein motif PDB:3GS9_A
+13116	12184	CDS
+			protein_id	lcl|sample3_10_16
+			product	Distal Tail Protein
+			inference	protein motif PDB:2X8K_C
+16236	13129	CDS
+			protein_id	lcl|sample3_10_17
+			product	tail tape measure protein 
+			inference	protein motif Uniprot:A0A0K2G452_BACCS
+16602	16252	CDS
+			protein_id	lcl|sample3_10_18
+			product	tail assembly chaperone
+			inference	protein motif PFAM:PF12363.7
+17012	16632	CDS
+			protein_id	lcl|sample3_10_19
+			product	tail assembly chaperone protein
+			inference	protein motif PFAM:PF12363.7
+17724	17071	CDS
+			protein_id	lcl|sample3_10_20
+			product	major tail protein
+			inference	protein motif PDB:5A21_H
+18137	17742	CDS
+			protein_id	lcl|sample3_10_21
+			product	Antigen protein
+			inference	protein motif PDB:4ACV_B
+18497	18150	CDS
+			protein_id	lcl|sample3_10_22
+			product	type I neck protein
+			inference	protein motif PFAM:PF04883.11
+18801	18487	CDS
+			protein_id	lcl|sample3_10_23
+			product	head closure knob
+			inference	protein motif PDB:5A21_F
+19184	18798	CDS
+			protein_id	lcl|sample3_10_24
+			product	head tail adaptor
+			inference	protein motif PFAM:PF05135.12
+19590	19141	CDS
+			protein_id	lcl|sample3_10_25
+			product	Tail tube protein
+			inference	protein motif PDB:5NGJ_B
+20591	19680	CDS
+			protein_id	lcl|sample3_10_26
+			product	Major Capsid Protein
+			inference	protein motif PDB:6B23_B
+21290	20610	CDS
+			protein_id	lcl|sample3_10_27
+			product	capsid scaffolding protein
+			inference	protein motif PDB:6B0X_d
+22294	21335	CDS
+			protein_id	lcl|sample3_10_28
+			product	minor capsid protein
+			inference	protein motif PFAM:PF06152.10
+23732	22287	CDS
+			protein_id	lcl|sample3_10_29
+			product	Portal Protein
+			inference	protein motif PDB:5A20_A
+25018	23744	CDS
+			protein_id	lcl|sample3_10_30
+			product	phage terminase, large subunit, PBSX family
+			inference	protein motif CDD:TIGR01547
+25445	25005	CDS
+			protein_id	lcl|sample3_10_31
+			product	Terminase small subunit
+			inference	protein motif PFAM:PF03592.15
+25725	25633	CDS
+			protein_id	lcl|sample3_10_32
+			product	transcriptional regulator
+			inference	protein motif PFAM:PF05263.10

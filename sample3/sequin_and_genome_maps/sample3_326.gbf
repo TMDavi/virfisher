@@ -1,0 +1,89 @@
+LOCUS       sample3_326             1300 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;o_Au
+            tographivirales;-_Autographivirales incertae sedis;g_Stopavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Stopavirus sp. ctASM5A (unknown)
+  ORGANISM  Stopavirus sp. ctASM5A
+            Unclassified.
+REFERENCE   1  (bases 1 to 1300)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1300)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1300
+                     /organism="Stopavirus sp. ctASM5A"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             1..522
+                     /inference="protein motif PDB:3BH0_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Helicase ATPase"
+                     /translation="-
+                     KLLEEFDKVKDNIAFYDHFGSSDSEDLMNRIRYMVQSLDCKVIILDHISIVISGLHDG
+                     DERRLIDNTMTELRKLVEEVKCAMFVVSHLKRPSGNLGHEEGVQTSLSHLRGSHALAQ
+                     LSDAVIGFERNQQHETESNIMIVRVLKNRFSGETGVATSLIYNKVTGRLAESSFDE"
+     CDS             515..784
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MNEAMLTKFILSYLIQKPEYLKLSGKQQRIAFETFKTIMTAIYQ
+                     AIKFDNIFPVIVCGDVQARKTINQALKSVQPILPSIEKITVHLVQ"
+     CDS             797..1300
+                     /inference="protein motif PDB:2KFZ_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase"
+                     /translation="MKLILDLETNGFLDKKDLVIHCIVCKDIETGEVYSYNPNTINDA
+                     LELLNKAEVLIGHNITGFDIKALKQVLNYEFKGKAFDTLLCSRLIWTNRLELDYKFKQ
+                     MPPKLYGRHSLESWGYRLGLRKGDYQEHSTFDEYNQDMLEYCQRDVEVTDLLFKEIIR
+                     SNYSEDAI"
+ORIGIN      
+        1 gaaaaattat tagaagaatt tgataaagta aaagacaaca tagctttcta cgaccacttt
+       61 ggttcaagcg atagtgaaga tttaatgaac agaataagat acatggttca gtctttagat
+      121 tgcaaagtaa ttatcttaga ccatatctca atagttattt cagggttaca tgatggagat
+      181 gaacgaagac ttatagataa caccatgact gaattaagaa aacttgtaga agaagttaag
+      241 tgtgcaatgt ttgttgtttc acatttaaaa agacccagtg gaaatttagg acatgaagaa
+      301 ggtgttcaaa cttctttatc acatttaaga ggttcacatg cactagcaca attatcagat
+      361 gcagtaatag gctttgaaag aaaccaacag catgaaactg aaagcaacat aatgatagta
+      421 agagtattga aaaatagatt tagtggggag acaggagtag caacaagtct tatttataat
+      481 aaagtaactg gtcgtttagc agagagcagt tttgatgaat gaagcaatgc taactaaatt
+      541 tattttaagt tatttaatac agaagcctga atatttaaaa ttatcaggta agcaacaaag
+      601 aatagcattt gaaactttta aaacaataat gactgctatt tatcaagcca taaaatttga
+      661 caacatattt ccagtaatag tttgtggaga cgtacaggct aggaaaacaa ttaatcaagc
+      721 acttaaatca gtgcaaccaa ttttaccaag catagaaaaa ataactgtgc atttggttca
+      781 ataaagaaag taaaacatga aactgatatt agacttagag accaatgggt ttctagataa
+      841 aaaagattta gtaattcatt gtatagtttg caaggatata gagactggtg aggtctattc
+      901 atataatcct aatactatta atgacgcact agagttactg aacaaagctg aagttcttat
+      961 tggtcataat attacaggct ttgatataaa agcattaaag caagtattaa actatgaatt
+     1021 taaaggtaaa gcatttgata cgttactttg ttcaagactt atatggacta atagacttga
+     1081 acttgattac aaatttaaac agatgccacc taaactttat ggaagacatt ctcttgaaag
+     1141 ttggggttat agattaggtt taagaaaagg cgattaccaa gaacattcta catttgatga
+     1201 atacaatcaa gacatgttgg agtattgcca acgtgacgta gaagtaactg atttactgtt
+     1261 taaagaaata ataagaagta attattcaga agatgcaatt
+//

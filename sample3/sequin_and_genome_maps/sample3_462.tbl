@@ -1,0 +1,5 @@
+>Feature sample3_462 Table1
+1005	1	CDS
+			protein_id	lcl|sample3_462_1
+			product	Major Capsid Protein
+			inference	protein motif PDB:7Y3T_A

@@ -1,0 +1,83 @@
+LOCUS       sample3_437             1042 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Caudoviricetes sp. ctSU0JL (unknown)
+  ORGANISM  Caudoviricetes sp. ctSU0JL
+            Unclassified.
+REFERENCE   1  (bases 1 to 1042)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1042)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1042
+                     /organism="Caudoviricetes sp. ctSU0JL"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(2..118)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MSEDKKQKKSTFKAQFNSIKVNEEDPTLLKGTVIIHDFE"
+     CDS             complement(152..298)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MKNNIIIVKNNNSILISNNGKKLVIKDELFNNLKDKTKDEIKKW
+                     YLER"
+     CDS             complement(328..1041)
+                     /inference="protein motif PDB:4ZJN_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Portal protein"
+                     /translation="-
+                     AMAVLKFRGKDDNDSKVKESAKRKVLAGVKRALEKGVKDKNGIACIAMPDFATFEFPE
+                     IKNGDKTLDPKKYDSIDNDITNATGISQVLTNGTKGNYASAKLNLDVFYKKIGVMLEI
+                     IEEIYNQLIDIILGEEKGCNYIFQYNKDTPIEREKKLDTLIKLEAQGYSAKYVLDILG
+                     ISSEEYFEESIYEIEKLKLREKIMPPLNTNVLSGKDGNDIGSPKLDDSDSSDATIESK
+                     ERGV"
+ORIGIN      
+        1 tttcaaagtc atgaattata accgtacctt ttaataaagt aggatcttcc tcattaactt
+       61 taatactgtt aaattgtgct ttaaatgtag atttcttttg ctttttatct tctgacattt
+      121 aatttatcac ctcctttcaa tagaaacaca attatctttc taaataccat tttttaattt
+      181 catctttagt tttatctttt aaattattaa ataattcatc ttttataacc aacttttttc
+      241 cattattaga tattagaata gaattattat ttttaactat tataatgttg tttttcattt
+      301 acaacttcct ttctaaacat tttgcactta gacacctcgc tctttacttt ctatagttgc
+      361 gtcacttgaa tcagaatcat ctaattttgg acttcctata tcatttccat ctttaccact
+      421 aagaacattg gtattcagcg gtggcataat cttttctctt aattttaatt tttctatttc
+      481 ataaatagat tcttcaaaat attcttcaga acttatacct agtatatcta aaacatactt
+      541 agctgaatat ccttgtgctt ctaatttaat caatgtatca agttttttct ctctttcgat
+      601 aggagtgtct ttattatatt gaaatatata attacaacct ttttcttcac ctaatataat
+      661 atctataagt tgattatata tttcctctat aatttctagc ataacaccta tttttttata
+      721 gaatacatct aaatttaatt tagctgatgc ataattaccc tttgtaccat ttgttaaaac
+      781 ttgcgaaata cctgtagcat tagttatatc attatcgatg gaatcatatt ttttgggatc
+      841 taatgtttta tctccatttt ttatttctgg aaattcaaaa gttgcaaaat caggcatagc
+      901 aatacaagca ataccattct tatctttaac acctttttct aacgctcttt taacacctgc
+      961 taaaactttt cttttagcac tttctttaac tttagaatca ttatcatctt tgcctctaaa
+     1021 ttttaaaact gccatagctt tt
+//

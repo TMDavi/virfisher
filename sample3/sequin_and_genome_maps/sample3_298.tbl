@@ -1,0 +1,13 @@
+>Feature sample3_298 Table1
+789	1	CDS
+			protein_id	lcl|sample3_298_1
+			product	Portal protein
+			inference	protein motif PFAM:PF04860.11
+997	776	CDS
+			protein_id	lcl|sample3_298_2
+			product	hypothetical protein
+			note	no search hits
+1380	1009	CDS
+			protein_id	lcl|sample3_298_3
+			product	Large Terminase
+			inference	protein motif PFAM:PF03354.14

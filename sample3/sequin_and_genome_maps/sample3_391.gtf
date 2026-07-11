@@ -1,0 +1,2 @@
+sample3_391	Cenote-Taker	CDS	1	615	.	+	0              	gene_id "lcl|sample3_391_1"; gene_name "Tail assembly chaperone "; gene_inference "protein motif UniProtKB:A0A0A0RPE2_9CAUD"
+sample3_391	Cenote-Taker	CDS	679	1119	.	+	0              	gene_id "lcl|sample3_391_2"; gene_name "tail associated lysin"; gene_inference "protein motif PFAM:PF10145.8"

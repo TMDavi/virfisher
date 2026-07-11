@@ -1,0 +1,17 @@
+>Feature sample3_82 Table1
+3	977	CDS
+			protein_id	lcl|sample3_82_1
+			product	Large Terminase
+			inference	protein motif PFAM:PF03354.14
+968	2209	CDS
+			protein_id	lcl|sample3_82_2
+			product	Portal protein
+			inference	protein motif PFAM:PF04860.11
+2160	2885	CDS
+			protein_id	lcl|sample3_82_3
+			product	phage prohead protease
+			inference	protein motif CDD:TIGR01543
+2943	3818	CDS
+			protein_id	lcl|sample3_82_4
+			product	Major Capsid protein
+			inference	protein motif PFAM:PF06673.10

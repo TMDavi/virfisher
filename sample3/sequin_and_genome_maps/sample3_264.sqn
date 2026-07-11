@@ -1,0 +1,351 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Rosenblumvirus sp. ct88KLF" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_264" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae
+ sedis;f_Rountreeviridae;-_Rakietenvirinae;g_Rosenblumvirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1485 ,
+              seq-data
+                ncbi2na '401D33EFFB30ACC10E33C93C0ECD04F3130FFCCCFCDB4BFC33200
+0D16FF8F8CE3F7C0F34DE503CCF6F03D01D94BED326D36FE0F8395BBBC67FD3F1B0D3F7D93F700
+03BFFB02DB8EEF4FF3BFFB0C2F3333F03E8C33287E00BE164F170C004FF2A096330D04F14EBC6B
+63E3D303EFFC1F35476D0F032D37D0B9C00F4D3330E32ACBBFC00BC838CFF034BE473F037B0F11
+73F5F37E3230F9C0C377247DE06D119F23F832EAFFED0E3F7D0C0346B09B46C3B30E1B8C302C0F
+C3342FF3270303020E2132F818FF5B481AFE03233B0CB7334D3D38BD3E1C3DCFEBCCBCDEB3FFFD
+F138F8493FE30DDF14EDC063FEFD14EFFF75FB0CBF3CEDBF12CF00F2DF40EF930CC00BCC5F137D
+36D0FBED32B7B78FC50FDFECC0BB43F5FCCCFCC4C820F3CFFC9FB0F4CC0933F3BFFC9BFF3CF23D
+37F1AF333F42CCCBF0FBD3B7FC5DC1438C493F133846FDFDFFA00CA903B980EFD4E6DCEC65DFB0
+37F34D03F00F04F1C034FC0043DFFD79DFF7E6DDFDFFF53FB53F686CEDC14F9C180'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_264_1" } ,
+            descr {
+              title "putative encapsidation protein [Rosenblumvirus sp.
+ ct88KLF]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 315 ,
+              seq-data
+                ncbieaa "MVKQNRLDMVRDYQNAVNHVRKKIPDNYNQIELVNELMNDDIDYYISISNRSD
+GKSFNYVSFFIYLAIKLDIKFTLLSRHYTLRDAYRDFIEEIIDKNPLFKSKRVTFRSARDYLAIIYQDKEIGVITDLN
+SATDLKYHSNFLKHYPIIIYDEFLALEDDYLIDEWDKLKTIYESIDRNHGNVDYIGFPKMFLLGNAVNFSSPILSNLN
+IYNLLQKHKMNTSRLYKNIFLEMRRNDYVNEKRNTRAFNSNDDAMTTGEFEFNEYNLADDNLRNHINQNGDFFYIKTD
+DKYIKIMYNVDTFNANIIVIPYTKQYEF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "putative encapsidation protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 314 ,
+                          id
+                            local
+                              str "sample3_264_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_264_2" } ,
+            descr {
+              title "hypothetical protein [Rosenblumvirus sp. ct88KLF]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 162 ,
+              seq-data
+                ncbieaa "-AMVRHTSEMDKWKKERDARKEQEKELFLNDFSNVNFKFDDKDLQEAYIDAWK
+HFAHLPYFPKERNVSYVNAVSLVRGKRHEQLNYILEIYNRKDESNNKNAKKHKYALYELQAKNNNSSMYKYIKEIDTL
+YKEIGKSDRPMTTIDDEDVRYNFLYYATFED" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 161 ,
+                          id
+                            local
+                              str "sample3_264_2" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_264_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 946 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_264" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:PHA01076" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_264_2" ,
+                  location
+                    int {
+                      from 994 ,
+                      to 1482 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_264" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:PHA01816" } } } } } } } } }

@@ -1,0 +1,4 @@
+sample3_177	Cenote-Taker	CDS	67	2	.	-	0              	gene_id "lcl|sample3_177_1"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_177	Cenote-Taker	CDS	519	82	.	-	0              	gene_id "lcl|sample3_177_2"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_177	Cenote-Taker	CDS	1769	621	.	-	0              	gene_id "lcl|sample3_177_3"; gene_name "Major Capsid Protein"; gene_inference "protein motif PDB:5WK1_D"
+sample3_177	Cenote-Taker	CDS	2012	1779	.	-	0              	gene_id "lcl|sample3_177_4"; gene_name "hypothetical protein"; gene_inference "no search hits"

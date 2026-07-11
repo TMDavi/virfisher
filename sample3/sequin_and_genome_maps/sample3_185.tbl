@@ -1,0 +1,9 @@
+>Feature sample3_185 Table1
+1	1698	CDS
+			protein_id	lcl|sample3_185_1
+			product	DNA packaging protein
+			inference	protein motif PDB:2O0J_A
+1702	1950	CDS
+			protein_id	lcl|sample3_185_2
+			product	Portal protein
+			inference	protein motif PFAM:PF16510.4

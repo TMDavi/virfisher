@@ -1,0 +1,71 @@
+LOCUS       sample3_466             1002 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;f_Pachyviridae;g_Bacelvirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Bacelvirus sp. ctVWVVN (unknown)
+  ORGANISM  Bacelvirus sp. ctVWVVN
+            Unclassified.
+REFERENCE   1  (bases 1 to 1002)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1002)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1002
+                     /organism="Bacelvirus sp. ctVWVVN"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(2..1000)
+                     /inference="protein motif UniProt:tr|S0A4M2_9CAUD"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Structural protein"
+                     /translation="-
+                     SSMQSGFDDNGRLMLAYVDKDGDGKNDLLGMESFDEITKGISGFTFDPNFDIDALAKG
+                     AAGELGESTEVNESRYVTDTTIGPLEGTISEKAKSIMVSPDGVLTSEGKSFAQDLGLD
+                     PDKEETITAVLDGFKQKMETYVDRTKKKEVDYNAINSAERLNLAKQKVQAKVVNLTEP
+                     VTPSDETWDFKNNNIDPNKSNSIGVTGELVLGAVKDTKSGDTYSNAKVKNYTYNEDKK
+                     MVLNVEVPITKTISKEDYSDLQSEVDSAETPEAREAAQEILDTAIILKTGGAKITQPG
+                     QNEMRTVIVAKENEAEVARQLPTKTIEEAKKLAIKEGSVNSP"
+ORIGIN      
+        1 tagggctatt tacagaaccc tctttaatgg ctagtttctt agcttcttct attgtttttg
+       61 taggaagttg tcttgctact tctgcttcgt tttctttagc gacaattact gttctcattt
+      121 cattttggcc aggctgagtt atttttgctc cacctgtctt taagattata gctgtatcta
+      181 aaatttcttg tgctgcttct ctagcctctg gagtttctgc gctgtctact tctgattgta
+      241 aatcggaata atcctcttta gatatagttt ttgttattgg aacttcaaca ttcaatacca
+      301 tctttttatc ttcgttatag gtgtagtttt taaccttagc attagaataa gtgtctcctg
+      361 atttggtatc ttttactgcg cctaaaacta attctcctgt aactccaata ctatttgact
+      421 tattagggtc gatgttgtta ttcttaaaat cccatgtttc gtccgaagga gttactggtt
+      481 ctgtaaggtt aaccacttta gcttgcactt tctgttttgc taaatttaat ctttctgctg
+      541 aatttatcgc gttatagtct acctcttttt tcttagttcg gtctacgtat gtttccattt
+      601 tttgtttgaa accatctaat accgcagtaa tagtttcttc tttatccgga tctaatccta
+      661 aatcttgcgc aaaagatttt ccttcacttg ttaatactcc atctggagaa accataattg
+      721 attttgcttt ttcgctaatt gttccttcca atggccctat tgtagtgtct gttacatatc
+      781 tagattcgtt aacttcagtg ctttcgccta attctcctgc tgctcctttt gctaatgcat
+      841 caatgtcaaa gttagggtcg aatgtaaatc cacttattcc tttggttatt tcatcgaaac
+      901 tttccattcc aagtaaatcg tttttaccat caccgtcttt atctacataa gcaagcatta
+      961 accttccatt gtcatcaaaa ccagactgca ttgaagaata cc
+//

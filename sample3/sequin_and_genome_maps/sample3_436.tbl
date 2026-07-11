@@ -1,0 +1,9 @@
+>Feature sample3_436 Table1
+752	3	CDS
+			protein_id	lcl|sample3_436_1
+			product	capsid scaffolding protein serine peptidase
+			inference	protein motif CDD:pfam05929
+943	1041	CDS
+			protein_id	lcl|sample3_436_2
+			product	Putative ATPase subunit of terminase
+			inference	protein motif CDD:pfam06056

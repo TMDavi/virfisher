@@ -1,5 +1,6 @@
+WORKDIR: workflow
 resources:
-  threads: 4
+  threads: 10
   mem_mb: 256000
 samples:
   sample1_raw:
@@ -19,7 +20,6 @@ samples:
     reverseR: /MP_Data/virfisher/data/sample5_raw_R2.fastq.gz
 fastp:
   quality: 20
-bowtie2: {}
 metaspades:
   klist: 27,37,47,57,67,77,87,97,107,117,127
   mem_gb: 500

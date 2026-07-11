@@ -1,0 +1,25 @@
+>Feature sample3_61 Table1
+1570	2	CDS
+			protein_id	lcl|sample3_61_1
+			product	tail protein
+			inference	protein motif PFAM:PF13550.5
+2179	1631	CDS
+			protein_id	lcl|sample3_61_2
+			product	tail assembly protein I
+			inference	protein motif PFAM:PF06805.11
+2919	2176	CDS
+			protein_id	lcl|sample3_61_3
+			product	Mpr1p, Pad1p N-terminal (MPN) domains with catalytic isopeptidase activity (metal-binding) found in proteins also containing NlpC/P60 domains
+			inference	protein motif CDD:cd08073
+3623	2925	CDS
+			protein_id	lcl|sample3_61_4
+			product	minor tail protein 
+			inference	protein motif PFAM:PF05100.11
+3962	3633	CDS
+			protein_id	lcl|sample3_61_5
+			product	minor tail protein
+			inference	protein motif PFAM:PF05939.12
+5179	3962	CDS
+			protein_id	lcl|sample3_61_6
+			product	phage tail tape measure protein, lambda family
+			inference	protein motif CDD:TIGR01541

@@ -1,0 +1,411 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Chivirus sp. ct4AL7Y" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_164" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;f_Casjensviridae;g_Chivirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 2117 ,
+              seq-data
+                ncbi2na 'D2AE194FA5950DACB4EB499A4D1A582DC464526ACB5E15E06D06C
+16C79925E6594D4F546CFF6E4E99AEFD34923398E11AD9A67998C84AB94B15067D15A7866A38D3
+BCAB6386EFDA7D1B292BF00B7DBBEC967F7F8D19A57B1BCAE4181A2619ABC6D78307F360A434ED
+F5E02F0DE99A814F9282064A49BFD27E67B1F624BEB0B2EC0B5253FB9E75F2C48F963BA3BCB1AD
+82165E1BFE526CD09866E5258A966EBE0C45163B2C691BDE9687D9A9E6798C58C944879AE7AC7D
+B5A21B94BAD92DAB4EE914C9949A6F7D98C178C8DD8ED265269165F6B443379F65E608FEAFA754
+2258AD94FD4948CBCA4A7AD9A534CB4023D3582355CF1F253BC8949C49AD3E594D21496FDFD997
+D79DBE526DA4526F28EB49BD94D1ACD81A9ED15F67DAC56BF15A66926D2A946BAE1E69FDAF7DA6
+83EB49364B26DF41A13BEBBE0A633AFE52FCB9AF259E4D9254E35698E6AF6F6FAD965DE66A79B5
+3F7DF9B0274F9BD9D78B8D6A7BCDA1A56F8A0F6B0497D829BE3166D0F2163E1267D149BCC91367
+DAED99147F68DC0D5EFF898423E182DAC64F83719D9F94B79DB1F4D9D3EBDB1ABE5B69FEE755A1
+F8E33D1AE3163B594137D84ED8EE8A98C11639D5A4596869BC418FF159E6765064CE5920C92FE0
+D84165260AFDD966ECD013F5EE12760125E79F5596F62F06DB238C976135AB69499E4F19E1E68C
+03EC95B46C96CB0C565326BC34AB96E0DA8E3A6296F620A6029FB5921ADA5065B19E440'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_164_1" } ,
+            descr {
+              title "capsid protein [Chivirus sp. ct4AL7Y]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 175 ,
+              seq-data
+                ncbieaa "MAGLYTTYQLLEVQRKLKTLPAFFLQWFPRQINFQEDMIAFDKVIQDVTRVAP
+FVAPNVQGRVIKESGYNTKTFKPAYVKPKHVIDPNMIIPRQPGEALGTGTLSIAQRRDRVIAYLLMKHRAMHENTWEW
+MAAQAAQYGYVDVQGQDYPLVRVDFGRDAALTMTTDWAANGVTL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "capsid protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 174 ,
+                          id
+                            local
+                              str "sample3_164_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_164_2" } ,
+            descr {
+              title "Head decoration protein [Chivirus sp. ct4AL7Y]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 139 ,
+              seq-data
+                ncbieaa "MNLLTMMAATSLPNYLAGNGDLGSWEPTQIFAGEADIVTEGGAAGADIEIYQV
+IAKNAAGAMVPHDPTATTGTSPDEVPAPQSVAIGIAAQPAKSGQNVPYYIGGVFNHAALGWHASLDTLAKRQAVFDRT
+NIHIGNLY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Head decoration protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 138 ,
+                          id
+                            local
+                              str "sample3_164_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_164_3" } ,
+            descr {
+              title "Signal peptide peptidase A (SppA) 36K type, a serine
+ protease, has catalytic Ser-Lys dyad [Chivirus sp. ct4AL7Y]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 380 ,
+              seq-data
+                ncbieaa "-AYGVGRPSADKPFAFSNGLAIIPIHGTLINRYGGYYYGYVTGYNFIRSQRNA
+ALADPDVEAIIYDVNSNGGEAAGCFELSQEMFDTRGEKPSLAVVDSNCYSAAYALASAAGKIVVTPSGGAGSIGVIAL
+HIDMSKMLADIGITVNIIKSGEHKADGNPYEPMSDEVRADWQASVDSMRTDFVNLVAQNRDLDPKVVRDTEAMCYNAG
+EALSIGLIDAVSTPSKAVTEFLNGPSDNSPDHSGANAMSFTQEEMDAARAEAATNERTRIAGIMGCDAAANRTKLANH
+IAFNTNMSVEDATAMLTNSAEEPKAAVTTVAPDAAAPGKPGTEAKGDSPFDTVMANADHPNAGADAGNEQEGAKETAG
+LMAAMTAVAGSNMAK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Signal peptide peptidase A (SppA) 36K type, a
+ serine protease, has catalytic Ser-Lys dyad" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 379 ,
+                          id
+                            local
+                              str "sample3_164_3" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_164_1" ,
+                  location
+                    int {
+                      from 1 ,
+                      to 525 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_164" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:3BQW_A" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_164_2" ,
+                  location
+                    int {
+                      from 538 ,
+                      to 957 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_164" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:1TCZ_D" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_164_3" ,
+                  location
+                    int {
+                      from 972 ,
+                      to 2114 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_164" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:cd07022" } } } } } } } } }

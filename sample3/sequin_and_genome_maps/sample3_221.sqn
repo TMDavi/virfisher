@@ -1,0 +1,449 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Paundecimvirus sp. ct59NZX" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_221" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;f_Zobellviridae;g_Paundecimvirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1666 ,
+              seq-data
+                ncbi2na 'F03FBA1CF704F9C1B1514F8E8CE0FEC734D7D2E99C541E537DAC8
+EF5FC42F1FDAC99D01059E3B097262C3A07B04F411E7A43CCDBC5FCDF9BFEB647AEB1EB07B3DE7
+8320F09F0EB79093D045047E4BFE3064FCD1EC53FD671DDA3F0EF327AC714E1CE8CF3988CB9EB0
+412E9ADF3E510752E42427A0CD257DE41CD3EE240F74A0BC338F08479D8CFB9084C77780E24B8E
+0B4124D0631CF8B7390B2548FB00DEDC4EDCE3890CA0FA51340809F3D27E05B7A638E7CD415138
+2F901D53C280EE7D3C1CE1EEF023AA015B088C4A1CE0BA9E05E387D759D4F2C22010E342304F8E
+F3CF8D5DEBB227BE3480E3F25584C71176FE38C719F3FD8F7CE30A4BA38C579003508F4273A6CE
+F397B7DFCE8E387D35480F5218246259DF7A08270892A6F4C14F0903A705202489082749B41097
+AF8B6009FA22E06BACD033541CEB28124E0B3409DD5C7D8C04410805445F0A003CE26C831029CD
+236D0E1A87CE9FC080F0177E90ABD2C44ED5E6AB0BD1C385B3E70AC9CF8C7F5E2420AC8470E902
+187067962FC11FFBEAA9C3458A7255F07FD74039753E382D0FD3DF05886ADC80C8641ACE87F803
+0'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_221_1" } ,
+            descr {
+              title "hypothetical protein [Paundecimvirus sp. ct59NZX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 170 ,
+              seq-data
+                ncbieaa "-FVDYSNIANVPTIDGYEFVLSSFSGATQLPSSVDVPLQVTFGSAQTTADVSL
+ASNGTVTFNTAGNYIVTFILRFGRTGGTGNCILLNRIKLNGLQAFNTNTCSFDNAFITVPFSATLGFNVIAGTTMTMD
+IMRDSAGNNSGGLIATTPVQASWNISPSATIIVSKFSGS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 169 ,
+                          id
+                            local
+                              str "sample3_221_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_221_2" } ,
+            descr {
+              title "Tail tube protein [Paundecimvirus sp. ct59NZX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 267 ,
+              seq-data
+                ncbieaa "MIKTLLDIVQDILSEMSSDEVNSINDTIESMQVAQIVKSVYMSMMSNRNWPHQ
+RKLIQLEPSGDDAYPTHMKLQTPIKEMCFINYDCVKDGETRKRYRTMKWAEPDDFLRSISKRNNDQDNIDVIIDPSGV
+ELLIRNDLAPTYYTSFDDTTLIFDSYDKAVDDTLQKSKIQAMAYVMPVFFMDDDFIPEIPDEARAALLEEAKSRAFIT
+IKQMANQKAEQEAQRQQAWLSRKAWRVNGGIKYPNYGRNSMKYQSSPYFDKHNKKPTP" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Tail tube protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 266 ,
+                          id
+                            local
+                              str "sample3_221_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_221_3" } ,
+            descr {
+              title "hypothetical protein [Paundecimvirus sp. ct59NZX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 62 ,
+              seq-data
+                ncbieaa "MSVEYKGYQIVNDGTYGFKEIKPLGKGSVHMSLRGKFTNDRIAKVAIDTFLSK
+KVDTNGKDD" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 61 ,
+                          id
+                            local
+                              str "sample3_221_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_221_4" } ,
+            descr {
+              title "hypothetical protein [Paundecimvirus sp. ct59NZX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 55 ,
+              seq-data
+                ncbieaa "MAKTTNAAEFNTFVGGLITEASPLTFPQNASIDEVNFILNRDGSRNRRNGMDF
+EN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 54 ,
+                          id
+                            local
+                              str "sample3_221_4" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_221_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 514 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_221" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_221_2" ,
+                  location
+                    int {
+                      from 516 ,
+                      to 1319 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_221" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:5MU4_D" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_221_3" ,
+                  location
+                    int {
+                      from 1329 ,
+                      to 1517 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_221" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_221_4" ,
+                  location
+                    int {
+                      from 1501 ,
+                      to 1665 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_221" } } } } } } } }

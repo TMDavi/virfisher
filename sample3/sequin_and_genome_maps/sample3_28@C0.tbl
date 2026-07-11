@@ -1,0 +1,89 @@
+>Feature sample3_28@C0 Table1
+1133	3	CDS
+			protein_id	lcl|sample3_28_1
+			product	DNA polymerase
+			inference	protein motif PDB:5IKN_F
+1448	1182	CDS
+			protein_id	lcl|sample3_28_2
+			product	hypothetical protein
+			note	no search hits
+1984	1448	CDS
+			protein_id	lcl|sample3_28_3
+			product	hypothetical protein
+			note	no search hits
+2366	1971	CDS
+			protein_id	lcl|sample3_28_4
+			product	hypothetical protein
+			note	no search hits
+2592	2407	CDS
+			protein_id	lcl|sample3_28_5
+			product	hypothetical protein
+			note	no search hits
+3822	2602	CDS
+			protein_id	lcl|sample3_28_6
+			product	putative RNA ligase
+			inference	protein motif CDD:PHA02142
+4186	3815	CDS
+			protein_id	lcl|sample3_28_7
+			product	hypothetical protein
+			note	no search hits
+4508	4188	CDS
+			protein_id	lcl|sample3_28_8
+			product	hypothetical protein
+			note	no search hits
+5408	4557	CDS
+			protein_id	lcl|sample3_28_9
+			product	High frequency of lysogenization C protein
+			inference	protein motif CDD:cd03405
+5783	5418	CDS
+			protein_id	lcl|sample3_28_10
+			product	hypothetical protein
+			note	no search hits
+6049	5783	CDS
+			protein_id	lcl|sample3_28_11
+			product	hypothetical protein
+			note	no search hits
+6260	6060	CDS
+			protein_id	lcl|sample3_28_12
+			product	hypothetical protein
+			note	no search hits
+6484	6263	CDS
+			protein_id	lcl|sample3_28_13
+			product	hypothetical protein
+			note	no search hits
+6726	6490	CDS
+			protein_id	lcl|sample3_28_14
+			product	hypothetical protein
+			note	no search hits
+7073	6864	CDS
+			protein_id	lcl|sample3_28_15
+			product	hypothetical protein
+			note	no search hits
+7516	7097	CDS
+			protein_id	lcl|sample3_28_16
+			product	hypothetical protein
+			note	no search hits
+7912	7625	CDS
+			protein_id	lcl|sample3_28_17
+			product	hypothetical protein
+			note	no search hits
+8227	7928	CDS
+			protein_id	lcl|sample3_28_18
+			product	hypothetical protein
+			note	no search hits
+8793	8377	CDS
+			protein_id	lcl|sample3_28_19
+			product	Rz like spanin
+			inference	protein motif PFAM:PF10828.7
+9056	8790	CDS
+			protein_id	lcl|sample3_28_20
+			product	hypothetical protein
+			note	no search hits
+9600	9037	CDS
+			protein_id	lcl|sample3_28_21
+			product	N acetylmuramidase
+			inference	protein motif CDD:pfam11860
+10246	9602	CDS
+			protein_id	lcl|sample3_28_22
+			product	major tail protein
+			inference	protein motif PFAM:PF16461.4

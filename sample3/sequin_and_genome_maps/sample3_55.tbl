@@ -1,0 +1,37 @@
+>Feature sample3_55 Table1
+377	3	CDS
+			protein_id	lcl|sample3_55_1
+			product	major tail protein
+			inference	protein motif Uniprot:I1VH10_9ACTN
+808	404	CDS
+			protein_id	lcl|sample3_55_2
+			product	tail completion protein
+			inference	protein motif PDB:5A21_G
+1166	786	CDS
+			protein_id	lcl|sample3_55_3
+			product	type I neck protein
+			inference	protein motif Uniprot:A0A0K1Y727_9CAUD
+1498	1163	CDS
+			protein_id	lcl|sample3_55_4
+			product	Minor capsid protein
+			inference	protein motif PFAM:PF10665.8
+2077	1511	CDS
+			protein_id	lcl|sample3_55_5
+			product	head to tail adaptor
+			inference	protein motif PDB:5A21_D
+2268	2077	CDS
+			protein_id	lcl|sample3_55_6
+			product	hypothetical protein
+			note	no search hits
+3828	2335	CDS
+			protein_id	lcl|sample3_55_7
+			product	Major Capsid Protein
+			inference	protein motif PDB:1IF0_A
+5010	3916	CDS
+			protein_id	lcl|sample3_55_8
+			product	head maturation protease
+			inference	protein motif PFAM:PF04586.16
+5879	5013	CDS
+			protein_id	lcl|sample3_55_9
+			product	Portal protein
+			inference	protein motif CDD:pfam04860

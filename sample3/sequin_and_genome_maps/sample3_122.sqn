@@ -1,0 +1,362 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Mosigvirus sp. ctWWDTD" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_122" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;o_P
+antevenvirales;f_Straboviridae;-_Tevenvirinae;g_Mosigvirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 2691 ,
+              seq-data
+                ncbi2na 'F8CF7C7FEBD4C7FDD7F0233F3267CEC73053896C8CB97B2655382
+881F5831666569D65F9896CFC1BF616C265945255979B6514F1451547B59409C516517AD6B3072
+6F965293C6994F2C5170D4CEB7145965169EC5E7D09422F3F8244D6996594517827306532F5231
+A2DA5D43B6FF83C4D1453FB179CD4046AD516F1451B55133A1565B833D02C1B3D3CAACD16C4C08
+10E8137F2CC231C0D16B8CF0110CAE69169F40106B77014F95BC0BEEB79942AEE0C3746A161490
+3E613508EAF142190F77209E7B4D41BE17BF49479E3BD43505A83D71C794C005D4A958A95FDF30
+C38FC3C39FD07490FD23F43D7E3F4D2CE76F8CB24B3F01630C5BCCBF0182C25ADDFCDF4B442F4A
+431F7E07D7890F017923AFC1F4DEE122FFC248C2CC145C22FC8FDDFA93DDCC27C3F587C4183348
+183301B6F04D8EF34604C4D5A6F12EC19C6F0206FEE62149DC01E0C65FA5BF9339BE00C5379F54
+07217BB4F3658C10C46B5154C4AB75165258C77BE77C2C27E893002C53C8BA0F4C8C9F9AB6816F
+F5EBC5C460C317E654ECF2E39A64C500DC45A31835F6F2C3148FF5FE30DA30C1CD3C504F140371
+0112A9F7E7D4FAFD5436525EBB9254FB815FCCC086B573C03002CD615F8A270243F551CF3833C1
+9783CBDA01CC018CA9BCD26594F971314BCD04527FFB5FD130523DAF9247BC304324D62FE4F08B
+C2696B4DB345F7FA511A8A4324D9833CBC4D979E0B01BFD40CDA148CF16FD890CB27D145141791
+BCDAA0BC1EC53493C0DF8ACE25EAD5B7DFF338E40100B5683C3F4B170214049FF5FB083F79F043
+28C33F1F1E6D36D0FDFA00CA279FB831ECCDB0597995914E14503F0CC16F27900824C9D0372B4A
+0C105F16F9D03731F02860AC143365EFF17E140F7BE830CE087EFDE069A00C914C36DBD40F7089
+BF124F1790CB16884F07D7C584FCC7F4FC45C2B16FC0C'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_122_1" } ,
+            descr {
+              title "Phage tail fibre adhesin Gp38 [Mosigvirus sp. ctWWDTD]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 262 ,
+              seq-data
+                ncbieaa "MAVVGIPGWIGTSAVAETGQRWMTAASRELRLGNPSWMSQFAGRSREIIHTLG
+ADHNFNGQWFRDRCFEAGAAPIVFNITGDLVSYTKDVPLFFMYGDTPNEYVTLNIHGGVHMWGRGGNGGTRVWIAGTN
+GGDVIQNDIGGRLRIWNYGVIASGGGGGAGCASNNSWLEAGTAGGGGGRPYGLGGTNGAVMPGGNASYTGPGGGGSFG
+GQWGGGNGGDAGGAGGGAYGRNVKYGSQGGAGRAVFGSSPSWGATGTIYGSWL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Phage tail fibre adhesin Gp38" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 261 ,
+                          id
+                            local
+                              str "sample3_122_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_122_2" } ,
+            descr {
+              title "Long tail fiber [Mosigvirus sp. ctWWDTD]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 602 ,
+              seq-data
+                ncbieaa "-NGTLGVNESINVGKEVNVSGTIAGNAVNALRIWNDDYGAIFRRSETSLHIIP
+TEFGQGKTGDIGYLRPLSIDLSNGKVVIPDLDLSYASFAANGYIKFGGHGAGAGGYDIQYSQAAPIFQEIDDDAVSKY
+YPIVKQKFLQGKAVWSLGTEINSGTFVLHHIKEDGTQAHTSRFNADGTVNFPDNVQVGGGEATIARNGNIWSDIWKTF
+TSAGDVTNIRDAIASRVAKEGDTMTGRLTLNANSDAIVINSAATESGYVKGQKAGVDNWYVGNGGADNALSFYSFRTN
+SGVNIHNSGEIALAPQGSDTFYFNRDRLYIKGSQWAAHQAGDWGNQWKQEAPVFVDFGNVGNDSYYPIIKGKSGITNE
+GFVSGVDFGMRRITNTWAQGIIRVGNQENGSDPQAIYEFHSNGTFYAPSLLKSNRVSAGGGDPVWGGPCIVIGDNDTG
+LVWEADGIFNAYANGQGVFSFRAGLAQTFFNVALHCNAGMYVRDNIDVNDVYIRSDIRCKSEIKLIENAQEKSKLLGG
+YTYLLKNSVTDEVKPSAGLIAQEVQEVLPELVTEDKETGLLRLNYNGIIGLNTATINEHTDEIKELKSEIAELKALIK
+SLL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Long tail fiber" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 601 ,
+                          id
+                            local
+                              str "sample3_122_2" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_122_1" ,
+                  location
+                    int {
+                      from 62 ,
+                      to 850 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_122" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:pfam05268" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_122_2" ,
+                  location
+                    int {
+                      from 880 ,
+                      to 2688 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_122" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:5NXF_A" } } } } } } } } }

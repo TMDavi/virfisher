@@ -1,0 +1,80 @@
+LOCUS       sample3_401             1104 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae
+            sedis;f_Herelleviridae;-_Bastillevirinae;g_Tsarbombavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Tsarbombavirus sp. ct7YNLU (unknown)
+  ORGANISM  Tsarbombavirus sp. ct7YNLU
+            Unclassified.
+REFERENCE   1  (bases 1 to 1104)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1104)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1104
+                     /organism="Tsarbombavirus sp. ct7YNLU"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(2..547)
+                     /inference="protein motif PDB:4WLI_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="lytic transglycosylase"
+                     /translation="MKLKSIITLGALSTGFFLFGQDTASASGFDTDRSIVDYLYHKQE
+                     DHSFGHRKQLSEAYGMSNYVGTEAQNVQLLTMLKADRGVAAPQKQVAPVQQPNQQAQV
+                     QQAPKQAQPQGKTLIVEATAYTPHPSENGGTYGGQVLTATGFNLSKNPNARVIAVDPR
+                     VIPLGSRVYVEGYGEAMALDTG"
+     CDS             complement(696..1103)
+                     /inference="protein motif PFAM:PF09393.9"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="major tail protein"
+                     /translation="-
+                     VQTGNTVYFMIKNVPIARAQSISAERSFGTTGVYQIGSIMPQEHVYLKYEGSVTVERF
+                     RMKKENLATLGFAALGEEVLQMDIMDIVLYDNYTQEVIVAYRGCSIDSYSEDVKANEI
+                     TSENARFYFLTSANVRSA"
+ORIGIN      
+        1 caccagtatc tagagccatt gcttctccgt agccttctac atatactcta gaacctaagg
+       61 gaattactcg tgggtctaca gcaataactc gtgcgtttgg attcttactt aagttaaatc
+      121 cagtcgctgt taatacttgt ccaccgtatg taccaccatt ttcacttgga tgtggtgtat
+      181 aagcagtagc ttccacgatc aaagtcttac cttgtggttg tgcttgctta ggtgcttgtt
+      241 gaacctgagc ttgttggttt ggttgttgga caggcgctac ctgtttctga ggagcagcta
+      301 ctcctctatc agctttaagc atggtaagta attgtacgtt ttgagcttct gttcctacgt
+      361 aattagacat tccgtatgct tctgacaatt gtttacgatg accaaagctg tgatcctctt
+      421 gtttgtggta aagatagtct acaatactcc tgtctgtgtc gaaaccactt gctgaagctg
+      481 tgtcttgtcc aaataggaag aatcccgttg acaatgcacc taatgtgatg atagatttaa
+      541 gtttcatgca taacttcctt tcttgttcta tgtcttctaa tgtaacacat atataccgca
+      601 tttaaccccc tgtaactgaa ctgtaaagaa actgtaacct gtaatttcca tataaaagaa
+      661 aaagaggact cccgaaagag acctcctgat tttccttatg cgctacgtac gttagctgaa
+      721 gttaagaagt agaaacgagc gttctcacta gtgatttcgt tcgctttaac atcttcagag
+      781 tagctgtcga tagagcatcc acgatatgct acaattactt cttgtgtgta gttatcgtaa
+      841 agtacaatgt ccatgatgtc catttgtagt acttcttccc ctaaagcagc gaaacctaat
+      901 gttgccaggt tctctttctt catacggaag cgctctactg ttacagaacc ctcatacttc
+      961 aagtaaacgt gctcttgcgg catgatcgaa ccgatttggt ataccccagt agtaccgaaa
+     1021 ctacgttctg ctgagataga ttgagcacga gcgatcggta cgtttttaat catgaaatat
+     1081 actgtattac cagtctgtac cgtt
+//

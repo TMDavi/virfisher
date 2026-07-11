@@ -1,0 +1,9 @@
+>Feature sample3_256 Table1
+164	3	CDS
+			protein_id	lcl|sample3_256_1
+			product	HNH endonuclease
+			inference	protein motif PFAM:PF05551.10
+1504	719	CDS
+			protein_id	lcl|sample3_256_2
+			product	tail tape measure protein 
+			inference	protein motif Uniprot:K8AAU2_9ENTR

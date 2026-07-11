@@ -1,0 +1,80 @@
+LOCUS       sample3_371             1185 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Caudoviricetes sp. ctEC1VH (unknown)
+  ORGANISM  Caudoviricetes sp. ctEC1VH
+            Unclassified.
+REFERENCE   1  (bases 1 to 1185)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1185)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1185
+                     /organism="Caudoviricetes sp. ctEC1VH"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(1..858)
+                     /inference="protein motif PDB:2AU3_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA primase"
+                     /translation="MLAYELKKYIIEKDKIMNVLESIGCHGIKTYPKEYRCGLPKHSN
+                     TTSVAIKKDTLKVKIFTSDKKINGDIFTLVMEIKKYEFPQAVKYLHEILGLKYIFNIQ
+                     DIKKEEKKDILDVFKKAMQKKHFNNDIDELKIYNEDICREIIQIPYIGWIREGIMPFT
+                     QERFNIGYSRDKNRIAIPHRFWCGKENEYVGVMGRTLVKNYDLLDIPKYFPLKAFPKS
+                     MNLYGLQENYKYIQKANKIIVFEAEKSVLKAHSFLCRLGVALGGHELCPEQIRILLGL
+                     DVEIIFAMDN"
+     CDS             complement(871..1185)
+                     /inference="protein motif PDB:2R6A_B"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Replicative helicase DnaG Primase"
+                     /translation="-
+                     YYTMDNIGMAKNMIDVASTCLMIRNLFDDEYDGEKHKLNVYKLAGKNGKTKIPVKLDK
+                     NKHYQVIFIIKNREGSSNDYQIVVEHDLSRNTYNEVGITVVPTDW"
+ORIGIN      
+        1 gttatccata gcaaatatga tttctacatc taaacctagt aatattctaa tttgttcggg
+       61 acacaattca tgtccaccta atgcaactcc taatctacat aaaaacgaat gtgcttttaa
+      121 taccgacttt tctgcctcaa aaacaattat tttgttagct ttttgtatat acttgtaatt
+      181 ttcttgtaac ccatataaat tcatactttt gggaaatgct ttcaatggaa aatattttgg
+      241 tatgtctaat aaatcataat ttttaaccaa cgttcttccc ataactccta catactcatt
+      301 ctctttacca caccaaaaac gatgaggtat tgctattcta ttcttatctc tactgtagcc
+      361 aatattaaat ctttcttgtg taaaaggcat tatgccctcc cttatccaac ctatgtatgg
+      421 tatttgaatt atttctctac aaatatcctc gttataaatt tttaattcat ctatgtcgtt
+      481 attaaagtgc ttcttttgca tagctttttt aaatacatct aaaatatctt ttttttcttc
+      541 ttttttgatg tcttgaatat taaaaatata ttttaatcct aatatttcat gtaaatattt
+      601 tactgcttgt ggaaattcat atttttttat ttccataact aaagtaaaaa tatcgccatt
+      661 tattttttta tcagatgtaa atatttttac ctttaaagtg tcttttttta tagctactga
+      721 ggtagtattg ctatgtttag gtaatccaca tctatattct tttggatatg tttttatacc
+      781 atgacatcca atagattcta aaacattcat tattttatct ttctcaatta tatacttctt
+      841 taattcgtat gctaacattc atgtattcac ctaccaatct gtaggaacta ctgttatgcc
+      901 tacttcatta tatgtatttc ttgacagatc atgttctacc actatttgat aatcattaga
+      961 actaccttct ctattcttta ttataaatat aacttgatag tgcttattct tatctaattt
+     1021 aacaggaatt ttagtttttc catttttacc cgctaattta tatacattta atttatgttt
+     1081 ttcaccatca tattcatcat caaataaatt tctaatcatt aaacaagttg aagcaacatc
+     1141 tatcatattt ttagccatac ctatgttatc catagtataa tatct
+//

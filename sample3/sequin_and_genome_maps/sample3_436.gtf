@@ -1,0 +1,2 @@
+sample3_436	Cenote-Taker	CDS	752	3	.	-	0              	gene_id "lcl|sample3_436_1"; gene_name "capsid scaffolding protein serine peptidase"; gene_inference "protein motif CDD:pfam05929"
+sample3_436	Cenote-Taker	CDS	943	1041	.	+	0              	gene_id "lcl|sample3_436_2"; gene_name "Putative ATPase subunit of terminase"; gene_inference "protein motif CDD:pfam06056"

@@ -1,0 +1,17 @@
+>Feature sample3_168 Table1
+277	2	CDS
+			protein_id	lcl|sample3_168_1
+			product	Large Terminase
+			inference	protein motif PFAM:PF03354.14
+860	342	CDS
+			protein_id	lcl|sample3_168_2
+			product	Large Terminase
+			inference	protein motif PFAM:PF03354.14
+933	1259	CDS
+			protein_id	lcl|sample3_168_3
+			product	Replication protein C
+			inference	protein motif PFAM:PF06504.10
+1259	2080	CDS
+			protein_id	lcl|sample3_168_4
+			product	Mos transposase
+			inference	protein motif PDB:4U7B_B

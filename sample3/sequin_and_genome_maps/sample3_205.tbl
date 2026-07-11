@@ -1,0 +1,9 @@
+>Feature sample3_205 Table1
+3	254	CDS
+			protein_id	lcl|sample3_205_1
+			product	Head Tail Connector Protein
+			inference	protein motif PDB:2L6Q_A
+251	1780	CDS
+			protein_id	lcl|sample3_205_2
+			product	Portal Protein
+			inference	protein motif PFAM:PF05136.12

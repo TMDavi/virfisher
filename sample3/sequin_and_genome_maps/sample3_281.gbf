@@ -1,0 +1,86 @@
+LOCUS       sample3_281             1432 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;f_Peduoviridae;g_Felsduovirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Felsduovirus sp. ctQU22N (unknown)
+  ORGANISM  Felsduovirus sp. ctQU22N
+            Unclassified.
+REFERENCE   1  (bases 1 to 1432)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1432)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1432
+                     /organism="Felsduovirus sp. ctQU22N"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             2..985
+                     /inference="protein motif PDB:3J9Q_C"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="sheath tube"
+                     /translation="-
+                     GTLARSLDAIADQAKPVTVVVRVAQGETEAETTSNIIGGVTSDGKKTGMKALLSAQSQ
+                     LGVKPRILGVPGHDTQAVATELLGVAQSLRGFAYLAANGCKTVEEAIAYRENFSQREG
+                     MLIWPDFINFDTVLKADATAYASARALGLRAKIDEQIGWHKTLSNVGVNGVTGISADV
+                     FWDLQDPATDAGLLNKNDVTTLIRKDGFRFWGSRCLSDDPLFAFENYTRTAQVLADTM
+                     AEAHMWAVDGVLNPSLARDIIEGLRAKMRSLVNQGYLIGGDCWLDESVNDKDTLKAGK
+                     LTIDYDYTPVPPLENLMLRQRITDRYLVDFASRVAA"
+     CDS             995..1432
+                     /inference="protein motif PFAM:PF04985.13"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail tube protein"
+                     /translation="MALPRKLKHLNLFNDGNNWQGIVESLTLPKFTRKFEKYRGGGMP
+                     GAVDVDMGLDDGALDTEFSIGGTELLLFKQMGKATVDGIQLRFTGSIQRDDTGEVQAV
+                     ELVVRGRHKEVDSGEWKTGESSSTKVSSTNSYAKLTINGEVLYE"
+ORIGIN      
+        1 gtccggcacg ctggcccgct cgctggacgc gattgcagat caggcaaaac ccgtgactgt
+       61 cgttgtgcgt gtggcgcagg gagaaaccga agcggaaacc acctccaata ttatcggcgg
+      121 cgtaacttcc gacggtaaga aaacgggcat gaaagctcta ctgtcggcgc agtcgcagct
+      181 cggtgtcaag ccgcgcattc ttggggtgcc gggacatgac actcaggccg ttgctactga
+      241 actgctgggc gtggcgcaaa gcttgcgcgg gtttgcctac cttgctgcta atggctgcaa
+      301 aacggtggag gaagctattg cctatcgcga gaatttcagt cagcgcgagg gaatgctgat
+      361 ctggcctgac ttcatcaact ttgacaccgt gctgaaagca gacgcgacgg cttacgcctc
+      421 cgcccgtgcg ctcggcctgc gtgccaaaat cgacgagcag atcggctggc ataaaaccct
+      481 gtccaatgtg ggtgtgaacg gtgtcaccgg catttccgct gatgtgttct gggatctgca
+      541 ggacccggca accgatgcgg gactgctgaa caaaaatgac gtcaccacat tgattcgcaa
+      601 agacggcttc cgcttctggg gttcccgttg tctcagtgac gatccgctgt ttgcctttga
+      661 gaactacacc cgcacggcgc aggtgctggc tgacactatg gcggaggcgc acatgtgggc
+      721 ggtggatggc gtgcttaatc cgtcgctggc ccgcgacatt attgaaggac tacgcgccaa
+      781 gatgcgcagt ctggtcaacc agggatacct gattggtggt gactgctggc tggatgagtc
+      841 tgttaacgat aaagacaccc ttaaagccgg gaaactgacc atcgattatg actacacgcc
+      901 ggtgcctccg cttgaaaacc tgatgctgcg ccagcgcatc accgatcgtt acctggtcga
+      961 ttttgccagc cgtgtcgctg cataaggggg aatcatggct ttaccacgca agttaaaaca
+     1021 cctgaacctg ttcaacgacg ggaacaactg gcaggggatc gttgagtctc tgaccctgcc
+     1081 gaaatttacc cgcaagtttg agaagtatcg cggcggcggt atgccgggcg cagtggatgt
+     1141 ggacatgggg ctggatgacg gtgcactgga cacggaattt tcaatcggcg gtaccgagct
+     1201 gctgttattc aagcagatgg gcaaggcaac cgttgacggc atccagctgc gtttcaccgg
+     1261 ttccattcag cgtgacgata ccggcgaagt gcaggccgtt gagctggttg tgcgcgggcg
+     1321 ccataaagaa gtggattccg gcgagtggaa aaccggcgag agcagcagca ccaaagtcag
+     1381 cagtaccaac agctacgcga agctgaccat taatggtgag gtgctctatg ag
+//

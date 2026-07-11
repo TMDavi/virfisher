@@ -1,0 +1,5 @@
+sample3_66	Cenote-Taker	CDS	1	1509	.	+	0              	gene_id "lcl|sample3_66_1"; gene_name "tail protein"; gene_inference "protein motif PFAM:PF13550.5"
+sample3_66	Cenote-Taker	CDS	1580	2179	.	+	0              	gene_id "lcl|sample3_66_2"; gene_name "Enterobacterial Ail/Lom protein"; gene_inference "protein motif pfam06316"
+sample3_66	Cenote-Taker	CDS	2244	3557	.	+	0              	gene_id "lcl|sample3_66_3"; gene_name "tail fibre"; gene_inference "protein motif PFAM:PF06820.11"
+sample3_66	Cenote-Taker	CDS	3559	3828	.	+	0              	gene_id "lcl|sample3_66_4"; gene_name "Putative prophage tail fibre C-terminus"; gene_inference "protein motif pfam06820"
+sample3_66	Cenote-Taker	CDS	3969	4790	.	+	0              	gene_id "lcl|sample3_66_5"; gene_name "T3SS secreted effector Ibe"; gene_inference "protein motif PFAM:PF11713.7"

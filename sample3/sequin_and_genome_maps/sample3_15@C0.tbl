@@ -1,0 +1,113 @@
+>Feature sample3_15@C0 Table1
+391	1203	CDS
+			protein_id	lcl|sample3_15_1
+			product	nuclease
+			inference	protein motif PFAM:PF14386.5
+1149	2096	CDS
+			protein_id	lcl|sample3_15_2
+			product	hypothetical protein
+			note	no search hits
+2096	2347	CDS
+			protein_id	lcl|sample3_15_3
+			product	hypothetical protein
+			note	no search hits
+2676	3143	CDS
+			protein_id	lcl|sample3_15_4
+			product	minor tail protein
+			inference	protein motif PFAM:PF05119.11
+3230	4198	CDS
+			protein_id	lcl|sample3_15_5
+			product	minor tail protein 
+			inference	protein motif PFAM:PF05100.11
+4696	6177	CDS
+			protein_id	lcl|sample3_15_6
+			product	Chitinase 
+			inference	protein motif PDB:3WH1_A
+6174	6599	CDS
+			protein_id	lcl|sample3_15_7
+			product	Mycobacterial 2 TMS Phage Holin (M2 Hol) Family
+			inference	protein motif CDD:pfam16081
+6596	7360	CDS
+			protein_id	lcl|sample3_15_8
+			product	endolysin
+			inference	protein motif PFAM:PF08237.10
+7374	9161	CDS
+			protein_id	lcl|sample3_15_9
+			product	Large Terminase
+			inference	protein motif PFAM:PF03354.14
+9158	10615	CDS
+			protein_id	lcl|sample3_15_10
+			product	Portal Protein
+			inference	protein motif PDB:2JES_G
+10645	11472	CDS
+			protein_id	lcl|sample3_15_11
+			product	minor capsid protein
+			inference	protein motif PFAM:PF06152.10
+11524	12045	CDS
+			protein_id	lcl|sample3_15_12
+			product	head scaffolding protein
+			inference	protein motif PFAM:PF14265.5
+12086	13042	CDS
+			protein_id	lcl|sample3_15_13
+			product	Major Capsid Protein
+			inference	protein motif PDB:8EC2_A
+13112	13267	CDS
+			protein_id	lcl|sample3_15_14
+			product	hypothetical protein
+			note	no search hits
+13271	13645	CDS
+			protein_id	lcl|sample3_15_15
+			product	Phage protein
+			inference	protein motif PFAM:PF09355.9
+13642	13836	CDS
+			protein_id	lcl|sample3_15_16
+			product	hypothetical protein
+			note	no search hits
+13836	14204	CDS
+			protein_id	lcl|sample3_15_17
+			product	Minor capsid protein
+			inference	protein motif PFAM:PF10665.8
+14204	14539	CDS
+			protein_id	lcl|sample3_15_18
+			product	type I neck protein
+			inference	protein motif PFAM:PF17395.1
+14549	14968	CDS
+			protein_id	lcl|sample3_15_19
+			product	tail completion protein
+			inference	protein motif PDB:5A21_G
+14984	15580	CDS
+			protein_id	lcl|sample3_15_20
+			product	major tail protein
+			inference	protein motif Uniprot:Q38370_9CAUD
+15694	16098	CDS
+			protein_id	lcl|sample3_15_21
+			product	Tail assembly protein Gp24 and Gp25
+			inference	protein motif CDD:pfam17388
+16131	16517	CDS
+			protein_id	lcl|sample3_15_22
+			product	Tail assembly protein
+			inference	protein motif PFAM:PF17388.1
+16507	18510	CDS
+			protein_id	lcl|sample3_15_23
+			product	Minor tail protein 
+			inference	protein motif UniProtKB:A0A0R1V141_9LACO
+4208	4282	gene
+			gene	sample3_15tRNA1
+			product	tRNA-Asn
+			inference	tRNAscan-SE score: 68.6
+4323	4401	gene
+			gene	sample3_15tRNA1
+			product	tRNA-Trp
+			inference	tRNAscan-SE score: 66.8
+4406	4477	gene
+			gene	sample3_15tRNA1
+			product	tRNA-Gln
+			inference	tRNAscan-SE score: 45.1
+4513	4585	gene
+			gene	sample3_15tRNA1
+			product	tRNA-Glu
+			inference	tRNAscan-SE score: 57.1
+4590	4669	gene
+			gene	sample3_15tRNA1
+			product	tRNA-Tyr
+			inference	tRNAscan-SE score: 59.6

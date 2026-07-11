@@ -1,0 +1,79 @@
+LOCUS       sample3_420             1070 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae
+            sedis;f_Herelleviridae;-_Bastillevirinae;g_Tsarbombavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Tsarbombavirus sp. ct6AIVS (unknown)
+  ORGANISM  Tsarbombavirus sp. ct6AIVS
+            Unclassified.
+REFERENCE   1  (bases 1 to 1070)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1070)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1070
+                     /organism="Tsarbombavirus sp. ct6AIVS"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             2..517
+                     /inference="protein motif PDB:5IV5_GH"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Baseplate wedge protein"
+                     /translation="-
+                     LTRQPKAYNPNAIPFKVKQGTVPVDEAMKMQANRDSTYVSIAQSDIIGYKRVHKIMLA
+                     RPLKDTEDVKNPPYPVVMYGNKPYVLVPRDKAVAEGAKWLYINVTVEGKDFQDQAYSK
+                     VELFFNLVPKGEKKDTMYPSEVTSPGTKLITDSRDLQGRTIDLKMDEQFMIEFQ"
+     CDS             533..1069
+                     /inference="protein motif CDD:pfam16075"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Domain of unknown function (DUF4815)"
+                     /translation="MADNIDLSLYPYNDRFDRKSGRSKALFRSDRPLQQAELNELQSI
+                     AEDNLRRLGDSIFADGAIQTGMAFSFDNKDNPTKITIEEGLLYLAGKIRPIKKQTIPF
+                     ANKGTEIIGVKVVQKVITYNEDPTLLDQTQNAPSYLSPGADRLQEEVVLTYNDDTTAS
+                     IYRFEDGKLFIEPDRPEFS"
+ORIGIN      
+        1 tcatttaaca agacaaccaa aggcatacaa tcctaatgca ataccattta aggttaagca
+       61 ggggacagtt cctgtagacg aagcaatgaa aatgcaagca aatagggaca gtacatacgt
+      121 gtcaatcgca caatctgata taattggtta taagagggtt cataaaatca tgttagcaag
+      181 accacttaag gatacagagg acgttaaaaa ccctccgtat ccagtcgtaa tgtacggtaa
+      241 caaaccgtat gttctcgttc ctagagataa ggctgtagcc gagggagcga agtggttata
+      301 cataaatgta acagtggaag gtaaagactt ccaagaccaa gcctactcga aggtagaact
+      361 gttctttaac ttagtaccta aaggggaaaa gaaagacaca atgtatcctt ccgaggttac
+      421 aagcccagga acaaagctaa ttacagattc cagggactta caagggcgca caatagattt
+      481 aaaaatggac gagcaattta tgattgagtt ccaatagaag gagtgaacaa ctttggcaga
+      541 taacatcgat ttaagcctat atccgtataa tgacagattc gaccgtaaga gtggtcgttc
+      601 taaagcgctt ttccgttctg acagaccgct acaacaagcg gagctaaatg agttacagtc
+      661 cattgcagaa gacaacctaa gacgattagg tgatagtatc ttcgcagatg gtgcaattca
+      721 aacaggtatg gctttcagct ttgacaacaa ggataacccg acaaaaatta cgattgaaga
+      781 agggttactt tatttagcag gtaagattcg accaatcaag aaacaaacaa ttccttttgc
+      841 aaacaaaggt acagaaatca ttggtgtaaa agtagttcaa aaagttatca cgtataacga
+      901 agaccctaca cttttagatc aaacacaaaa cgcacctagc tatttatctc ctggtgcaga
+      961 ccgattacaa gaagaagtag ttcttacgta caacgatgat actacagctt ctatctatcg
+     1021 ttttgaagat ggtaaactat tcatcgagcc tgaccgtcct gagttctctg
+//

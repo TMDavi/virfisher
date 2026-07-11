@@ -1,0 +1,9 @@
+>Feature sample3_412 Table1
+549	1	CDS
+			protein_id	lcl|sample3_412_1
+			product	Virion morphogenesis family
+			inference	protein motif PFAM:PF05069.12
+1082	546	CDS
+			protein_id	lcl|sample3_412_2
+			product	tail completion protein
+			inference	protein motif PDB:2LFP_A

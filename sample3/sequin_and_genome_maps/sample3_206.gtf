@@ -1,0 +1,2 @@
+sample3_206	Cenote-Taker	CDS	2	1108	.	+	0              	gene_id "lcl|sample3_206_1"; gene_name "endonuclease"; gene_inference "protein motif PFAM:PF10544.8"
+sample3_206	Cenote-Taker	CDS	1770	1150	.	-	0              	gene_id "lcl|sample3_206_2"; gene_name "Major Capsid protein"; gene_inference "protein motif PFAM:PF03864.14"

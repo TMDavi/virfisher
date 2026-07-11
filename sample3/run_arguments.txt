@@ -1,0 +1,26 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@
+Your specified arguments:
+Cenote-Taker version:              3.4.4
+original contigs:                  outtest/sample3_raw/intermediate/metaspades/contigs.fasta
+title of this run:                 sample3
+output directory:                  /MP_Data/virfisher/sample3
+Prune prophages?                   True
+CPUs used for run:                 4
+Annotation only?                   False
+minimum circular contig length:    1000
+minimum linear contig length:      1000
+virus hallmark type(s) to count:   virion dnarep
+min. viral hallmarks for linear:   1
+min. viral hallmarks for circular: 1
+Wrap contigs?                      True
+HMM db version                     v3.1.1
+ORF Caller:                        prodigal-gv
+Cenote DBs directory:              /MP_Data/database/ct3_DBs/
+Cenote scripts directory:          /MP_Data/mambaforge/envs/ct3_env/lib/python3.13/site-packages/cenote
+Template file:                     /MP_Data/mambaforge/envs/ct3_env/lib/python3.13/site-packages/cenote/dummy_template.sbt
+read file(s):                      none
+HHsuite tool:                      none
+Taxonomy DB:                       ct3_hallmark.taxDB
+Sequencing Technology:             Illumina
+Max seq length to assess DTRs:     1000000
+File with circular contig IDs:     not given

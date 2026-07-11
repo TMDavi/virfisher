@@ -1,0 +1,106 @@
+LOCUS       sample3_170             2078 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;f_Pachyviridae;g_Bacelvirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Bacelvirus sp. ctIHJQU (unknown)
+  ORGANISM  Bacelvirus sp. ctIHJQU
+            Unclassified.
+REFERENCE   1  (bases 1 to 2078)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2078)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2078
+                     /organism="Bacelvirus sp. ctIHJQU"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(2..1471)
+                     /inference="protein motif UniProt:tr|S0A3M0_9CAUD"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Structural protein"
+                     /translation="MSISFGYSQVLVPENTGYGYDNLTTVQLNALTKKKVGDIYYNAD
+                     LGYHVKWNGVIFESLASGISGIDPADQDKLNNISITQPVNLDTVESLANSALQTETDP
+                     TTTPANIKAKLESLTGTNRLDAFAIKNLSAQETDPNLTKSNVEGLGISYTSLSDVPSV
+                     SPPLTFGPGFTRTGDNIVLDNPFTTANETTLNSALQSETDPLYSAWDKDYNDLINRPV
+                     NLVTYDPLNAQDVQISVLGGSDSQSYILEFDPDGYDYSGEPSGTGTVSQTIIDGDTNA
+                     VSGNAVFDGLATKLQAGSNDLGSSNFYVNSDGILALANSNTQSTVFVNPYGSGLIAGN
+                     SDDSEIMKLTLSPSSITADLSNSQITSTGAESLITKGYADATYAAIGSGGSGDNLGDH
+                     LATEDIQMDGNWIKDAGNVVSQYAELSIADITGLNVIDFANISADASFSKLFRLTPRL
+                     TSADGGVPAEGQIYWNSTENRPKAYDGTSHKSFLLDGDER"
+     CDS             complement(1512..1724)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MSTTVLIISSAALAISIYSAFFKKPHTKIDGKRILTILDSEMNV
+                     STKIVGDKRVLVDEQGEVLDKKRINI"
+     CDS             complement(1727..2059)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MSLINDEAIYALTQMVEGGTVLGSLPKTHPTNPGGTVQYSVSGI
+                     LDFITGKLDFVHYNNATRVGQTVLINDPDLPETYLAAINDGAKCICTLKVYPPTSDSD
+                     VSFIVKLR"
+ORIGIN      
+        1 ttctttcgtc tccgtctagt aaaaaactct tatgacttgt tccatcatac gcctttggtc
+       61 tgttttctgt actgttccaa taaatttgac cctcagcagg aacacctcca tcggcagaag
+      121 ttaatctagg agttaatcta aataacttac taaaagaagc atccgctgaa atattagcaa
+      181 agtctataac atttaatcca gttatatctg ctattgataa ttctgcatat tgactaacta
+      241 catttccagc gtcctttatc caatttccat ccatttgtat atcctctgta gctaagtgat
+      301 cccccaagtt gtcaccacta ccacccgaac caatagcagc gtaagtagca tccgcatatc
+      361 ctttggtaat taatgattca gctcctgttg atgttatttg tgaatttgat aaatcagcgg
+      421 ttatacttga agggcttaat gttagcttca ttatttcact atcgtctgaa tttcctgcta
+      481 ttaatccaga tccataaggg ttgacgaaaa cggttgattg agtattagag ttagctaaag
+      541 ctaatatgcc atcactatta acatagaaat tactagaacc taagtcattg cttcctgctt
+      601 gaagcttagt agccaaccca tcaaaaacag cattaccgct tacagcgtta gtatctccat
+      661 ctataatagt ttgtgatact gttccagttc cgcttggttc tccgctataa tcatatccgt
+      721 cagggtcaaa ctctaaaata taactttgtg aatcgctgcc acctaaaacg ctgatttgta
+      781 catcttgtgc gtttaatggg tcataagtaa ctagattcac aggtctatta attaagtcgt
+      841 tgtaatcctt atcccatgca gaatataaag ggtctgtttc tgattgtaaa gcactgttta
+      901 atgttgtttc gtttgccgtt gtaaacgggt tatctaaaac aatgttgtct ccagtccttg
+      961 taaaccctgg tccaaaagtt aaaggcggac taacagaagg aacatcactt aggcttgtat
+     1021 agctaattcc taaaccttct acgttagatt tagttaggtt cggatctgtt tcttgtgctg
+     1081 ataagttctt tatagcaaaa gcatctaatc tgtttgttcc ggtaagtgat tctaattttg
+     1141 cttttatgtt ggccggagta gttgttggat cggtttctgt ttgtaatgct gaattagcta
+     1201 aagattctac agtatctaaa ttaaccggct gagtaattga aatattatta agcttatcct
+     1261 ggtccgcagg atctattcct gaaataccgc tagctaaact ttcaaagatt actccgttcc
+     1321 attttacgtg ataccctaaa tctgcattgt aataaatgtc tcctaccttc tttttggtaa
+     1381 gagcatttaa ttgcactgtg gttaagttgt catatccgta acctgtattc tctggtacca
+     1441 atacctgaga atatccgaaa gatatagaca tcaaaatcat tattatggtt attttatttt
+     1501 tcattgttgc gttatatgtt gattcgtttt ttatctaaaa cttctccttg ctcgtcaacc
+     1561 aatactcttt tgtctccaac aatcttagtt gatacattca tttctgaatc taaaattgta
+     1621 agtattcttt taccatctat ttttgtgtga ggttttttaa agaatgctga gtatatactt
+     1681 attgctaatg ctgcagaaga aattattaat actgttgttg acatacctac ctaagtttta
+     1741 caatgaatga aacatctgaa tctgaagtag gtggataaac cttaagtgtg caaatacatt
+     1801 ttgctccatc gtttattgcg gccaagtaag tttctggtaa atctggatcg tttattaaaa
+     1861 cagtctgtcc tactcttgtt gcgttattgt agtgtacgaa atctaatttt cctgttatga
+     1921 agtctaatat tcctgaaaca gaatattgaa cggtacctcc tggattagta ggatgtgttt
+     1981 ttggtaaaga gcctaaaaca gtgcctcctt cgaccatttg tgttaaagcg taaattgctt
+     2041 catcgttgat taatgacatt gctataggtt ttttctat
+//

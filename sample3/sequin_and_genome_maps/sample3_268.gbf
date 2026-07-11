@@ -1,0 +1,100 @@
+LOCUS       sample3_268             1464 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;g_Kostyavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Kostyavirus sp. ctFDREV (unknown)
+  ORGANISM  Kostyavirus sp. ctFDREV
+            Unclassified.
+REFERENCE   1  (bases 1 to 1464)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1464)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1464
+                     /organism="Kostyavirus sp. ctFDREV"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             2..331
+                     /inference="protein motif PFAM:PF09152.9"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="nucleoside 2 deoxyribosyltransferase"
+                     /translation="-
+                     AKLGLTYIAGPMTLVGPPTWNYPAFDDLANRLRAVGIPVISPHELHPASEDTPWDWYL
+                     RRDLTQLVKCSRIVMLKDWHLSRGARLEHEVAMSLEMDVYYPHDYASLGI"
+     CDS             331..648
+                     /inference="protein motif CDD:pfam04447"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Protein of unknown function (DUF550)"
+                     /translation="MAVALDAAHLERQREFSLRTFGPGTRLNGVLDHIAKELEEVRQA
+                     PDDVTEWADILILAFDGALRSGHEPQAIIDAVKAKQAKNEARQWPDWRTQDPNKAIEH
+                     IER"
+     CDS             638..1231
+                     /inference="protein motif CDD:pfam18909"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Siphovirus protein of unknown function
+                     (DUF5664)"
+                     /translation="MSANEVIHTSETGARKAGNLERYDLLPVTALQDLAYVYGSYEIL
+                     PEPSFNVLNEHLLQFWDGVTFDAAGIPHMAYVAFHALELVNQIEGFGEQLDEDATALR
+                     HYDRIPAKALRLLAEHYGKGSLKYDDNNWRKGYDWGLSYAALNRHLWSHWAGETFDPE
+                     TGSYHLIAVAWHAFALLTFTDEHPEFDSRWSSSSKTP"
+     CDS             1242..1463
+                     /inference="protein motif CDD:cd05781"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase B"
+                     /translation="MTAKILTIDIETQRAVVETFSLFRPFIHIDRVLIPTRVLCFAAK
+                     WRGEDKVIFKHAWDDNDQDAYLKMMKAAHD"
+ORIGIN      
+        1 tcccgccaag ttgggcctga catacatcgc aggccccatg acgctggtgg gtccgcccac
+       61 ctggaactac ccagccttcg atgacttggc gaatcgcctt cgggcggtgg gcattccagt
+      121 catctcaccc cacgagctgc atcccgcctc cgaggacacc ccgtgggact ggtacctgcg
+      181 ccgcgacctc actcaactgg tgaagtgctc acgcatcgtg atgctgaagg actggcacct
+      241 gtcccgcggc gcccgcctgg agcatgaggt ggccatgagc ctggagatgg acgtctacta
+      301 cccgcacgac tacgcgagtc tgggcatctg atggctgttg ccctcgacgc cgcccacctg
+      361 gagcgccagc gcgaattcag cctccgcacc ttcggccccg gaacccgcct caacggtgtc
+      421 ctggatcaca tcgccaagga gctcgaagag gttcgccaag cgcccgacga tgtcaccgag
+      481 tgggcggaca tcctcatcct cgccttcgat ggcgccctgc gctccggcca tgagccgcaa
+      541 gccatcatcg acgccgtcaa ggcgaagcag gccaaaaacg aagcgcgcca atggcccgac
+      601 tggcgcaccc aagacccgaa caaggcgatt gagcacattg agcgctaacg aagttatcca
+      661 cacctccgag accggcgccc gcaaggcggg gaacctggag cgctacgacc tcctgccggt
+      721 gaccgcattg caggacctgg cgtacgtcta cggctcctac gagatccttc cggagccgtc
+      781 gttcaacgtc ctgaacgagc atctcctgca gttctgggac ggtgtcacct tcgatgccgc
+      841 gggcatcccg cacatggcct acgtcgcctt ccacgccctg gagctcgtca accagattga
+      901 aggcttcggc gagcagctgg acgaggacgc caccgcgctc cgccactacg accgcatccc
+      961 ggccaaggcg ctccgcctgc tggccgagca ttacggcaag ggctcgctga agtacgacga
+     1021 caacaactgg cgcaagggct acgactgggg actttcgtac gccgcgctca atcgacacct
+     1081 ctggtcccat tgggccgggg agacattcga cccagagacc ggtagctatc acctgatcgc
+     1141 tgtcgcctgg cacgcattcg cactgctcac cttcacggac gagcaccccg aattcgactc
+     1201 tcgctggtcg tcttcgagca agacacccta aagggggagc catgacggcc aagatcctaa
+     1261 ctatcgacat cgagacgcag cgcgcggtgg ttgaaacctt cagcctcttc cggcctttca
+     1321 ttcacattga ccgtgtcctg attccgactc gcgttctctg cttcgccgcc aagtggcgtg
+     1381 gcgaggacaa ggtgatcttc aagcacgcct gggacgacaa cgaccaggat gcctacctga
+     1441 agatgatgaa ggccgctcat gacc
+//

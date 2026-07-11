@@ -1,0 +1,2 @@
+sample3_243	Cenote-Taker	CDS	788	3	.	-	0              	gene_id "lcl|sample3_243_1"; gene_name "tail assembly protein"; gene_inference "protein motif PFAM:PF02011.14"
+sample3_243	Cenote-Taker	CDS	1561	794	.	-	0              	gene_id "lcl|sample3_243_2"; gene_name "Tail tape measure "; gene_inference "protein motif UniProtKB:I6NKY8_9CAUD"

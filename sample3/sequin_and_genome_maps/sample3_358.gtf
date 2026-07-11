@@ -1,0 +1,2 @@
+sample3_358	Cenote-Taker	CDS	3	593	.	+	0              	gene_id "lcl|sample3_358_1"; gene_name "replicative DNA helicase"; gene_inference "protein motif PDB:1NLF_A"
+sample3_358	Cenote-Taker	CDS	590	1165	.	+	0              	gene_id "lcl|sample3_358_2"; gene_name "hypothetical protein"; gene_inference "no search hits"

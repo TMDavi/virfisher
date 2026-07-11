@@ -1,0 +1,225 @@
+>Feature sample3_4@C0 Table1
+3	461	CDS
+			protein_id	lcl|sample3_4_1
+			product	Small Terminase
+			inference	protein motif PFAM:PF05119.11
+468	1982	CDS
+			protein_id	lcl|sample3_4_2
+			product	Large Terminase
+			inference	protein motif PDB:6Z6D_A
+1982	3256	CDS
+			protein_id	lcl|sample3_4_3
+			product	Portal Protein
+			inference	protein motif PDB:8CEZ_K
+3274	3951	CDS
+			protein_id	lcl|sample3_4_4
+			product	prohead serine protease
+			inference	protein motif PFAM:PF04586.16
+3954	5111	CDS
+			protein_id	lcl|sample3_4_5
+			product	Major Capsid Protein
+			inference	protein motif PDB:1IF0_A
+5145	5471	CDS
+			protein_id	lcl|sample3_4_6
+			product	Head Tail Connector Protein
+			inference	protein motif CDD:cd08051
+5471	5809	CDS
+			protein_id	lcl|sample3_4_7
+			product	Head Tail Connector protein
+			inference	protein motif CDD:COG5614
+5806	6255	CDS
+			protein_id	lcl|sample3_4_8
+			product	tail component
+			inference	protein motif PFAM:PF04883.11
+6252	6599	CDS
+			protein_id	lcl|sample3_4_9
+			product	tail component
+			inference	protein motif PFAM:PF05657.10
+6655	7125	CDS
+			protein_id	lcl|sample3_4_10
+			product	Tail tube protein
+			inference	protein motif PFAM:PF16463.4
+7180	7581	CDS
+			protein_id	lcl|sample3_4_11
+			product	Phage tail assembly chaperone
+			inference	protein motif CDD:pfam06222
+7605	7868	CDS
+			protein_id	lcl|sample3_4_12
+			product	Protein of unknown function (DUF4035)
+			inference	protein motif CDD:pfam13227
+7984	11187	CDS
+			protein_id	lcl|sample3_4_13
+			product	Tail length tape measure protein
+			inference	protein motif PFAM:PF06120.10
+11190	11528	CDS
+			protein_id	lcl|sample3_4_14
+			product	minor tail protein
+			inference	protein motif PFAM:PF05939.12
+11525	12283	CDS
+			protein_id	lcl|sample3_4_15
+			product	minor tail protein 
+			inference	protein motif PFAM:PF05100.11
+12285	12995	CDS
+			protein_id	lcl|sample3_4_16
+			product	Mpr1p, Pad1p N-terminal (MPN) domains with catalytic isopeptidase activity (metal-binding) found in proteins also containing NlpC/P60 domains
+			inference	protein motif CDD:cd08073
+13025	13435	CDS
+			protein_id	lcl|sample3_4_17
+			product	lipoprotein
+			inference	protein motif PFAM:PF11008.7
+13492	14082	CDS
+			protein_id	lcl|sample3_4_18
+			product	tail assembly protein I
+			inference	protein motif PFAM:PF06805.11
+14136	17585	CDS
+			protein_id	lcl|sample3_4_19
+			product	tail protein
+			inference	protein motif PFAM:PF13550.5
+17585	17887	CDS
+			protein_id	lcl|sample3_4_20
+			product	hypothetical protein
+			note	no search hits
+17884	18564	CDS
+			protein_id	lcl|sample3_4_21
+			product	hypothetical protein
+			note	no search hits
+18712	18909	CDS
+			protein_id	lcl|sample3_4_22
+			product	Cor superinfection exclusion protein
+			inference	protein motif PFAM:PF10973.7
+18967	20301	CDS
+			protein_id	lcl|sample3_4_23
+			product	Tail protein
+			inference	protein motif UniProtKB:A0A0N8LSN6_CITFR
+20637	20371	CDS
+			protein_id	lcl|sample3_4_24
+			product	DinI-like family
+			inference	protein motif CDD:pfam06183
+20724	20963	CDS
+			protein_id	lcl|sample3_4_25
+			product	hypothetical protein
+			note	no search hits
+20963	21283	CDS
+			protein_id	lcl|sample3_4_26
+			product	UmuD like protein
+			inference	protein motif PFAM:PF00717.22
+22649	21639	CDS
+			protein_id	lcl|sample3_4_27
+			product	Integrase
+			inference	protein motif PDB:1Z19_B
+22876	22649	CDS
+			protein_id	lcl|sample3_4_28
+			product	excisionase
+			inference	protein motif PFAM:PF13986.5
+23179	22910	CDS
+			protein_id	lcl|sample3_4_29
+			product	hypothetical protein
+			note	no search hits
+23554	23246	CDS
+			protein_id	lcl|sample3_4_30
+			product	hypothetical protein
+			note	no search hits
+24480	23551	CDS
+			protein_id	lcl|sample3_4_31
+			product	Protein of unknown function (DUF550)
+			inference	protein motif CDD:pfam04447
+24986	24477	CDS
+			protein_id	lcl|sample3_4_32
+			product	Ead/Ea22-like protein
+			inference	protein motif CDD:pfam13935
+25639	24983	CDS
+			protein_id	lcl|sample3_4_33
+			product	hypothetical protein
+			note	no search hits
+26660	25626	CDS
+			protein_id	lcl|sample3_4_34
+			product	ParB
+			inference	protein motif PDB:1VZ0_A
+27166	26660	CDS
+			protein_id	lcl|sample3_4_35
+			product	hypothetical protein
+			note	no search hits
+28604	27948	CDS
+			protein_id	lcl|sample3_4_36
+			product	Repressor protein CI
+			inference	protein motif PDB:2FJR_A
+28704	28901	CDS
+			protein_id	lcl|sample3_4_37
+			product	DNA-binding transcriptional regulator Cro
+			inference	protein motif CDD:pfam14549
+29354	29034	CDS
+			protein_id	lcl|sample3_4_38
+			product	hypothetical protein
+			note	no search hits
+29410	29880	CDS
+			protein_id	lcl|sample3_4_39
+			product	CII like transcriptional activator
+			inference	protein motif PFAM:PF06892.10
+29943	30281	CDS
+			protein_id	lcl|sample3_4_40
+			product	hypothetical protein
+			note	no search hits
+30291	31244	CDS
+			protein_id	lcl|sample3_4_41
+			product	Conserved phage C-terminus (Phg_2220_C)
+			inference	protein motif CDD:pfam09524
+31241	31561	CDS
+			protein_id	lcl|sample3_4_42
+			product	SOS regulatory protein LexA
+			inference	protein motif CDD:TIGR00498
+31558	31947	CDS
+			protein_id	lcl|sample3_4_43
+			product	Endodeoxyribonuclease Rus
+			inference	protein motif PFAM:PF05866.10
+31944	32933	CDS
+			protein_id	lcl|sample3_4_44
+			product	Protein of unknown function (DUF968)
+			inference	protein motif CDD:pfam06147
+32948	33313	CDS
+			protein_id	lcl|sample3_4_45
+			product	Phage antitermination protein Q
+			inference	protein motif CDD:pfam06530
+34193	33375	CDS
+			protein_id	lcl|sample3_4_46
+			product	hypothetical protein
+			note	no search hits
+34437	34832	CDS
+			protein_id	lcl|sample3_4_47
+			product	Putative phage holin
+			inference	protein motif CDD:pfam16931
+34819	35100	CDS
+			protein_id	lcl|sample3_4_48
+			product	Putative 3TM holin, Phage_holin_3
+			inference	protein motif CDD:pfam05449
+35100	35726	CDS
+			protein_id	lcl|sample3_4_49
+			product	Chitinase 
+			inference	protein motif PDB:3WH1_A
+35734	36009	CDS
+			protein_id	lcl|sample3_4_50
+			product	Rz like spanin
+			inference	protein motif PFAM:PF10883.7
+36180	36377	CDS
+			protein_id	lcl|sample3_4_51
+			product	hypothetical protein
+			note	no search hits
+36699	38156	CDS
+			protein_id	lcl|sample3_4_52
+			product	glycosyltransferase
+			inference	protein motif PFAM:PF13641.5
+38197	38709	CDS
+			protein_id	lcl|sample3_4_53
+			product	homing endonuclease
+			inference	protein motif PFAM:PF05551.10
+38690	39280	CDS
+			protein_id	lcl|sample3_4_54
+			product	glucosyltransferase
+			inference	protein motif PFAM:PF01755.16
+39277	39618	CDS
+			protein_id	lcl|sample3_4_55
+			product	HNH endonuclease
+			inference	protein motif PDB:5H0M_A
+39618	39854	CDS
+			protein_id	lcl|sample3_4_56
+			product	hypothetical protein
+			note	no search hits

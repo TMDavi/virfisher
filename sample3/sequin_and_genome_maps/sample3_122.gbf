@@ -1,0 +1,114 @@
+LOCUS       sample3_122             2691 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;o_Pa
+            ntevenvirales;f_Straboviridae;-_Tevenvirinae;g_Mosigvirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Mosigvirus sp. ctWWDTD (unknown)
+  ORGANISM  Mosigvirus sp. ctWWDTD
+            Unclassified.
+REFERENCE   1  (bases 1 to 2691)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2691)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2691
+                     /organism="Mosigvirus sp. ctWWDTD"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(63..851)
+                     /inference="protein motif CDD:pfam05268"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Phage tail fibre adhesin Gp38"
+                     /translation="MAVVGIPGWIGTSAVAETGQRWMTAASRELRLGNPSWMSQFAGR
+                     SREIIHTLGADHNFNGQWFRDRCFEAGAAPIVFNITGDLVSYTKDVPLFFMYGDTPNE
+                     YVTLNIHGGVHMWGRGGNGGTRVWIAGTNGGDVIQNDIGGRLRIWNYGVIASGGGGGA
+                     GCASNNSWLEAGTAGGGGGRPYGLGGTNGAVMPGGNASYTGPGGGGSFGGQWGGGNGG
+                     DAGGAGGGAYGRNVKYGSQGGAGRAVFGSSPSWGATGTIYGSWL"
+     CDS             complement(881..2689)
+                     /inference="protein motif PDB:5NXF_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Long tail fiber"
+                     /translation="-
+                     NGTLGVNESINVGKEVNVSGTIAGNAVNALRIWNDDYGAIFRRSETSLHIIPTEFGQG
+                     KTGDIGYLRPLSIDLSNGKVVIPDLDLSYASFAANGYIKFGGHGAGAGGYDIQYSQAA
+                     PIFQEIDDDAVSKYYPIVKQKFLQGKAVWSLGTEINSGTFVLHHIKEDGTQAHTSRFN
+                     ADGTVNFPDNVQVGGGEATIARNGNIWSDIWKTFTSAGDVTNIRDAIASRVAKEGDTM
+                     TGRLTLNANSDAIVINSAATESGYVKGQKAGVDNWYVGNGGADNALSFYSFRTNSGVN
+                     IHNSGEIALAPQGSDTFYFNRDRLYIKGSQWAAHQAGDWGNQWKQEAPVFVDFGNVGN
+                     DSYYPIIKGKSGITNEGFVSGVDFGMRRITNTWAQGIIRVGNQENGSDPQAIYEFHSN
+                     GTFYAPSLLKSNRVSAGGGDPVWGGPCIVIGDNDTGLVWEADGIFNAYANGQGVFSFR
+                     AGLAQTFFNVALHCNAGMYVRDNIDVNDVYIRSDIRCKSEIKLIENAQEKSKLLGGYT
+                     YLLKNSVTDEVKPSAGLIAQEVQEVLPELVTEDKETGLLRLNYNGIIGLNTATINEHT
+                     DEIKELKSEIAELKALIKSLL"
+ORIGIN      
+        1 ttgatattct tacttttggt tccatacttt tctcctttaa agatatttat agcgcttatg
+       61 tactataacc atgagccgta gatagtgcct gtagcgcccc atgaaggaga acttccgaat
+      121 accgcgcgcc cggctccgcc ttgcgagccg tatttaacgt ttcgaccgta agcgccgcca
+      181 ccagccccgc ctgcgtcgcc accattacca ccaccccact gtccgccaaa gctaccaccg
+      241 ccacctggtc cggtataact agcgttgccg ccaggcatta cggcgccatt agtaccacct
+      301 aatccatatg gtctaccacc gccgccaccg gctgtacctg cttcaagcca agagttattt
+      361 gaagcacatc cggcgccgcc gccaccacct gaagctataa cgccatagtt ccagatacgg
+      421 agtcggcctc caatgtcgtt ttgaattaca tcaccaccat ttgtacctgc tatccaaaca
+      481 cgggtcccac cgttaccacc acgtccccac atatggaccc cgccgtgaat attcaaagta
+      541 acgtattcat taggggtatc accgtacata aagaacaatg gaacatcttt agtataagat
+      601 actaaatcac cggtgatatt aaacacaata ggtgcggcac cggcttcaaa acaacggtct
+      661 ctaaaccatt gcccgttaaa gttgtggtct gcgccaaggg tgtgaataat ctcacgggac
+      721 cgaccagcaa attgcgacat ccaagatggg ttaccaagac gcaattctct agaagctgct
+      781 gtcatccaac gttgacctgt ttcagccact gctgatgttc caatccaacc gggaattcct
+      841 actactgcca taaaaacctc cagggcccga gggccctttc ttataataat gatttaatta
+      901 atgctttcaa ctcagcaatt tcagatttca attccttgat ttcatcagta tgctcgttga
+      961 tagtagcagt atttaaaccg ataataccgt tatagtttaa acgaagtaag ccggtctctt
+     1021 tatcttcagt cacaagttca ggcaatactt cttgaacttc ctgagcaatt aaacctgcag
+     1081 atggtttaac ttcatctgtg acagagtttt taagcagata agtataacca cctaagagtt
+     1141 tagatttctc ttgggcattc tctataagct taatttccga cttacaacga atatcagaac
+     1201 gaatataaac gtcgttaaca tcgatgttat cacgaacata catcccggcg ttacagtgta
+     1261 acgctacgtt aaagaacgtt tgtgcgagac cagctctaaa actgaatacg ccttggccgt
+     1321 ttgcatatgc gttgaaaata ccatctgctt cccaaactag acctgtgtca ttatcgccga
+     1381 taacaataca cggtccaccc catacagggt ctccaccgcc agccgatact ctgttgctct
+     1441 taagtaagct tggagcataa aaagtaccat tagagtggaa ttcatagata gcttgcgggt
+     1501 cggaaccgtt ttcctggtta cctacacgaa taataccttg cgcccatgta ttagtgatgc
+     1561 ggcgcatacc aaaatctaca ccggatacga atccttcgtt agtaatacca gattttcctt
+     1621 tgataatcgg ataataacta tcattaccaa cattaccaaa atctacaaac acaggggctt
+     1681 cttgcttcca ttggtttccc caatcgccag cctggtgtgc agcccattgt gaacccttta
+     1741 tataaagacg gtccctatta aaataaaaag tatccgaccc ttgaggagct aaagcaattt
+     1801 ccccactatt atgaatatta acgcctgaat tagttcggaa actataaaac gatagggcgt
+     1861 tatcagcgcc gccattgcct acataccagt tatcaacacc agctttttgt cctttcacat
+     1921 aaccagattc ggttgcagca ctgttaataa caatagcatc cgagtttgca ttaagagtta
+     1981 agcggccggt catcgtatca ccttctttgg ccacacggga ggcaatagca tcgcgaatat
+     2041 tagttacatc gcctgctgaa gtaaacgttt tccaaatatc ggaccagata ttaccgtttc
+     2101 gagcaatagt agcttcacca ccaccaacct gcacgttatc ggggaagtta actgtaccat
+     2161 cagcattaaa tcttgaggta tgagcctggg tcccgtcttc ttttatatga tgcaaaacaa
+     2221 aagtcccgga attaatttca gtacctaaag accaaacagc ttttccttgt aagaatttct
+     2281 gcttaacaat aggataatat ttacttactg cgtcatcgtc aatttcttgg aaaataggag
+     2341 ctgcttgtga atactgtata tcgtaaccgc ctgcgcccgc accatgacca ccaaatttaa
+     2401 tataaccgtt agctgcaaaa gaagcatagc tcaaatctag gtcaggaata acaaccttac
+     2461 cgttgctcaa atctatactt aaaggacgaa ggtaaccaat atcgcctgtt ttaccttgac
+     2521 caaattctgt tggaataata tgaagacttg tttctgaacg gcggaaaata gcaccataat
+     2581 cgtcgttcca aattctaaga gcgtttacag cattacctgc aatagtaccg gagacattaa
+     2641 cttccttacc gacatttata ctttcattta cacctaaggt accgtttaaa t
+//

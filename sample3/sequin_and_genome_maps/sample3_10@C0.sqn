@@ -1,0 +1,2169 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Phietavirus sp. ctXCUHM" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_10@C0" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;-_Azeredovirinae;g_Phietavirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 25725 ,
+              seq-data
+                ncbi2na 'E42E7FF133FFF9771133FF3BFFEF93FFA07B29330E0BCF2F230CE
+FC0A2300338BD3FDF60DC81B78E04022338B8CB83C920F2C8EC0C8104B4423A202A0F24B500723
+03C5E032706FFE8BC057C8FC3138CE8E3D803CF8203D306ED3741D1975084090EC700CE61C343C
+8224030E12E38C37AC8FD0F7C4F42003582E8CCCEBEE6DE7ACFAE023CCC18173F4020F6C22BCED
+5644E3327F00B03A21D0E896F3F003A103CCF4F800DD11CD023A10329B7F3CC0E88E7C6C082BF3
+B208C123C1BEBF7F030028C08FC4FFCE30E02EE23CBE802F3FCCA2B2C0383F0082F84F04F822EA
+03AF80D57FCC482081E1F32BE0C3AFC5CC1C02E07E08128B6000E2F7CC080F811F113431EBA408
+9F1D0810320825027FCC84B420FC08CE3D8827022D1B408BCE8B700D1E320700EE3C1265EEE998
+A28E2A3A0880431F3A2330633200081C33A01030043E3F0E0F3BA0FD4008C448A402903CBE5414
+3071CC0C910822F803A63387BF9C4FF234238E3B0D87F37F8C88CC305BFDF54881A058078E0CFF
+E603CCFC1D23844FC570263CDC3C6F14F023209C543B400C0E1B013C6A40B6D23CFC88FF0301FA
+7F0F38F00B173326E18800A3C000F40065C42EC86F83AEB883FCE9A30010004209C76CB0543010
+0BFE0096AE526007C0091FCD20027080023C33D3D3C0CC0D43F0FEFBF0ADC42ECEFC3310F4DBF8
+6B0348C7F80DFB6741772C0D80D9C52783CCAFF0BD15DF438F7BFD02DFC3073031EBF16FBCF010
+7EDDFFB70C27CC43503D301FDFBFCF0F05230E0FC10F028F031091EF00400C3C805033F9FF217B
+090782C0740FFF03413CF003CC02CC014CD013BF432000D0C3128B3E30DFBFFF470701734FBC8C
+FCCEB3B05C01D7B08209957203E2D37CD171FFCFF3CC133F2C5CB1C0CDAB2565C57CF3FFF943FE
+28A88240394B330A38C312B03ACFFD4F233023B31AC30406003826EAFE06C202394072780983F3
+100EF033A31DA10D057F83333FFC36FC0038037F7919D0C802607120CC31D130080AF680CD5CFA
+403471C643B1E7F4A0F3FBC06392B7F7BE9CE4637BBA92BFC092F343C650024F109DF3185513CD
+AC1D73D520401442703F3476E083F8E002C8103440631F76D270701EF3FCF7ADF20CA609FC9FE4
+BA023C6300C02980F86C0C200D0FC2C32203E0CC37000200F702A30C5EC500F0F22239F0013B30
+E0DF7008CC0CFF860073FCCF6AABC8173C8C6F173DB34FF037B3D5837003114FC211DB1909CFC3
+C30EBB233B3F3C3A0F0E291DC13C48043D01B1DD3F331E30004D09CE04CFE3C0EB34CDACD03063
+C28BF300E6C30425C03083D30E153A82E03F3313F03F4C210C06F8FC39BFFE5FFF3FD7CFFF7BFC
+4100EB3400EB34FECBCFF27D133C010511D703C32BAEEBF8D3F30CC1300041454B072CE8EBC2BB
+9730C743A0CCF304C003CA42C582C5E5EF3513F037E2203BCDC0830EF3CCD10C413F09013CCF00
+47DFD10D0DDD394CD474F38FBD43039845053730FD011333C3BD4A66CC497B504D83732F2C63CD
+16CDCBA782C917096D8FF64F00C245FF853F0AF30AE7F1F507BCFF1F923F161E7FF892BAFC1FCF
+EE37CF4F095D1FF31F2B70C0B8B125B0C3CD506C1FE4A6CFE6F16D32FFBD403C00F8FECF1453C0
+470143385B3EFCCCF5FEB031251345CFEE81018EBBBFD331EF94EFFC036F3E3E4DFF93F5513DC3
+F70414303B0D079C0DE44FAC14C505B4034331717E3141B05F9DF9F47B3BFD3CFF175CB3FDF7EB
+DF4CF7027EBA7345CC5FCB2DAB7E0D114BC31C00D70CC9BF016DEF0F9DECC07E0CD3150C9FE98E
+FF89030023278433671500E3FFBF4F70FF50F0D33DF375FF1500C0094B96091E1732DBCFCCEF70
+1000D4003301C03DFD08B2C305D3C031FEF73CFFF33E36CCC030D17BC358FDFCC4D91F34DE67EC
+7F2541C334B24CF8EEE5EBFF9ABD45D318C40BBFE1713E0315FF5040F499450C3E7FAFAE3B535B
+875990194F93EF68F3CD809173D40B2F331D7BFE51D9020E3B14F247F700393B90D2323F6F8CF3
+1FFC4D4DE40E4ED7E3C943B57F9710907CFC3F341E83D7EB3E3D2FD083E3017B1BCF3C0CFF2CBB
+53248FC3F8F44724F3141F114F23BFAA7DA3C27ECF833D027EFF02EC3CF0C15CD8FF1EDF9F3570
+CFBF72BFC1D9CA440FFB3FDFC1CFBDC35F3DFD061B7FEBF3EF410FCDFEDBC0C9F0F276F0697FE3
+2DFF8AC01C7A3F40837F14BB90FE06F75097CFB418C33E7A474DF7CF3C9FF0CF8F49C38404F63F
+4F4FF00F347C396F7EFDEE323047120DB8C16F0C837DCCADE4654C4FC37361800B8A8FD37F370F
+4DDCC5CC04DCFB230E7B3FBBFF8C10FF3CAFCF3EEBCDE3FAE3B2EC4098FE7FC6E7733B92CB0100
+FFEF1C7F3032BFBF8F5AFFFE3AF4AB7F2B928FBFEE7AEBB2BF6BDE7FB39AB704038BC4500C1CEF
+F37F9E4A1C506C22F22F3D43DE3711CC02C1FF2F8E85C410C52EED542EF50FB0F145ED4479CCD1
+7AFCA8403482EFDC047F015F4A337314E53377E6F97AEDF02F52CDCF00332F2B035413E58530C1
+4D04D8451E58F03E3E54B4145EFF96FAFC56FF292E5384D1F47F600030B611B02E5874400F3F13
+F9B5330B04E7050F2541D3301175F0A0F064F8C867B0C10430C18FBC506540C91418947CF409C9
+B7C576FBFE241F61F9BF8C99DF4318F403FCBFBD02FF4F041FFDFBFB7F8BD7EEE3DFB0F7E3853D
+7B3D3F64870413B8A59F6FE7B79DCC73411BD2F03490FDFBF0FF7F374D40404597BD00F2C06530
+324B8CC22DE0DFD9BFDEF5EF9EF26FF7702C339B36DFF3C03451F4DC0ED6F7F0A651582FE4C5CC
+F3D33032C7D6F3FA0CF85474166FDEF2CB335C7D8F0C3F9C0BCE12F147C9BE7BF85FC10DF17853
+07F128120B854DC53B2FF53CCFFDCC9305EC50939F04C53EF44DFD3079F433053FD3CF20F1BB2B
+0BFF2DB9ED02C323178FFB0CFE7134D08117AFF157B4DD37FCFFF5077E2F1346FCC37DCFD7C78F
+8B433CF3C3EC7C0924F83D17FAD043DD9D3F90C8F8308D4BEFBFCB9FF9C0BA4F25DC7E67DEF525
+9FCBFF0F7DC0CBCF8FF0FDC1D643FFEF8CF4B32C23DE2F0C503D0533FFC31EC3FC1F726F837BF9
+D176FF2FE0009FB733D57DE5B1C9F8E6A0EECDC0C453D128DC31CC91666ED8E3FFD14DE9F0E574
+0C4AEC2D4EC8F30AEE53F8511ED16F1EFF09514D14198B87033EF9FF7EE3B17EFCB0ED300C0DF8
+FE530DC17DFDF35B00B0C30FFF0C3D3930C174E170F6F6AE4353614EFFC1180E5A3EC28DC10B7B
+B8C64D0012B13F2F789190B1F99FF1339770B42D7094F7CDECDFF6DC3EFB16F04AC3E1BBE4B4F1
+083FC9FCA3EF23F0D0F51EFFB00645300EDFF6F6FF3CBD432C1D486053ECC14B6D34B17E0C3070
+3533F78FFE29F9D30320FEFFC4B213ED9947459F4F7B12C91707FD21233F1603FF1CDDC717FE71
+20D1630C5CFFFC31FF8FB7F87FF040349003EE5BFD2D10405CD34F23BFF223D1FF0FE7F0349372
+DB87C2E3BBA6F65FF0347C877FD32D77B0F988AA13F4AC110F9DE3F7FFB0F8D306FE90026CF0D0
+1CDC0C7CF1FBFEFFE3B62C0D2F0CFF34377F02F9FD84DFFF00D180C4F2307F0FD3FD0175C33DC0
+3F4E43707F3C93D3E75BEE3CD27B16B0D03CDFF1003EFFCC40353DFE2FCCA8F23B10FFE799EEEF
+064E31F28133EB0E30F34D75B3481940700E3D6FDC476707F7C740DC5BF8BBCFE94FCF0CFD7E0F
+2C4FE09067F7B4FDFCF339BF83FBFD0F4DC26F9F37DE484F01797FEAFB64F6D06F82AD03EFD024
+DC3FEFFB7EE684D014F7D8E1BE41343E4D64F027F72FFEFFE76D2F0C1FE3F37016D041343B98DC
+9301F7D14D10BC3BDC97CB0DD253C3C7D1F5F3000C8542D87E25C453D03CDC3FCFFB4DFD84F016
+FFFBEDB2416B10CD28FCE5B45342E4B840ADFD6534F1C387397FB4AEC004BBD241F3F161FCC5FD
+8B495F024F55337004FBC9E78440D7F4FF37F25DDF3B7B2071478E73F90A70473C747F60F33734
+67FF30DD62EF93FEF40CDF3EF0CDDFF2FEC7D4435C102D0013630CD37F04AC62B4504328167DA4
+C77DFB0EE302DC3B408EFFC383CD06BBC34DFBC6C0077F37F0F7D6D0C3E6A67D30317334D272E8
+EFEC8C2F90E39F7E03F74F34D02F96C1460EC2CC01D20837DF707C03D024FEC53FD8C032FE7FF8
+005FFCBC2383BFFB7FA04CFC0F423CC9BDC85FFE02B742C4BB4536564FF40FC264F07FA0DC1F31
+FB356F5FC004B20080E775AC01C52D03FDB339BFE7FC0D343FBFF7F10EC4BC57EFBC38BF8F7F20
+1C0107B303FED34FF851C13CB87E53FFC80DB3F10FDDEF1FDBFDE009C0EF0787F451F299DEC2F7
+B69179000CE7D1700CF1B0FC34DDFCDC5C7C7300593360F71FFFC4FF8F03701D3C0D7A400C4AC3
+8C0FE3D3D1048DC53FF0437D014FB3DC0134529F80D8C53D1193C2D1F5E02214F8034FED9FC5CC
+B8F78FF7EC4EF83EFEF281AC5B8C301E059FFC6F3400CC7FEFF92CD340363B4D348654025BE3CB
+E7EE40DC07EFD078F4901A40EEDB040F72E313C58EFBFFF9DEB8411BC84BF062317FC9BD1F923C
+D34D0032B714E34DC7EFAC34BE702EFFC0FCCBF1FEDBB719077E8CC01AFFD37E47076CC103F6FB
+166C372BEDB494400312B13B3FC6E0E3301C7C42BB796E4F576CF5E32D37F4FDCC5F610F137F07
+34CFB0DF703ACA0B14DCBF2E3FC3B53F38C5D713F408C833FF79FBFB6F04396C0D934FB70DD3F4
+3DF16FF4F72A72FD0183BBBBE8FEEFB8AFE47C35A30D4F4059FB2ED2339CA427C01E8F019FFBC3
+ED8906D8419C50593FED5DF9D0650E5C05F936EC445CFE7C0C4620AE3FCEEC3027FE7FFC3E4717
+1C452F166D0D0A45E793FFC55BE1C354E3C0F9B526DCC0FA79403E3C7934264D7B1FFEFC3A4F30
+0F794FFE03C4B2110FE1E0FE7E312585133D8481207C031CC67EF83FF8E03537301F4703FF87C4
+B2388F71F00F8AE0827B3324F503ECBC4060FCC93F007BEC3447C70ECF5312FBE7160307BBD4CD
+BFB0027C0364F5336FEF81AF2CDB2E304BC4304B44240F503EFBE43463C1B3D4C0BE3001BCB33F
+E53BEDBC14EFECC7CC10CFC63EFBCB0C3E510048E73EF9C0BED4C8FCC080DFC3E0F5303C30603F
+702976FFEF5100C18036C3C398C3E458C1C25CFA63BC00163E49142CBAC305F9C701732859F0C0
+8019FC5C30EB0C65DF0835CBFE33C0A270318043D410C328350B4F08651402C3E701738FE2418C
+AB8B740C9FE61005E4364F0413F2C419D90CAE53E7B1403E1C314F30CF143C074C32FA94FFBE04
+CB6301FFC0D4DE1E261F9D21424601F1C94FEE7063D8036FE20FE05809FC0C0F02115083B34500
+3FC58C32B03F17F1B0D0C0FFE0E5FBEED807F3F951DFA02399533EF4053F9440740C3A640F8BC3
+3BC1085345036179E47C309D8021FC11782EF4DBF4027FFC9EE7238EF153FF401FEE6720F059F6
+8C457F083A3C23FFC3BA7E045BF0248E3264500320D24F4370F3BFE51D1FBC65F501DF7EC647ED
+9F87E7E41B14DF424FF0F92332536450350719495790C9008159C058C9165161441C89BC5C794E
+3E7AC709F90F3E834391C06384106E5F834CF2658CBD402C68F8FC98F635319544004D9FEFEF0A
+C370177C001AF94D24D87607F5FFBDACE7DB2419FE0DB705FBCB2411EDFC1F70F7B3E1EFF96DC3
+FBE3F49FFBFCF83F231002DCDFB036327BFC1E3F3CDC00FB0A7FF4C3FF4BF2FD273FFB1F9B73EE
+93F9FFF96D0F7F50270F59FBF07FF7F0F27ED349FD0F4137F0D7273EFFF4CF770BBDE32453C327
+FFC0DE824D27FC8D26885B00DF4F210D3745D73CFC3BEFBF3F79CD9FE080F3EFF4AF51F7D0BD34
+B0110DDFC53424363EC3C174C350CEDBFA1FF037331F7F2BD7DDAC5F4F7FBE49E4D1B3E40E727E
+CDBD33DF7F401340DB0E4C4E632F01D2D02D3F4F0FEFF01EB0FF40DE139190F10F71ECEF3CF7D6
+D1EDD67DB6DFD238D7B1CAD8AB438F9D55004D0E327E1407DF83814CF4D1993E3C31F7D89DF6D6
+FF6A657FFB5C0BE493C18FF2709430EFD47F70FCA8F04F8C35745C8F07F7413F0D70E7F363A3BC
+3E170D607D0F70F6EFF53FFC7B053F0005D4C3F03F0B30006A43C256DAF3DE780C7078FF9BDAC7
+9F913D8EBF2619504D396D1F837D4ED74B341ECAFBA0EFFBB07DEF9EADB7FEFBBEE836335642F4
+2FFBFC36FD2A3ED90151BE33F16004F01DEFDB3DB5197F87D97F21D01F7E0FC5F8C33F67F03F17
+DBFF97F97EC7F9FD0FD509F6C0C316D9B126D741F4D2401ED18CB53FC9EC9E03ECFF42E3517BE2
+CE0D3536CDF4FF48359F426119CC74BC004D37FF26D47FFA5A63DC0400437B7F1EDFFF25313CE1
+75DBC0307EC8C98C347B3B2C3EDCD9CFF7134FC3B7C33F3B4D0D3CBE305F719DD8C52D04D4F7BE
+450739ED3BED7737D24CBD440D0F3C6BC3D165447F536ECFC7FCFE7DC4DD9044000A32BC3E1EF4
+3DFC036304D0F5335C30F9930360D03067EFBAECBFF04EC1177341D0437FF034F8FBE3FFF02FE3
+1B6804C02B96BD4CCD8BD40F628159CC3992F8CF198C390B55CDFFC1F734072723C52D43057EF4
+E1F7F24F231E4314115DFC93EFFC20CD34134DF7334D39307F08E3D30BFFD0D7F23E4FA0245D9F
+3002E0B9CE36C4460CDCE1FECFF797FC1084C6FAF60FF0FBF290DB1458C4DFC94FDD40362FBBD9
+DDC8C373E13E46B2BF8309FFE6C1F7F7FFAD028F33F1F377D0410AD876F5831743003D19D559D1
+F83427CA31024DCC31FE31DF40B6F1BD01BBE79B5B7E60DEC84C5F791631AFB17FFB601F418738
+3EC3FB4A0E70FBB71690DD8C30F492413EF0E322FCBEFCDFBDBCD3F0D73187FC1B4DC2CBD307D1
+473D07B0CB8FEE4BFEF1C537FEDBE7B0F167D14BF7066F0D397B3FD3417F12FD29F3C844C9F067
+FBCBE5BE0AE633EAF72FBD398178F816FF2FD2910270E7EE3C83E0FECB03DE91341FFDE3D7C5BF
+DF40241FECFC5FCA30BEF929DC252021D13C3195F75F78239041F8D3F7311FC2FF71D3F03175C7
+C3FE0355C741603BC163FE6F6BB8FD0FFFAA7C62AC3D959F4DFFF8CB47F8C166D0CF77A813E232
+4864C0CB378EF01BEEBE8CDBB084504014B64D2D90390391B8C1D166EAF64CE71BF03FDA516D35
+01F45FBA46DE407710FF075C4C6BBC22BF1160F9917BE2F0C016F67031D27BB6FE8FC40E632BB8
+DD36DC30C58C2FE66D5F210245FB0BFD267C3FEFFBCB19FD4FF43E78FF26DD020FC9DA07FF7813
+1F0D374FB4BFAF0C9C0D305399F8367D278EF8FC633F2407B0F4B8CD07EF462F1FFBC0A0F1B45F
+79C4DD6FEBFF4837DC7F83633EFC2E78161BD3E83FEFF83670E7D0307EFC35445C3FBC900D0C87
+F97F5C39F513E3C0FBFDE784C03F1753FFCBE0C0E4EFF998C93FEDBD9CD37F0D9083F4DD87C352
+1F1E023F2983FEDB0EFDF91FDFF814FDB420DFEC2BED06F3FFEDBF499CD211043B72C1D347C6D0
+CD7EDFE04D1D99F78193F4FC3EFFDE26C3E75277FF53FBF9BD33D37FF8D7EF4FF670FC9A7DF79F
+FDFF933D349FFF7FD3A9C461BD0B3F4D07F7FEF9DE9B80BCFD2C5F653FDFDF3423D5FFF14DF45E
+BDF7A34DEBEB79000F903C07C2FCFF7D4E2331753FC2DED879CD4E45FF0253091BFEA430009CD1
+0498C9F307633D0FCCFC5FC67FF020F4DD94BC5C4EEB1EDB1D710E68E4CAEB93C117A6D335F07F
+B11FFF34E386111FC8EDFF4D1BF24103D33D14DF658BBF42338C9FF89F7BF911B963D2D1C901BF
+24D3BBAC915BFDFFE0B4906CF6FE8E9B5DEF041BCBEC3DFD87DFC647235336D5109BDE14EC117F
+82F1CF041E5F0DF7ED2C13E3B4B1700E5E3ED9FC7DDCD0C9FC1C18FFDCEEBFDC7F8C7E7DAF1C30
+362BDE7F041FF666313137CB3EC7FF0BEFCFE7DF6702D7EFFC1C39DE9FCFFA026184D03D341CDF
+7C9F690DB085F492D933F26C0390B2F5FE4334931343B8731BEC3D259E5FE4DF7343D1EF0DB3FE
+64677052C362E0D253C834DC4F40E3FD009F5531519F379F9F776F99F7DF7E4DF762F7DFDA3ED8
+C0B70427C062E7F68C65147C193C064F0E8F534D87CACAF28B02B0DBCBDE6C3CEF9FC352F03C1B
+CF41041F3367D34357FF010D9DFC367787E742160C9F33F4D8F75A1E4459C0FBD36FC0DABBBFB3
+1FB83B6FF90DBF7CC67D075E4136C7BF30133F07DE5F17DE053D93FB14A7723834CFE4DDC067F2
+4DF47B703713E50F36424C936FC0D2D3B2F27B3487991CDB303734090C13DD02D17EFE0FADBE2B
+3D8E32B1B6FB2C3BDC7DF611AE33B165FC3F6332C0DF37B6CCC7D84EF81EA1FEDFCDF9FF40B374
+45E4107FFCDC9BFAD3310406E7FCA37047F83BB7737D00D18CC4374C266D4C0C840F419C0D1EF0
+5D349B4F40DBD07438FFB6F6FE3ED78EEC36C32AF15B08C1410C019844C7D9B0FBB1E763AD25F3
+65B3F7B0D86F452720EDEEFDCF42C308F704DD406E91FBD2FE3B79F382FDE2BFD77F432F59C2D1
+F106034DBF908AE007FB3C3BCF8FB3312D3E325D7C0101FF0DF1B0E4FFEDFFF78EFFF7B3AF0C7D
+079B37C3934310EBCCEED04AF6F32CF65ACFFEDFFF50B30F340F5D0DB7CC106F6D8C18ED03E1C1
+03E0C5E53867B7F97F4D9E910F737316FEFF0FD4C31FFFBD258349EF37FDFD8305C2D3E307EE43
+76FBF24D5FFF06CF588C1312FFFBCDBEDCFF44E0C026728D3E133502DC0580CE0AC0E171F5F367
+0F3D9FF4CFCA81141F3426C903D17064C0FFB0CE7A3C63F9C10770BFE19B4FD34201F3CDD8C1C8
+FB70D384FF53EBD14EF4080C7CC0543C2FC8C7ABC04F2003FBF3D3BBFD9D5D01906F0F9BB0D3F2
+EE0F4867DF53873B78CC5FF361FCFF77ABCDC35FC040007994FE90F41FEF34B7CF5029133540C5
+82FCD0105FE137D8301CDFC3EF8FA1FF7094CB31B728CFD4B7E439FE2C41FFECC196E21F167605
+D4530EC7D2E0BCDB0FAF2CFD833BF73E004F21AFEF02FC3F07F6D36C7450CF0DD0CF7DE2C3F7FF
+ED8CC645381FF2CCEB4323778677D03BEBB8FBB0B05DFFD47D36FC0EB4CFDF1EC25DF8AF75DC90
+C8248C29C09F7B0C74F019DF7ECDEF70DBDFC333D6013C13F7C10DC7E7021D27BFDF1CC179EC3E
+797FF14F1353D3CCCF4DE60DDFFBFF6F4FD3F145077667319FFF00F000A8FA730D250544C8D7F3
+D70F98C2A0192C232D0CDF19CD33C11602E1BCFFD487FF501F0ECF3170F4D2705C1C3337F5D334
+C26B23F1F13F3F5E240'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_1" } ,
+            descr {
+              title "Repressor protein CI [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 236 ,
+              seq-data
+                ncbieaa "MSSFSSNLERLMNKRDMSDSELAELVDVNRTTVTRWRKGISSPKLDKLPEIAN
+VFGVKPLDLIHDMDDSKIIEEIHNVSSQLTPPRQSNVLKYATNQLEEQNNDSDDNLVDFNSYIQEKSEVDIYGCASAG
+IGERLYNEPISKEFVRGYVPAHDIALKVNGDSMEPLFKNGQIIFIEKSHTIKDGQIGVFIINGDAYVKKVYVEDNRLT
+LVSLNKKDKDLHFYDNESVRLVGKVIL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Repressor protein CI" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 235 ,
+                          id
+                            local
+                              str "sample3_10_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_2" } ,
+            descr {
+              title "hypothetical protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 48 ,
+              seq-data
+                ncbieaa "MNLKEVDINIEEWEMVEIPFYTEEELTYRLNNGLPITKSELEEQESKK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 47 ,
+                          id
+                            local
+                              str "sample3_10_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_3" } ,
+            descr {
+              title "hypothetical protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 61 ,
+              seq-data
+                ncbieaa "MSSYKEIEHLHINTGGKELTQEQIEEAKAFIDSQEFKDMIREAKESRQRVMES
+KITDRTKM" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 60 ,
+                          id
+                            local
+                              str "sample3_10_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_4" } ,
+            descr {
+              title "hypothetical protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 149 ,
+              seq-data
+                ncbieaa "MEEKQYLWRYNDIEKRTNMETNKTIDLMNYVEFPKRYTEAKGKLVAQPITTIN
+STRRVENGDMTVCYILDQDDDVIDFIFDRDIITVFFPENGTETDEYFCEIIFNSDDTFTLKRLSNYVTIKDRSYPMSK
+INDVNITGKVVRLFRDFK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 148 ,
+                          id
+                            local
+                              str "sample3_10_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_5" } ,
+            descr {
+              title "hypothetical protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 41 ,
+              seq-data
+                ncbieaa "MADKNKKQEATRSNPINKSFEKPGASENLKSTLSEKAKKKD" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 40 ,
+                          id
+                            local
+                              str "sample3_10_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_6" } ,
+            descr {
+              title "hypothetical protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 204 ,
+              seq-data
+                ncbieaa "MTQFLGALLLTGVLGYIPYKYLTMIGLVSEKNKIINTPVLLIFSIETCLIWFY
+TFIIFNNVDLKNLSLLQLLTGLKANIWFLIIFVLTVLVFNPLIVKFIIWLINKTRKFMNLDCISLLDKRDKLFNNNGK
+PVFIVIKDFENRIIEEGELKTYNSAGSDFDLLEVERQDFKVSDLPSNDELYIKHTLVDLKQQIKLDLYLMNEY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 203 ,
+                          id
+                            local
+                              str "sample3_10_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_7" } ,
+            descr {
+              title "Integrase [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 348 ,
+              seq-data
+                ncbieaa "MPVYKDDNTGKWYFSIRYKDVYGNNKRKMKRGFERKKDAKLAESEFIQNVKYG
+YSDNQPFEYIFFNRLKNENLSARSIEKRTTEYNTHIKERFGNIPIGKITTTQCTAFRNYLLNDAGLSVGYARSVWAGF
+KAVINYAKKHYKLLYDPTLSVTPIPRTKPQAKFITREEFDEKVEQITNDTSRQLTKLLFYSGLRIGEALALQWKDYDK
+IKGEIDVNKKINLSNREIEYNLKKENSKGIIPVPKLIREMLKNMYNESSKRYKYFDENYFIFGGLEPIRYVTYSYHFK
+SVFPNLKIHHLRHSYASYLINNGVDMYLLMELMRHSNITETIQTYSHLYTDKKHQAMNIFD" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Integrase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 347 ,
+                          id
+                            local
+                              str "sample3_10_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_8" } ,
+            descr {
+              title "Endolysin [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 251 ,
+              seq-data
+                ncbieaa "MKTYSEARARLRWYQGRYIDFDGWYGYQCADLAVDYIYWLLEIRMWGNAKDAI
+NNDFKNMATVYENTPSFVPQIGDVAVFTKGIYKQYGHIGLVFNGGNTNQFLILEQNYDGNANTPAKLRWDNYYGCTHF
+IRPKYKSEGLMNKITNKVKPPAQKAVGKSASKITVGSKAPYNLKWSKGAYFNAKIDGLGATSATRYGDNRTNYRFDVG
+QAVYAPGTLIYVFEIIDGWCRIYWNNHNEWIWHERLIVKEVF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Endolysin" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 250 ,
+                          id
+                            local
+                              str "sample3_10_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_9" } ,
+            descr {
+              title "Bacteriophage holin [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 84 ,
+              seq-data
+                ncbieaa "MINWKIRMKQKSFWVAILSAIFLFAQNIAKAIGYDIQVYTEQLTDGLNAILGF
+LVLTGVIQDPTTKGIGDSHQALEYEEPRRKY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Bacteriophage holin" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 83 ,
+                          id
+                            local
+                              str "sample3_10_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_10" } ,
+            descr {
+              title "Endolysin [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 628 ,
+              seq-data
+                ncbieaa "MALPKTGKPTAKQVVDWAINLIGSGVDVDGYYGRQCWDLPNYIFNRYWNFKTP
+GNARDMAWYRYPEGFKVFRNTSDFVPKPGDIAVWTGGNYNWNTWGHTGIVVGPSTKSYFYSVDQNWNNSNSYVGSPAA
+KIKHSYFGVTHFVRPAYKAEPKPTPPAQNNPAPKDPEPSKKPESNKPIYKVVTKILFTTAHIEHVKANRFVHYITKSD
+NHNNKPNKIVIKNTNTALSTIDVYRYRDELDKDEIPHFFVDRLNVWACRPIEDSINGYHDSVVLSITETRTALSDNFK
+MNEIECLSLAESILKANNKKMSASNIIVDNKAWRTFKLHTGKDSLKSSSFTSKDYQKAVNELIKLFNDKDKLLNNKPK
+DVVERIRIRTIVKENTKFVPSELKPRNNIRDKQDSKIDRVINNYTLKQALNIQYKLNPKPQTSNGVSWYNASVNQIKS
+AMDTTKIFNNNVQVYQFLKLNQYQGIPVDKLNKLLVGKGTLANQGHAFADGCKKYNINEIYLIAHAFLESANGTSFFA
+SGKTGVYNYFGIGAFDNNPNNAMAFARSHGWTSPTKAIIGGAEFVGKGYFNVGQNTLYRMRWNPQKPGTHQYATDISW
+AKVQAQMISAMYKEIGLTGDYFIYDQYKK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Endolysin" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 627 ,
+                          id
+                            local
+                              str "sample3_10_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_11" } ,
+            descr {
+              title "hypothetical protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 124 ,
+              seq-data
+                ncbieaa "MDEIKKIKQEIADLTERVDSIEQTANEAASHVVSLRNEYRNGHQELQESHKEL
+KDKQEKVVNENFEQTKILNRIEERYQTQVEVAQNNEGKTLALNKWLVGAIWALVTIVIIVVITASINALIP" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 123 ,
+                          id
+                            local
+                              str "sample3_10_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_12" } ,
+            descr {
+              title "Distal Tail protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 423 ,
+              seq-data
+                ncbieaa "MANQDLFYDITKQGTSQEKQQYLVTRVGDGGLKTVTVTVWSNGTPYNLHGLTP
+VFEGIKPDGEKIIDTRGAIVLDPVNGVFRYTFPHQASTAEGEYRQAFFKLKRGEQTDSTLEVKITVLKNMVEFGINSE
+SYYTEYQQKIAELEIKINNYLEELKTKAAGTEAQVEANATLAKALKQQLDLIQSIANERELLTKGEFNAALSTINNNI
+DSISKEIEDYKRDVTQELEKIKDEMTGVKPGVLDDVANITKSGIYYFDSTTKNLPTRNSNNENGYIEAVMKDVNNGML
+SMLGTGYAIEKYNGKLHGRWVTSVPVKLWSGKIVKGQTATLSGNCHNFSKLLIEVGYTTNRNAVEWVNIPNNGSTIYM
+NNIGMQTSGGALKNGHLDEVVILIKDDTHITLEKTLTATGTENAKDSDSYITAIYGVY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Distal Tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 422 ,
+                          id
+                            local
+                              str "sample3_10_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_13" } ,
+            descr {
+              title "tail protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 347 ,
+              seq-data
+                ncbieaa "MKLKLSNVFRDFKKDVESNFKEIDKILTDLLDIKNKTSNKYLDSLINTLFAKR
+YDQLQKEIRAIVLPEMSPLAITEDYEKSLSDLKGERHTSLKSRLDADLKQIKSESLKTSNDDRFVVTENGTIFADFVK
+KSKTIKSIKKIGIIGDSVAKGSRDSKNFGKYLSEKLGATVQNEAVSGATMSTVKTNSIYEQASKIRNMDLVIIQGTDD
+DWLYNGSSGVTIGTNKTNEKTFYGAFYKTVELIKSNNPKAKILVMTATRQLPVNGTTIRRKDTDKNGLGLDLEAYVKA
+QVLACSELNVPVFDAYHTDLLDPYNPAFRVKNMVDGLHPNELGHEVIMHELLKNYYYFYG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 346 ,
+                          id
+                            local
+                              str "sample3_10_13" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_14" } ,
+            descr {
+              title "virion structural protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 230 ,
+              seq-data
+                ncbieaa "MAEITKARTLTCDGEEVYARSHIDVVDGLDKSKLLTDEQKQKLESFNADAIDV
+ATSSKNGLMSAQDKTKLDALKQFDPSTLTNATTQKAGLMSAEDKQRLDELKTNSNAYNKEMTESVASNVLIQGNINKW
+PNNTQTVDLSKKVSECRNGIILVWRSDTEDDNYHYQYVPKYHALTHSAAKIVHLIPINSKNGFCIKTIFVKDNLITGT
+ADNHNGAMNANKVRLHEILEY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "virion structural protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 229 ,
+                          id
+                            local
+                              str "sample3_10_14" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_15" } ,
+            descr {
+              title "tail protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 465 ,
+              seq-data
+                ncbieaa "MIKLRNILGEAYFLQVPTELTERLSGESQLTFSFSENESNREIVNTISKKWQV
+TNVSGQNDDKIYTVVLVSKESNSLTTRVTVHCKEKQIDDLKAKRIYENLTGSFTGEHFFSTVFKGTGYKYKLDSKVNA
+LKFENAGDGDTVLETFQKGLERYNLEFKYVPKTKTFILTKKVFQKANYFIENGTNALNFKLEEDSSEFYTYIRGYGNF
+DDNEKFQEASLQLIYKHPLADDIGIYEAPAIIDGRIKDKEFLRNKMINTVDNSLKTSLTLDFITLQEEYAEAVPIVGD
+LVPVKDDIIDVFDFVRIVEVQTKRDINNKIFEQNATLGDYKKRDRYNSKVSNSVSLANSISGSSTDIREAKDKMKGFV
+SAANNVLDMGNALRADSKGIKSVNKLLNTVFTPDKGIVISNDGGKTFVTALDGDGINPDIVPVATTTKNGLMSKDDKI
+KLDNLNGVGSSRLGSIFYKEVK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 464 ,
+                          id
+                            local
+                              str "sample3_10_15" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_16" } ,
+            descr {
+              title "Distal Tail Protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 310 ,
+              seq-data
+                ncbieaa "MDIKITKLDGTSYHLEDYNMIVKDVIVEGIEMKDDYQEYEGMHGRHLVSSLYH
+SRKIHVPVFFVADDNLDYAVQRNLLYELVQDEKPFYIQELRRHDKVNYKFKNTLATDYQQVDDHGRPIFDDDNLQVNA
+KRYLVKLSNVLSPEQKNNIGNVSLEFVTTHLPFAESVETSLDLHKQLINGFWASDDDIDFDDTAKQKYIFDNVKSGSV
+YYHGTVPNKQFNMYKKIRITIGKATNDFQWSLSGSDLMRVNGIDFKPGDVLEYNGLKIVKNGRSVVNESNLSLPVFLP
+GFNEFRFNQNVKKVEFDMRFYSK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Distal Tail Protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 309 ,
+                          id
+                            local
+                              str "sample3_10_16" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_17" } ,
+            descr {
+              title "tail tape measure protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 1035 ,
+              seq-data
+                ncbieaa "MSNEDFTVSADLKADASRFKKAINGAIRTLREYEKTIARIKDVELKADDKLIK
+EKVKQAELALERIDGKKANATIDASTKIAETKLKNYEKALQFLDNKSVKTAIDLQDRLFVSKFNKTKAEINKLDGKTV
+NTELEVKDSVATNKVRRFKALLRSIPNKRKVRVDADGNRFLRGLDYLNKQSDVFVGRMDRIAKSIRTFGTIGANMIQG
+TLLSSFSALIPIIASLVPAIMAVGNALVVVGGGAIGLAGSFAIAGAGVVGFGAMAISAIKMLEDGTLQASQATSAYKK
+SLEGVTSEWQNIIRLNADSIFGALSSALNGVQATLKNLNPFLKGVSEAVNSSAQSFEKWVTSSSTAKKAFETMNTSGV
+KVFSSLLSAAGRFGDGLVNILTQFAPLFEFVANGLNNMGASFQEWANKVSTQQGIQKFIDYVKVNLPIIGKIFGDTFL
+GVFNLFKAFGSNSQTIFESLAQMASKFRAWSEQVAQSDGFKKFIDYVQQNGPTIMSLIGNIIMVLVNFGTAMAPIASV
+VLNVVNAIAGFVAKLFETHPIVAQIIGLAITFGGVLMTWIPIIVGIVSYLAPLISKLGFLRGVLPLLGKAFSLLSGPI
+GLVARLLPLLGAAIGFLTSPIGLVIGAIIALITIFVILWNKNEAFRNFVINLWNSIKDFFINLWTTLATIASVLWQLL
+LTTIVNIVISIQTWLTTTWQNILTFLSTLWNTLIVIATTIWNLLVTVIVTVITTILTVQQTIWNAILSFLQTIWNTVI
+SVATTVWNTLVSVITTVLNAINSFVTTIWNAIYSFFTSILSRISSTVSQKFSEVYRWISSKIQQAYSILSSVLSNMWS
+AVSSKFSQIVSTVISKMAEFYNAIKQKVQDALDAVINFGSQFIDAGRNLIMGLVNGVKNAAGALIDAVTGVVGSAIKK
+AKALLHIKSPSRVFKQIGVYTMQGLGIGVEQEGQNAVGSVVDVARQLTKAFNPVLSLPSISDTTSGLNGLSGLSANLT
+TQIQHTHSFETSPRMKTVRIEMRLDNDAIYGIVNDKQAEKYSIFEM" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "tail tape measure protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 1034 ,
+                          id
+                            local
+                              str "sample3_10_17" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_18" } ,
+            descr {
+              title "tail assembly chaperone [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 116 ,
+              seq-data
+                ncbieaa "MSDLKITSLKQINEMTLTEFNYRMYALRFDVLKEEYERYKLAFAIRDAAATKN
+EGTEKEPKEVYRFKSPNDILDYEVNYNRLLDGKEIVFTDELEEVEPENNNFFKAIAEINNNIK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "tail assembly chaperone" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 115 ,
+                          id
+                            local
+                              str "sample3_10_18" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_19" } ,
+            descr {
+              title "tail assembly chaperone protein [Phietavirus sp.
+ ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 126 ,
+              seq-data
+                ncbieaa "MVTVKNGKHELELKFGLGQLTSIDKALGLNVEKVNLGEGLSMLIPKLESGNII
+GLAKIVNAATLGQKGRPKTDEELEEVLINARDEYGSFKKFGQAIIDVLGEQSLTLDLVQDHLKDDEAETVTEE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "tail assembly chaperone protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 125 ,
+                          id
+                            local
+                              str "sample3_10_19" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_20" } ,
+            descr {
+              title "major tail protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 217 ,
+              seq-data
+                ncbieaa "MAKKDSKDRLFLFRIAGQKVDAKKMMFLTEYSVSLEADSENEDTMDDSYSTGG
+SLENTISATAKMDYRDSFADEVEDAVRDGIIYEAWEIESKVQGKGKNEGKFKAKYYQGKFKKFESKGEVKGVDEYETE
+FNVFGKYQRGFATIPETIKTKLELAGYRFHNTTKDDPATEVTQNIPQPTVDTEDMEDSSDGMMLGVAKPSNVQAVPNA
+KSVSISAE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "major tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 216 ,
+                          id
+                            local
+                              str "sample3_10_20" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_21" } ,
+            descr {
+              title "Antigen protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 131 ,
+              seq-data
+                ncbieaa "MLKTTPQQALFDSIYAQLLGYGIDVIDFKELNSQLTYPFFVLRDVEANKSKYT
+MESVGGELTVIIDLWNYAEDRGQHDSIVGATEWMLTGIESVEGYQLMIDDINIKTLNDVENSDRQLLHTVIIAIYKLF
+" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Antigen protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 130 ,
+                          id
+                            local
+                              str "sample3_10_21" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_22" } ,
+            descr {
+              title "type I neck protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 115 ,
+              seq-data
+                ncbieaa "MQSKGLKKLMNHLKVMHDDIEDDVDDILKNNAKEGVGIAVSNAKEVMNKGYWT
+GNLASLIEVKKIGDLHYRVISTAHYSGFLEFGTRYMEPAPFMFPTYQTLKKSTINDLKRLLS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "type I neck protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 114 ,
+                          id
+                            local
+                              str "sample3_10_22" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_23" } ,
+            descr {
+              title "head closure knob [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 104 ,
+              seq-data
+                ncbieaa "MRYSERVDLVVEEISKYNPLTKKKEVTQKAYSNLPCNVNRLSRERTQLDFGEM
+AKDVSVVRLPKQLKFEPTYVLLKGRKYKVIDIRVYDHSTSLFISEVLSNAI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "head closure knob" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 103 ,
+                          id
+                            local
+                              str "sample3_10_23" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_24" } ,
+            descr {
+              title "head tail adaptor [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 128 ,
+              seq-data
+                ncbieaa "MVVTKLHKSLLQLNSGEVMNYLDDVKSRIGLNDNEQDKQLNSIINNVAAELLS
+RLPVDTISIPDKLQFIVVEVSTKRYNRIGAEGMSTDSQDGRSNTFERNDFEEYQSIIDALYPKLDSSERGSVNFY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "head tail adaptor" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 127 ,
+                          id
+                            local
+                              str "sample3_10_24" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_25" } ,
+            descr {
+              title "Tail tube protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 149 ,
+              seq-data
+                ncbieaa "MSRKLKVYRNDQVVASSEGEGRINVSLSGLEPATTYPKGKYKVAFEENGKESE
+KVDVPEFTTNSILITSISFVPETKTVQSGSHEQLEPNIAPSTATNKALSYVSNKPETVKVDENTGMINALETGEAVIT
+ATTKDGSNKTAQITITVE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Tail tube protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 148 ,
+                          id
+                            local
+                              str "sample3_10_25" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_26" } ,
+            descr {
+              title "Major Capsid Protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 303 ,
+              seq-data
+                ncbieaa "MSAENNLINVEALGKAKSIDFANKLGVGLNKLFEALAIQNKIPMNVGSALKQY
+RFKVEDSEKPNGDVAEGDVIPLTKVTREQVDITELQFAKYRKSTSAEAIQAHGYDLAINQTDNEMIKYVQKKFRAKFF
+ETLKSAIENGKRTNKTKLSAENLQGALSKGRANLSVLLDDEITPIAFVNPNDTAEYLANGFINSTGAQFGVNLLTPYV
+GVKIVEFADVPQGEVWMTVAENLNVAYANPRGELSRAFAFATDATGFVGVLHDIQPQRLTSDTIYASAISMFPENIDA
+VIKVTIKKDEAGELPS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Major Capsid Protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 302 ,
+                          id
+                            local
+                              str "sample3_10_26" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_27" } ,
+            descr {
+              title "capsid scaffolding protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 226 ,
+              seq-data
+                ncbieaa "MALKGAWIAVDRLKMEVYLMEENKLKFNLQFFADQPDDPEEPGEDGKKGNLDK
+KENGEGTEITFTPEQQKKVDEILERRVAHEKKKADEYAKEKAEEAAKLAKMNKDQKDEYERKQMEKELEQLRSEKQLN
+EMRSEARVMFKDKDIDVSDELLDIVVSDSAETTKNNVDNLTKILDEMVQKKVQETLRQNSPKSFSKSGLSRDEILAIK
+DDSERQNAIAQNMHLFN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "capsid scaffolding protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 225 ,
+                          id
+                            local
+                              str "sample3_10_27" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_28" } ,
+            descr {
+              title "minor capsid protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 319 ,
+              seq-data
+                ncbieaa "MADSLDYWLERAQNTINSELIEDAKAAAELQRIVTLMYADIAKELLAFYAKYA
+TAEGLTIAEAKKIVDEFDVVAFQNKARALVKNKDFSEEANKQLKKYNTKMYVSREKLLKQNLDLLVTEASIKVENHIE
+KSLVKAIDREVKRQSGILGTDINVTDKKIKAVVNSNFKGVTWSERLWDDMDLVRKEVERITTNVVNRGRHPNEYVADF
+KKKTGATTHDAKRLLVTESARVQTEAQKLSYLETLGEDGEYEFVAKRDEKTSKVCRHHDKKVYKVKDMTPGVNAPPMH
+PHCRSTTVPHVGNWRDEFFKKRKGKYKLNIEL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "minor capsid protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 318 ,
+                          id
+                            local
+                              str "sample3_10_28" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_29" } ,
+            descr {
+              title "Portal Protein [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 481 ,
+              seq-data
+                ncbieaa "MTVYTINNINTKFSPLANDDFVVSDLAELLKEENLRNFISRHQTEQVPRLEML
+ESYYLNRNTDILAGERRLQKYGDKADHRAVHNYAKYVSRFIVGYLTGNPITITHQDNQTNDKIIELNDLNDADEVNSD
+LALNLSIYGRAYEIVYRDFEDRDTFKVLDPKSTFVVYDQTLDKKVVAGVRYFEKQDKDKVPVQHVEVYTTDKIYYIEI
+KGGTYHRVEEVEHYYNDVPIIEYLNDQFKQGDFENVIALIDLYDSAQSDTANYMTDLNDAMLAIIGNVDLDSEDAKAF
+RDANMIHLEPGTNANGSEGKAEVKYVYKQYDVAGVEAYKKRLQNDIHKYTNTPDLNDEQFSGVQSGESMKYKLFGLEQ
+VRAIKERLFKKGLMKRYKLLLNNVNLTGLKQHNYAELTITFTPNLPKSMMESINAFNALSGGVSESTRLSLLDFIDNP
+KEELEKMQEEEAQREKQADKRGYGEAFENHLNVDDSNG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Portal Protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 480 ,
+                          id
+                            local
+                              str "sample3_10_29" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_30" } ,
+            descr {
+              title "phage terminase, large subunit, PBSX family [Phietavirus
+ sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 424 ,
+              seq-data
+                ncbieaa "MTKVKLNFNKPSNVFNRNIFEILTNYDNFTEVHYGGGSSGKSHGVIQKVVLKA
+LQDWKYPRRILWLRKVQSTIKDSLFEDVKGCLINFGIWDMCLWNKTDNKVELPNGAVFLFKGLDNPEKIKSIKGISDI
+VMEEASEFTLNDYTQLTLRLRERKHMNKQIFLMFNPVSKLNWVYKYFFEHGEPMENVMIRQSSYRDNKFLDEMTRQNL
+ELLANRNPAYYKIYALGEFATLDKLVFPKYEKRIISDKEVGHLPSYFGLDFGYVNDPSAFIHVKIDNDNKKLYVISEY
+VKKGMLNNEIAQVINDLGYSKEKITADSAEQKSIMEIKTNGIDRIVPAMKGKDSVMAGIQFVSQFDIVIDERCYKTIE
+EFDNYTWKKDKNTGEYYNEPVDTYNHCIDALRYAVEVLTIQKKHQKKDKNALRKIKSLF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "phage terminase, large subunit, PBSX family" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 423 ,
+                          id
+                            local
+                              str "sample3_10_30" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_31" } ,
+            descr {
+              title "Terminase small subunit [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 146 ,
+              seq-data
+                ncbieaa "MNEKQKRFADEYIMNGCNGKKAAITAGYSKKTAESLASRLLRNVNVSEYIKER
+LEQIQEERLMSITEALALSASIARGEPQEAYSKKYDHLNDEVEKEVTYTITPTFEERQRSIDHILKVHGAYIDKKEIT
+QKNIEINIGEYDDES" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Terminase small subunit" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 145 ,
+                          id
+                            local
+                              str "sample3_10_31" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_10_32" } ,
+            descr {
+              title "transcriptional regulator [Phietavirus sp. ctXCUHM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 30 ,
+              seq-data
+                ncbieaa "-QEINVSKSTAYDMRKDILVRLADELGIIH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "transcriptional regulator" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 29 ,
+                          id
+                            local
+                              str "sample3_10_32" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_1" ,
+                  location
+                    int {
+                      from 124 ,
+                      to 834 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:2FJR_A" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_2" ,
+                  location
+                    int {
+                      from 846 ,
+                      to 992 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_10@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_3" ,
+                  location
+                    int {
+                      from 989 ,
+                      to 1174 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_10@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_4" ,
+                  location
+                    int {
+                      from 1210 ,
+                      to 1659 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_10@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_5" ,
+                  location
+                    int {
+                      from 1769 ,
+                      to 1894 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_10@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_6" ,
+                  location
+                    int {
+                      from 1891 ,
+                      to 2505 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_7" ,
+                  location
+                    int {
+                      from 2618 ,
+                      to 3664 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:1Z19_B" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_8" ,
+                  location
+                    int {
+                      from 4156 ,
+                      to 4911 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:4CSH_C" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_9" ,
+                  location
+                    int {
+                      from 4923 ,
+                      to 5177 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF04531.12" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_10" ,
+                  location
+                    int {
+                      from 5327 ,
+                      to 7213 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:4OLS_C" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_11" ,
+                  location
+                    int {
+                      from 7338 ,
+                      to 7712 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_12" ,
+                  location
+                    int {
+                      from 7734 ,
+                      to 9005 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:4DIV_C" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_13" ,
+                  location
+                    int {
+                      from 9022 ,
+                      to 10065 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:3GS9_A" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_14" ,
+                  location
+                    int {
+                      from 10077 ,
+                      to 10769 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF10651.8" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_15" ,
+                  location
+                    int {
+                      from 10773 ,
+                      to 12170 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:3GS9_A" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_16" ,
+                  location
+                    int {
+                      from 12183 ,
+                      to 13115 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:2X8K_C" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_17" ,
+                  location
+                    int {
+                      from 13128 ,
+                      to 16235 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif Uniprot:A0A0K2G452_BACCS" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_18" ,
+                  location
+                    int {
+                      from 16251 ,
+                      to 16601 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF12363.7" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_19" ,
+                  location
+                    int {
+                      from 16631 ,
+                      to 17011 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF12363.7" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_20" ,
+                  location
+                    int {
+                      from 17070 ,
+                      to 17723 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:5A21_H" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_21" ,
+                  location
+                    int {
+                      from 17741 ,
+                      to 18136 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:4ACV_B" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_22" ,
+                  location
+                    int {
+                      from 18149 ,
+                      to 18496 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF04883.11" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_23" ,
+                  location
+                    int {
+                      from 18486 ,
+                      to 18800 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:5A21_F" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_24" ,
+                  location
+                    int {
+                      from 18797 ,
+                      to 19183 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05135.12" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_25" ,
+                  location
+                    int {
+                      from 19140 ,
+                      to 19589 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:5NGJ_B" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_26" ,
+                  location
+                    int {
+                      from 19679 ,
+                      to 20590 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:6B23_B" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_27" ,
+                  location
+                    int {
+                      from 20609 ,
+                      to 21289 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:6B0X_d" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_28" ,
+                  location
+                    int {
+                      from 21334 ,
+                      to 22293 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF06152.10" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_29" ,
+                  location
+                    int {
+                      from 22286 ,
+                      to 23731 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:5A20_A" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_30" ,
+                  location
+                    int {
+                      from 23743 ,
+                      to 25017 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:TIGR01547" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_31" ,
+                  location
+                    int {
+                      from 25004 ,
+                      to 25444 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF03592.15" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_10_32" ,
+                  location
+                    int {
+                      from 25632 ,
+                      to 25724 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_10@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05263.10" } } } } } } } } }

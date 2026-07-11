@@ -1,0 +1,9 @@
+>Feature sample3_222 Table1
+348	1	CDS
+			protein_id	lcl|sample3_222_1
+			product	DNA polymerase II, small subunit
+			inference	protein motif CDD:cd07386
+1663	371	CDS
+			protein_id	lcl|sample3_222_2
+			product	Portal protein
+			inference	protein motif PFAM:PF16510.4

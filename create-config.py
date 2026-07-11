@@ -39,6 +39,7 @@ if not input_dir.is_dir():
     raise SystemExit(f"{input_dir} is not a directory.")
 
 config = {
+    "WORKDIR":"workflow",
     "resources": {
         "threads": args.threads,
         "mem_mb": args.mem_mb
@@ -47,7 +48,6 @@ config = {
     "fastp": {
         "quality": 20
     },
-    "bowtie2": {},
     "metaspades": {
         "klist": "27,37,47,57,67,77,87,97,107,117,127",
         "mem_gb": 500

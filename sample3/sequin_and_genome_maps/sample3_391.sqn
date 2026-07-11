@@ -1,0 +1,346 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Tsarbombavirus sp. ct4DMLA" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_391" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae
+ sedis;f_Herelleviridae;-_Bastillevirinae;g_Tsarbombavirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1120 ,
+              seq-data
+                ncbi2na 'F29AFC012F246F75B33880DEEA63CE022FC311F5C48E223D0A07B
+74E140C85C368CF538E8234C8F8E81F90802BF27363D604718F487F8E38AFE812209298FA8ED7C
+05EB4639A108F9D048F9A19C50278217C00DF9F703F8C97A38730E745F824A2A0049C888E82F2E
+1CCD8D241F9039318829106CF9C892BA404DFB23864C5E92A804822BC325C8C08263A10B73E47B
+F0504A1822860CC68BEC8AACAAE424395717F1F308002AEB82CB3A40C2823C4C3CBB639A230B02
+6BD207EAC23DB0BC3A180F82B75B0C0AEC841C731C42D20A13A108339BD4E0207A641ECC885C5C
+0D8D882F1224ED0909F5E0B6B081F20863AC082702601F090090623F2087DBD22EC31241040E78
+22F7C438C40BC9FD6E03A72FD410071DC007F09'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_391_1" } ,
+            descr {
+              title "Tail assembly chaperone [Tsarbombavirus sp. ct4DMLA]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 204 ,
+              seq-data
+                ncbieaa "-GGLKQLARSPYMRNLWAIMKEFNTLPTDERFKELSHDQIDLIGYSMMEDHRL
+MELARKGLAIDSEHYDSDFDDEVWNREAGDWDVLKPGHDADKIAQQIADATKAEDLKNLASKFDSLDDYNAHLEAGGK
+TAREMEVSDYIDQQLANAYEKAQRIARAGGKHLVDDAYLAGETEEVNSLDKEAMDKSIALFNQQDEEDEYTEL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Tail assembly chaperone" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 203 ,
+                          id
+                            local
+                              str "sample3_391_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_391_2" } ,
+            descr {
+              title "tail associated lysin [Tsarbombavirus sp. ct4DMLA]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 147 ,
+              seq-data
+                ncbieaa "MANKEDYIISVDAEISKAVQNLGKIRKLMDEIEGLRNKGVDNYYTTSQKDMDK
+NMRSMKELAQLYRDLPKSIEKLQSMSSKLPEVGKNLEDDGKEAKAKLKQKQRDLEDFVQSVIQQQQMLKSSYNDTKLA
+FREMASFQQNYSKNFK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "tail associated lysin" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 146 ,
+                          id
+                            local
+                              str "sample3_391_2" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_391_1" ,
+                  location
+                    int {
+                      from 0 ,
+                      to 614 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_391" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif UniProtKB:A0A0A0RPE2_9CAUD" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_391_2" ,
+                  location
+                    int {
+                      from 678 ,
+                      to 1118 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_391" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF10145.8" } } } } } } } } }

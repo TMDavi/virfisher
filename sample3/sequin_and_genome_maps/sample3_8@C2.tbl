@@ -1,0 +1,37 @@
+>Feature sample3_8@C2 Table1
+1656	1	CDS
+			protein_id	lcl|sample3_8_20
+			product	integrase
+			inference	protein motif PFAM:PF00239.20
+3226	1643	CDS
+			protein_id	lcl|sample3_8_21
+			product	DNA polymerase
+			inference	protein motif PDB:5IKN_F
+4411	3245	CDS
+			protein_id	lcl|sample3_8_22
+			product	DNAB Like Replicative Helicase
+			inference	protein motif PDB:3BGW_F
+4688	4422	CDS
+			protein_id	lcl|sample3_8_23
+			product	DNA helicase
+			inference	protein motif PFAM:PF08681.10
+5854	4886	CDS
+			protein_id	lcl|sample3_8_24
+			product	DNA polymerase B
+			inference	protein motif PFAM:PF07261.10
+6159	5851	CDS
+			protein_id	lcl|sample3_8_25
+			product	segregation and condensation complex subunit ScpB
+			inference	protein motif PFAM:PF10007.8
+6398	6156	CDS
+			protein_id	lcl|sample3_8_26
+			product	hypothetical protein
+			note	no search hits
+7519	6395	CDS
+			protein_id	lcl|sample3_8_27
+			product	Integrase
+			inference	protein motif PDB:1Z19_B
+7785	7519	CDS
+			protein_id	lcl|sample3_8_28
+			product	hypothetical protein
+			note	no search hits

@@ -1,0 +1,5 @@
+>Feature sample3_442 Table1
+1	1038	CDS
+			protein_id	lcl|sample3_442_1
+			product	Head Tail Connector protein
+			inference	protein motif PFAM:PF12236.7

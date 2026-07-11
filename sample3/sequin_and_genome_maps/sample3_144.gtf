@@ -1,0 +1,4 @@
+sample3_144	Cenote-Taker	CDS	461	3	.	-	0              	gene_id "lcl|sample3_144_1"; gene_name "tail sheath"; gene_inference "protein motif PFAM:PF11863.7"
+sample3_144	Cenote-Taker	CDS	1568	591	.	-	0              	gene_id "lcl|sample3_144_2"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_144	Cenote-Taker	CDS	1987	1568	.	-	0              	gene_id "lcl|sample3_144_3"; gene_name "Minor capsid protein"; gene_inference "protein motif PFAM:PF10665.8"
+sample3_144	Cenote-Taker	CDS	2370	1993	.	-	0              	gene_id "lcl|sample3_144_4"; gene_name "Virion morphogenesis family"; gene_inference "protein motif PFAM:PF05069.12"

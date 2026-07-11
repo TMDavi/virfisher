@@ -1,0 +1,137 @@
+>Feature sample3_14@C0 Table1
+173	3	CDS
+			protein_id	lcl|sample3_14_1
+			product	hypothetical protein
+			note	no search hits
+454	185	CDS
+			protein_id	lcl|sample3_14_2
+			product	hypothetical protein
+			note	no search hits
+1179	967	CDS
+			protein_id	lcl|sample3_14_3
+			product	hypothetical protein
+			note	no search hits
+1829	1350	CDS
+			protein_id	lcl|sample3_14_4
+			product	hypothetical protein
+			note	no search hits
+2323	1826	CDS
+			protein_id	lcl|sample3_14_5
+			product	hypothetical protein
+			note	no search hits
+2543	2376	CDS
+			protein_id	lcl|sample3_14_6
+			product	hypothetical protein
+			note	no search hits
+2863	2543	CDS
+			protein_id	lcl|sample3_14_7
+			product	hypothetical protein
+			note	no search hits
+3046	2873	CDS
+			protein_id	lcl|sample3_14_8
+			product	hypothetical protein
+			note	no search hits
+3581	3027	CDS
+			protein_id	lcl|sample3_14_9
+			product	hypothetical protein
+			note	no search hits
+3872	3633	CDS
+			protein_id	lcl|sample3_14_10
+			product	hypothetical protein
+			note	no search hits
+4104	3874	CDS
+			protein_id	lcl|sample3_14_11
+			product	hypothetical protein
+			note	no search hits
+4360	4097	CDS
+			protein_id	lcl|sample3_14_12
+			product	hypothetical protein
+			note	no search hits
+4832	4350	CDS
+			protein_id	lcl|sample3_14_13
+			product	hypothetical protein
+			note	no search hits
+5912	4893	CDS
+			protein_id	lcl|sample3_14_14
+			product	bifunctional gluaredoxin/ribonucleoside-diphosphate reductase subunit beta; Provisional
+			inference	protein motif CDD:PRK12759
+6318	5896	CDS
+			protein_id	lcl|sample3_14_15
+			product	hypothetical protein
+			note	no search hits
+8184	6328	CDS
+			protein_id	lcl|sample3_14_16
+			product	ribonucleoside-diphosphate reductase subunit alpha
+			inference	protein motif CDD:PRK09102
+8551	8177	CDS
+			protein_id	lcl|sample3_14_17
+			product	thymidylate synthase
+			inference	protein motif PFAM:PF02511.14
+9454	8555	CDS
+			protein_id	lcl|sample3_14_18
+			product	thymidylate synthase
+			inference	protein motif PFAM:PF02511.14
+9871	9458	CDS
+			protein_id	lcl|sample3_14_19
+			product	nucelotide kinase
+			inference	protein motif PFAM:PF11753.7
+10092	9868	CDS
+			protein_id	lcl|sample3_14_20
+			product	hypothetical protein
+			note	no search hits
+11063	10146	CDS
+			protein_id	lcl|sample3_14_21
+			product	DNA polymerase B
+			inference	protein motif CDD:cd05781
+11288	11073	CDS
+			protein_id	lcl|sample3_14_22
+			product	hypothetical protein
+			note	no search hits
+11848	11285	CDS
+			protein_id	lcl|sample3_14_23
+			product	HNH endonuclease
+			inference	protein motif PFAM:PF13395.5
+12018	11845	CDS
+			protein_id	lcl|sample3_14_24
+			product	hypothetical protein
+			note	no search hits
+12179	12018	CDS
+			protein_id	lcl|sample3_14_25
+			product	hypothetical protein
+			note	no search hits
+13255	12167	CDS
+			protein_id	lcl|sample3_14_26
+			product	Exonuclease
+			inference	protein motif PDB:5HML_B
+13488	13255	CDS
+			protein_id	lcl|sample3_14_27
+			product	hypothetical protein
+			note	no search hits
+13808	13533	CDS
+			protein_id	lcl|sample3_14_28
+			product	hypothetical protein
+			note	no search hits
+14003	13809	CDS
+			protein_id	lcl|sample3_14_29
+			product	hypothetical protein
+			note	no search hits
+14955	14062	CDS
+			protein_id	lcl|sample3_14_30
+			product	hypothetical protein
+			note	no search hits
+15208	15023	CDS
+			protein_id	lcl|sample3_14_31
+			product	hypothetical protein
+			note	no search hits
+15561	15355	CDS
+			protein_id	lcl|sample3_14_32
+			product	hypothetical protein
+			note	no search hits
+18235	15578	CDS
+			protein_id	lcl|sample3_14_33
+			product	DNA polymerase
+			inference	protein motif PDB:4XVI_A
+18879	18256	CDS
+			protein_id	lcl|sample3_14_34
+			product	replicative DNA helicase
+			inference	protein motif PDB:1NLF_A

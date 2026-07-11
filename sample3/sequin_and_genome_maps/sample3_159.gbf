@@ -1,0 +1,105 @@
+LOCUS       sample3_159             2167 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;g_Pankowvirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Pankowvirus sp. ct46IUD (unknown)
+  ORGANISM  Pankowvirus sp. ct46IUD
+            Unclassified.
+REFERENCE   1  (bases 1 to 2167)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2167)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2167
+                     /organism="Pankowvirus sp. ct46IUD"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(2..412)
+                     /inference="protein motif PFAM:PF03354.14"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Large Terminase"
+                     /translation="MIPVWSTACPDWAERLKKGLSIIPAPIYPEQAAHALAIFKQLRI
+                     VDAPGSPTFGESCAQWVFDLVAALFGSYDAQTGVRHIKEVFILIPKKNSKSTLAAGIM
+                     MTALLLNWRQAAGYTILAPTVEVAANAFNPARDMV"
+     CDS             complement(409..972)
+                     /inference="protein motif CDD:COG3728"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Small Terminase"
+                     /translation="MLTTQKRKFALALMSGKNKTASAIAAGYSAKTARVKGSQLAKDP
+                     EVLAFIARKQCETVEVDEVPVYRQKKSEQEDKPRRREVAAIPQPDEKNPEMPPPAVIS
+                     HGIEYMEDGLPDPVKAMGRLLVENINTDPRLALDAAYKLAQFTHHKKGDAGKKSAKGD
+                     AAKKAANRFAVPPPPRLVVNNDNEGNG"
+     CDS             complement(1264..1629)
+                     /inference="protein motif CDD:COG1403"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="5-methylcytosine-specific restriction
+                     endonuclease McrA [Defense mechanisms]"
+                     /translation="MAVLRTLPGRIKTLNTRRVNVLKGEQRRVSGSARVSLKRRIWLR
+                     DAGQCCLCGRVVDLCDSELDHRIALQFGGGNEETNLWTLCTECHRQKSVSETASGMPD
+                     PTLPEVSGGHGRADDIIGL"
+ORIGIN      
+        1 gtaccatatc cctggcaggg ttgaaggcgt tagccgccac ctccacggtc ggggccagaa
+       61 tggtgtagcc cgccgcctgc cgccagttca gtaacagcgc cgtcatcatg atcccggcag
+      121 ccagcgtgga cttgctgttt ttcttgggga taaggataaa aacttccttg atatggcgta
+      181 caccggtctg cgcatcgtag gagccaaaca gggccgccac caggtcaaac acccactgtg
+      241 cgcaggactc cccgaacgtc gggctgcccg gtgcatccac aatccgcagt tgtttaaaaa
+      301 tcgccagggc atgtgcggcc tgctccggat aaatcggagc cggaataatc gacagcccct
+      361 ttttcaggcg ctctgcccag tccgggcagg ccgtgctcca cacaggtatc atccgttgcc
+      421 ctcattatca ttattcacca ccaggcgggg tggtggtggc accgcaaaac ggttagccgc
+      481 ttttttcgcc gcgtcacctt ttgccgattt tttaccggca tccccttttt tgtggtgcgt
+      541 gaactgcgcc agcttataag ccgcatccag cgccagcctg gggtcggtat taatgttctc
+      601 caccagaaga cgccccatcg ctttcaccgg atcgggaaga ccatcctcca tatattcaat
+      661 accatgagat atcaccgcgg gcggaggcat ctccggattt ttttcgtccg gctgtggtat
+      721 tgcagccacc tcacggcgac ggggtttatc ctcctgctct gattttttct gccggtaaac
+      781 aggaacctca tccacctcca ccgtttcgca ctgtttacgg gctataaacg cgagcacctc
+      841 cggatctttt gccagctgcg agcctttaac cctggcggtc ttcgccgaat aaccggcggc
+      901 aatggctgac gctgttttgt ttttcccgga catgagcgcc agcgcaaatt ttcgtttttg
+      961 cgttgtcagc acagcctcct cccgggtcca gaacgcactc agccgggtat ggttcagccc
+     1021 atttttcccg gcgtctcatg ccgcaaatgt taactgctgc ctggttaaca tttgctgaaa
+     1081 aagccagtta acattttttc cgcacaacaa actgaataat aaagataaaa accgcaaaaa
+     1141 tgcccggaca gccagttaac atgttaactg ccctgaaacg ggaatttttt ctctgcgtga
+     1201 gacggggggc ggtgtccggg gcgatcgttt tttcgccgga tgatcccccc cccccagggc
+     1261 gggtcacagt ccgatgatat cgtctgccct gccatgacct ccggacacct ccggcagcgt
+     1321 cgggtccggc ataccactcg ccgtttcact gactgacttc tggcgatggc attcagtaca
+     1381 gagcgtccag agattcgtct cctcattacc accaccgaac tgaagtgcaa tgcggtgatc
+     1441 gagttcactg tcacaaaggt caaccacacg cccacagaga cagcactgtc cggcatccct
+     1501 gagccagata cgacgcttga gggaaacccg ggcactgcca ctgacacgac gctgttcacc
+     1561 cttcaggaca ttcacccgcc gggtgttcag agttttgatt ctgcccggta acgtacgaag
+     1621 cacagccatg taaaatcctc gccatataac ttgtcaccag aggaaagaaa atgtcatcga
+     1681 aaaaccggac ccgcagaaca acaacccgca acatccgatt tcgaaaccag atgattgaac
+     1741 aaattaacat cgctctgacc agaaaggttc agaaaatttt tctgcgtggg tcattgaatc
+     1801 ttgccgccgg gagctggcag cagacataaa atatgcccgt cagttgacta taaaaaagaa
+     1861 tgatacacag tatgctctgc gatggctgtt catataacta tttctttata ttgctgaatt
+     1921 tataaaaaat cacagacatt agctgtatta attccgaatt gaaataatca gccatataga
+     1981 ataaaaataa agcataacaa taataatctt ctacccaatc agtacattac tgctgtgact
+     2041 ccaacacggc agttttttta ttgaacagat tccagtttct tccaccatcg caccggacgg
+     2101 gcgaccatga ggggagaacg ccgcgctccg tttacgcggt aaaccccggt gtgtatcgtt
+     2161 tttgatt
+//

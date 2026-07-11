@@ -1,0 +1,21 @@
+>Feature sample3_66 Table1
+1	1509	CDS
+			protein_id	lcl|sample3_66_1
+			product	tail protein
+			inference	protein motif PFAM:PF13550.5
+1580	2179	CDS
+			protein_id	lcl|sample3_66_2
+			product	Enterobacterial Ail/Lom protein
+			inference	protein motif CDD:pfam06316
+2244	3557	CDS
+			protein_id	lcl|sample3_66_3
+			product	tail fibre
+			inference	protein motif PFAM:PF06820.11
+3559	3828	CDS
+			protein_id	lcl|sample3_66_4
+			product	Putative prophage tail fibre C-terminus
+			inference	protein motif CDD:pfam06820
+3969	4790	CDS
+			protein_id	lcl|sample3_66_5
+			product	T3SS secreted effector Ibe
+			inference	protein motif PFAM:PF11713.7

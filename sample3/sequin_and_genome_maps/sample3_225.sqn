@@ -1,0 +1,452 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Pankowvirus sp. ct3ES6N" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_225" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;g_Pankowvirus] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1654 ,
+              seq-data
+                ncbi2na 'C7A3C5FB668FD2A687FBFAF839F809425903F180A4213B4F07BF1
+652482B3F63F580C5FE10177BFC1F040F8925405355317D04129F4CA04C29D3EF0F50500223FBD
+6E83A04F8FB98DE43E701CB4CD2FF76EBC1EB0FC825D0EBE494F8A7D9EFFC9853D945DF57045FF
+94901810F922F488CC4B53F594A6982B7D3D25B8E82982BE2FE33FF99D2E00BB37E4F370DD7F3F
+AE502E194E0A530E514F80DB3A433A4538FFFF888FE43A580042C021C610BD05C6FF5E1A0E6239
+CC9E062501A01A99DCE07488FBD231E82397E0E480311DAA03248C03C126DDAF59C0EF8E672F41
+F4254AF365390020312802F488920600BE22071C0C00151786BA930D4F1E602FCF0E80A016500F
+2514E59937445664E47E7937B5F1A335BAEAFCD81D359459285BCC564F4DD56B0D51312BBD9493
+0E616A012655B5B75B6BBE52440629ED3A5B49DE1379D451526B7749D79D6AD67D68F9594403D1
+64D4801A93115A69A145BA554529DE4AD7594F5AE14858123D845B4986A6A479E57D5BD3740167
+96D0DAB3978CF5655E52B859755FFD3D274F12000C59D1657916D2B43F548945159AE1E70'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_225_1" } ,
+            descr {
+              title "P22_AR N-terminal domain [Pankowvirus sp. ct3ES6N]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 130 ,
+              seq-data
+                ncbieaa "MVAKNSEASMAATIEASKLPVNHEKTDMTSLAIADRTINVPFHGTNLFLVGIN
+NEPYVPMKPVVEGMGMVWAAQFVKLKQRFVKGISEIEIPSAGGKQLMTCLAFRKFAAWLSSIQPNKVRPEIRDKVIQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "P22_AR N-terminal domain" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 129 ,
+                          id
+                            local
+                              str "sample3_225_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_225_2" } ,
+            descr {
+              title "partition protein ATPase [Pankowvirus sp. ct3ES6N]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 57 ,
+              seq-data
+                ncbieaa "MQDTLFTERKNIKLNLRLPSRLNEDLRRLAEMDCISLNSAIVRLLAKGVREEV
+ANGR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "partition protein ATPase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 56 ,
+                          id
+                            local
+                              str "sample3_225_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_225_3" } ,
+            descr {
+              title "hypothetical protein [Pankowvirus sp. ct3ES6N]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 72 ,
+              seq-data
+                ncbieaa "MNSEIVQILEDALNAENTLGEIADKINSVSVPLNVDALVQLQAQVIAMQKEIQ
+EKFREQNEKLRELLNKKPT" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 71 ,
+                          id
+                            local
+                              str "sample3_225_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_225_4" } ,
+            descr {
+              title "minor tail protein [Pankowvirus sp. ct3ES6N]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 217 ,
+              seq-data
+                ncbieaa "-SHRGWWLWEIDLTVQGGERYFFCNELNEKGEAVTWQGREYQAYPIDGSGFEM
+NGKGSSARPSLTVSNLFGLVTGMAEDLQSLVGATVVRRRVYARFLDAVNFVAGNPEADPEQELRDRWVVEQMSELTAM
+TASFVLATPTETDGALFPGRIMLANTCMWDYRGDECGYNGPAVADEFDKPTTDIRKDRCSKCMRGCEMRGMVANFGGF
+LSINKLSQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "minor tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 216 ,
+                          id
+                            local
+                              str "sample3_225_4" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_225_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 391 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_225" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:pfam10547" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_225_2" ,
+                  location
+                    int {
+                      from 381 ,
+                      to 554 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_225" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF16777.4" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_225_3" ,
+                  location
+                    int {
+                      from 765 ,
+                      to 983 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_225" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_225_4" ,
+                  location
+                    int {
+                      from 1000 ,
+                      to 1653 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_225" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05100.11" } } } } } } } } }

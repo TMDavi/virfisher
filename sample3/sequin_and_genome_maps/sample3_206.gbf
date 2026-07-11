@@ -1,0 +1,95 @@
+LOCUS       sample3_206             1771 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;g_Mohonavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Mohonavirus sp. ctJD7HS (unknown)
+  ORGANISM  Mohonavirus sp. ctJD7HS
+            Unclassified.
+REFERENCE   1  (bases 1 to 1771)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1771)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1771
+                     /organism="Mohonavirus sp. ctJD7HS"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             2..1108
+                     /inference="protein motif PFAM:PF10544.8"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="endonuclease"
+                     /translation="-
+                     ALTYSICNKDRELFPQPFVRNTAVISNKRVCCNCVPSFRFTVQQYEVLAKRYCEALGV
+                     ESLGMSGEFKGDRTIWKIKYKGVEDFTSIESLSNGKLSYKLSCLKRAGKIPLCNFESF
+                     LDKVSPLFPEGTIFSLSMDKTWANAKGTYYIYKCPVCSEDMYTKAGVCTGRFISYRGS
+                     LSKGIKACRCSKGYRWKKDEIELYLNHELSKIGWKFGGWLTDYKKALSFFNFTCDRGH
+                     YHKLTVNDFKCGTRCGQCALEDSLVDGRANGYFPERENEQDYLYLLDFQGEFIKIGRS
+                     FNIKARISKLRSESSIKDVNLIYYSQGNHGDVYRYEQQILDILRIKGYTYTERSFSKE
+                     IFKNEALSEAFDLVSKFGK"
+     CDS             complement(1150..1770)
+                     /inference="protein motif PFAM:PF03864.14"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Major Capsid protein"
+                     /translation="-
+                     TALLEDKILAEDEDGNEITALAKNFSTLWGVSRKTGAINTTTAVNPFSVLATKRQEII
+                     DSMGENNGFTSMVVLCTTRDFNAIVDHPDVRAAYEGRDGGAEYLTRRLGDAVDFQVFT
+                     HKGVTLVEDTSGKLTDGSAYMFPLGVQDMFQAVYAPADSTDHVNTISQGSYLFLNAGE
+                     NWRRDVIESEVSYACMVTRSELICDLTITVA"
+ORIGIN      
+        1 gtttgcctta acatatagta tatgcaataa agatagggag ttattcccac aaccttttgt
+       61 aaggaatact gctgtaattt ccaacaagag ggtttgctgt aattgtgtcc cttcttttag
+      121 atttacagtc cagcaatacg aagttctagc caaaagatat tgtgaagctc taggtgtaga
+      181 gagtttaggg atgagcggag aatttaaagg agatagaaca atttggaaga taaagtataa
+      241 aggtgtagaa gattttactt caatagaatc cttatctaat ggaaaattat cttataagtt
+      301 aagttgcttg aaaagggcgg gtaagatccc tttgtgtaat ttcgaaagct tcttagataa
+      361 ggtatctcct ttgtttccag agggtactat attttcttta tcgatggata agacgtgggc
+      421 aaacgctaaa ggtacctatt acatatataa atgtcctgtt tgttcagaag acatgtacac
+      481 caaagcagga gtttgtactg gaagatttat atcctacaga ggatctcttt cgaaaggtat
+      541 aaaagcttgt cgatgttcta aagggtatcg ttggaagaaa gatgagattg aactatatct
+      601 aaaccacgaa ctgtctaaaa tagggtggaa gtttggaggt tggttaactg actataagaa
+      661 agcactttcc tttttcaatt tcacttgtga tagaggtcat taccacaaat tgaccgttaa
+      721 tgatttcaag tgcggtacta ggtgtggtca atgtgcttta gaagatagtt tggtagatgg
+      781 aagggctaac ggttattttc cagaaagaga gaatgaacaa gactacttgt accttttaga
+      841 ttttcaaggt gagtttataa aaataggtcg ttcatttaat ataaaagcta gaattagtaa
+      901 acttcgtagt gaaagctcaa tcaaagatgt caatttgatt tattattccc aaggtaatca
+      961 cggagatgta tataggtacg aacaacaaat tcttgatata ctaaggatta agggttacac
+     1021 ttatactgag agaagtttca gcaaggaaat ttttaaaaac gaagcactat cagaggcttt
+     1081 tgatttagtt agtaagtttg gcaaataaat aaagaggact ctttcgagtc ctctaatata
+     1141 ttagatatat tatgcaacag taatggtcaa gtcacagata agttcactgc gagtaaccat
+     1201 acaagcataa gaaacttctg attcaatgac atcacgacgc caattctcac cagcattcaa
+     1261 gaacaggtag ctgccttggc tgatagtgtt cacgtgatct gttgaatctg caggtgcata
+     1321 aactgcttgg aacatatctt gtacacccag agggaacata taagctgaac catctgtaag
+     1381 tttaccagag gtgtcttcaa caagagtaac acctttatga gtgaacactt ggaagtcaac
+     1441 tgcatcacca aggcggcgag tcaggtactc agcaccacca tcacgacctt cgtaagcagc
+     1501 acgtacatct gggtgatcta cgatagcgtt gaagtcacga gtggtacaca gaacaaccat
+     1561 actagtgaaa ccattgttct cacccatcga atcgatgatt tcttgacgtt tagtagccaa
+     1621 tacactaaac gggttaactg cggttgtagt attgattgca cccgtcttac gtgaaacacc
+     1681 ccacagggta gagaagttct tagctagtgc cgtgatctcg ttaccatctt catcttctgc
+     1741 aagaattttg tcttctagaa gtgctgtata t
+//

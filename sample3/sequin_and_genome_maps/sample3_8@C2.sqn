@@ -1,0 +1,783 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Schmidvirus sp. ct2QJYW" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_8@C2" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;g_Schmidvirus] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 7910 ,
+              seq-data
+                ncbi2na 'D0F093430A62F4FFBE33EBD0F700265F0056F4C9FD16358C035C0
+3BFF0FFAFDA7DB0CF77CE7FEF7ED9C00195F9B2BDF5DC5BCF3D000A7B357000F33F2D5C3DFC3BF
+399DBC5CE9BC376F3D0BFAFFEDBD0CBBC3FA6F7077E7FEDBD0CBBC3FA6F7077E7FEFBDCEBBFFE6
+EF7FF8FCC9BDFC9BF6BBAFFB3B7F0E7F7F43FCA9BFDF9DFFECFDF9ECEB3D034C27EC2677DF7EBC
+32EFF70FFF05DFF037E3CF9FFA634B37C27D097F26CFA80DEFE0030A65F723DD9FA62FB0FC09C0
+D3007D0A7F47EF733C5C09BEC1C9BC5AB001FF8C9EF37005EBF266FEF701EBCF8E5B53BCF299BF
+2A6FB2BF7F979BEE31DB03025FCA03364C2BD2F0000BD3899BFF3476773F0A6CF7EFA9FA33CA2A
+FB6B4002C0FBFF54FC8F9FFC2DFF09DFBF8BDF70FFF427F730FE7FF26FAFEC3DC09BF0FFDF7DFB
+FCD999FF998F3F4F3D09D9CFDFAFCA9BECABDFFE7EDCFE3CFCAFBDFFA7BF2BEF0C9BFEFC96F377
+EBC3F770E6BFDFAC0E3BBD009BFFC97F4F20CB2FFFE670837FC1C5E30C17B68DB4CB35C63F8DBC
+1BEFCFEDFA0259CA53E0E7E6F170A6F17020F8C0177C023C89C8948225225C65CCD0D41D388CE0
+17DF83F7F0DFBEFC09F7309FB0DFEFF71A6CFF29EFFF097F0FF0BD3D010CCC53CF75FCEBFECFFF
+400B7017700DBF0063FFF00337701DC4DE5A1F03975F90ECDC077D9FDCD3ED93035D9F50098C31
+29FFF9BDDCFEAADFEB290027FF00DFC00365FEB00A37037F8D9DF00D7FEC3C235FEFFBED03DE36
+41030990C83F025BE3FC14AFAA6FCF5FDC0C3654EDFC3B5FB7F0DFCD19F0BEB2EEBE0C0443DC99
+DC3AE9F73D794EDBCD00700441DC6B09F3F0019C0EF7F2E0E6BD676E40C1BFFB0F00EF6C25044D
+000D5D9330C978F7FEFC31FD4D9DAE32F330800AFF3CC0A3EFDDE5BC3B3F289BFF23DC82DF8CC4
+436667027DC3FB5FE737FC8ACDB0C6B2F9001F7C1DFFFF6F7EF2000959398D034DF67026F7F411
+F7035D39010C1701CC25DCD3F709E36667FE6E2B2F411FDA36FFF05FDFC00AFBC9039C0377FC0E
+BEFDBDAFF24D9FD31DC0E32F323FC947DF41A7DEE01E3FFF03DFB083F0183559D114454013F002
+3DFF7E1E10002291D7F4D3806A4119FF0BD9D64FECC2DC8CBDDCC1371067043BFFC25F403EB0D3
+C32D5F47670036FC0D32DB67F7F09DDCC3D99E3F40C1730D343DC003E065FB0D7BFBFBDFC01C03
+7E693F9F776FB2F7C3B3BC3D97F7C3FFD0D70D3C4E67D38997F9A757BE8833F347FF83DE0C3C03
+0E387EC267C8C2DA702CB83FA7B779F7D0DB5F5C432997B3FD37873430C009F3A5F7F230D770DE
+E214BD3F3F441F234D0E030FF7FBD0FE025F20F42BF43B9F5E19C0F40160B0BC7FBBFFBE66FAE3
+B3E8C5C026FF169F7A3659C0C0341E551F4016534B8CFB7000D0F5EEECFFF7BFCAFF8FE001DF54
+754B0C7C5BF6BC8D70FE3B3F17000D00D0037677F6EE9FF3C3DBF9C0E75E4DFC3540CAFF02D9D7
+40DC0CBDA327359F700E59C0F7F1DD039F4D173FF05F32FD09E471FAFFCFFD3770401FC38FFF8F
+80A6C09FD0670E1F7000D373FBFE8CB70007FD3CD03FD4EDBF57CDBF7FEBDFF7DC01F70027340F
+57C2B40E4500AF77FFE0F8F075FF0009C060E3F9BC9FB0FBFFDFF897F9077F42F9FDDF09E3FFFF
+BFAF6C22F7FCC2767D8DBD539FFD3EBFB5FDEAFDCC00030D09BDC017A7DE8DAFF7367FC29F700D
+DC03165F42C019CF2D445F69F00F5CF26E7EC0F06364D3D145C52390256F33FA8FE9FB2D03E35B
+8FDB6FDBE779F67FEC9FA7FD00E4E174C8FDBECBF6983A3EBE3909470364D7E67F429F64FAE402
+A7FFCB9CC9F0FEE7DD9E630F400F7D009C1776CFAFCAEFDBB703C5C032270002470063C0C0728F
+203FF89FF00820FFC528FFF037EFAFE4837EBFFF7D03DF8BE003FD1D19B33FD3BF3FE37FCF0AC0
+67A00C3E7EE8F89F6B34DA6FE29F83FBAFF3513A7F3FD4EEBE6E7BFFDFBFFE9F8FFA7E2FFC800F
+9538E0F8003F140ED534FFF6777F40F43305C1DFE2F6FC2CFEC0FBFCB9F73E0DBF673B7D0CB89F
+00BAF9B9FFD1309303673673B48876F4D3640FDBF88FE6CC160FD3ABEFF08CC3D3EF8D7FFBEBFC
+19CDC067F032B93037F16236F88E903FEC32FBFFAFDFFDFDFDEF47151B364C25FFFF427EF0037C
+26ECB2C343BE237FE037EDA7BFEAC0C67E7C8099FD007DC0D8D9FF2EBDFBF4ED0165FFFFA2C232
+0C9DBCE67CF5D1BE4067A378DBB9BFBE8BDF70FFF0E0340007C1D64D5FD7EF6FEB0BCACF800F54
+EBFDD7EEBFEBDFB7EBFFBFDFD33CF0F5FC00E59DBDFDEE9EEB3B36E4CBC833BACFC0D3CE553BFF
+22353028DF654E7CD3427E40ECEDBBECC09FFFDFF03F0A7F4B2E5F019FDE01DF8B5FF2A39C2003
+4FFFCFBFAF67F7F09DFF00D7F716BDC103417970E7ADEBFFAA7EC0A45E0ABF0A3FB43BE3FFFBFD
+00D0CD9D4C02670FBD97B5F016B00065BCF00097F25F03CAE4EBB00DBFE374DC0701A36DFF094C
+FC9BFF09B8FF800687FFDCC097DFBD900F70027FF0C993C0BF3C0B3DF78C7FF009BEFBAC3F10C7
+F7F2E3FE847F307FFF84FCB2FF80DBDC0DF8D93007427EFD7C2973FFF5F0027F7B25EF73AFB77F
+8FFFCA630487FF77FE7FF34A6C035EFF24FFC83F8DC0742D77033DC19F8D3E7C0F497FCB097BF2
+9C1DAE99F9EFFCBB2F48C8BBBEDDF0B232EEECE4F04157FE3F7F067E7EC2FB7705BAFFF8676702
+9DFFEEAFF0267BFF26F67B55F29FE9B9FE9FD2DD9FFB49BDDCBFF999EFFFF0DECF9F9B8FD1C25C
+D027CE9EDD3FFFB74FF3D5FDECD7C1957F326E89BBA3C0CF3C09CFC0037B0FB8840C4E2CB99FAB
+FF0'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_8_20" } ,
+            descr {
+              title "integrase [Schmidvirus sp. ct2QJYW]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 551 ,
+              seq-data
+                ncbieaa "MSWIDIGVGSGSSGSSSNLLRGFINSLGNALGNASIQWPSGFPRQINNVNDQI
+VGYYDDPTGYYQVVKRFLAQKNYYSNERLKNAFEHIIYQENRIREINQEITAKQNAINNLNSQKNNLNNQIDKQKEPY
+NALNQEIASLNNEIIAQKRAIKQEEEKLNALELQTNAKKQIIESLKKLEELKQELKRLKKQSKWEKQFTFLTDNPPNI
+QAQQEYALNRASDKNALMNFFLTEPYAIFPKGFIYEYHNAGKETYNALNAPNNMDGINNQFRTNALNQVLDNSYQKFL
+PGNASYNALGNIEQVKALKFYDLALNYNSPSENLEGALFFKQISQYAKGLKLKILIAKSNNQDLKEVKKLENTINQEE
+ERLQAYDLNTIQQEIQKEQENALKLKESIKDIQNHTETLKNAINQKEHAKNTIEQQKQELERQINTIERQKQELERQI
+NTIERQKPNLNNEINAIGNERINIKELGTKYNFLGIQPFLNNNGRGRTYARAFFSDKNKSIREYYEAETKIKNILGFY
+RIGESYERVLRRFLELNQYQQNELALLMLN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "integrase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 550 ,
+                          id
+                            local
+                              str "sample3_8_20" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_8_21" } ,
+            descr {
+              title "DNA polymerase [Schmidvirus sp. ct2QJYW]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 527 ,
+              seq-data
+                ncbieaa "MITNFEGLKNIVSVVDVIENYLDLYKCGANLKACCPFHDERSASFFVSQEKNL
+FKCFGCGVSGDSFKFLQEFKKISFTEAVEEVAKIYNYHLEYESDAKTERNNHLKEILAFANNLFKERLKNDPKVLNYL
+TQKRAISLEMIEAYSLGYCLHEDLEVLKERFSEDDLIACGLFSNKNEKKELRSFCNYRITIPLKDSKGQIRSFSARLC
+ISRLLESKNAPKYINGRETILYNKTFFLYNYHRAMESIKQKNQAIICEGFFDVLAYEHFNYKNVICTSGTAFTKEHLA
+FLNKLTVELCFSFDNDMAGIEATIRALELCLFNHTTNLSVIKIKDKDIKDMGDYLERNKRPNLVKINGFKFYCAYLLR
+SEFDNKTKDLNYKRILRAIKDLDPFTKGDFLKILKSFLPTKDPQIENAKKPVLSLLEARIYATMIESEEFRYIARRHL
+SPADVEFRDIFKKIVLNDFRGLDFLKKYKTIKENNGIYCLNELKIKGLKNSLKYAVENKDYKLIEALNNKIKEIQEGF
+ISHELD" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DNA polymerase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 526 ,
+                          id
+                            local
+                              str "sample3_8_21" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_8_22" } ,
+            descr {
+              title "DNAB Like Replicative Helicase [Schmidvirus sp. ct2QJYW]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 388 ,
+              seq-data
+                ncbieaa "MENLIMKSFLDYPKQIDDFLEVISVESFTPFNQKIIKVLLEMKNKNQVVQLET
+IRLKIGDEAFESKEFSGILEADSYPNYLDLRSDFKTYLGLKMQEHLANELIKATRKSEIFDFDFLGKYIKLGSNRNGK
+YYWEWEEFFKSKPKTEKIHTGIDFLDNITDGGFEVGQLILFSGDPEAGKTLLGIQYITNAQQKHKVTYFGFEFSVRKH
+IETLNSKAFKLNKENYFIDDLSCEINELVSQIRGLSKEGHKLFIIDSQMKIQAPIVGRTIEEAETAKFTTLADLSKRL
+QVIIILIIQNSKSDKYSPTGSRKGAHEAHVMIRIEKIKKGELTYIKNYNERSKCRKILVLKNKQTGLQGVQFFRIDDY
+RLFEISANYRELKESDDYDLNDF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DNAB Like Replicative Helicase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 387 ,
+                          id
+                            local
+                              str "sample3_8_22" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_8_23" } ,
+            descr {
+              title "DNA helicase [Schmidvirus sp. ct2QJYW]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 88 ,
+              seq-data
+                ncbieaa "MKKHGNDRSELIKELLRTKQKKISLRESNLKELQRLKRKNNYKLTQIIRLAFL
+KGVNQFKKENLLVHLTLREFDSFLEVLEEKNQKKR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DNA helicase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 87 ,
+                          id
+                            local
+                              str "sample3_8_23" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_8_24" } ,
+            descr {
+              title "DNA polymerase B [Schmidvirus sp. ct2QJYW]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 322 ,
+              seq-data
+                ncbieaa "MNYILKQPMKFGYTQISNEICDDERVSDIAIAIYAYVKKHATTFKLTIEDIAK
+RFNRSTKTIYKYLNELKELGYIEFERERKNDGTFGKFFQFIMGNFSKNSSQNQAKKQEKTARNHMENKAMWIKPQIQA
+SNADDTEAQSTSNYFPAFTLIKDQNKHENIRVSENFSTQEFEEKNQDSANQQDLKNPGKNSSFKSSKISNPSLFNRFS
+AFFSSILGNLDTKHLNQYERLAFEEFLNYRSEKHKLSYSTKKALLHQCEALKAQGCDLVACINQSIRRNYNEIYEVMH
+FEKPSYKSEAEQRNDEITDQFDYKPNPKYNGLCIW" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DNA polymerase B" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 321 ,
+                          id
+                            local
+                              str "sample3_8_24" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_8_25" } ,
+            descr {
+              title "segregation and condensation complex subunit ScpB
+ [Schmidvirus sp. ct2QJYW]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 102 ,
+              seq-data
+                ncbieaa "MKQEPLKAIDLEVLKALSKQAYLPKTADKISKDLNIDYYYTLKIFNKLEKKGL
+CDTWVVNRKKEKETKNNYYKICHLNDLGKDLCTYLKRLDSVKTNKKDQQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "segregation and condensation complex subunit
+ ScpB" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 101 ,
+                          id
+                            local
+                              str "sample3_8_25" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_8_26" } ,
+            descr {
+              title "hypothetical protein [Schmidvirus sp. ct2QJYW]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 80 ,
+              seq-data
+                ncbieaa "MKENKNQDKNQNHKEKTMGIFQYLTYQTNKERDAELSFFDFIKKLEELQQTHT
+IRSSVCNVRNKRITSYSILLQKKGGLT" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 79 ,
+                          id
+                            local
+                              str "sample3_8_26" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_8_27" } ,
+            descr {
+              title "Integrase [Schmidvirus sp. ct2QJYW]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 374 ,
+              seq-data
+                ncbieaa "MHTHTIYLRDNTLYLNYTKNSKRHRVSLNRLTKRLNLSNDQALEYLEDLSLDQ
+ILKMLKQDFTPDKKQKRKSLLSPKKIKETTIEQATESFLRKKIGLKETSLSFMRSRFRTISKLLNVKKSYKVSKITKE
+SIVNYHNNAFKKYQKNTLINFNALLKSFLEFCEQEGFIEKSPFFKITLKNAKYGLKDDPFSLDEIKTILHHAPNLRLK
+AFLITAFFTGLRTGEQLALLWSDIDFENKKINIDKSLNPSGAFTSPKNQTSIRQVDLLEPVERILKELKESEPNNKKM
+IFLSIPKRTQEFQKAFKALLKALNLKEKKLYTTRHTFASLMISMGEDPLWISKNMGHNDLNTTYSNYARYIPQPQKER
+AAFLKELII" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Integrase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 373 ,
+                          id
+                            local
+                              str "sample3_8_27" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_8_28" } ,
+            descr {
+              title "hypothetical protein [Schmidvirus sp. ct2QJYW]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 88 ,
+              seq-data
+                ncbieaa "MRQKNETAISFDRLSEITQAIQIKKNSAQKLENADKSETESQSTPKPKGTANA
+KNSALKPTKRAFSERQKTTVRDNLQASVKEIKRGC" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 87 ,
+                          id
+                            local
+                              str "sample3_8_28" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_8_20" ,
+                  location
+                    int {
+                      from 0 ,
+                      to 1655 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_8@C2" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF00239.20" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_8_21" ,
+                  location
+                    int {
+                      from 1642 ,
+                      to 3225 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_8@C2" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:5IKN_F" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_8_22" ,
+                  location
+                    int {
+                      from 3244 ,
+                      to 4410 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_8@C2" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:3BGW_F" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_8_23" ,
+                  location
+                    int {
+                      from 4421 ,
+                      to 4687 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_8@C2" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF08681.10" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_8_24" ,
+                  location
+                    int {
+                      from 4885 ,
+                      to 5853 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_8@C2" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF07261.10" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_8_25" ,
+                  location
+                    int {
+                      from 5850 ,
+                      to 6158 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_8@C2" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF10007.8" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_8_26" ,
+                  location
+                    int {
+                      from 6155 ,
+                      to 6397 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_8@C2" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_8_27" ,
+                  location
+                    int {
+                      from 6394 ,
+                      to 7518 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_8@C2" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:1Z19_B" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_8_28" ,
+                  location
+                    int {
+                      from 7518 ,
+                      to 7784 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_8@C2" } } } } } } } }

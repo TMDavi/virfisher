@@ -1,0 +1,2 @@
+sample3_464	Cenote-Taker	CDS	266	3	.	-	0              	gene_id "lcl|sample3_464_1"; gene_name "IS66-like element accessory protein TnpA"; gene_inference "protein motif NF038385"
+sample3_464	Cenote-Taker	CDS	1002	373	.	-	0              	gene_id "lcl|sample3_464_2"; gene_name "DNAB Like Replicative Helicase"; gene_inference "protein motif PDB:3BGW_F"

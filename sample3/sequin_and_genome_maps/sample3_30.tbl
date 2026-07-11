@@ -1,0 +1,21 @@
+>Feature sample3_30 Table1
+1	1599	CDS
+			protein_id	lcl|sample3_30_1
+			product	tail protein
+			inference	protein motif PFAM:PF05709.10
+1671	3266	CDS
+			protein_id	lcl|sample3_30_2
+			product	minor tail protein
+			inference	protein motif PFAM:PF14594.5
+3287	4108	CDS
+			protein_id	lcl|sample3_30_3
+			product	Minor tail protein 
+			inference	protein motif UniProt:tr|A0A068F8L3_9CAUD
+4125	6521	CDS
+			protein_id	lcl|sample3_30_4
+			product	Putative structural protein 
+			inference	protein motif UniProt:tr|R4JHS9_9CAUD
+6518	9004	CDS
+			protein_id	lcl|sample3_30_5
+			product	Minor tail protein 
+			inference	protein motif UniProtKB:A0A0F6YRV7_9CAUD

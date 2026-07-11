@@ -1,0 +1,77 @@
+>Feature sample3_42 Table1
+2	646	CDS
+			protein_id	lcl|sample3_42_1
+			product	Single stranded DNA binding protein
+			inference	protein motif PDB:3EIV_D
+735	1541	CDS
+			protein_id	lcl|sample3_42_2
+			product	ATP-dependent protease ClpP, protease subunit [Posttranslational modification, protein turnover, chaperones]
+			inference	protein motif CDD:COG0740
+1543	1740	CDS
+			protein_id	lcl|sample3_42_3
+			product	hypothetical protein
+			note	no search hits
+1737	2093	CDS
+			protein_id	lcl|sample3_42_4
+			product	hypothetical protein
+			note	no search hits
+2094	2384	CDS
+			protein_id	lcl|sample3_42_5
+			product	hypothetical protein
+			note	no search hits
+2488	2700	CDS
+			protein_id	lcl|sample3_42_6
+			product	excisionase and transcriptional regulator
+			inference	protein motif PFAM:PF10013.8
+2753	3043	CDS
+			protein_id	lcl|sample3_42_7
+			product	homing endonuclease
+			inference	protein motif PFAM:PF05551.10
+3497	3721	CDS
+			protein_id	lcl|sample3_42_8
+			product	hypothetical protein
+			note	no search hits
+3748	3981	CDS
+			protein_id	lcl|sample3_42_9
+			product	hypothetical protein
+			note	no search hits
+3992	4366	CDS
+			protein_id	lcl|sample3_42_10
+			product	nucleoside 2 deoxyribosyltransferase
+			inference	protein motif PFAM:PF09152.9
+4369	4848	CDS
+			protein_id	lcl|sample3_42_11
+			product	Siphovirus protein of unknown function (DUF5664)
+			inference	protein motif CDD:pfam18909
+4859	5644	CDS
+			protein_id	lcl|sample3_42_12
+			product	DNA polymerase B
+			inference	protein motif CDD:cd05781
+5641	5793	CDS
+			protein_id	lcl|sample3_42_13
+			product	hypothetical protein
+			inference	protein motif CDD:PHA02450
+5790	5999	CDS
+			protein_id	lcl|sample3_42_14
+			product	hypothetical protein
+			note	no search hits
+5996	6085	CDS
+			protein_id	lcl|sample3_42_15
+			product	hypothetical protein
+			note	no search hits
+6082	6324	CDS
+			protein_id	lcl|sample3_42_16
+			product	hypothetical protein
+			note	no search hits
+6332	7294	CDS
+			protein_id	lcl|sample3_42_17
+			product	Protein rec
+			inference	protein motif PDB:3HR8_A
+3146	3225	gene
+			gene	sample3_42tRNA1
+			product	tRNA-Gln
+			inference	tRNAscan-SE score: 39.2
+3230	3301	gene
+			gene	sample3_42tRNA1
+			product	tRNA-Gly
+			inference	tRNAscan-SE score: 64.0

@@ -1,0 +1,90 @@
+LOCUS       sample3_306             1365 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;-_Gclasvirinae;g_Liefievirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Liefievirus sp. ctVHM5K (unknown)
+  ORGANISM  Liefievirus sp. ctVHM5K
+            Unclassified.
+REFERENCE   1  (bases 1 to 1365)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1365)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1365
+                     /organism="Liefievirus sp. ctVHM5K"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(1..369)
+                     /inference="protein motif PFAM:PF17318.1"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail assembly chaperone"
+                     /translation="MEHDEHQDQPQHTEFQRDETPAELPAPEHAGFEGTDTAEPSTSD
+                     PELSIVEEWGGDYPPGTALFCAKFDADDFDADWGEDEFPDGATVAIRRGSGVPPQGWI
+                     IRHAHLSDLERTKAILEKHAS"
+     CDS             complement(470..1084)
+                     /inference="protein motif UniProtKB:F8S0S2_9CAUD"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail protein"
+                     /translation="MTTPVVPSPLGDYSQVFAATPSGLQTAGGLYIAPAGTTLPTDVD
+                     EPLNPLFKSLGYVSSDGVTISIDGSTTPIEVWSGERIGSLRDAFAIEYSMSLYQVLSP
+                     HVNAVIFGDGSVTTAAATEEHGNRMKVAISSRMPKMASLVLDAFFEDKAIRQVAELVQ
+                     MSDIDDITLVHNEPMAFTPTFSVFRGHNGDHVVQYSDDGQKIAA"
+     CDS             complement(1081..1365)
+                     /inference="protein motif UniProt:tr|A0A0A0RU63_9CAUD"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Head Tail Connector Protein"
+                     /translation="-
+                     RRRGPVADYLIRTRVYNADAYECGQHATLLHAALLGAAQARIVFPDVGQLWVTGTEHV
+                     SGPSDITDDDTTSLFGQAISVFWTVALKPIEGNTP"
+ORIGIN      
+        1 cgacgcgtgc ttctcgagga tggccttcgt ccgttcgagg tcggacaggt gcgcgtgccg
+       61 gatgatccag ccctgcggag gaacgccgga ccctcgacgg atcgcgacgg tcgcgccgtc
+      121 gggaaactcg tcttcgcccc agtcggcgtc gaagtcgtcg gcgtcgaact tcgcgcagaa
+      181 caacgccgta ccgggcgggt agtcgccgcc ccactcttcg acgatggaca gttcgggatc
+      241 cgacgtcgac ggttcggcgg tgtcggttcc ctcgaatccg gcgtgctcag gcgccggcag
+      301 ctcggccggc gtctcgtcac gctgaaactc ggtgtgctgc ggctggtcct ggtgctcgtc
+      361 gtgctccatg ttctcttctc ctggtgggtg tggtgggtgg cctggtgggt gcattgcgta
+      421 gagacgggcc cgcgcgccgc ccaccagacc ggagcgcggg cccgccggct tacgcggcga
+      481 tcttctgacc gtcgtcgctg tactggacga cgtgatcgcc gttgtgtccg cggaacacag
+      541 agaacgtcgg cgtgaacgcc atcggctcgt tgtgcacgag agtgatgtcg tcgatatcgc
+      601 tcatctgaac gagctcggcg acctgacgaa tcgccttgtc ctcgaagaac gcatcgagca
+      661 cgagcgacgc catcttcggc atacgcgagc tgatggcaac cttcatccgg ttgccgtgtt
+      721 cctcggtcgc cgccgcggtg gtcacggaac cgtcgccgaa gatcacggcg tttacgtgcg
+      781 gcgaaagcac ctggtagagc gacatgctgt actcgatcgc gaacgcgtcg cgcagcgagc
+      841 cgatccgctc gccggaccag acttcgatcg gcgtcgtcga accatcaatc gagatggtca
+      901 cgccgtcgct cgacacgtag ccaagcgact tgaacaacgg gttcagcggt tcgtcgacgt
+      961 cggtcgggag cgtggtgccg gccggcgcga tgtagagacc gccggcggtc tgcaatccgc
+     1021 tcggcgtcgc ggcgaacacc tgcgagtaat cgcccagcgg cgacggaacg acgggtgtag
+     1081 tcatggtgtg ttcccttcaa tcggtttgag tgcgaccgtc cagaagacgg aaattgcttg
+     1141 gccgaacagt gacgtcgtgt cgtcgtccgt aatgtcggac ggtccgctga cgtgttcggt
+     1201 gccggtcacc cacagctgcc ctacgtccgg gaaaacgatt cgggcctgag cggcgcccag
+     1261 cagtgcagcg tgcagcagcg ttgcgtgctg cccgcattcg tacgcatctg cgttgtagac
+     1321 gcgcgtgcgg atcaggtagt ccgcgacggg tccgcgccgg cgtga
+//

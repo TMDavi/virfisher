@@ -1,0 +1,2 @@
+sample3_374	Cenote-Taker	CDS	1067	3	.	-	0              	gene_id "lcl|sample3_374_1"; gene_name "Major Capsid Protein"; gene_inference "protein motif CDD:pfam07068"
+sample3_374	Cenote-Taker	CDS	1175	1089	.	-	0              	gene_id "lcl|sample3_374_2"; gene_name "hypothetical protein"; gene_inference "no search hits"

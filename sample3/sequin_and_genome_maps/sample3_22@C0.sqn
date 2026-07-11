@@ -1,0 +1,1636 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Pakpunavirus sp. ctHPE88" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_22@C0" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae
+ sedis;f_Vandenendeviridae;-_Skurskavirinae;g_Pakpunavirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 13987 ,
+              seq-data
+                ncbi2na '65DE150742065974BFD48E56A0B5D50A19A5F11D3D045D7277195
+3FC9481A7712D077B756549BE4EEA64B64B13F938DDC69B7F6EE76B94D509ECCAE12BD28C508FE
+CAEDB23A7E52477FB486442AF8C3BEC24947DD60B5FD63912B59EB6B24B412ADD60C907A0B2081
+F1B5765DD17E57C8B57322635CA560381F85E04A75774CBE4094D722E5B79B7F363AC9D6304679
+FAFDD56A0C1D1D4FFEC4D3F594E234D67D16AB838EBB4CA7D8D3B1E5B2785C9EC8AFE3FB52F77C
+5FECD85166EE0EDF7D5FEB41DB1DFBA48A8C8B5782FB6A148CA20DF81E7E4549FB6903DAD8D3AD
+F04122314CA31B9FAADF8EB7DCFD82FB7DBE057D9ED7EF3DDD942DB58F7D42DDF7DD6B43FBFF06
+38F898B76F847E447C0A634AD96D0E284335DF5FF474FFCDD43800A89609D57EAF207B105E0ED5
+1DEDED8BB4ABF13EF2822C130969DD7F8A31D56491DF42DDE009DDBD521755920A2FBF1ECA97FC
+83B192B1D810C1CAB9D30DAD747DFDA2BEFFC01EC7C17C79A7543A4C091149C519401710810524
+E3C60283523A9389948B5088C98B196921F4B19120E3A4948200328588F8FE4EEF175FE03F80A8
+AA58255DCF9771F59B05F20683B6D361BEB78169D07F28927F2DE77F27D27EF5D9ED167A26BC59
+66E49F4127D8D365F8CD605F6CBDFA767E3AEF0E1BE9192F9F07977DB6F745312BD196C8EC7DD3
+52F4A05A045F4A4531614878CD76B8A0FD3B6FFE569F4D447607E81E251FC5482765C66B5FAE08
+BDB7DBE38652C9C494BFB924E8BDF260654FE5BDAB9F47D7E3AE06861410DF2DF7856922E0B45B
+EC4811826887EF9EF16B4AC4A77EDC5D8DE2A0B512E3663FBE4CD19E69491F486C4A7C62DE7ED4
+B535F82C2EF68CF5F8E3FA3F4DF692C52E044177936F79DF9D962B638E5A233056A360665F2692
+E5A49F4184EBEF489354361F5F9A3965BE5A3E2EFAEBC6F4BF0094FD3F75CFC2C5721EA62EED25
+1F878634C5A13D5A3DE4228F264F2645F775FC34BFC4362315F82C96552019F26ED8977D5CBAE9
+03D090635B783F28493054F126A7F905FF7F7DDF6F85AA7D05F05DE5DB5DF7F81D75244076A322
+ADE81E41DB498CF9758CF076D7F00F4E483A9DD17D5139DFC9491876097DB10A7AF582C142CBA8
+0D0B4A9B9A4925F04C31F7E56A16710FD826B6FB4989361EB0DD42D4F3E1B76B432143A2A24816
+8FD57D6A2163366D4DC79879B39971336A7D7FA52506B86D13547E2E2FE18CB56A0C11484CF3F1
+75FDEFECFEF2411DFBB9C1AEDD63176097F22B32C7763E97EFB412E35714C863F96C86C8B625BB
+D313175CF7B8F16CD1D9E797D8497D22FDFDF2567C1489F624BD2C8F6788179E2C9B79F8C8A77B
+926C565853514E5B74860A4523A58F10E32920127E06D0A96CAE3FF8BBA7F0F960F7769450E8E5
+0B01815D79054E638EB8634A9027149618429EA0C6B4F148C8C380948B4FBBF75FB3BEE0CEE94F
+B328A68AA5ED0957F5D9F0E52FF2E90D7D42361418EC949AD276329148A2C8B20775649DD1A5F6
+E90BD5499A4B09C4045597D17F9ECBB98CD1D445F94B9C943EF6D7EC25E27227F41D7DDA797767
+5F755F5A7E5971CA850A8137E09D161FA6BC7D41E67DB6EB198D3FBE920F5A7EF7D4B7DFE002D0
+5F485F7F7524BEB4E0D14C91BF2448C11651DE8109EF4A326E25818B281DA616D47504331F7C5B
+E9F5479FAF2B4D7D2E7F43A839E4D52064D8314BE15BF90369143AFFE51FC525E255B1B925B3FC
+6FFD9288DAF03E1858C37680C67C94D36EE06D83A7DD4D38887C4B3D7CB68DB1EB64B3961DFC6E
+7D428360B4CD437A0B0537DC45012F7609D645302A1B8D62B1BC945F1AE7D35A72C925590BB692
+9B2831B5B7E1839F90AC97F75A77D17DF53F4D52D4E5D458832471A6B9F81B4AC74344D7E981A8
+1EF490E6F62B5A913F5F77E55FAE01DABFB8817C4165FC7A76343497F86C4C276AE718A2E37D3B
+0D56056D48677D7EC67B9EC6D1370506B437C9063BFD4DA09F8DF7DEB612E2B5B77F51D22A0D41
+607654C251E7E3BABECDD437C929375BFD22B1B796822927EC77F95D8234CB58D36577F43E2658
+DFF4381F7A2B27EE3755BDF7E079684A68BB2DE5383F7EB64A9BA29244A7715A95A6F7D4DF24D4
+2D7C125FF648BD46F4B18251AE75E32B8E377905F7DD41E0DA61052F7E3B2FB56B684BEB2DF6E3
+5E414B94C49AEF65FC6D32312CB024CDA7982D8A0D8135AE5239F9A0B637EBB451499862127CD4
+87BA51604AD2AF10B7E8CC18AB36D83145E7E54D42CDE5850B2F2145357B9D8658CB02D4CDF510
+9F4D84C2B60BC34EFB8947199F8DF99F89132F7E077F49A4AE0CC77168BB2D7E22D107DF4BBA24
+E8239FDA49F75BB1DD95B4086CADA54DB20E520CF945B9D751C4392EBBFB2729F0DFB2A9E92EC3
+6321BF4D41297BA5D8CD50B4EFAE13EF3F54D4F62B3E763EFD036FBE4FD7F5D7B018602A38C4C2
+4D1577B417CB3D6ED5A5F5DF5F7894D425DB3D1A67ED2ACDAD48CB6D42D523ECE2DD06DB2C50F9
+534F52E694B53691F2227D1BC34AF7FD81DBDD66D7EF5944D20EF279148FE08E860857E80DF7DB
+12F4917962F25F7851451DF1A1BAF8EF8E06D1DAE9DFAD315F79499381163E77D3E74053520ED7
+826AD8830D19A47607830D2F9D8FE25F8A9E729F5B76B4D8D232099A9F5B7DFEE510B6C589B46B
+9634281945F77D04B76C42DE5F775C5F1874927E3E6C77592D63D48B84B95A4CE298BCC0D40122
+E074D4712C8FC54E56392658CF4435A541A8E5D794C97DE89F7C981AE922837DD05E449F4C4F62
+6D8B93485710C59CAAD4EC6A76320E47840758F86549FD031DBCAB7F1AF4FD4D38117E57DA09F3
+69E5FB79E5DDB5E6D367B601220E3F9D816B7251D31E25EC9E7D4E551DD1632CA9E147A2DAF4C3
+477C5979D96B4D31D7E24DE839E327AD05D165C430917DF9EF9CF7E05E078500276435F56B7658
+CA77882F7DA4E359EFEC94B8BD30F2CB2CA33278BE437652DD6AD8053B247580C7A42FD7E84A51
+8C14668D31891E77F0FE26F8DDE6F03D2F54603D475DF6DF755A9B77F5E77D22242BB151195043
+2917FBBD56B3C634B14C85FCAFB759EFB4997F7D693EA8426B7EEB4831236316E4C9643FA946B4
+FFA13005D7C7D21051A2FC9344FBBDBB415775886CFAD593E46B5328125178C9689522DB87B53E
+37126F77B41474F4FD6206EE82C8ECC923EEBF74BB25F4E98B65F774CE3E0E9880D64C37D81A14
+752CAE901D85DA225F5B6F7ACB85BDD315D447AE1139752E1F9E4D4D40541B7101D27DAFF77511
+4DE476AD6F4F315D71979FA1074899D8204AE0AC76309DD67F6DF6C9E544D0C190577DB71E638C
+BA411A55A08EB349B6D3E35D1FCD15F7D3F0D9D7DEFEE7CA7D65ECFEBFCD5DDC58297BE1EEF480
+7E044ABDF7C94C831D78D44FC79057CC52395B7CE1A24E129DD423B29063248B7FDBBB7753BB5D
+7309BB82D7D02A13A14F1F7EB7E52DD46B435E51539D3B2F865BE9ED3FE1335ECCB5B51FC510A0
+E6A0ED0115FE4FD8D53A251F4DEA11020B6A33F793F4F3D625F09D4409E105FD4F5A4A7950D4CC
+BA9DCAC9F3822047D45B5F427481A1A5D761657378E4876C2DEDC947405D7E0821B1D828BEB4C3
+7907E57538BF96D465F6DF4FD5483680690676034275082729D09DD8335AB4204C74AFE3300D62
+1092ED4D035494FB2EA0382C9DDC951B9F41C4374D99F1DE1D39F11175F4BFC322220DCA037E8C
+CA8D8BD941E5D0C259391E19D3CDF7DF708F10670CC7C651EB4C41D4DBD1752F837EB42C4C5F93
+F4D420B038BDD5EF4145B5E3C19579C5D31EC838AEC6F17F5CDB037DDC71391C612BA2FDB7F7F1
+1D3291B51F7187E14B5B279D84874F4B6789BC9688B530ACB6EB44160A5DB72AE7C6A27FE797E4
+663B0234826D841C41257BADAECA6DC86C79104F7DCBD2D34612C5FD0975E62B4D10EC549CDF71
+8356C9492F4D406D4E61E654D9FE44D4BB3B3643297C285158DD51F417D30DD9D39FC7577BE327
+6F9F7F9753B2936CF9D47B51A282B4F3519E06AFB6D054C4887FCF504FF5383AD9FE5F7B96E032
+36A056CB56C947707759EFB4ABA6E4B8718D13E0265D4095782B353863DE0A422AC8878DB76DB2
+D8190F180AF654E0D79C1EB533CFC675FEE331D6EBA5AE5128384A25905424845DF6E1212A4779
+80C3152DD56A98483881804C742F58DDF2768839F290EBA47C96C040977E2A26D5DD80C3F53035
+D77FB1F40EFFB3FC84C52DEA97F744A2B88FAB5A7D7763FDD2B9755A94C7E524B948EB1977CD3C
+BB8DB10475B63CF90493957D1663520185F6ABFD74901E5C22DF35F24DE76B224D6ADF2A450BB7
+9B278067DEEC957E5ECD76FE47D17D2B9EB897FD32BECF531C790274514E436FADD56C5C622935
+4825A8C6ADFEC37DFE3F5D4C95DD7719971ADA324B79429F5177275694DB4D82CD64B63C98A5D3
+14B54BED455948F7227D09F4C6346CB2B630ADF46B8304E7D3F311D779AF8FE23C7711AFC4AF1E
+D09DFB3923236B2E8A485ED5CA7E531A3FF597084E5DEB79776774F39238B6B89AA24EA75F329D
+E27F55FDAB6D9E57BDD23D874A399F927F5DF4C6731E7A5AE2E1BA13F77524A5D11FC51A3CFF7E
+D0A73E11248E0D4E4831061FD0441288004C3823E33D886290A82D2623EDF68843B25EE5E6A7C0
+0898B1261317B333448EB716A212692FA36635B85F7239E00DE71E97C8989CF85DAFAFC10B0DCD
+037043FF04288918E08F8CF6225B5400BC988CBBDAA80878BF909DBC302A088CBD769733EC9C80
+408A9344E9966ED0F26164E8678837DD925FA24657C376BEBF843C372C0FC03028A0CCE243D508
+59B1F958B2F6CD8E3B821535C19E125D8DE99FBEBAFA4B9B0D018AA2CD296B8DE90DC4F82E8753
+AD5EC8415CFFE0F5E6E96C32AD810AE8022CF760D0853827D90227C942878DB17BD3926A4B520'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_1" } ,
+            descr {
+              title "HNH endonuclease [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 27 ,
+              seq-data
+                ncbieaa "MSVRPRPWEDFPGIWKTEAAFLSWVRG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "HNH endonuclease" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 26 ,
+                          id
+                            local
+                              str "sample3_22_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_2" } ,
+            descr {
+              title "Exonuclease [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 350 ,
+              seq-data
+                ncbieaa "MSEKEEDIVLIDGDLIAFKCASVNETRSIIVKNKLTGEEETWKNRTTWRENNK
+DSEGFNEDNFEIEDHQDPKHVSYGISVVKTMIDRICRQAGCKQFKILLSGPDNFRDSIPLPQEYELTKGKKTFTRGGR
+YKGKRTGQIKPLQLGQLRQYMIEAYDTIIHPGEADDLMAEMMYKNGVSYSRGETKQRVIGATIDKDADGTLGWLCNYE
+REPVQVKFISGLGSLYRDSKGKVRGEGRKFFYFQLLFGDPVDCYRPADLCIGKDFGEVAAYNIINPCASDKECWQAIY
+DTYKSWYPEPVTYTAWDGTEHTKDAVEIMQMYCDCAHMQRWAGDRVDCRAVLAKMGVELGGVE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Exonuclease" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 349 ,
+                          id
+                            local
+                              str "sample3_22_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_3" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 73 ,
+              seq-data
+                ncbieaa "MSTLVIVRVPAYILKGPTVNNSFCGEVWERELFRDLKSAAGSILKGEPAYVTL
+PNNVNPDTRQTEWDIQVVQF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 72 ,
+                          id
+                            local
+                              str "sample3_22_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_4" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 77 ,
+              seq-data
+                ncbieaa "MQINLGPIFLLAAIILCVLKSAGVLAISWTLALMPIWIPFVIMLVVLVGFGVV
+AGVLYAIGSRSKVKYSFKNNLRKK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 76 ,
+                          id
+                            local
+                              str "sample3_22_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_5" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 334 ,
+              seq-data
+                ncbieaa "MAFKLNVTTNTQSGNGGIRKEVDWDALNNHVVEAAGTAAKARSIPGYISGIID
+LGEQEQNDAEVVFTGTAEDEIQIIKEYPNTYFKDGLDKQTRKPVRLKCWPQRDMQQIAITVDFPQIEVDKSLYLTGNS
+NKSPLRVLYNGDFTLPGQKTKIVGRPFTIKEVKHPNGKWAFAKNSMLHKLAVATGVINEDELFTKDRVGELLGKVAQF
+QVRVWMKPGKNDMKFLTEDISLVGMVPEGVPVPELDEKYIYGVNLYGENDEEAVKQLRANVINTIKRAKNYEGSDIKA
+MIEAVEAARGGNRSSGDSEEQAEAKEQTKAAPKVEPVQTNVDDDIPF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 333 ,
+                          id
+                            local
+                              str "sample3_22_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_6" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 238 ,
+              seq-data
+                ncbieaa "MSGVIPGTIVKLTQVGCDVTVGWPKEARYVGAYAVAVDGRDIGLPEGEIRFCS
+LHWSIDRDVNNGLGDYQSMLADNDRFEIVAVPGKKYYVKAAAARPDLISHYLVTSEPALYEGFESCWLKSMWEGESPF
+CMNFKGRVNIGGNIADELQFQTLYPEFVLEEFKEEDEAEVKVEAPVNEEKKEKVAKPAVMGYAVLNSDGSLLEFATTR
+EEARHAKRFWGGYFKGISIVKLIKGEKVR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 237 ,
+                          id
+                            local
+                              str "sample3_22_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_7" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 55 ,
+              seq-data
+                ncbieaa "MNTARLYVYGKSSMVGITVDNKANREYYTSKGFEVSETPLAHKSVANKYKQKG
+GK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 54 ,
+                          id
+                            local
+                              str "sample3_22_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_8" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 132 ,
+              seq-data
+                ncbieaa "MTLAFIIYLVMTVFPALSSAGSFALIVTIIAWVAGGFVYLASIGGRENSAIKA
+TLKNHLRPLTFKLFLPIIVIGHLVPSSETAWWMVGGYAAQSLYQADATQQVLSESTELLEALVKRAKKETLKAVEGSS
+E" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 131 ,
+                          id
+                            local
+                              str "sample3_22_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_9" } ,
+            descr {
+              title "DNA polymerase [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 904 ,
+              seq-data
+                ncbieaa "MQQRFETIEQYLEWMGNNNVTNMTWDIEATGLLDETSIDYTASPYKIKPSYKH
+HCIVVEEHGGNILAFYDGPTYVFDGREYTEKLPKASSMLHTEEVVTLKDYTPVEYIHLPLKEFKNYVLKRKIKRVVAH
+NMINFDLMSMKLVEDMDFTIGVEHRDGGLTTWSADTWMGKQVVFDDTLVISKTCNPDLFGGHSLDKLSRRAGGDTKID
+FRKHLAPDVRFLDFAADMLYYCIYDVKANTAVWHWLQDHEDYQLSDRDNYIKNWLSPIQLEKKVAEIITYQEHRGFVL
+NVELCEKAVKDLDAKMEERRARVEPVLPPRPATKKFMADYTPPVRQFKKNGEITSYLQKFIEKIGAQLKEGDDRTMIF
+EGKEYKLPLPADVPLKTEMPAKIGDTTHIKQWLMGEFGWIPSEWKETDLTVDQKKIKLPMENIVAKIDRWLDVTYSTA
+YKEERLDGFGDYMKITPRSTRAYVRQRLIDRASKGGCKVLTNPSFTKGQEKEMCPDLERIAEQFPFAKDVIEYLTFKH
+RRSAILGGGMDWDEMEEGEEPEKGYLASIRQDGRIPTPADTCGAATSRMKHRKVANVPRITSLYGAELRELFGVEDGY
+FQIGYDFDSLEARKESAYCDQYDPTKEYCKSLMMEKPFDVHTMMAKRISEIIGRQFNRSPAKNVKYGCTYGAQAGKVA
+KTIGADLQTGQLVFDAFWDAAFPLKALKDDLTKQWEANGKKYIVGVDGRRVPTRSAHAILNSLFQSGGVICAKRAMVI
+HDQLLEKEGLKVDFFKEDWKNKPEFCQQMIAYHDEAQLEVTAKSVSFKMFPWSLVGGKPEGEKEREAAEKELKALAQA
+YKDEQLASTGKVWSDIAHYSKGEGGVFVAYCRAGELATKAVRAAGEFYSTPLVPIELTAGYIVGRSWKDCH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DNA polymerase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 903 ,
+                          id
+                            local
+                              str "sample3_22_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_10" } ,
+            descr {
+              title "DNA polymerase [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 620 ,
+              seq-data
+                ncbieaa "MSKMTVAQIAAMHGIDLYSDHKTACPQCRKKGADNSGDNLKVYGTDRNTGEHK
+GAYCWACGYTLLSEEQERDARGEDEEEWNFVGTEFNAEINAQIKEQCSYDPRGYRGLSKETCQYFGVLHGFDPETGEI
+ATQLYPTTTNYELTGYKQRIMPKNFSEPIGETGKDCELFGQFRFKNSNSKKVLIVGGEVDQLSAFQMLKEYDDRRAGG
+KSDYEPTPVVSPTIGESGAWKQLQAQYEWLDRFEQIILCFDSDDAGREAADKAADKLPKGKVFMMEMNRKDPNEYLKA
+GRQSEFVSAFYRARTWTPSGIVGSDALDARMYEAVQVEKIPLPPFAKKLQKAMAGGIPLGRIVNIGAASGMGKSTVVD
+EFTLFWIYNSPHMPGTVTLESDCGEYAIKLLSRKVGEKADLYETVEEKVAFLDRHRDARYDLWHKEDGSPRFYLIDDR
+DGSLAALKAQIEQLIIQFECRVIILDPLQDILDGLSNEEQSVFMRWQKGMTKSHRVTFININHVRKSGGGQKANSAGA
+ELYEEDFQGSSSIFKSGAANILMWRNKDAENEFEKNLINVKLSKCRWTGRTGMMGNWYYDVETHTIWDLDDYLDRYPD
+KRREYEAWMAQKEEEGRDTEY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DNA polymerase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 619 ,
+                          id
+                            local
+                              str "sample3_22_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_11" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 61 ,
+              seq-data
+                ncbieaa "MKATLRNHNLLYIYFHTFSEMNEWLTENAVDQWTVTTLGSGYQVAVPMDRAMR
+DQYVSERG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 60 ,
+                          id
+                            local
+                              str "sample3_22_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_12" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 81 ,
+              seq-data
+                ncbieaa "MNGPECRWCGEKTEAEFVDVGFGWMQQVTGGMCHQCGGYENGHYQNDGRLSEV
+EFATYWSGPFEDYADFSPFNHMREGDSP" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 80 ,
+                          id
+                            local
+                              str "sample3_22_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_13" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 63 ,
+              seq-data
+                ncbieaa "MKKGDKVRINDDADTIFRGRVATIIAVDEEGCVIDVGSYEDESGELIEYLHLF
+FERSELSKQA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 62 ,
+                          id
+                            local
+                              str "sample3_22_13" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_14" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 42 ,
+              seq-data
+                ncbieaa "MAKKNPVFKFLNTVNRPSVERDKTKYRRKPKHKQKERLNEEG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 41 ,
+                          id
+                            local
+                              str "sample3_22_14" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_15" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 140 ,
+              seq-data
+                ncbieaa "MARQTYESASDRAVEEAVRSELEGRWKCSLHKLPRAHYMDWAACRNGKVVSFV
+ELKARNNEMQKYPDFFVSQMKWLHGIEMQRVFDIPAFLVVKWTDYTGYVKMTANGVNYMSMGGRIDRGDWQDQEVMVH
+VPLKDFTRL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 139 ,
+                          id
+                            local
+                              str "sample3_22_15" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_16" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 100 ,
+              seq-data
+                ncbieaa "MSQSKRDEIVVEARGLESYFISHYNGWDLMDTACLGFYIKPEYVLDPDIRELE
+PSFLELDFERCRFRFWGNEDEGVDGKLMEGKLQIMTNSFEYVFFKEV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 99 ,
+                          id
+                            local
+                              str "sample3_22_16" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_17" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 54 ,
+              seq-data
+                ncbieaa "MELYDQWRKYISVVILEEEDNERQCMRLIEAVGELDPYIQDFLDSLSIKTEGG
+V" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 53 ,
+                          id
+                            local
+                              str "sample3_22_17" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_18" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 218 ,
+              seq-data
+                ncbieaa "MSEIMKVEVGDRVVLKAYCDTYTGCAKRWAQSHGRLDELLATGFVEDSWVHCD
+DLAGGLKGTVVMTELEECCAVRLDAYTDHRAVVVVDASDLYIACKAAKAPVSTLDEAFGCDHDYLMDSPANAQRLNES
+VEQLRTGQVVEVDVPMSVKKDETPPVVVHVVEKIYDRKGNVHLILQYEVAGALIRTVVEQGELIYFLDEMQGMYLTKI
+QLEVNDGVV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 217 ,
+                          id
+                            local
+                              str "sample3_22_18" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_19" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 129 ,
+              seq-data
+                ncbieaa "MDQLAGFMGEPFVIAFDYDETISLYPLAFRIVMDTFRGFGGAFNVIVVTARHP
+DNSGELEWLRDYGFPIYFTAQKAKRPFMENVGIKVSVWVDDNPFSVDNDLPPWTVEQYDAYMEAKKQRAINRGSKA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 128 ,
+                          id
+                            local
+                              str "sample3_22_19" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_20" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 84 ,
+              seq-data
+                ncbieaa "MEIISRGTLPQEALFTAKCHHCLSILRAKRSELEYVSFSFCRPGETGYYFAEC
+PVCHEEVSAWVAAPVIPVAPATTEYITKERK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 83 ,
+                          id
+                            local
+                              str "sample3_22_20" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_21" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 161 ,
+              seq-data
+                ncbieaa "MEEIKEDYKDPYPGFWDASRRYGETNDCMVVSFAVVWNTTYEKAHQHLKVKCK
+RGYRQGATQKRFSYADTWCPKTRMLYRADAKDKTLRQFAEENPEGRFWIAVKGHAVAIIDGVLYDHTNDKRRTIWHCW
+QVWPGEAPEKIERKPDPISPPVRKAPDWYV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 160 ,
+                          id
+                            local
+                              str "sample3_22_21" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_22" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 65 ,
+              seq-data
+                ncbieaa "MKHVIHREDLIDLLRDRMKLEALESGGVDNWDWYEASLIDCGYFDDDGRELEV
+EALADCYPTVGA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 64 ,
+                          id
+                            local
+                              str "sample3_22_22" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_23" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 77 ,
+              seq-data
+                ncbieaa "MKIDIRDEAREVSEIVFGDNVACACGLKKSEYSDIPVYITDGLPGDSGSWIAI
+RDLLDAENLLLALERAIDLGWFNK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 76 ,
+                          id
+                            local
+                              str "sample3_22_23" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_24" } ,
+            descr {
+              title "hypothetical protein [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 77 ,
+              seq-data
+                ncbieaa "MKIDIREPSQKVSEIVFGGKTEFASSLIKGRDSSSAYIVARNKEGITWRRVSI
+SDRMDAENLLAALEHALNLGWFDN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 76 ,
+                          id
+                            local
+                              str "sample3_22_24" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_22_25" } ,
+            descr {
+              title "putative RNA ligase [Pakpunavirus sp. ctHPE88]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 108 ,
+              seq-data
+                ncbieaa "MSNSQDRVLARVVRIDDVKTHPNADSLDLALVGGWQCVIKRGEYQAGDLAIYI
+EVDSMVPVDNPIFEFLRGRNRVEQGGKEYSRIKTMKLRKELSQGLIVPVHAAGSP" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "putative RNA ligase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 107 ,
+                          id
+                            local
+                              str "sample3_22_25" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_1" ,
+                  location
+                    int {
+                      from 1 ,
+                      to 81 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05315.10" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_2" ,
+                  location
+                    int {
+                      from 78 ,
+                      to 1130 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:5HML_B" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_3" ,
+                  location
+                    int {
+                      from 1172 ,
+                      to 1393 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_4" ,
+                  location
+                    int {
+                      from 1403 ,
+                      to 1636 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_5" ,
+                  location
+                    int {
+                      from 1706 ,
+                      to 2710 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_6" ,
+                  location
+                    int {
+                      from 2812 ,
+                      to 3528 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_7" ,
+                  location
+                    int {
+                      from 3530 ,
+                      to 3697 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_8" ,
+                  location
+                    int {
+                      from 3726 ,
+                      to 4124 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_9" ,
+                  location
+                    int {
+                      from 4214 ,
+                      to 6928 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:4XVI_A" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_10" ,
+                  location
+                    int {
+                      from 6989 ,
+                      to 8851 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:5IKN_F" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_11" ,
+                  location
+                    int {
+                      from 8905 ,
+                      to 9090 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_12" ,
+                  location
+                    int {
+                      from 9087 ,
+                      to 9332 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_13" ,
+                  location
+                    int {
+                      from 9342 ,
+                      to 9533 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_14" ,
+                  location
+                    int {
+                      from 9520 ,
+                      to 9648 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_15" ,
+                  location
+                    int {
+                      from 9778 ,
+                      to 10200 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_16" ,
+                  location
+                    int {
+                      from 10201 ,
+                      to 10503 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_17" ,
+                  location
+                    int {
+                      from 10506 ,
+                      to 10670 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_18" ,
+                  location
+                    int {
+                      from 10657 ,
+                      to 11313 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_19" ,
+                  location
+                    int {
+                      from 11310 ,
+                      to 11699 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_20" ,
+                  location
+                    int {
+                      from 11701 ,
+                      to 11955 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_21" ,
+                  location
+                    int {
+                      from 11991 ,
+                      to 12476 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_22" ,
+                  location
+                    int {
+                      from 12488 ,
+                      to 12685 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_23" ,
+                  location
+                    int {
+                      from 13126 ,
+                      to 13359 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_24" ,
+                  location
+                    int {
+                      from 13397 ,
+                      to 13630 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_22@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_22_25" ,
+                  location
+                    int {
+                      from 13661 ,
+                      to 13984 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_22@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:PHA02142" } } } } } } } } }

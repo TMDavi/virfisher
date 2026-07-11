@@ -1,0 +1,17 @@
+>Feature sample3_144 Table1
+461	3	CDS
+			protein_id	lcl|sample3_144_1
+			product	tail sheath
+			inference	protein motif PFAM:PF11863.7
+1568	591	CDS
+			protein_id	lcl|sample3_144_2
+			product	hypothetical protein
+			note	no search hits
+1987	1568	CDS
+			protein_id	lcl|sample3_144_3
+			product	Minor capsid protein
+			inference	protein motif PFAM:PF10665.8
+2370	1993	CDS
+			protein_id	lcl|sample3_144_4
+			product	Virion morphogenesis family
+			inference	protein motif PFAM:PF05069.12

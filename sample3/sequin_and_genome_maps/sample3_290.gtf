@@ -1,0 +1,2 @@
+sample3_290	Cenote-Taker	CDS	3	278	.	+	0              	gene_id "lcl|sample3_290_1"; gene_name "Terminase small subunit"; gene_inference "protein motif PDB:3P9A_H"
+sample3_290	Cenote-Taker	CDS	268	1410	.	+	0              	gene_id "lcl|sample3_290_2"; gene_name "Large Terminase"; gene_inference "protein motif PDB:5OE8_A"

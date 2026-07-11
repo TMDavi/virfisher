@@ -1,0 +1,13 @@
+>Feature sample3_151 Table1
+2	331	CDS
+			protein_id	lcl|sample3_151_1
+			product	tail length tape measure protein
+			inference	protein motif PFAM:PF13406.5
+331	1821	CDS
+			protein_id	lcl|sample3_151_2
+			product	Distal Tail protein
+			inference	protein motif PDB:5LY8_A
+1837	2268	CDS
+			protein_id	lcl|sample3_151_3
+			product	minor head protein
+			inference	protein motif PFAM:PF05954.10

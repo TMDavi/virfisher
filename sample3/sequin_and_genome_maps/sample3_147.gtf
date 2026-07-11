@@ -1,0 +1,4 @@
+sample3_147	Cenote-Taker	CDS	698	297	.	-	0              	gene_id "lcl|sample3_147_1"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_147	Cenote-Taker	CDS	918	691	.	-	0              	gene_id "lcl|sample3_147_2"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_147	Cenote-Taker	CDS	1964	1005	.	-	0              	gene_id "lcl|sample3_147_3"; gene_name "DNA polymerase B"; gene_inference "protein motif CDD:cd05781"
+sample3_147	Cenote-Taker	CDS	2347	1961	.	-	0              	gene_id "lcl|sample3_147_4"; gene_name "Exonuclease"; gene_inference "protein motif PDB:5HML_B"

@@ -1,0 +1,9 @@
+>Feature sample3_243 Table1
+788	3	CDS
+			protein_id	lcl|sample3_243_1
+			product	tail assembly protein
+			inference	protein motif PFAM:PF02011.14
+1561	794	CDS
+			protein_id	lcl|sample3_243_2
+			product	Tail tape measure 
+			inference	protein motif UniProtKB:I6NKY8_9CAUD

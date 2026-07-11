@@ -1,0 +1,73 @@
+>Feature sample3_8@C0 Table1
+1428	652	CDS
+			protein_id	lcl|sample3_8_1
+			product	transcriptional regulator
+			inference	protein motif PFAM:PF01710.15
+2243	1428	CDS
+			protein_id	lcl|sample3_8_2
+			product	hypothetical protein
+			note	no search hits
+2397	2293	CDS
+			protein_id	lcl|sample3_8_3
+			product	hypothetical protein
+			note	no search hits
+2537	2406	CDS
+			protein_id	lcl|sample3_8_4
+			product	hypothetical protein
+			note	no search hits
+2916	2596	CDS
+			protein_id	lcl|sample3_8_5
+			product	Rz like spanin
+			inference	protein motif PFAM:PF10828.7
+3488	2916	CDS
+			protein_id	lcl|sample3_8_6
+			product	hypothetical protein
+			note	no search hits
+4285	3488	CDS
+			protein_id	lcl|sample3_8_7
+			product	hypothetical protein
+			note	no search hits
+4834	4289	CDS
+			protein_id	lcl|sample3_8_8
+			product	Family of unknown function (DUF5675)
+			inference	protein motif CDD:pfam18925
+5555	5112	CDS
+			protein_id	lcl|sample3_8_9
+			product	hypothetical protein
+			note	no search hits
+5889	5563	CDS
+			protein_id	lcl|sample3_8_10
+			product	holin
+			inference	protein motif PFAM:PF05106.11
+6278	6069	CDS
+			protein_id	lcl|sample3_8_11
+			product	hypothetical protein
+			note	no search hits
+7890	6334	CDS
+			protein_id	lcl|sample3_8_12
+			product	Large Terminase
+			inference	protein motif PDB:4BIL_D
+9796	7988	CDS
+			protein_id	lcl|sample3_8_13
+			product	Portal protein
+			inference	protein motif PFAM:PF16510.4
+10293	9856	CDS
+			protein_id	lcl|sample3_8_14
+			product	virion structural protein
+			inference	protein motif PFAM:PF06295.11
+10706	10326	CDS
+			protein_id	lcl|sample3_8_15
+			product	hypothetical protein
+			note	no search hits
+11865	10720	CDS
+			protein_id	lcl|sample3_8_16
+			product	Major Capsid protein
+			inference	protein motif PFAM:PF13252.5
+12466	11876	CDS
+			protein_id	lcl|sample3_8_17
+			product	hypothetical protein
+			note	no search hits
+13263	12676	CDS
+			protein_id	lcl|sample3_8_18
+			product	hypothetical protein
+			note	no search hits

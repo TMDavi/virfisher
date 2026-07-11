@@ -1,0 +1,9 @@
+>Feature sample3_191 Table1
+2	1651	CDS
+			protein_id	lcl|sample3_191_1
+			product	tail tape measure protein 
+			inference	protein motif Uniprot:A0A0P9JG44_PSESX
+1778	1924	CDS
+			protein_id	lcl|sample3_191_2
+			product	hypothetical protein
+			note	no search hits

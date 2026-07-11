@@ -1,0 +1,111 @@
+LOCUS       sample3_168             2081 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;g_Pankowvirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Pankowvirus sp. ctT9XCF (unknown)
+  ORGANISM  Pankowvirus sp. ctT9XCF
+            Unclassified.
+REFERENCE   1  (bases 1 to 2081)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2081)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2081
+                     /organism="Pankowvirus sp. ctT9XCF"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(2..277)
+                     /inference="protein motif PFAM:PF03354.14"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Large Terminase"
+                     /translation="MTIVRRVGDDTAEVAEYVRRIHEAELLDHIGIDPSGVGQILDSL
+                     AEAGIPDGIVVGISQGWKLGGAIKTTERKLAEGVLVHGDQPLMAWCVG"
+     CDS             complement(342..860)
+                     /inference="protein motif PFAM:PF03354.14"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Large Terminase"
+                     /translation="MVYTTTQSNEPPAGVFRQKLQYARDVRDGKIHDPHFLPVIFEHP
+                     PEMVESGAHLLMENLAMVNPNLGYSVDEAFLYREYRKAREAGEEAFRGFMSKHANVEI
+                     GLALRSDRWAGADFWEQQGRRVSLDDILQRADVVTVGIDGGGLDDLLGMYVIGRDRET
+                     REWLGLGPCLGA"
+     CDS             933..1259
+                     /inference="protein motif PFAM:PF06504.10"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Replication protein C"
+                     /translation="MTKNTRFSPEVRQRAIRMVLESQDEYDSQWAAICSIAPKIGCTP
+                     ETLRVWVRQHERDTGGGDGGLTSAERQRLKELERENRELRRSNDILRQASAYFAKAEF
+                     DRLWKK"
+     CDS             1259..2080
+                     /inference="protein motif PDB:4U7B_B"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Mos transposase"
+                     /translation="MPLLDKLREQYGVGPVCSELHIAPSTYYHCQQQRHHPDKRSARA
+                     QHDDWLKREIQRVYDENHQVYGVRKVWRQLLREGIRVARCTVARLMAVMGLAGVLRGK
+                     KVRTTISRKAVAAGDRVKPQFVAERPDQLWVADFTYVSTWQGFVYVAFIIDVFAGYIV
+                     GWRVSSSMETTFVLDALEQALWARRPSGTIHHSDKGSQYVSLAYTERLKEAGLLASTG
+                     STGDSYDNAMAESINGLYKAEVIHRKSWKNRAEVELATLTWVDWYNNRRLLGRLGH"
+ORIGIN      
+        1 tgccgacaca ccaggccatc aggggctggt caccatgcac cagcacccct tcagccagtt
+       61 tgcgctcggt ggttttaatg gccccgccca gtttccagcc ctggcttatc cccaccacaa
+      121 ttccgtcggg gatcccggct tccgccagtg aatccagaat ctgccccacc cctgacgggt
+      181 caataccgat atggtccagt aactcagcct catgaatgcg acgcacatat tccgccactt
+      241 ccgccgtgtc atccccgaca cgccggacaa tggtcatatc tccacaggca acaagatcct
+      301 gaaaccggga cgcctcgctc ttccgtcgga ccaccgcggt ttcatgcgcc caggcatggc
+      361 cccagtccca gccattcgcg ggtttccctg tcacggccaa tcacgtacat tcccagcaga
+      421 tcatccaggc ccccgccgtc aatccccacc gtcaccacat cagcgcgctg caggatatcg
+      481 tccaggctga cgcgcctgcc ctgctgctcc cagaaatccg cacccgccca gcggtcagaa
+      541 cgcagggcaa gaccaatttc cacattggca tgttttgaca tgaagccacg aaatgcttcc
+      601 tcaccagcct cccgggcttt acggtactcc cggtacagaa aagcctcatc caccgaataa
+      661 ccgagattcg ggttaaccat ggcgaggttt tccatcagca ggtgagcccc gctttccacc
+      721 atttcaggag gatgctcaaa aatcaccggc agaaagtgcg gatcatgaat tttgccgtca
+      781 cggacatccc gggcgtactg cagtttctgt ctgaacaccc cggctggcgg ctcattcgac
+      841 tgggtggtcg tatacaccac aaacccttcc gggcgggatg aaccgccccg gaaatcctgg
+      901 agactaaact ccctgagaaa gaggtaaaca ggatgactaa aaatactcgt ttttcccccg
+      961 aagtccgtca gcgggcgatt cgtatggttc tggaaagtca ggatgaatat gactcacagt
+     1021 gggcggcaat ttgttccatt gccccaaaga ttggctgtac gccggagact ctgcgtgtct
+     1081 gggttcgcca gcatgagcgg gataccgggg gcggtgatgg tgggctcacc agcgctgaac
+     1141 gtcagcgtct gaaagagctg gaacgtgaaa atcgtgaact gcgccgcagt aacgatatcc
+     1201 ttcgccaggc ttccgcttat tttgcgaagg cggagttcga ccgcctctgg aaaaaatgat
+     1261 gccactgctg gataagctgc gtgagcagta cggggtcgga ccggtatgca gcgaactgca
+     1321 tattgccccg tcaacgtatt accattgtca gcaacagcga catcatccgg ataaacgcag
+     1381 tgcccgtgcg cagcacgacg actggctgaa gagagagata cagcgcgtat acgatgaaaa
+     1441 tcatcaggtg tacggtgtgc gtaaagtctg gcgtcagttg ttacgggaag gaatcagggt
+     1501 ggccagatgt acagtggcac gtctcatggc ggttatggga cttgccggtg ttctccgggg
+     1561 taaaaaggtc cgtacgacca tcagccggaa agccgttgcc gcaggcgacc gcgtaaagcc
+     1621 gcagttcgtg gcagaacgac ctgaccagct gtgggtggct gattttactt acgtcagcac
+     1681 atggcagggc ttcgtctatg tggcgtttat cattgatgtg tttgccggat acatcgtggg
+     1741 gtggcgggtc tcatcgtcta tggaaacgac attcgtgctg gatgcgctgg agcaggcgtt
+     1801 gtgggcccgt cgtccgtctg gcaccatcca tcacagcgat aaaggctctc agtatgtgtc
+     1861 actggcctat acggagcgac taaaagaagc cggattactg gcatcaacag ggagtacagg
+     1921 cgactcgtat gacaacgcga tggctgagag catcaatggt ctttacaaag cggaggtaat
+     1981 acaccgtaag agctggaaaa accgtgcaga agtggaactg gccacactaa cgtgggtgga
+     2041 ctggtataac aatcgacgat tgctgggaag gctgggccat a
+//

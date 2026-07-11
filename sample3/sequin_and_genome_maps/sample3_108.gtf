@@ -1,0 +1,6 @@
+sample3_108	Cenote-Taker	CDS	274	2	.	-	0              	gene_id "lcl|sample3_108_1"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_108	Cenote-Taker	CDS	423	698	.	+	0              	gene_id "lcl|sample3_108_2"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_108	Cenote-Taker	CDS	713	1105	.	+	0              	gene_id "lcl|sample3_108_3"; gene_name "terminase large subunit"; gene_inference "protein motif PFAM:PF03354.14"
+sample3_108	Cenote-Taker	CDS	1125	2414	.	+	0              	gene_id "lcl|sample3_108_4"; gene_name "endonuclease"; gene_inference "protein motif PFAM:PF10544.8"
+sample3_108	Cenote-Taker	CDS	2411	2512	.	+	0              	gene_id "lcl|sample3_108_5"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_108	Cenote-Taker	CDS	2766	3098	.	+	0              	gene_id "lcl|sample3_108_6"; gene_name "Large Terminase"; gene_inference "protein motif PDB:5OE8_A"

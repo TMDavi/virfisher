@@ -1,0 +1,460 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Kolesnikvirus sp. ct75SLM" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_135" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;f_Andersonviridae;-_Ounavirinae;g_Kolesnikvirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 2569 ,
+              seq-data
+                ncbi2na 'F9340D5DE89360194BE1DF78502DF403BC3E09E43E4AB464D30DE
+83B7E31DD2A0DE23F71BA77D012185E23C5F8B508855376DFFE029E922BA3C3F4F7894FB4F3D71
+1AFF0C52606AF3774D3BD222F353E0A87F4311FF1EF8A7FA024D1EBA4D47EB4D7E6FC5365EE095
+D09DEE032936F50D1774417E1BB5E3D25324881AA409BB05FB5FBCB6F7E77E77805270E42FE68F
+016826CE3F179E65EADFBA8E08FD05F24B3405B92ED083D7DF41D79E86B77836FF1BBD06C83BD4
+B7DE57F253FC1179ED4B4AB4ABC2F48EB0EC9250B54E77446EE9EBDB4123DC43744537DED00C1F
+817D246E7F52F14C192189C6F8CAECFBFD0B714633F6BD8C0B520FA3CD343EC520103BB2BF8A0D
+D48A81EFE20DD377F54378313845F5E0C18149BBDC511F74F37A32577D34283A741538B1102EB7
+7F6ABD3604FD3B18B453791481931AB4D232D05E1DE220BBB81D354323278B3D8C578EA7DE6EFF
+D41D4EC6207E32D9D482A07A30D3FDEF4E28114501396C0BF7D924A51094520279BEEF7F682087
+932CBEAB6DFEE78224D4D20C944B7C5A05249145312EC3B7BEEBBD242BF5E225A9EE898C07DFBD
+B4907D3482F61F7D87B33FDD26D20FEE1A4327FD04AFC5B1FA424DF8C11FAF42DD2BC567006D7B
+1B5748679EFC1F6B0AF4F2AF1D40C36744867C44977885F3504BEF92BE0F6FA4D47F4A8EF90A78
+C386F9830759D375E3C97CB4AD312F49FD2F92F7F0BEFBDBD3EB01D48040028A70097580CBE203
+B131C584B4A002BA61499440A01641E5ECE5804C740077DA0211FC2CE1D809E5D5089422B26315
+E1DD08A1F3E88E622A0D515D3FC5BFE486B453FBBF4B4D914F3F679E7F41D34BE513CFEE16077C
+422DFC050D293B1FE530091F9F9B7D2B0DE03487E7DF490D336105F7B901DC0'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_135_1" } ,
+            descr {
+              title "Portal protein [Kolesnikvirus sp. ct75SLM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 82 ,
+              seq-data
+                ncbieaa "MAQNEINPPLPAFQKDEMGSLGLKVISGRLFEEPRRNLRFPESIKTFQIMMRD
+PAIAASINILKTLVRRVNWRFDAPEGFDA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Portal protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 81 ,
+                          id
+                            local
+                              str "sample3_135_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_135_2" } ,
+            descr {
+              title "Large Terminase [Kolesnikvirus sp. ct75SLM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 534 ,
+              seq-data
+                ncbieaa "MNLTEVKQQRLRDVQDVLAGNLRLEPSVIKMLAKYGKPVEKLLPSQILTLRKY
+TVEEVELLMKLLTNKKFIAPQPGSQETLLNTTTDITLYGGAAGSGKTVAILMDALQHKDDPNYYAVFFRKNTTQLSGG
+LWPAAKKLYGMFGGVPHEQKMIIQFPSGATIKFSYMELEKHAEAHQGIEYSAIYWDEFTHFSQSQVDYLMTRMRSGAD
+GDSYMKCSMNPERDHFVYSWVEPFLDEEGYPDNEKCGRTRWFVIQEGVMYSDWERDEILKQFPLEIPQTYTFVSGTID
+DNPILDFIEPKYRGRLENNTPINVARLRYGNWKARAEGSSYFDRRWCEIVESVDEPATRVRAWDLAATLPSELNPDPD
+WTAGVKMAKGQKTGTFYVEHVKRFRDRPAGVEEGILDTARFDTAKVEIFIPQDPGAAGKSYASGLIRKLALAGFRARA
+RTTNKDKVTRFAPFSAMAESGHVKVVRGDWNDAYFTELEGFTGDGKRKDDQVDATSDAFQSLNSKSVLKVPSMDNSLN
+MMRDNPFAGIKTV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Large Terminase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 533 ,
+                          id
+                            local
+                              str "sample3_135_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_135_3" } ,
+            descr {
+              title "hypothetical protein [Kolesnikvirus sp. ct75SLM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 60 ,
+              seq-data
+                ncbieaa "MNEQQLKELQLKAELYDLTKANQEMSGVIRNVIISLATSLKVDANEFNLQQLL
+DKVSEAV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 59 ,
+                          id
+                            local
+                              str "sample3_135_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_135_4" } ,
+            descr {
+              title "hypothetical protein [Kolesnikvirus sp. ct75SLM]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 59 ,
+              seq-data
+                ncbieaa "-FAQKVVDMIAEEASLISDYLKTQASAFMAKYMPDWFKDSCKSSVTNNVATDE
+LKAAAK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 58 ,
+                          id
+                            local
+                              str "sample3_135_4" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_135_1" ,
+                  location
+                    int {
+                      from 1 ,
+                      to 246 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_135" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:5NGD_C" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_135_2" ,
+                  location
+                    int {
+                      from 258 ,
+                      to 1862 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_135" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:5OE8_A" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_135_3" ,
+                  location
+                    int {
+                      from 1895 ,
+                      to 2077 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_135" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_135_4" ,
+                  location
+                    int {
+                      from 2388 ,
+                      to 2567 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_135" } } } } } } } }

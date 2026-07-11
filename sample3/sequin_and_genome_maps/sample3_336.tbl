@@ -1,0 +1,9 @@
+>Feature sample3_336 Table1
+397	2	CDS
+			protein_id	lcl|sample3_336_1
+			product	tail assembly chaperone
+			inference	protein motif PFAM:PF17318.1
+1278	517	CDS
+			protein_id	lcl|sample3_336_2
+			product	major tail protein
+			inference	protein motif PDB:3UTO_B

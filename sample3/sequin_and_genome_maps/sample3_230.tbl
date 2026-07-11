@@ -1,0 +1,17 @@
+>Feature sample3_230 Table1
+156	1	CDS
+			protein_id	lcl|sample3_230_1
+			product	hypothetical protein
+			note	no search hits
+668	153	CDS
+			protein_id	lcl|sample3_230_2
+			product	minor tail protein
+			inference	protein motif PFAM:PF09931.8
+1165	665	CDS
+			protein_id	lcl|sample3_230_3
+			product	virion structural protein
+			inference	protein motif PFAM:PF05939.12
+1625	1167	CDS
+			protein_id	lcl|sample3_230_4
+			product	tail length tape measure protein
+			inference	protein motif PFAM:PF06791.12

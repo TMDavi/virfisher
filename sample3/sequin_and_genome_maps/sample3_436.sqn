@@ -1,0 +1,346 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Felsduovirus sp. ctKW13T" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_436" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;f_Peduoviridae;g_Felsduovirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1042 ,
+              seq-data
+                ncbi2na '27DE772769029A527BD792A287527480A67ED7BDA12A3F34B99D9
+D2BDE79DA29852F51A7F39136880665D36B79DFFFAE0499AE19A9022A1A7FDB5E85DF52F6349BF
+6127D6004AFF4ABDE7C6BF949A3CEE699E99E02524FDAE50A764A36D6D91525510ACA7F96BB690
+1F6E785D4E8AE009F7A5FFF452F514A9B4BABD8CDA4C0B94DF95949A96D7A3F7DE414956D15E53
+26BC02E775A48C21F8EE742BC3499ACC85B6AFB27A494DEC5253D19E8DD995B4BAE917D4558E68
+067F9FD1ED3896E75BC80C1F1E897CEFE6B8CAA8B884199ECFEC6B0144405925AA02594D4296CE
+FEA538118478556485D8D56CA4A539E7B1FD2A3166C9593E780E7A9800BE416F449E80019842EA
+0'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_436_1" } ,
+            descr {
+              title "capsid scaffolding protein serine peptidase [Felsduovirus
+ sp. ctKW13T]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 250 ,
+              seq-data
+                ncbieaa "MTVKAKRFRIGVEGATTDGREIQREWLVQMAASYNPTVYTALINLEHIKSYLP
+ESTFNRYGRVTGLVAEEIQDGPLAGKMALYADIEPTDALVELVKKGQKLFTSMEVSTKFADTGKAYLVGLGATDDPAS
+LGTEMLAFSASAAHNPLANRKQNPENLFSEAVETLIELEEVQDEKPSLFARVTALFTKKEQTDEARFSDVHKAVELVA
+SEQQNLSERTDKSLSEQDKRLSELESSLQEQLAAFAELEQK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "capsid scaffolding protein serine peptidase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 249 ,
+                          id
+                            local
+                              str "sample3_436_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_436_2" } ,
+            descr {
+              title "Putative ATPase subunit of terminase [Felsduovirus sp.
+ ctKW13T]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 33 ,
+              seq-data
+                ncbieaa "MLLYFQGYRVARIAEMLGEKVATVHSWKKRDKW" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Putative ATPase subunit of terminase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 32 ,
+                          id
+                            local
+                              str "sample3_436_2" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_436_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 751 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_436" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:pfam05929" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_436_2" ,
+                  location
+                    int {
+                      from 942 ,
+                      to 1040 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_436" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:pfam06056" } } } } } } } } }

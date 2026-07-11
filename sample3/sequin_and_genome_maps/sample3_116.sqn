@@ -1,0 +1,418 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Rosenblumvirus sp. ctYRWI2" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_116" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae
+ sedis;f_Rountreeviridae;-_Rakietenvirinae;g_Rosenblumvirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 2777 ,
+              seq-data
+                ncbi2na 'D0CF343C0C7BFE00FBBD7F64F17FF8FF8F1BFE6FF8F1FDBC7E3F3
+D12FF16F343ECF3CDE40DB06FBBCDC4DCEF05D9FEEB0E113093F7BF9ED394BE0FB7023BE4FF8FE
+0BF4D2EF9F3ECDF6FBBDEE097EE3E08CFFDC7D1F8E0C0513D030D74EEE31312C347E4C5019F41E
+FEDEF8FDDCDC00BB3EC0E3FFE00B0B48C2D37F0BF005FC047FF4F063E3006DFED01F413FFE4E0F
+80F4D34C01BC3F34F3F103DBC017FFC3C3DE3F0C0340C0B4FB337253ECF471FDB4F210E0DCD3EE
+3F782C1F4DB6C31AFC3B7014C1BFE3083B0DAF4617FC0C0CF1CF23B2C0176BC7FF977DB580459F
+D7CD479CB83C317032F1F0F470FF3FEB3DDFF4DD2F2E7A0D11CF1EBC0DCE334D369BC04CAE13FC
+103AE45BECCFD6310BEBC1E3D36F0EDE3F033FE703FE7E4C3C38836230041748C3D34B30EF730F
+DCCD1CF33E0EAFCFF9304102F1474C4BCD333FCE0DEC24F4DEB3C0CB7A84380C0CDF7FEF0DBFF8
+0FB0BC0BF8E003FAA7E3C0B0B3CFC6C1420D30FEF4FDF97E5051C4F8EFFB7C39E3DC3E0C037314
+16CD18FACCBE38B2EB003D40C18F013086FC0DEF98EF41077FEF8FDFF8C3D05EC65FCF3BF2D3F3
+245DCF3DEF7EBBC4DFAD2C3C03FCF020EA70E9FC0E0CB0E0D4BBB87D340F453CC83AFBFC13D7FE
+EC1BF33F0F83C33500C026CC0DE3FEBF0FDF411CDFC0F48CBFE3134C2E0C78141E83ECD17F38BF
+8C345B091B080F078F4D1F8C610CDFCB87F001165CADB401E306EB7B02D0D5E71FA0EEF6437FB3
+7008C23FC2734BEF00C10CDFF0FF807BECCFB58C9145E0918E07D3CCFC99EFBFEC2F08327D001F
+C7E7037DFF8EF9FC6C4FE3D230F8F438B0D0704F9193F7FF7DC31BC33480FF7FF321170E4C3CB2
+6DE70EFE80F806EED3EF3F0EC0FFEFDF44314714CC1F2C94C6E8CBC6FD04F2F7D3FF230B53BC32
+B1ECD4C3C4CF7D1ECF858C0B5E77F27050F006BC5C390CD0F0C1BF4F0DF2A0C00FCFC40EFD013E
+CF20F3547C0'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_116_1" } ,
+            descr {
+              title "head to tail adaptor [Rosenblumvirus sp. ctYRWI2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 235 ,
+              seq-data
+                ncbieaa "MTKVVNTMARYTMTLFDFIKSELIKKGFNEFVNNDKLTFYDDEFQFMQKMLKF
+DKDVLSIVNEKVFKGFKLKDDLSDLLFKKSFTIHFLDREINRQTVEAFGMQVITVCITHEDYLNVVYSSSEVEKYLQS
+QGFTEHNEDTISNTDETSNQNATSLDNSTGMTANRNAYVSLPQSEVNIDVDNTTLRFADNNTIDNGKTVNKSSNESNQ
+NAKRNQNQKGNAKGTQFSKQYLIDNI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "head to tail adaptor" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 234 ,
+                          id
+                            local
+                              str "sample3_116_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_116_2" } ,
+            descr {
+              title "UPPER COLLAR PROTEI [Rosenblumvirus sp. ctYRWI2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 327 ,
+              seq-data
+                ncbieaa "MTKHNKGVQVELSKEINKRVVEHRNRFKRLMFNRYLEFLPLLINYTNRDTVGI
+DFIQLESALRQNINVVVGKARNEQIMILGYVNNTYFNQAPNFSSNFNLQFQKRLTKEDIYFIVPDYLIPDECLQIHKI
+YDNCMSGNFVVMQNKPIQYNSDIEIIEHYTDELSEVVLSRFSLIMQAKFSKIFKSDINDESVNQLVSEIYNGAPFVKM
+SPMFNADDDIIDLTSNSVIPALTEMKREYQNKISELSNYLGINSLAVDKESGVSDEEAKSNRGFTTSNSNIYLKGREP
+ITFLSKRYGLDIKPYYDDEVTSEITMIDSLSNDESSEYNG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "UPPER COLLAR PROTEI" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 326 ,
+                          id
+                            local
+                              str "sample3_116_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_116_3" } ,
+            descr {
+              title "Major Capsid protein [Rosenblumvirus sp. ctYRWI2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 366 ,
+              seq-data
+                ncbieaa "-WDNSNTMFETFVNKFLFPKINETLLIDIALGNRFNWLAKEQDFIGQYSEEYV
+IMDTVPINMDLSKNEELMLKRNYPRMATKLYGSGIVKKQKFTLNNNDTRFNFQTLADATNYALGVYKKKISDINVLEE
+KEMRAMLVDYSLNQLSESNVRKATSKEDLASKVFEAILNLQNNSAKYNEVHRASGGAIGQYTTVSKLKDIVILTTDSL
+KSYLLDTKIANTFQVAGIDFTDHVISFDDLGGVFKVTKDIVVSSDESVNFLRAYGDYQTHKGDTIPVGSVFTYDVSKL
+SEFKDSVEEIKPKSDLYAFILDINSIKYKRYTKGMLKQPFYNGEFDEVTHWIHYYSFKAISPFFNKILITDQDVTPRT
+E" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Major Capsid protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 365 ,
+                          id
+                            local
+                              str "sample3_116_3" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_116_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 706 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_116" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif Uniprot:A0A068YG81_BPCP7" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_116_2" ,
+                  location
+                    int {
+                      from 678 ,
+                      to 1661 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_116" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:1IJG_K" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_116_3" ,
+                  location
+                    int {
+                      from 1676 ,
+                      to 2776 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_116" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:PHA01075" } } } } } } } } }

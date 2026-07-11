@@ -1,0 +1,13 @@
+>Feature sample3_327 Table1
+1	546	CDS
+			protein_id	lcl|sample3_327_1
+			product	capsid protein
+			inference	protein motif PDB:3BQW_A
+608	901	CDS
+			protein_id	lcl|sample3_327_2
+			product	hypothetical protein
+			note	no search hits
+904	1269	CDS
+			protein_id	lcl|sample3_327_3
+			product	Tail attachment protein
+			inference	protein motif PDB:2KX4_A

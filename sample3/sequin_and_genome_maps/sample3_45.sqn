@@ -1,0 +1,873 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Fibrovirus sp. ct3MQZJ" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_45" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Floreoviria;k_Loebvirae;p_Hofneiviricota;c_Faserviricetes;o_Tubul
+avirales;f_Inoviridae;g_Fibrovirus] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 6822 ,
+              seq-data
+                ncbi2na '40BE147E9FF1FD9739A3F9947E84024185087F343712395BF1462
+5001C0142810A66BF9DC5FA040D8934CE826440040BB408E7FF4D9F63FBD3B500D3A7F6F365CE6
+EB6E97D3AF1063DCEB4F763385A10BE2EE97EDA0FA680418C5BFFB50341A46AB91407FD85B361D
+C205F4FAE9D9D2BDFA4F1D9F2F6DD87E96E863C45A01F61942CE4880EFFCE2A24FD91E750AAD0A
+D5D0EBD74C064F1200699FE3A082418FB69DDBD7694FC7A6CDC410027E24003C785785E3FACD80
+62BE27800B98CD89FF25057965DFF9AB3795FD9A5DCD8BB1975AF0BFDD90400A742B7E0FCE9DB3
+64EAF65B43BA6C9BC9A0BCD94E150A61FA9824F6A39F3574404C865787F83E769BD78F4C4441E0
+0110CFA2F0AC3A704D1E936D34013F5C0DA91463E489C06F7995EF805B43BE20BF9D0C6BF2A701
+1A33D7F4109259E6CD8171F19426FE3E01199FFBD705B83384F67DACB05786153E82DBE6BE274D
+5C28E185E000C7F1E011E002C282FF397BB99DD5032D2A3D726BC784251E0E0EE1A6BCEF9ED1CF
+4A3C61C7E389C4464C1541639681A5F49F6BFCE9ECF6776BCFCCC5CE5BF336900074D05DF30A23
+134E9E337FA64363FE7AED9E77EC1E79EBBF534FA4F14E9FD0293F47E90199ED040970DAC1E073
+9F3E57938CF4BC3CFF66F9EAE93B6AFF3279DD07D63040AA7065FFFCEBCEFCE640F7F3CDDDEB4F
+27CCFD16F7579FD9E5CD2F17FE1404087FD41EF4A59E78B3CE70FC7EBAC7D3B0A786B04AFC03F3
+22F0373C9855DFFBCF410805CFE84103B4ADFF4D02AA3349BC77CFBEF8E35C51798A7D00AD0128
+02DAFA0F7C7DEA9DA41D4D5BCCDE77DE70EBAFBBE7747AE14FCECF0CF857824F800E15B77F38F9
+8E777336F4A31D7EF55F7AE3CD4FFB163883E77DFF7D78960D7057057814816894814414854811
+0D5DE15C49947D78F7A6B82F3C35B7B945C05161E28005425E3BE01148571978F40F786FBD0DEF
+1683838A13818BCF0761D0F784104049F8E3BC10D277E49D0C443641B3EF9D23E50128004239A5
+37180310291F35205E04086E14696F0401450E5BC39FEA7702F8E9F358E5B63ADFAE08ECD24300
+8E43C70EF8C7DEA9EB3F7A47ECC8B7847EC4ABFCE0DEBCD78693F4A4CFC4893FE31EFDC02EC163
+1AD021FCE00F8FCDD19D0694D3FDCF56F751F6B0FD27F863CCC05F8FA33FA7FBDBBF938EBF41E7
+FDCEDB00C33DA2BC33A3EAC3E3F3F0427CD8BF7F167CF0D19F3E339C0A3BFDFBA7CF8E9BDFDE5B
+017FCF22024F3474C8143A3BF55F3F87A0D5F5AE79FABCF2673E9317439FAB38F3B490D3CF6CDF
+3C41FBD4FC76FCAF7C1CE3F390FBEB6D7677AC2D318B7BEFC533CD5E73D0DE9202BCF1C13557C3
+3D53BF800B3FA602E4033F8F0AF3E39D0FC48B3A773836D5F7702F893CDD8E3E988690832255DD
+C6D3E38A744EBCF5C465FA455C031F83DCF4391AD1C693E33CF3DD1D00DC2023D39E33C890E3E2
+387CF1EE7003164F692C0087CC4002BD936B8C52208CC04D890445CC0811CFDAFFCD0DD31D0277
+AE7BE38A7425FE33C75CDE826FA5FFEABD7E3FBF4F3EF3DF3DFAF3C7F437602D001CC8E4497F17
+9E042F810BD5FB79D75D053737701741018C005BD7BF7814F0087F0BCCEFDEB4E4010327CC008E
+D3DDD888F8C703C1FFCD1BF33CB9F34A3850F77FF77C10CC8FC8023ABCD0F629FC1A2E6FCDB3C7
+EA9DC1DDBB4F17B3E380963F0D04029601ACF614EF5C07EB3F2C203D64A435B286A9066726FA90
+BF664A8BA49592A1CA5706F25D0447781739C793358047509BDDA6BD9F8F9C0D994B4B42E34D0C
+77E652200457D95E5094C023BF490992CAC924FF765B1CD0412A6698BB6242533F4F6F25BE677A
+2A951EA2A4686099415D89EF46AAC8F514C75FADD16CC0D5C0000F8A71E5D5E7FC7C357F8F7253
+27726C7E20BF206ED3E4DB7AE7ECFE423263269C3079EEB9C57B45EFA8334B7555F535C0D5451D
+345B0C49DFF79EE5374D25DF9036BACDF755E6D53E7E176F44BFC0102FD967DF419F0164F40F46
+00100FFFB4FD9F63D3E30075403682FF3093F83F3241FF14C2584C3982C20125DBC07A78F8459C
+85174093E33EF7C35C95BFE7FFE639FD50267F8E6EAFF6F9ADE6ECC5C12E43F4A743D79E3D2720
+03E5DF4D231326CD52F7CFF1F34E7E9EC0F40D3B90FE7EDFB332FFF97FFB293F04BD3F9B13BF35
+75FFFDCDF27733FD8FFF937EF0F63D3E4FC63FF30360FE145FA99C85F077D57EBADD5414BC29AF
+34E903D24080405734437BC153FB85352F07DE99DF5D9FDF9D3269FE3DA1AF7499F74B87DEFDC7
+8E54403967D71E706537C5423C26C3E9772748FD734AF0B0AD9CD3AB8FD371C610605413683C1B
+B3F6FEAA4DBF7F001E978BF890CDF96F473A77854CD072F80D1C1801C4183E79C0AAB7D4E53B01
+15D10'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_45_1" } ,
+            descr {
+              title "Replication initiation factor [Fibrovirus sp. ct3MQZJ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 354 ,
+              seq-data
+                ncbieaa "-LTTWLLLSPMRICATWTKATTKTLSIYRCPFTTSQKLKPRNKARFALPWNKS
+SIIWKRTKTKCQRCFFIASICSCPKSWLSLSPMRGRGLHGYNDSMVILDMTGQVECGLVGIGGNNDTVFVQINGTGCT
+KLFDRIDSKNLHWWLAQVLGITRLVRLDLAVDDYTGNFDAKYAEKCFYEGAFRTAPRGQGPSMVPHKRITENGALMEE
+ATIVGSRSSAIYWRIYNKKLEQKITDPDLIWYRNEVELKKCDIELLANPAASFAGICPFAASIECTPPVKFSRNKKAQ
+GLEFMARIAWVRRQCGVALAEVIAMTQGDLGEAFGMLIPHKHRRPDFELLGVPDSYTQLKNTILELR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Replication initiation factor" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 353 ,
+                          id
+                            local
+                              str "sample3_45_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_45_2" } ,
+            descr {
+              title "single strand DNA binding protein [Fibrovirus sp.
+ ct3MQZJ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 112 ,
+              seq-data
+                ncbieaa "MANITGIVIKTFPKSGTTIAELNVLRPVETVNVEKFAQYGLGLNTDIPFNKQP
+LRIEPTYAKRLIETRAFVPNREYDIRFGSNPDDPLEVVAVELIPKDDDLKKYFTETLKK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "single strand DNA binding protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 111 ,
+                          id
+                            local
+                              str "sample3_45_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_45_3" } ,
+            descr {
+              title "G7P protein [Fibrovirus sp. ct3MQZJ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 81 ,
+              seq-data
+                ncbieaa "MPVCALPNSQGFLAVTDKPLNECDGGYVAVTIQDYDYLMSYTRITPTDAGTAF
+SFGFMAVFALGYLYTYAVYIGKKLINLL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "G7P protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 80 ,
+                          id
+                            local
+                              str "sample3_45_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_45_4" } ,
+            descr {
+              title "Major capsid protein [Fibrovirus sp. ct3MQZJ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 44 ,
+              seq-data
+                ncbieaa "MADIFGAIDFAGVAALVTAAGVSIIGITMAFKGISLGKRAVNKA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Major capsid protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 43 ,
+                          id
+                            local
+                              str "sample3_45_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_45_5" } ,
+            descr {
+              title "minor head protein; receptor binding [Fibrovirus sp.
+ ct3MQZJ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 493 ,
+              seq-data
+                ncbieaa "MVMFMRKFFIISLVISLYFTVLPAFAAYQLPFDQTKTFPTVQAAAEYYANLLG
+GTSCKADGNRFKIYRVKSISDPSFVIQQETYLDNKCQVFSSKGDISVTLIVVDDPTTCEASKGQTGKVGWNSYFWGSA
+TPSRYICSSANGGCVALTGDHLCINIDPEALKNDPSLYDCDALYIVQDTPCSPSGDYPFCTDENCSSFLPEPNPNPNP
+EPEPEPEPQPDPEHNPSDPTAPLPDSGGEVINPSVPPKPPTEEKPKPDVETPDPTPDSNSDVVQSVTGMNEDMNELLT
+RLNSDNNKQLDDVNNQLLQLNTQSQRIVAQIAKQEKQDAAIYENTKALIQNLNKDVTTAVNKTTNAVNALGSKVDGLS
+DAVDGLGEDVSAIKDAITNVDTSGAGISGTCIESDTCTGFYESGYPDGISGIFTEHFDTVSKSVTDTVKDFMKIDLSH
+AQRPSFSIPVLHFGNFSFDDYINLDWIFGFVRVCMMVSTAFLCRKIIFGG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "minor head protein; receptor binding" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 492 ,
+                          id
+                            local
+                              str "sample3_45_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_45_6" } ,
+            descr {
+              title "putative minor coat protein [Fibrovirus sp. ct3MQZJ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 104 ,
+              seq-data
+                ncbieaa "MDWVIDLFNKLIEFLYRLLITLIDMLKDVFLWLIDGVLSAVNLLLEKALSLIE
+PMDVSPYLTGIPSGAAWVISAIGIPQCLGMIMSAIIIRILLQLVPFTRLGS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "putative minor coat protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 103 ,
+                          id
+                            local
+                              str "sample3_45_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_45_7" } ,
+            descr {
+              title "Zonular occludens toxin (Zot) [Fibrovirus sp. ct3MQZJ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 384 ,
+              seq-data
+                ncbieaa "MIYAIVGRPRSGKSYESVVYHIIPAIQSGRKVITNIPLNIPMFEKVFGESAKY
+LIKVIDAQFTEYGSMNRPFSKVEHYLDDWRDGKNRAPLYVIDEAHMVIPTRLGTPKILEFYSMHGHYGIDIIILTQNL
+RKIHADIRAMIEMTYYCAKNTAFGSKKTYTKKVRIGDTREDINIEQHTYKEHYFGFYQSHTQSSGAVDEAQAFDITPI
+WKRWPFWGSLICFIIVILILGYYFQSRKSKTIDAQPLPAEQVEQVPLSAPPQPSISKPQQTIKTVPVSEPLKDFKLYV
+SGHAKQIAYKKMSFSREIDTKLTFYHVYISAYQDDQFSFSLNNIDLEKMGYQFEALTECVYRITWGSNSRVITCIDES
+RFNQQKAETVFDHVPKLGI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Zonular occludens toxin (Zot)" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 383 ,
+                          id
+                            local
+                              str "sample3_45_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_45_8" } ,
+            descr {
+              title "putative transcription regulator [Fibrovirus sp.
+ ct3MQZJ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 124 ,
+              seq-data
+                ncbieaa "MNRSEMTKNFVFREFECGLSVEEAAKLCFKTVNEVKQWDAGEKIPPICKRLMR
+WHSRKELYYGDEWWGFRMEGGRLIFPTGDRVAPQQLLAAIAILQIQAPDDAMTRSKLLKYARAMARIKGIK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "putative transcription regulator" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 123 ,
+                          id
+                            local
+                              str "sample3_45_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_45_9" } ,
+            descr {
+              title "helix turn helix protein [Fibrovirus sp. ct3MQZJ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 98 ,
+              seq-data
+                ncbieaa "MYANELLNAYKKAKNYIQDKQIAHDLNLQPSMISKIRTGIRYVSDEEAIFLAE
+SAGIEPEIALLGIHADRNENPRIKALWESIAKKQNGLGLRTISML" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "helix turn helix protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 97 ,
+                          id
+                            local
+                              str "sample3_45_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_45_10" } ,
+            descr {
+              title "hypothetical protein [Fibrovirus sp. ct3MQZJ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 82 ,
+              seq-data
+                ncbieaa "MANSAKKQTLSQSVNPFVTIQLTSGALPRFLAHSGFDSDGSQRFSVTSVSTDA
+HKMPLPTANAILPKIKRNWPLAQISYQVK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 81 ,
+                          id
+                            local
+                              str "sample3_45_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_45_11" } ,
+            descr {
+              title "hypothetical protein [Fibrovirus sp. ct3MQZJ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 67 ,
+              seq-data
+                ncbieaa "MGDFIYYDNEPNIGINVYFVWGHRFFKNWPEFEQYLAVHYGSDPYQLVEITNE
+NYNELLLKGVFHAM" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 66 ,
+                          id
+                            local
+                              str "sample3_45_11" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_45_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 1066 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_45" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF02486.18" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_45_2" ,
+                  location
+                    int {
+                      from 1066 ,
+                      to 1404 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_45" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF06950.10" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_45_3" ,
+                  location
+                    int {
+                      from 1414 ,
+                      to 1659 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_45" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF17091.4" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_45_4" ,
+                  location
+                    int {
+                      from 1671 ,
+                      to 1805 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_45" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif UniProt:tr|Q8W6E1_9VIRU" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_45_5" ,
+                  location
+                    int {
+                      from 1933 ,
+                      to 3414 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_45" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05616.12" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_45_6" ,
+                  location
+                    int {
+                      from 3416 ,
+                      to 3730 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_45" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:PHA01081" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_45_7" ,
+                  location
+                    int {
+                      from 3733 ,
+                      to 4887 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_45" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05707.11" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_45_8" ,
+                  location
+                    int {
+                      from 5383 ,
+                      to 5757 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_45" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:PHA01082" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_45_9" ,
+                  location
+                    int {
+                      from 5885 ,
+                      to 6181 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_45" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:4IA8_B" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_45_10" ,
+                  location
+                    int {
+                      from 6349 ,
+                      to 6597 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_45" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_45_11" ,
+                  location
+                    int {
+                      from 6608 ,
+                      to 6811 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_45" } } } } } } } }

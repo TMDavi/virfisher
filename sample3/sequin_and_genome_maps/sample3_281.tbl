@@ -1,0 +1,9 @@
+>Feature sample3_281 Table1
+2	985	CDS
+			protein_id	lcl|sample3_281_1
+			product	sheath tube
+			inference	protein motif PDB:3J9Q_C
+995	1432	CDS
+			protein_id	lcl|sample3_281_2
+			product	tail tube protein
+			inference	protein motif PFAM:PF04985.13

@@ -1,0 +1,86 @@
+LOCUS       sample3_290             1410 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae
+            sedis;f_Sarkviridae;-_Guernseyvirinae;g_Jerseyvirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Jerseyvirus sp. ctVXUYS (unknown)
+  ORGANISM  Jerseyvirus sp. ctVXUYS
+            Unclassified.
+REFERENCE   1  (bases 1 to 1410)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1410)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1410
+                     /organism="Jerseyvirus sp. ctVXUYS"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             3..278
+                     /inference="protein motif PDB:3P9A_H"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Terminase small subunit"
+                     /translation="MADKPPSLARFALHIGVTIPIIKLWLREVPAFAEAYETAQALEE
+                     AYFTETGAAGISATFAAAKLGLNKTVVEETRDESISEVTIKVVSGER"
+     CDS             268..1410
+                     /inference="protein motif PDB:5OE8_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Large Terminase"
+                     /translation="MNVDITATEPQGAFLNLHCKFPAFVAGFGTGKSEVMCNSALLDS
+                     MEGGSDSLIAMYEPTYDLVRLILAPRMEEKLSDWGIRYKYNKSDNIIYTSSGQFGDFV
+                     LRTLDNPARIVGYESFRAKIDELDTLNKDHAEHAWNKVIARNRQLPRTYRPITPKPAN
+                     TVSVFTTPEGFRFVHDRWAVKKKPGYEMIQAATTSNPFLPEDYVQSLRDTYPGQLIDA
+                     YINGEFVNLTSGSVYYAYDRRKNSSRETIQPGETLYIGQDFNVGHMASTVYVQREYVW
+                     HAVAELVDMFDTPDVVREITERWKRHGHHIVMYPDASGKNRKSTDASTSDIAQLHNAG
+                     FEMRAKSVNPAVKDRVASVNKALESGKLMVNEQTCPVTARCLEQQAY"
+ORIGIN      
+        1 ttattgctga taaaccgcca tcgttagcac gcttcgcctt acacatcggc gtaaccattc
+       61 caattattaa actatggttg cgtgaagtac cggcgtttgc cgaagcttat gaaacggcac
+      121 aggcccttga ggaagcatat ttcactgaga ccggtgccgc cgggatatcc gctacgttcg
+      181 ccgccgcaaa acttgggctt aataaaactg ttgtggaaga aacgcgcgac gaatcaatta
+      241 gtgaagtaac tattaaggtg gtgtccggtg aacgttgata tcacagctac ggaaccgcaa
+      301 ggcgcgttcc ttaatctgca ttgtaaattc ccggccttcg ttgcaggctt cggcacaggt
+      361 aaatcggagg tcatgtgcaa ctcggccctg cttgacagta tggaaggcgg tagcgattca
+      421 cttatcgcca tgtacgagcc gacatacgac ctggtgcgcc ttatcctcgc ccctcgtatg
+      481 gaagagaagc tatccgattg gggtattcgc tacaagtaca ataaatccga caacatcatt
+      541 tatacttcat cagggcaatt tggggatttt gtcctgcgta cattggataa tccagcacga
+      601 attgttggct acgaatcgtt tcgcgcaaaa atcgacgagt tggacacgtt aaataaagac
+      661 cacgccgagc acgcctggaa caaagttatc gcccgtaacc gtcagttgcc gcgtacatat
+      721 cgtccgatta ccccgaagcc tgctaataca gtttcggtat ttacgacgcc agaaggcttc
+      781 cgttttgtgc acgacagatg ggctgtaaaa aagaaaccag gctatgaaat gattcaggcc
+      841 gcgactacct ccaatccatt ccttcctgaa gattatgtgc agtcattgcg ggatacatat
+      901 ccaggacagt taatcgatgc ttacatcaac ggtgaatttg tcaacctgac atccggcagt
+      961 gtttattacg cttacgaccg gcgtaagaac agcagtcggg agactataca accaggcgaa
+     1021 acgctgtata tcggtcagga cttcaacgtc gggcatatgg ctagcaccgt atacgttcag
+     1081 cgtgagtatg tctggcacgc ggtagccgag ctggtggata tgttcgacac cccagatgtg
+     1141 gtcagggaga ttaccgagcg gtggaaacga cacggccacc acattgtcat gtacccggac
+     1201 gccagcggta agaaccgcaa atcaaccgac gccagcactt cagacatcgc gcaactgcat
+     1261 aacgctggtt tcgagatgcg cgcgaaatcg gttaaccccg ccgttaaaga ccgcgtagca
+     1321 tcggtgaata aagcgctgga gtctggtaaa ttgatggtca acgaacagac ttgcccggtc
+     1381 accgcacgtt gcctggagca acaggcttac
+//

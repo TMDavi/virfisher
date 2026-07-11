@@ -1,0 +1,587 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Kostyavirus sp. ctM5LKB" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_30" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;g_Kostyavirus] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 9005 ,
+              seq-data
+                ncbi2na '4AEF717A5AD54A756D9A8992069FED75088F6A9B9095534545E10
+90AB9D9421A6117A061D4DCE0D6589D87D1ED8A4D69B451528456198AF649EAE865E8954209EA4
+2F75EBD156881AE2EBA3A3B59491081B968ED77546D64909B4ADF45E859AD041865F7A0B5F61DA
+D265F69345C628621618BD85AB61445A5EA61AB13521711A9862864A6DE69163A45B0E6FAC56A0
+BD42A45671B9305EF4D9A1095175841B4DB75F45CC9A4D499F56F559159AD06277A999E69BAD8E
+1A62AEA425EA1A49A4D6CE49EB69481B75376B7D0A146238D444E8D29579E36559EEAB882E867A
+EE69D65081A594B166E799AE1569F62B9ED71162542162D713A18214D9C45A91A4E0A5166A5E74
+1192B9D56680D459F75F6584175296B4B5A91FA67B6059A214A1ABA599C5DE71A15A45F42F490E
+8569962546346F6855D7A2A52B6D39D14679569E676B8D87ED950D254489049DDA4F5285D34285
+E349F65181041B5659D7924BF809EBDA4D795590A417B189D7A3A8AF45B943565825A086959788
+5DBD376BB5374A6614D8490AEB6595C1D67980BA562CAB18215A40DD46465D664856C419241659
+103A699E9A03435948E11EDB45F71A821B1A8D9AABB5DA1C4D8AD1668BD5190E6B2216610DB5D0
+91DA154EB5646D382E71822BED5AD1CD80DAA5398EB5ADAB6113D8F390E0A1AE0C45B44752E6CA
+61C41EBF0423DDBFA581E9CF943D2B103D5D1A96EFCDAD594D1F97401CE3E9812E5C65E43EA4EE
+A07AD043769DE805D87A425EBDA4599E3898690D67A119D38654FBAEB551C359CF611355BA3F63
+C1A583A126D9477A689215C0A176B7937469497BA757A61552542A5D7BD59E08298536DBA1BAD8
+59269B46AD71691BD361ADE34286DBA1F92889B5EA42B9E996F5D055A439719558ABB813655877
+E9B81F6E094EA673DBE145666BA5D160F51703A53454FA74C53CDAE9AC0D170BA7038FE3039843
+B5FFFB613CF40FBCFA4C169BD42693FD8E913D8E13DE7A5F5278D881F616D908076857DAB1562C
+FDB9216997593117E860EBD95F676A4EEA1199AF3449B52745F620E9C56C4536A0A177DB69A5E9
+B5FE639D842771161C6D882B6DF42849989999050B50BBD3698E90A44A0D57BA50BE49964D169F
+5283DB9036D18E241470A0D2FB73743A1A4185E37A86A82F64D181F456F5886AEFB4776E74759B
+A69BA995E56D3A64AB895AC2556B8D849B62B6B80D551A6285D561B62E867AE156966869057591
+C45782F71B519AB882AE206984194534DA65DA1B36A07564868F4D752C618A515208EB7AB65259
+341A5EC6E545D7DD468459A9265999092365C6D64D5691614950A2E9955EBBA912152045A46965
+1DAB81762ED93E1855146A97B6EA59C71A4D96A98559758E35D3559BD849945142B45089D45C46
+84DF5EBA5BD2BA056FA6107ABFA056899144F46B40B6148D0307812AA2D384CD6B455A15B43510
+6D5656C36664A149248D34149E6457BD72575502535E2D2B6F97D3424861A9361774ABE741F5E8
+A9BBDA6934371D05550956688FE9BA6DBD219D35255D05F74DA960F77DEA5177D6927D29958AEB
+4175E565D66F652E9DCF1610467BD16D85DA51D592778EADA99650AD36486A81D0863852691415
+9286D36E3E5569945B77A44BBD949462A718A91AABA535975D72D5BD961869896A6254D89E975C
+66565D6684E8BA568F62785AB58867958A0B6DA2E49D64D8AE162825164A45F7176386602DBD2D
+0908F4D527A349A5E1A118F861359A1935294E76110DB4119E669968DA9B9D046F6585EB21B5D0
+8334152504D76AEBDA669C5355826F5207D7A194FB6BA65BA9490AF5A6525E9A197D06EF5D08D9
+B6865942A5EF75EA171DA6E64504258D059A5D342DA267507D07DDA234587A760B464220F474D9
+AE8413628B63967ABB4DD7A3E9C6916EA5E166F71B81B714AE7A006987D89EB5147654136F85A7
+B5A418A65A88BD499C627A38A57143623458A4C65C627AE56EAE9D91EAE66934DD823D5F615821
+8776DD7E9E4D5984116685584159589E36509D84D159D3D06E53AB69364B6116906AA234518564
+99366767A651A03D539593A9419AD85D369B69A66A69A5B429D5D1490E98A9A615690BA9279457
+DE669B61F61A55B4D352F4556986AA77A69129B69A42AE9846B7D15FA61046B8592AA699A9A45D
+9D25D769176BE966854559E8B1069885C6D9E99A1482B3D2E956B4A55E9A67A41A69859F7D041A
+694E9959A69AFAB99F711AD8B65638861D65E254D8451945855D5886B8DB41145C76B4D1AE6268
+28AC6860E36D9B106CCE19A114178278189254D54D9201BA87ABEB6749AA196C5A37114506E8E6
+968EA2D665AB56D0A0B751428BDB55160A55395DE1745D6D3E188DBA48AB3A512A9AA529B697B1
+B84D964A9C71782171A4DD45129B967855A1391F5936BDA51C25BD1A5166B9D3A435286A74DD9E
+82114D852F611568BD09D2613616A50623423DB45E38E39ADA9B7D0E249885E1BD39D07D95EF56
+0B6A3DD61435EBD06F74225309EBDB856A0583D8B1B41A41EBD74D2DE35E0A6B99A4244F6103DD
+C618CD34159EADE1A01B5E959469A6395955C66BAA4E1A1D769A4D1458874D61BA591E65AB63EE
+D8678585E4C2EBBA9139886519C7855603A249E661D8EF7954D536A0957D996522C69C697A5EB1
+873A61E82AD3968DBABA9C62E7458EC510A0D6918D36DE71881D922C5A45069BE9B521BDD923FD
+59236581D7ED5A9DCE5AD0A2C65DB994DD37856F5DAC25655A505DA710A9BB51D53C5A9DA6BAF7
+B41F459A69419E1B7DA7DBC5EA164BA96B55165173A698213A264F96F8B3449A61DA4C6BAD295D
+F583D5066A06AA2982DBD0AEDE9269C68E91165C66B65F62D6EB69B62A17105077ADFA45B51D91
+5AE8A4274D6A76D7909BDDA6A71AB1D4136118D129999C5A982C45A6D99575E96E045143746A61
+3761CDD752A3059EA6D4D9AE04D16E99184D8AD116554F62785741A68156B8D80E86E9410AD345
+564AFD85D25E34EA62549A1208D1558B6116785785EA919748D8AD916D7D356F4786D0CD831161
+896B16929144A65EAD15DAE99E9A69A69DEB658D41D6BC58C69A69AEBAEBA65C6F05937DB55B62
+74EA75173DAE199A49A69069A670AE747DE88EA661A6506BA64D6DF74D6926DB4F16606BA684E9
+DA980'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_30_1" } ,
+            descr {
+              title "tail protein [Kostyavirus sp. ctM5LKB]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 532 ,
+              seq-data
+                ncbieaa "-VFYLAGPQAPVAGAQNGFVLQEIRGVQAPITHLTSKGARQDGDTWNDSIYES
+AELDFTVEASGVTTQDTRREVRSWVDAWSPKKLGKFSWFTPENGEWWMDVRQHKNVPDVLSHVRSKRQVFTWTAVNND
+AFWKSFDSVSAFGITYEDETDEFDRVDHTGLGDGYIQTYTGDEDAGVCGTDGTVMRWYPGSSKGTRYVHNLFIADKPT
+SDNVIVSFTYSGIQRFPFPAPAVNELWARCGVVDDGEGGQAWDGSGIRMQLVGQNVSISVFKDHEMIHTWIRPLLIAP
+LWGEKWTLVCGSAKNGRQYRVLRGDPGFEVLSYTEPKTESYMDEDHRYTGHGMKATAGLLNTQVLPAEIHRFSFADNL
+QAGQSGHLALSNRGDQDGWPRYLCYGPGTFKFSNGPGAEPTITFGPLLEGQVVMLTTLPRLRSVIDLSPNQPTEQQLS
+AFQDLIKDLISFATNNNVPPLLQQFESWFGILPPQGNLYELLDGRFTVPIPPKPEDGPPETSFISVSISGATIDSKVV
+AALTPLRKWPE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 531 ,
+                          id
+                            local
+                              str "sample3_30_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_30_2" } ,
+            descr {
+              title "minor tail protein [Kostyavirus sp. ctM5LKB]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 531 ,
+              seq-data
+                ncbieaa "MAALAEINPPDDTVVTFYGKTYGIAGVSSDYIEVTAEFPRNAVETATIVLKHS
+DPMVPHVMKCYEEVVPVTIEIGAMRWSGRVDTFDYAMKDGEYTVTLQCVGDYNWFNKILVWPNWLLPIQVQIPSRAVF
+IGPAITCLKTMIGEQCLRLQLGMWELVNNLGSGNLDWQAWFGTALMSDGNPLDTLMTPIVVVPTNPLFDTSPWISING
+RMDSVATLAEQTLKDLGLHLTASLWLPGDPQPKGLLFPLKKATIVVDVVDRSGVTGPTGTFIDGLIKDVVDLQESVLG
+KVLAPFLNPGNAYAPEGVNIAPTLGVNFVKPWALFVDHPRGGLTEFHLNGHHPLAHTIIGGGKSPKWLNDLINATMSF
+FVDIIQIVIGITGVPSGIFDGTFDDILLAFQLIENFDRRKKLGPFGYPEYFVQTGASAYTLDEWFALRSGMWDTRGYH
+SVQLTFENGYPYTIGKDLFVGGLASFAMLDKLYTDYVEKVVFKDSASARNQVQVFIGDGKAQESPVAKLQRRITGFQE
+FVQIVTMSNH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "minor tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 530 ,
+                          id
+                            local
+                              str "sample3_30_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_30_3" } ,
+            descr {
+              title "Minor tail protein [Kostyavirus sp. ctM5LKB]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 273 ,
+              seq-data
+                ncbieaa "MDGNDLIWDGEVRITNFTRSETGVVTLVLTPRGGVGALPVMAQGEPGKPPVID
+SVEVGEIPHGEDLPDVEWTLVTPAADGNPPHYTLKFYVHAGEKGENGDNATIIGASDVSGTPADGFILQYDEATQKMV
+WVASRINGLYVPTSFSTDTAGSAARKQIAYVRIPGTDQPKEWRPLVWAQTQNTGTAATRVNLECRIDDPTTGPVVGRY
+YGIAGATPPPMILIPAFDSATTKVTKSSTYTDIFLVAVQVEPVGDNWVWNPERTTFTVKVDQIK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Minor tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 272 ,
+                          id
+                            local
+                              str "sample3_30_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_30_4" } ,
+            descr {
+              title "Putative structural protein [Kostyavirus sp. ctM5LKB]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 798 ,
+              seq-data
+                ncbieaa "MTYPVTPDPSIHNVPARNRAQDQQQIINQLRTLFLALPKAILSQVVAFIKQTT
+GIDLSGLLNFLEGVFGGINLLNPPSPAEIWRGVVQTLIQPLNLLIGPNSLLGHLFRQLQAPEVVNLLPASAFASGSIT
+DNTLFTVDLGHSRSSDGSGAAKVIADGELKTMTSGTNPQDVIVIAPGATVSGTVFASHEGYEGTGVAIRLLLVPFADD
+GEPGEPIELASYAPASADMEWPGFELTGSETLPEEVVGVQLRIEVTEEATAGTFYLDDAKVVQSSKIHPSWISGLTDT
+IDDIRGRIQAMLDTIVNTLRGAGSGVLNTFADLVDVLKNINPANILGWFGAATIPEAFQNFLDAIVGGAVGQQGSGAS
+LADAFNVFLKIASDAAKGLFSWDLLGVRTNKPINRGLIKSERSNFNFSEITDWLEVTQENSLIAVDNIEESMPLGVIS
+WIGYGTVGLTAFYVNVYQVLENGDFELVHHSPNIVDRLSGNEAPGEFQRYELDEALPIEITEAYAYELVPVGGSHWVR
+GIISKIPFDPKTTLVSLAASRDNTADPDNPPELIAKLDITRSFNVPWVGIAVDTGNGGDHHDPQRIALAGATEIPMPA
+WANAVDLIGVGGAGGGRQGSLTSNGEGGDPGKWAAATLLRGVDFDGPVIIQFTPGDGGSGGTGVGGKGGDTVFTLGDN
+TVTAGGGAGGTSLSLLGTSVGRGPTPLEYNGETYVAGADQKVFSGPGQAPGGAGNGGDRFFNNGGHGARGGGWVRFYT
+VESPDETTPPEPIDTTPPTPPETVIVNTTYSVITVRAEGGTDE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Putative structural protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 797 ,
+                          id
+                            local
+                              str "sample3_30_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_30_5" } ,
+            descr {
+              title "Minor tail protein [Kostyavirus sp. ctM5LKB]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 829 ,
+              seq-data
+                ncbieaa "MIVAYNVYDADTNLKLNEQPIPIAETWDWVGRSAGTPYRIYTTNVDAAGWESA
+PGPVKEVSTKEFVPTEGPMPSDLTSVIDEIVAEGMATGAGPGVGLYVTSPQGYYLKTYGISTTGVPLTPDMHFRIGSA
+TKPFTATAVLMAIQDGLISLEDTIDQFDTPEFKLSDIDRANEIKIRHLMMMRSGVFNEQRDLTFMLNFALFPKSGFSD
+QSWFNVLKSHKLVRDPGTEFEYVNGNWFLISLILKAVRGKHIRQILYDDIINPLGLTETSWPATAAMPAPYAVGHDGL
+LGGITTETHPTWPHCAGSIVSTLTDLHKWCGHMRDATLLTPEMEQLRDSMFCPIPSGSPFAPPEYGYGLAWYDYGDWK
+GHAGSWVGYECSPMYHKESGTIIVCYENSQSTGTNGVGVQTFSQIFPQIAELLVPGSMPVKEYASCAISSDPFLGKPA
+PANLGYKGVSTPITGLGGGSVNFTAAANADVFGFVTWDRSGPVPTATYGGEDMERIAVEYHSGDSAYGGQALFRIPNA
+GTGEAKSFKVSGSGYGWHTAYAVAFESVVGVEGPTTNSGLGTVHSHPVEASSSGLVLQAFSAGYGYSNIDTITGARYR
+AKYTGVAPLLAVNTTNLTGDISTISSRDNRWASIAVNITVAHDIEVTPPPFELTLNGGTPVIEMDVANKVITPAGFDL
+SLIMGEPSGQKITPESTPLTLTWGTPQIEVAPSFIPFTDVNIEYTDEPVPAGTTGAWVTLGGAGGGGGSGRRSNSGYR
+YGGGGGGGGAYVNRIFVPVELMGSTYSVTRGSGGNGGAKVLTSGDGRDGANGGASVFSSGSVVITANGGGHGSG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Minor tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 828 ,
+                          id
+                            local
+                              str "sample3_30_5" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_30_1" ,
+                  location
+                    int {
+                      from 0 ,
+                      to 1598 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_30" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05709.10" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_30_2" ,
+                  location
+                    int {
+                      from 1670 ,
+                      to 3265 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_30" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF14594.5" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_30_3" ,
+                  location
+                    int {
+                      from 3286 ,
+                      to 4107 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_30" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif UniProt:tr|A0A068F8L3_9CAUD" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_30_4" ,
+                  location
+                    int {
+                      from 4124 ,
+                      to 6520 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_30" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif UniProt:tr|R4JHS9_9CAUD" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_30_5" ,
+                  location
+                    int {
+                      from 6517 ,
+                      to 9003 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_30" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif UniProtKB:A0A0F6YRV7_9CAUD" } } } } } } } } }

@@ -1,0 +1,1220 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Kostyavirus sp. ctJ02G2" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_44" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;g_Kostyavirus] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 6866 ,
+              seq-data
+                ncbi2na 'C5DA5E8ADD558A2861E8F6E5B924814A1E624F5EA48F4B826A587
+51AA8E28E5E1825485A547658A15655911951EDFE29BAD99B4ED63B9294DD42875641892491F41
+F59A4D867B4E06EBA85A6799991A6D1AD356665B62831DA267188649566905956915638D0597EF
+6AE8BD16DF6A5D9A61EBD9E91C5C6B8A5961DA984298ED429D126E971684F5EF9295E14D545862
+5615618A3B918999156528196598150A38965967898620658A966581E662F798A2041761942BAE
+9A90BD9458415E94B535916584388535997136418E0A5ADDB829A3BF0695893615A105E01D5163
+4594182D871F6D9594199469866B5E61B6D0A8E46BA8B6AE8E7417518B94D2B659B98E94710B67
+9DC45C424A9B858E9EAE6795A3E6B8A2F4509E46134E1A4280378E861863799E4BE6825DC61879
+8568F1E7D8C1592271F7156254813A8613628613652E4F47A5238205D8E593D15B8A6542C64545
+EBA39DB459B956084D28D8228ED8138A1B8FEEB84D64AD8D3C605905DC5D93AA6084B65358DC65
+C7D499B61F61092775E8F261B923AF895565EAA77A397DDD3E8BB8E862822F5146255D156BA936
+20923A56657D1C6E082A452AEB428066498317A5082665C427A57658A7652D631A919A9E162085
+991D37514209DEA288E862962B65382C658210988617A00207B593E484A050BEB754A0C41B7610
+A23893B4816097F59EAD3D264D0A07659A205689ABA6479431F46B62661A49152579E4DBA94657
+648A4A4D6508A1AA1A714713690E1165D467A6A057A6A52754EA58BDA7D8B6566B4189E67AB75F
+AD491752869A7117A2E296D8A99AB84DE3AF96D842D6AF51349045CCDA4E786A5DD997B746DC66
+A45B56C4214D49265908205A925099D5908D05A2B2238D2620BA7A914D082A628A5742F4D2A2A9
+D902749821A915E19A935D64641E6D9FA2E60F598E66E18E92698498B12A035E89D1423ADDA069
+E0B8566DB7EB45A756E17458A044DB518A27711629990E6A6B79105D16D651A69966A67851EA64
+45F79B824548AD162860B42961E836A1E45A52E7D469559C42869095C7952D96AB5E6414A53AD8
+42AE584D95E97D559A92958A45061E4D29A9420A648F56DB6D6B818828B96A26A50626E0929C79
+99DE697717557457514590826494A9A42EA178507BB4EB79A51A450ABE51A7A3E24415839658A1
+0A9FD1B5957A48156480651E7714A929091C7458A2A06B604ED2F868B65099A15882A5936D3457
+A2145356665B7A599C428997A9C6DD6194D87979AB61B528710A1A7134976289D365767861A693
+75B50B69038986D4AF2D907D4424550AEB652750E995DA7EE8D0A67B5EB5665459082A51B559A5
+86781D3A91558A035889EB6105A7BA86EB62A69C59C51871A61EB1E8154A1459A205DB7146DBA9
+86545585BB5E6507A049236025D7858A91A2366BE789999E09EE9E98054196AB2779E57176FD61
+9DC62712A06490D8A099E621971645AA138555D7A2469C4DC62754855815A8E14D890B5896515E
+9D109889234203A41281EE15654596549D9608AE099765962C558424A6979431F625A11A8895E7
+936DAD199E942F69C45C658659426D0E81169B61B6A89DF510A9B4D95DA61A622F385D761A5E22
+0B52265421869756EAB824B8295E2E0E241455285C9658B492D76994E7DDD4206515696D3A23DD
+0958A1F71655051945B7148D34585DC4E96B8B5961B4D16D96689DA4242A39E04236895549D761
+392481B95D667419461B194536D0A10252926D974D81EA61679652769C45865145D608AD86674D
+9509E94BD7758AE890545A41A9DA7D95276C882E9A17A421495D61B4D54553A5607412BA3D6A6A
+A3DD56A817AEB6DA69655A66A422C196B78134DD4296582109D0897ADF75BA23A186D82EF4961D
+76692917AD5677648D3696493A20751BA899B628317611510A17557A0351861975799B6282EB75
+6796AE642542BAE3AD87195278E881241542EA18991413E644DD5925D0AE9A50927913AEBAD7A4
+D127416200460351A5081A5594D56178505E96BA61DDEA5986686FB5D75D48296184134D64E46E
+88205A068644A0E36072E959A663B62ADA38B0599223CD942B998A63E2819F9D9418AB5B1B09BB
+18A347A9B9761A62F6174587E9E2925F619CD9A18BAD575BFE05DF6249D392529AC980590D84E2
+7A46B0A603942A85C6BDD094405E182074582074588FE5E0795ADF466793AD85E9A1245DAEF6D9
+6A8BA0A08638234C7AFE5789F5A9A0A7A53697959B958966986035035E561D625BD361B99F4DB4
+586E97A4A7A690BF869C7513D9D506DF7B8AFB63AB291D658AD76E69DF73DA36A1599C4D86D1E5
+EA38988698AA8BDC5F5BE2D15A51A1F5D3A5984FA187189D6CEF4D9759C9D2BB62E917B14A6942
+ACC95D5A3856C685D907AB99F50'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_1" } ,
+            descr {
+              title "hypothetical protein [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 42 ,
+              seq-data
+                ncbieaa "-LGLEVSPEEDDWIRAVQQNQDCEHSWADSVKRADSTGDEDA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 41 ,
+                          id
+                            local
+                              str "sample3_44_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_2" } ,
+            descr {
+              title "Erf like ssDNA annealing protein [Kostyavirus sp.
+ ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 240 ,
+              seq-data
+                ncbieaa "MPDEAQTGPLAEDPAPHTPTVFEAWSRVMSDVQAISKDSRNEQQHFNFRGIDA
+VMNVVGPALRAHGVTVIPRAVEEYSERYETQPRGNRPGTPMINRLVRVEFTVFGPRGDWFAGTTYGEAADSGDKAMSK
+AHSVAYRTFLLQALTIPTDEPDPDEDVHERAPRQERRREPKDEPPPLSDENAEGRAELREFCEENNLDAKVVAGKFAT
+DNPGQSIRTADNETIRAYIATMKAGLVKADV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Erf like ssDNA annealing protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 239 ,
+                          id
+                            local
+                              str "sample3_44_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_3" } ,
+            descr {
+              title "hypothetical protein [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 103 ,
+              seq-data
+                ncbieaa "MFNGPSIDPDNLKLPPITANEVDYFVARQRATATRSCDVVKGCTVGVGWMLNL
+HECHQVAACDGHYKSLLYTYKQGVTDGWVRCPDCGEEFTKLHDIMTARKI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 102 ,
+                          id
+                            local
+                              str "sample3_44_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_4" } ,
+            descr {
+              title "hypothetical protein [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 156 ,
+              seq-data
+                ncbieaa "MDDDDLRCSCGSLYDDCDPDYCFDNPQSYFYPEPRTWDDIEDDIASAFTGQMK
+NLDAAFTREAPKYAPTWWMLVTACPEDIRIEEDVEHEDVICGDIRRSIITNRNLYLAWGEDSRHPIYAYFQRVDFDKQ
+LSWISDVQMVEPPAWGLWMPSLIGV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 155 ,
+                          id
+                            local
+                              str "sample3_44_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_5" } ,
+            descr {
+              title "hypothetical protein [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 122 ,
+              seq-data
+                ncbieaa "MDEEEFHHEPLTPVGIEKQMARALHYVKKGTRVVKETRSEYLAKKRAYKLALA
+EARQSDTGTRADREDRALISTKKLWEEMDEAEVAMKYAEDKRDDLEKELSALQTGTKLVSQEYNVSTRR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 121 ,
+                          id
+                            local
+                              str "sample3_44_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_6" } ,
+            descr {
+              title "hypothetical protein [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 122 ,
+              seq-data
+                ncbieaa "MSEPKPFRWVIQRIKELAAENPERVAHCQYFTVERDGSTQPCCIVGHALAEAG
+IRQEDGDGYHYIGNDTASTLAGTLAGQLPWAEFGFESPAVNELRWVSLVQHLQDGGYTWSEAVEGAGDI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 121 ,
+                          id
+                            local
+                              str "sample3_44_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_7" } ,
+            descr {
+              title "hypothetical protein [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 57 ,
+              seq-data
+                ncbieaa "MVAVDKSGFHISNTYIGMLTGLSRLSHVYAGTVPYKTIQQRRKKNRAAKRSRK
+INRR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 56 ,
+                          id
+                            local
+                              str "sample3_44_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_8" } ,
+            descr {
+              title "hypothetical protein [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 77 ,
+              seq-data
+                ncbieaa "MISEKWLGTIKKGEEALKFIREGLAKLSEDGHPDAGILRTQLRRLECEFRDAR
+DDGSGDSEYREILELTKMVSERLK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 76 ,
+                          id
+                            local
+                              str "sample3_44_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_9" } ,
+            descr {
+              title "GTP binding domain [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 137 ,
+              seq-data
+                ncbieaa "MTRVVLVTGSRDLTEEHIVHEELYTEARNAGGLHNLTVRHGGAAGADHWAHTF
+CVKHPEVTEDEVKADWNRDCTGQCFHGPRYKDGKPYCPVAGVLRNQAMVDKGADIALAFPRGQARGTNDCIRRAKKAQ
+IPVVVR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "GTP binding domain" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 136 ,
+                          id
+                            local
+                              str "sample3_44_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_10" } ,
+            descr {
+              title "HNH nucleases; HNH endonuclease signature which is found
+ in viral, prokaryotic, and eukaryotic proteins [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 105 ,
+              seq-data
+                ncbieaa "MNEKECRERANEREAGYCALCGLYLPLTLHHRKKRSQGGKWDLTNCVMVCGHG
+TKGCHGWIEHNPNAAEDKGFHVRPWQNPAETPLLYQGRQALLTEEGTVEHVS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "HNH nucleases; HNH endonuclease signature which
+ is found in viral, prokaryotic, and eukaryotic proteins" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 104 ,
+                          id
+                            local
+                              str "sample3_44_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_11" } ,
+            descr {
+              title "hypothetical protein [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 78 ,
+              seq-data
+                ncbieaa "MSVDGVAKRGPEKGRIVITLETTIPRAVWPRYKERLGYVSDAIDCLRVDVQDY
+KDGYISLEELIALADDGGISVQVGK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 77 ,
+                          id
+                            local
+                              str "sample3_44_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_12" } ,
+            descr {
+              title "phage replisome organiser [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 216 ,
+              seq-data
+                ncbieaa "MSDVQVSRNFHKHPKVVASSNGALGLWIKALSWSRAHRKKGHVPAADAELMGT
+PEEIRELVDNRLWDVVEGGYRYHDYGDWYWNPRTTAENLVYHVVGDAHPDRVLRQLEQQIESLLTEGTEIAVAERALK
+LWLAKPNAGVALLPYLVSDALRATGNAAIEEALRDAYRTGDMTPLLEHGYIYELPDPEPGMTIEQVRAATLAHKREQI
+KKWQQEL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "phage replisome organiser" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 215 ,
+                          id
+                            local
+                              str "sample3_44_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_13" } ,
+            descr {
+              title "hypothetical protein [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 116 ,
+              seq-data
+                ncbieaa "MATGTVTPPTAAQLAEEVKRLAAEYPDKQAACQYFEPDTGEPCCIVGHALAKF
+GYTYADAAKRQWNTGVDVGELFHKGVIALGDGESYDLLDGLREVQSAQDDGLPWGEAVKALSE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 115 ,
+                          id
+                            local
+                              str "sample3_44_13" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_14" } ,
+            descr {
+              title "Helicase ATPase [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 402 ,
+              seq-data
+                ncbieaa "MLLSKNATPAVMEILKPEDFYRPNHATVYQIITDLYMAGESADVITVAAELGK
+QGMLNKIGAPQLLDMQQNVPSALNATTYATIVKDKARQRRLIELGDRCRQLGYTDATTSEEVDALIAQAGQFLSEVEQ
+PTGNGLGFAQLVEKWRTWQDQPSDVIPTPWPELNRWIPGGGFSPGNLVVVGGRPGAGKSNAGLNIISKAAEDKLKSLV
+FSVEMDDVEVFSRLLAAGTWSPLSQIIGRSMENSTWERVEEYLDTHKDLPLEIHDDASLRVEEVVSRCRVRKPKVVMV
+DYAQLMENSNPKWDERTNIAHISRSLKVAAKQLHMVVVLASQLNRENTKSTAKNGPAIPDLTNLAGGDSLGRDADVVL
+LLQKADDNIIRMHVEKNRNGRTGMIELVARGAMSRVG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Helicase ATPase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 401 ,
+                          id
+                            local
+                              str "sample3_44_14" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_15" } ,
+            descr {
+              title "hypothetical protein [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 62 ,
+              seq-data
+                ncbieaa "MSNRAEIIAKVREAIEERLLANEGPYVSVYEDHWACLDGEFDLTDLAEAAFDA
+IADEWSPPF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 61 ,
+                          id
+                            local
+                              str "sample3_44_15" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_16" } ,
+            descr {
+              title "transcriptional regulator WhiB like [Kostyavirus sp.
+ ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 79 ,
+              seq-data
+                ncbieaa "MQPGGSETAIDMSWHGKAKCQGDLRFSSHKPDEELTEELTEICLNCPVFTRCM
+VDLADSTSVFVAGEWKEDDEDHTGLP" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "transcriptional regulator WhiB like" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 78 ,
+                          id
+                            local
+                              str "sample3_44_16" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_17" } ,
+            descr {
+              title "hypothetical protein [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 73 ,
+              seq-data
+                ncbieaa "MKIILVCPELPGGRLAIGLPACPSRGDEIQILPDSEPFIDVRFIVTDVAWQAG
+GKFDGYSTFAPNVFCEVVDG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 72 ,
+                          id
+                            local
+                              str "sample3_44_17" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_44_18" } ,
+            descr {
+              title "hypothetical protein [Kostyavirus sp. ctJ02G2]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 95 ,
+              seq-data
+                ncbieaa "MGRHSAEVLVRLFYSDRDPRYIDVTAWDERDGEGEFYLPLSHPATDFLMAATL
+DDYELRMFIASASSGVEWHLYQAAKGIALPDDPYGPRNWVRF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 94 ,
+                          id
+                            local
+                              str "sample3_44_18" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_1" ,
+                  location
+                    int {
+                      from 0 ,
+                      to 128 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_2" ,
+                  location
+                    int {
+                      from 121 ,
+                      to 843 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF04404.11" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_3" ,
+                  location
+                    int {
+                      from 836 ,
+                      to 1147 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_4" ,
+                  location
+                    int {
+                      from 1147 ,
+                      to 1617 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_5" ,
+                  location
+                    int {
+                      from 1617 ,
+                      to 1985 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_6" ,
+                  location
+                    int {
+                      from 1988 ,
+                      to 2356 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_7" ,
+                  location
+                    int {
+                      from 2356 ,
+                      to 2529 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_8" ,
+                  location
+                    int {
+                      from 2532 ,
+                      to 2765 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_9" ,
+                  location
+                    int {
+                      from 2762 ,
+                      to 3175 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF02481.14" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_10" ,
+                  location
+                    int {
+                      from 3172 ,
+                      to 3489 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:cd00085" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_11" ,
+                  location
+                    int {
+                      from 3479 ,
+                      to 3715 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_12" ,
+                  location
+                    int {
+                      from 3712 ,
+                      to 4362 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF09681.9" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_13" ,
+                  location
+                    int {
+                      from 4344 ,
+                      to 4694 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_14" ,
+                  location
+                    int {
+                      from 4741 ,
+                      to 5949 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:3BH0_A" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_15" ,
+                  location
+                    int {
+                      from 5946 ,
+                      to 6134 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_16" ,
+                  location
+                    int {
+                      from 6152 ,
+                      to 6391 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF02467.15" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_17" ,
+                  location
+                    int {
+                      from 6366 ,
+                      to 6587 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_44_18" ,
+                  location
+                    int {
+                      from 6580 ,
+                      to 6864 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_44" } } } } } } } }

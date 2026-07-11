@@ -1,0 +1,49 @@
+>Feature sample3_56 Table1
+1	126	CDS
+			protein_id	lcl|sample3_56_1
+			product	resistance protein
+			inference	protein motif PFAM:PF05565.10
+126	899	CDS
+			protein_id	lcl|sample3_56_2
+			product	AAA domain protein
+			inference	protein motif PFAM:PF13479.5
+930	1481	CDS
+			protein_id	lcl|sample3_56_3
+			product	Single stranded DNA binding protein
+			inference	protein motif PDB:3EIV_D
+1494	2186	CDS
+			protein_id	lcl|sample3_56_4
+			product	Putative HNHc nuclease
+			inference	protein motif PFAM:PF16784.4
+2158	2961	CDS
+			protein_id	lcl|sample3_56_5
+			product	phage replisome organiser
+			inference	protein motif PFAM:PF09681.9
+2971	3744	CDS
+			protein_id	lcl|sample3_56_6
+			product	Replicative helicase
+			inference	protein motif PDB:4M4W_K
+3909	4130	CDS
+			protein_id	lcl|sample3_56_7
+			product	Protein of unknown function (DUF3269)
+			inference	protein motif CDD:pfam11673
+4141	4545	CDS
+			protein_id	lcl|sample3_56_8
+			product	Endonuclease
+			inference	protein motif PFAM:PF06356.10
+4550	4735	CDS
+			protein_id	lcl|sample3_56_9
+			product	Protein of unknown function (DUF3113)
+			inference	protein motif CDD:pfam11310
+4736	4993	CDS
+			protein_id	lcl|sample3_56_10
+			product	Repressor protein CI
+			inference	protein motif PDB:2FJR_A
+5005	5376	CDS
+			protein_id	lcl|sample3_56_11
+			product	PVL ORF 50 like protein
+			inference	protein motif PFAM:PF07768.10
+5377	5463	CDS
+			protein_id	lcl|sample3_56_12
+			product	Phage Conserved Open Reading Frame 51
+			inference	protein motif CDD:pfam06194

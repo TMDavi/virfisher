@@ -1,0 +1,13 @@
+>Feature sample3_224 Table1
+96	1	CDS
+			protein_id	lcl|sample3_224_1
+			product	virion structural protein
+			inference	protein motif PFAM:PF11681.7
+1470	112	CDS
+			protein_id	lcl|sample3_224_2
+			product	tail sheath
+			inference	protein motif PDB:3J9Q_Q
+1654	1475	CDS
+			protein_id	lcl|sample3_224_3
+			product	hypothetical protein
+			note	no search hits

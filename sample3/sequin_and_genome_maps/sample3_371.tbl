@@ -1,0 +1,9 @@
+>Feature sample3_371 Table1
+858	1	CDS
+			protein_id	lcl|sample3_371_1
+			product	DNA primase
+			inference	protein motif PDB:2AU3_A
+1185	871	CDS
+			protein_id	lcl|sample3_371_2
+			product	Replicative helicase DnaG Primase
+			inference	protein motif PDB:2R6A_B

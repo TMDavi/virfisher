@@ -1,0 +1,77 @@
+>Feature sample3_23@C0 Table1
+1510	2	CDS
+			protein_id	lcl|sample3_23_1
+			product	hypothetical protein
+			note	no search hits
+2100	1510	CDS
+			protein_id	lcl|sample3_23_2
+			product	Predicted internal virion protein B 
+			inference	protein motif UniProt:tr|W6PP78_9CAUD
+2555	2091	CDS
+			protein_id	lcl|sample3_23_3
+			product	internal virion protein 
+			inference	protein motif CDD:PHA00432
+4902	2530	CDS
+			protein_id	lcl|sample3_23_4
+			product	Phage stabilisation protein
+			inference	protein motif PFAM:PF11134.7
+5499	4903	CDS
+			protein_id	lcl|sample3_23_5
+			product	Tail tube protein
+			inference	protein motif PDB:3J4B_E
+6636	5686	CDS
+			protein_id	lcl|sample3_23_6
+			product	Major Capsid Protein
+			inference	protein motif PDB:7Y23_A
+7014	6889	CDS
+			protein_id	lcl|sample3_23_7
+			product	hypothetical protein
+			note	no search hits
+7379	7014	CDS
+			protein_id	lcl|sample3_23_8
+			product	Holin of 3TMs
+			inference	protein motif PFAM:PF11351.7
+7587	7372	CDS
+			protein_id	lcl|sample3_23_9
+			product	HNH endonuclease
+			inference	protein motif PFAM:PF05551.10
+8405	7587	CDS
+			protein_id	lcl|sample3_23_10
+			product	Major Capsid Protein
+			inference	protein motif PFAM:PF05396.11
+10022	8409	CDS
+			protein_id	lcl|sample3_23_11
+			product	Portal Protein
+			inference	protein motif PDB:8CK0_A
+10273	10022	CDS
+			protein_id	lcl|sample3_23_12
+			product	hypothetical protein
+			note	no search hits
+10502	10275	CDS
+			protein_id	lcl|sample3_23_13
+			product	hypothetical protein
+			note	no search hits
+10676	10506	CDS
+			protein_id	lcl|sample3_23_14
+			product	hypothetical protein
+			note	no search hits
+10989	10651	CDS
+			protein_id	lcl|sample3_23_15
+			product	phosphofructokinase
+			inference	protein motif PFAM:PF07659.10
+11836	10946	CDS
+			protein_id	lcl|sample3_23_16
+			product	Exonuclease
+			inference	protein motif PDB:5HML_B
+12168	11833	CDS
+			protein_id	lcl|sample3_23_17
+			product	hypothetical protein
+			note	no search hits
+12500	12141	CDS
+			protein_id	lcl|sample3_23_18
+			product	hypothetical protein
+			note	no search hits
+13758	12487	CDS
+			protein_id	lcl|sample3_23_19
+			product	DNA polymerase
+			inference	protein motif PDB:2KFZ_A

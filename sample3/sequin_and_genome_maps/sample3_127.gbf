@@ -1,0 +1,120 @@
+LOCUS       sample3_127             2661 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;f_Casjensviridae;g_Chivirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Chivirus sp. ctJ56AI (unknown)
+  ORGANISM  Chivirus sp. ctJ56AI
+            Unclassified.
+REFERENCE   1  (bases 1 to 2661)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2661)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2661
+                     /organism="Chivirus sp. ctJ56AI"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(2..970)
+                     /inference="protein motif PFAM:PF05876.11"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Large Terminase"
+                     /translation="MKFKSIGQIISSVAEQLRPPMRMTVADAAAKYRYVNQPGAYVGD
+                     WLNSTTPYMVEPMNMMNSRAYDKMAFVGPAQSGKTDALILNSIVYSVKVDPMDLMVYC
+                     PTSTAARDFSMRRVDRLHRHSPKVGEMLMKNRDADNKFDKHYVTGIILTLSYPSVTEL
+                     AGRPVGRIIITDYDRIDDDIGGDGNAFDLASKRTTTFGSFAMCAAESSPSRPIKDPSW
+                     IKRTPHEAPPCDGIVGLYNRGDRRRWKWPCPHCDQYFEGTFQLLKWNTKDADGNPLTN
+                     LEKSETVRMACPHCGCEIDPVDKYEMNLWGMWVPEGCHVNELGQLAG"
+     CDS             complement(960..1529)
+                     /inference="protein motif PFAM:PF07278.10"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="terminase small subunit"
+                     /translation="MTKSNAPLATRNRRSNAPDADTEAMIFQGCNITQLAKLFRMERR
+                     DITPKIMDVPPVGERGGYPIYAVHEVAPYLVKPLYDVETYLRRMNFKDLPKELSKEFW
+                     AGQRAKQDFDIKAGNLWETEKVIEHFGEAVKVLRMSMLLIPDTLARQAGLSEPQRQVI
+                     TSSIDAMLNDLSSALIDKFNGDEVDDDEV"
+     CDS             complement(1516..2661)
+                     /inference="protein motif PDB:5JXR_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Chromatin remodeling complex ATPase"
+                     /translation="-
+                     KTKWPFDAVVLDESSMFKSHTSQRFKLLRRVRKYIKRIVELTATPAAEGYMGIFSQIY
+                     LLDEGERFGSTIGGYQENYFTQNRYNFKWKLRPGAEDEIIRKISDICLVMKAEDYLDM
+                     HEPNFVPVPVELDGETAERYRMMEEESLVEIMPDDFDEHLDDPIVIEAEQAASLQSKL
+                     LQMCSGFIYDTKIVGITQDDKVIKQKDTYRLHDLKFDALEELLETTLADKNVLIAYHF
+                     KPTLERLKERFKDLVVMDDDGKCIKKWNAGKIRLLAAHPQSAGHGLNLQHGGHVIVYI
+                     DNPWSLERFLQFNGRLHRQGQKYPVTIYQFKAMLRTPNGLLAETADDVVIQALVEKED
+                     VQDAFFELLERIKGRIKRRKKSKNKGVWDDEE"
+ORIGIN      
+        1 ccccggccag ttggcccaac tcgttgacat gacagccttc cggcacccac atcccccaca
+       61 ggttcatttc atacttatca accgggtcta tttcgcagcc gcagtgtgga caggccatgc
+      121 gcactgtctc cgacttttcg aggttggtta gagggttgcc atcggcgtct ttcgtgttcc
+      181 acttcaaaag ctggaaggta ccttcgaaat actggtcgca atgcggacac ggccatttcc
+      241 agcggcggcg gtcgccacgg ttgtacaggc cgacaatccc gtcacacggc ggggcttcgt
+      301 ggggcgtgcg cttaatccag cttgggtctt taatcgggcg cgatggcgat gactcggctg
+      361 cacacatggc aaacgacccg aaggtcgtcg tacgttttga tgcgaggtcg aaggcgttac
+      421 cgtcgccgcc gatgtcgtcg tcaatacggt cgtagtcggt gatgatgatg cgaccaacgg
+      481 gacgcccggc cagttcggtt actgacggat aactcaacgt caggatgatg cctgtgacgt
+      541 agtgtttgtc gaatttgttg tcggcgtcgc ggttcttcat cagcatttcg cccaccttcg
+      601 ggctatggcg gtgaagacgg tctactcgtc gcatcgagaa gtcgcgcgcg gccgttgacg
+      661 tcgggcagta gaccatcaga tccatcgggt caactttcac cgaatagaca atgctattca
+      721 ggatcagcgc atcggtttta ccggactgcg ccgggccgac aaaggccatc ttgtcgtacg
+      781 cccggctgtt catcatgttc atcggctcga ccatgtacgg cgtcgtcgag ttaagccaat
+      841 ccccgacgta tgcgccgggt tggttgacgt agcgatactt ggcggccgcg tcggccaccg
+      901 tcatgcgcat tggcggccgt aactgctcgg ccaccgaact gataatctgc ccgatgctct
+      961 taaacttcat cgtcgtccac ctcgtcgccg ttgaacttat cgatcagcgc gctcgacagg
+     1021 tcgttcagca tggcgtcaat ggatgacgtg atgacctgac gttgcggctc gctgagtccg
+     1081 gcctgacgcg ccagcgtgtc gggaatgagc aacatcgaca tgcggagcac cttcaccgcc
+     1141 tcgccgaagt gctcgatcac cttctcggtt tcccacaggt tgcccgcttt gatgtcgaag
+     1201 tcctgctttg cgcgctgccc ggcccaaaac tctttcgaca actccttcgg cagatccttg
+     1261 aaattcatgc ggcgcaggta cgtctcgaca tcgtacagcg gcttaacgag gtacggggcc
+     1321 acttcgtgaa ccgcgtagat cgggtacccg ccacgctcgc cgacaggcgg gacatccatg
+     1381 attttcggcg tgatgtcccg gcgctccatg cggaacagct ttgccagttg cgtgatgttg
+     1441 cagccctgaa aaatcatcgc ttcggtgtcg gcgtccggcg cattagagcg gcgattccgg
+     1501 gttgccagtg gcgcattact cttcgtcatc ccatacccct ttatttttcg atttcttgcg
+     1561 gcgtttgatg cgccctttga tacgttcgag cagttcgaag aacgcgtcct gcacgtcttc
+     1621 cttttcgacc agcgcctgta tgactacgtc gtccgccgtc tcggccagaa gcccgttcgg
+     1681 tgttcgcagc atggctttga actggtagat cgtaaccggg tacttctgcc cctgacggtg
+     1741 caatcggcca ttgaattgca ggaagcgttc gagtgaccac ggattgtcga tgtagacgat
+     1801 gacgtggccg ccatgctgga ggtttaaacc gtgtcccgct gactgagggt gcgcggccag
+     1861 cagtcgaatc tttccggcgt tccacttctt gatgcactta ccgtcatcat ccatgaccac
+     1921 cagatcttta aaccgctctt tcagtcgttc gagggtcggc ttgaagtgat aggcgatcag
+     1981 cacgttttta tcggccagcg tggtttccag cagttcttcc agtgcatcga atttcaggtc
+     2041 gtgcagcctg tacgtgtcct tctgcttaat gaccttgtcg tcttgcgtta tgccaacgat
+     2101 tttcgtgtcg tagatgaagc ctgagcacat ctgcaatagc ttcgactgca aagacgcggc
+     2161 ctgctccgct tcgatcacga ttgggtcatc cagatgttca tcgaaatcgt ccggcataat
+     2221 ctcgacgagg ctctcttcct ccatcatgcg gtaccgctcg gccgtctccc cgtctaactc
+     2281 gaccgggaca ggaacgaaat tcggttcgtg catgtcaagg tagtcttccg ctttcatgac
+     2341 taaacatata tcagaaatct tccgaataat ctcgtcttcc gcaccggggc gaagtttcca
+     2401 tttgaagttg tagcggttct gcgtgaagta gttttcctga taaccgccga tggtggagcc
+     2461 aaagcgctcg ccttcgtcca gcaggtaaat ttgcgagaag atacccatgt acccttcggc
+     2521 cgcaggcgtg gccgtcaact cgacgatccg tttgatgtac ttccgcaccc ggcgcagcag
+     2581 tttgaagcgc tgcgaggtgt gggatttgaa catgctcgac tcgtccagca ccacggcgtc
+     2641 gaacggccat ttcgtcttga a
+//

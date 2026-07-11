@@ -1,0 +1,6 @@
+sample3_61	Cenote-Taker	CDS	1570	2	.	-	0              	gene_id "lcl|sample3_61_1"; gene_name "tail protein"; gene_inference "protein motif PFAM:PF13550.5"
+sample3_61	Cenote-Taker	CDS	2179	1631	.	-	0              	gene_id "lcl|sample3_61_2"; gene_name "tail assembly protein I"; gene_inference "protein motif PFAM:PF06805.11"
+sample3_61	Cenote-Taker	CDS	2919	2176	.	-	0              	gene_id "lcl|sample3_61_3"; gene_name "Mpr1p, Pad1p N-terminal (MPN) domains with catalytic isopeptidase activity (metal-binding) found in proteins also containing NlpC/P60 domains"; gene_inference "protein motif cd08073"
+sample3_61	Cenote-Taker	CDS	3623	2925	.	-	0              	gene_id "lcl|sample3_61_4"; gene_name "minor tail protein "; gene_inference "protein motif PFAM:PF05100.11"
+sample3_61	Cenote-Taker	CDS	3962	3633	.	-	0              	gene_id "lcl|sample3_61_5"; gene_name "minor tail protein"; gene_inference "protein motif PFAM:PF05939.12"
+sample3_61	Cenote-Taker	CDS	5179	3962	.	-	0              	gene_id "lcl|sample3_61_6"; gene_name "phage tail tape measure protein, lambda family"; gene_inference "protein motif TIGR01541"

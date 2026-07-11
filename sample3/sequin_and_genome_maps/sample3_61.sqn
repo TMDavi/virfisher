@@ -1,0 +1,604 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Limmatquaivirus sp. ctG9Q4Z" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_61" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;f_Z
+immerviridae;-_Wollmanvirinae;g_Limmatquaivirus] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 5180 ,
+              seq-data
+                ncbi2na '529F349BAE5A28E926E3F46B626D2ED66DE9EF45949199596B9E3
+16932D34D123F4304D95A44E98257DA4546782D46B79B7524BD6FF0D25125699AE65E5565EB125
+0293537DB86F185B06A43A7E6ED75109DED96DD525BCD6AD0D4BD1741A4F3A6B5F4A99E09EC9A0
+69994D35A4D144F1E6BCCAD445F378EB6B5E4606D26DE56F5316931264D962480D1E204D5197C6
+7BBAD25293C4AE399A75B965005B5A4587AD9047A58E1312654FCD44DE591421BF15396C99ABAB
+4933544845294EFBE7B39E9F01BD6D523167B3E59B79ABCCBD86917920C656608E30F1A745E7A7
+96079D60D45EC65852E5BBDAB247BF44D8E3F6BB3861489BFEF7927ADEEB9ED69B4D79935A3BE0
+6A669A48F35147162948C798AEBFE57C3AE3B7FF5B454945BC6FB3781492981F5868F5CD55FE2B
+AFD452E5E44582B026486B43BF961B8EB5AB8DA6EDB3F47D6C54B16DDA05A28F40D5D69AEDEF5E
+745E5681145B845A23BCB3D5747B5245AEC7BD24919FFC35351685F43695F678E936344749079B
+A1F4AFB5FE7D99AACE55F1E797F153D7467530184016568A6BF44C013FE4D2614345105E145355
+F6DE5B9E375E201446E154664FD16C48129204F95EA414EF352E2880CAEF7BF96F37B1E9E5BA9B
+5E9FDAE524DE651D654A34C7A55E59313958C4966955252544ABD45394590D2659542451780445
+947FC9D594866918EE8D1A453F949A74F086A48C3D3FD9793465690E645E31495D3D2FDE18045A
+89EEE94995A3A7DA556FF4460AD8E69A5036F90355B029239B94E56B86522A2EEE6D9E53FB6B31
+7776FE74BEF4A0CEB9249D96D964B0326938F69163814012449244D95A79967841A45E33255BE5
+D48F3523223DE16E19452D35D98E00D69374355948EB093568126EC12D6D156E74099656B88E69
+112683F3837455A4852514690347791792596B69747494A92145AAE9EE8526510DD15E4DDE5749
+4B5D6984C680C65D69D1688CF464A80337F55F5A6F7451825918759E991365A9B99483678F7B77
+B4EA3F1E602FEF0E80A096502F961BCF9807C49474A4FE793F35F6E33686DA78D33D359849685B
+8C16474D16632B52B92B3C94938E655A001A4535BF5B6BBA10440A291E16474BD9E479D8E65269
+E345D79D68DA6D9EFD6F860BD164D4801A9B017C65E145BD658521DE4ADF594D56E14E5B92BC80
+5B4BB686A491E57E5BD2F40D7B55E0EAB3978C79655E52B05A745FFDBDE74F12000C1BD14585DE
+D2363F5489145EA7878B8A6EDB74E3BBF5EE8335E4D225D7394617BD00DE5BCEBC544995519F96
+14FC61014570DAFD4B4C2BA6D4780E6686516E5BD480A7FC08EAEF44FC6046CDB467B0B6107AF3
+D2D5964619EF4C14D9527D1ED147F69DE3144F4CD6A647F52E01B753C58CE751F058514D1A979E
+F9302D679E7FFD50AD30145F4A925A173795BDB94DBCF8DD8EFB1E6A90136531781450CD651055
+49F16D24518648A483A7D2B567D553445665FF90090006DA1AF0516E51EC18740D24878C0D554F
+A4F4A80A79E2340D52C4794357FCD8FD34EBE5E6528FF653378491208AE0A3F80F8BF96B2E100B
+E5294FD53BE7829E188117BDE7BD796CF379351AC035E039192875BFF52F15E441F427BE52C1A6
+3DD3D2FB6BD29DD6D265E7697F7B2D35BBCCED5FDE7473565D079D49EF9EB3F7A60874BEC5E336
+79679E3454C545BA63352B4EF9E19E26677DF494BE1EB49E0FBFFF7D276F8B96DEFDE09D79EFF1
+3524994B97834BD37F1A94901DFF4DE5B4BFFD5B52B678E679E4894827BF399F7B4D7F5BA43979
+E1EDE92490DED7D45EE5EF9E1E07924305ABA5D34'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_61_1" } ,
+            descr {
+              title "tail protein [Limmatquaivirus sp. ctG9Q4Z]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 523 ,
+              seq-data
+                ncbieaa "MGKGSSKGHTPREAKDNLKSTQLLSVIDAISEGPIEGPVDGLKSVLLNSTPVL
+DSEGNTNISGVTVVFRAGEQEQTPPEGFESSGSETVLGTEVKYDTPITRTITSANIDRLRFTFGVQALVETTSKGDRN
+PSEVRLLVQIQRNGGWVTEKDITIKGKTTSQYLASVVVDNLPPRPFNIRMRRMTPDSTTDQLQNKTLWSSYTEIIDVK
+QCYPNTALVGVQVDSEQFGSQQVSRNYHLRGRILQVPSNYNPQTRQYSGIWDGTFKPAYSNNMAWCLWDMLTHPRYGM
+GKRLGAADVDKWALYVIGQCCDQSVPDGFGGTEPRITCNAWLTTQRKAWDVLSDFCSAMRCMPVWNGQTLTFVQDRPS
+DKVWTYNRSNVVMPDDGAPFRYSFSALKDRHNAVEVNWIDPDNGWETATELVEDTQAIARYGRNVTKMDAFGCTRRGQ
+AHRAGLWLIKTELLETQTVDFSVGAEGLRHVPGDVIEICDDDYAGISTGGRVLAVNSQTRTLTLDREITLPSSGTTLI
+SL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 522 ,
+                          id
+                            local
+                              str "sample3_61_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_61_2" } ,
+            descr {
+              title "tail assembly protein I [Limmatquaivirus sp. ctG9Q4Z]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 182 ,
+              seq-data
+                ncbieaa "MKTGAEAIRALATQLPVFRQKLNEGWYQVRIAGRDAGENELSARLNEPLANGA
+VIHIVPRLAGAKSGGVFQVVLGAALIAVAWWNPVGWLGAAAVSGMYAAGASMILGGVAQMLAPKARTPTAASTDNGKQ
+NTYFSSLDNMVAQGNVLPVLYGEMRVGSRVVSQEISTADEGDGGQVVVIGR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "tail assembly protein I" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 181 ,
+                          id
+                            local
+                              str "sample3_61_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_61_3" } ,
+            descr {
+              title "Mpr1p, Pad1p N-terminal (MPN) domains with catalytic
+ isopeptidase activity (metal-binding) found in proteins also containing
+ NlpC/P60 domains [Limmatquaivirus sp. ctG9Q4Z]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 247 ,
+              seq-data
+                ncbieaa "MTETESAILAHARRCAPAESCGFVVRTPEGERYFPCVNISGEPEAYFRMSPED
+WLRAEMQGEIVALVHSHPGGLPWLSEADRRLQVQSDLPWWLVCRGEIHKFRCVPHLTGRRFEHGVTDCYTLFRDAYHL
+AGIEMPDFHREDDWWRHGQNLYLDNLEATGLYQVPLSAAQPGDVLLCCFGSSVPNHAAIYCGDGELLHHIPEQLSKRE
+RYTDKWQRRTHSLWRHRAWHASAFTGICNDLAAASTFV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Mpr1p, Pad1p N-terminal (MPN) domains with
+ catalytic isopeptidase activity (metal-binding) found in proteins also
+ containing NlpC/P60 domains" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 246 ,
+                          id
+                            local
+                              str "sample3_61_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_61_4" } ,
+            descr {
+              title "minor tail protein [Limmatquaivirus sp. ctG9Q4Z]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 232 ,
+              seq-data
+                ncbieaa "MQDIPQETHHETTRLTQSAQVVLWEIDLTEVGGERYFFCNEQNEKGEPVTWQG
+RQYQAYPIQGTGFELNGKGSAARPTLTVSNLHGMVTGMAEDLQSLVGGTVVRRKVYARFLDAVNFVNGNSDADPEQEV
+ISRWRIEQCSELSAVSASFVLSTPTETDGAVFPGRIMLANTCTWTYRGDECGYHGPAVADEYDQPTSDITKDKCSKCL
+SGCKFRNNVGNFGGFLSINKLSQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "minor tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 231 ,
+                          id
+                            local
+                              str "sample3_61_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_61_5" } ,
+            descr {
+              title "minor tail protein [Limmatquaivirus sp. ctG9Q4Z]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 109 ,
+              seq-data
+                ncbieaa "METFHWKVRPDMNVVSEPKVVTVKLGDGYEQRRAAGLNNQLSTYSVTIRVRKC
+EHPSLKAFLERHGGVRAFQWTPPYDWKPIRVVCRKWSASVGALWVTITADFEQVVA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "minor tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 108 ,
+                          id
+                            local
+                              str "sample3_61_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_61_6" } ,
+            descr {
+              title "phage tail tape measure protein, lambda family
+ [Limmatquaivirus sp. ctG9Q4Z]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 405 ,
+              seq-data
+                ncbieaa "-EATRLLLQFSQQQAQVEGQIAAARQSAGIATERMTEAHKQLLALQQRISDLD
+GKKLTADEKSLLARKDELIQALALLDVKQQELQKQTALNELKKKTIQLTSQLAEEERAQRQQHDLDIATVGMGDQQRQ
+RYQVQLSLRQKYQQQLEQLRRDSEQKGTYNTDDYRKAEQALTESLNRQLNENRRYWQQLEVVQGNWKNGVLRAFQDFT
+VDADNTAGTAEQVFSSAFSNMGNGLATFVTTGKLNFKSFTSSVLSDMAKILAQATMMKSIKGIGSVLGFDLSSLSLNA
+NGGIYQSADLSRYSGTVVNRPTFFAFAKGAGVMGEAGPEAILPLRRGADGKLGVVADIGGSGMAMFAPQYNIEINNDG
+TNGQIGPAALKVVYDLGKKAAADFMQQQARDGGRLSGAYR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "phage tail tape measure protein, lambda family" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 404 ,
+                          id
+                            local
+                              str "sample3_61_6" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_61_1" ,
+                  location
+                    int {
+                      from 1 ,
+                      to 1569 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_61" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF13550.5" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_61_2" ,
+                  location
+                    int {
+                      from 1630 ,
+                      to 2178 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_61" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF06805.11" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_61_3" ,
+                  location
+                    int {
+                      from 2175 ,
+                      to 2918 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_61" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:cd08073" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_61_4" ,
+                  location
+                    int {
+                      from 2924 ,
+                      to 3622 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_61" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05100.11" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_61_5" ,
+                  location
+                    int {
+                      from 3632 ,
+                      to 3961 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_61" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05939.12" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_61_6" ,
+                  location
+                    int {
+                      from 3961 ,
+                      to 5178 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_61" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:TIGR01541" } } } } } } } } }

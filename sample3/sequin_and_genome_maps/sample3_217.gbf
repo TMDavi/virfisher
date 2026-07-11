@@ -1,0 +1,86 @@
+LOCUS       sample3_217             1693 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;f_Casjensviridae;g_Chivirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Chivirus sp. ct47QHA (unknown)
+  ORGANISM  Chivirus sp. ct47QHA
+            Unclassified.
+REFERENCE   1  (bases 1 to 1693)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1693)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1693
+                     /organism="Chivirus sp. ct47QHA"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(281..1693)
+                     /inference="protein motif PFAM:PF04735.11"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA helicase"
+                     /translation="-
+                     ETPQWLKKFVFSEENDCLIDKSSGSYISKGAFDFAYAKLCKFEDEVFKPTVFASITRP
+                     IPIVCDAMYYPAMHGDMEESLWKPKEGVLGPEFFIDESGKTWLNSFDPDSIPEPADEL
+                     SPYDKKAVEIIKDFFVVLFPNDKERRYVMDWMAWIIQHPTKRINYSLLIRGAHGSGKS
+                     TLGVLMSAMLGRKNVGYVSNTVMNGRFSDWAEGDILKIVEEVYDKGDRYSAIERQKEY
+                     ITNDRFQVEPKGRKPKVVVNTSSKMMFTNHFNALPLDENQRRYLVVSTQAENHLDMER
+                     VYGSKAERSRFFKNVYRAIDNHVPALKRWFLDWEISPEFDHKGHAPQDTEAFAIMADA
+                     SNDGVEGAVVSMLRDGTTPGVNRDVIFVPSLKDAFLEMEDVEMPKTSRLKNMLMEIGF
+                     KPGGVLCFGGKSGRVYVRKRVKGAFDENGKLNSDWAQKMLKLHNAEVEKQVGKKIPDE
+                     WEDEV"
+ORIGIN      
+        1 acccttttta ttacaaatta caaatattta aggcaactag gacagaaaag gaagaaatta
+       61 acagatagta ggatcgtatt tttacatatg tatagggtta gcgtaacttg taatatgttg
+      121 gattttttct gcgaagccag acgtggcgcg gcctgcgggt attacaagtg atgtaatcga
+      181 atttgtaata atgggaatct ggcctgaaat agcaatacgc gacgtgtacc aaaaacttat
+      241 gacgcaaaaa agtaaggccg gaaatcccgg cccactttcg ttaaacttcg tcctcccact
+      301 cgtccggtat tttcttaccg acctgttttt ccacctccgc gttgtgcaat ttcaacattt
+      361 tttgcgccca atccgaattt aactttccgt tttcatcaaa cgcgcctttc acccgttttc
+      421 tgacataaac acggccagat tttccgccaa aacacagcac gccacccggt ttaaaaccga
+      481 tctccataag catgtttttc agcctagaag tcttcggcat ttccacatct tccatttcaa
+      541 gaaaagcgtc tttcagagac ggaacaaaga tcacgtcacg attcacgccg ggggtcgttc
+      601 catcacgtaa cattgacacc actgcgcctt ctacgccgtc gttcgaagcg tcggccataa
+      661 tggcgaatgc ttcggtgtcc tgcggtgcat gacccttatg gtcaaactcc gggctgatct
+      721 cccaatccag aaaccaccgc ttcaacgccg ggacgtggtt atcgatcgcc cggtacacgt
+      781 tcttgaagaa tcgcgagcgt tctgctttcg acccatatac gcgctccatg tccagatgat
+      841 tttctgcctg cgtggacacc accagataac gacgctggtt ttcgtcgagt ggcaacgcgt
+      901 taaagtggtt ggtgaacatc attttactgc tggtgttcac gacaaccttt ggcttgcggc
+      961 ctttcggctc cacctgaaaa cggtcgttgg tgatgtactc tttctgccgc tcgatagcgc
+     1021 tgtatcggtc gcctttgtcg tacacctctt ccacgatttt caggatgtca ccttccgccc
+     1081 aatcgctgaa acggccattc atcacggtgt ttgacacgta gcccacgttt ttgcggccta
+     1141 acatggccga catgagcacg cccaacgtcg atttaccgga accgtgcgcg ccgcgaatca
+     1201 gtaacgagta gttgatgcgc tttgtcgggt gctggataat ccacgccatc cagtccataa
+     1261 cgtatcggcg ttccttgtca ttcgggaaaa gtacgacgaa gaagtctttg atgatctcca
+     1321 ccgccttttt atcgtacggc gaaagctcgt ccgcaggctc cgggatggaa tcggggtcga
+     1381 aagagttgag ccatgtctta ccagactcgt caatgaagaa ttccgggcct agaaccccct
+     1441 ccttcggctt ccaaagcgat tcttccatat caccgtgcat cgccgggtag tacatggcgt
+     1501 cgcaaacgat cgggatcgga cgcgtaattg acgcgaacac ggttggcttg aacacttcgt
+     1561 cctcgaattt gcaaagtttt gcgtatgcga agtcaaaagc acccttagaa atgtaagaac
+     1621 cagacgattt atcgatcaaa cagtcatttt cttccgaaaa aacgaacttt ttcagccatt
+     1681 gaggcgtctc ttt
+//

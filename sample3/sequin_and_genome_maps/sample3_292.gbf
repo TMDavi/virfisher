@@ -1,0 +1,92 @@
+LOCUS       sample3_292             1393 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae
+            sedis;-_Bronfenbrennervirinae;g_Peeveelvirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Peeveelvirus sp. ct0K06R (unknown)
+  ORGANISM  Peeveelvirus sp. ct0K06R
+            Unclassified.
+REFERENCE   1  (bases 1 to 1393)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1393)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1393
+                     /organism="Peeveelvirus sp. ct0K06R"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             2..256
+                     /inference="protein motif CDD:TIGR01537"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Portal protein"
+                     /translation="MKFYSLDGINGLSLLDTLSRTIESDNNGKDFLNNFLRNGTHAGG
+                     ILKMKGVLDNKKARDRAREEFPKVLVELNKLGKLSYSMNQ"
+     CDS             253..750
+                     /inference="protein motif CDD:TIGR01537"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Portal protein"
+                     /translation="MTFDQLEVDTEVLKLIRENKSSTREIAGVFGIPLHKFGIETANM
+                     SITDANLDYLSTLKPYITCVCAELNFKFNDEYVNREFKFDTTEIRVVDEKTQAEIDKI
+                     NIDSGKMNIDEIRQRDGLAPIPGGNGSIHRVDLNHVNIELVDEYQMNKSRATDKKLKG
+                     GEENE"
+     CDS             743..1327
+                     /inference="protein motif PFAM:PF04586.16"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="prohead serine protease"
+                     /translation="MSKETRVGNIIEVRSNDNNEMVIEGYALKFDTWSENLGGFKETI
+                     SRRALENTDLSDVRCLVDHIPSQIIGRTKSGTLELETDDVGLKYRCKLPNTTFARDLY
+                     ENMRVGNINQCSFGFMLDDKGDEVRFDEQENIYKRTLTAIRELTDVSVVTYPAYKDTD
+                     VKPALRSIETVKKEQRKKELEIRLKKHSILNNIW"
+ORIGIN      
+        1 catcaaattt tattcgttgg acggtataaa tggtttgtca ctgttagaca cattaagtcg
+       61 cacgatagaa tcagataaca atggaaaaga tttccttaat aatttcctgc gaaatggcac
+      121 acatgctggt ggtattttga aaatgaaagg tgtattagat aataaaaaag caagagaccg
+      181 tgccagagaa gaattcccaa aagttttagt ggaactaaac aagctgggaa agttgtcgta
+      241 ctcgatgaat caatgacgtt tgatcaatta gaagttgata cagaagtttt aaagcttatc
+      301 agagaaaaca aatcatcaac aagagaaata gcaggtgtat ttggtattcc attgcataag
+      361 ttcggcatag aaacagcgaa catgagtatc acggatgcta atttagatta cttatcaact
+      421 ttaaaacctt atattacatg cgtttgtgca gaattgaatt ttaagtttaa tgatgaatat
+      481 gtgaatcgtg aatttaaatt tgataccact gaaatacgag ttgttgatga aaaaacacaa
+      541 gctgaaattg acaaaattaa cattgattct ggaaagatga atatcgatga aattagacaa
+      601 cgtgatggat tagcgccaat accaggcggt aatggtagca ttcacagagt cgatttaaac
+      661 catgtaaata ttgaacttgt agatgagtat cagatgaata aatcgagagc tactgataaa
+      721 aaattgaaag gtggtgagga aaatgagtaa ggaaacgaga gttggcaaca ttattgaggt
+      781 acgctcaaat gataacaacg aaatggtcat agaggggtat gcgttaaagt ttgacacttg
+      841 gtctgaaaat cttggtggat tcaaagaaac gatttcacgt cgtgctttag aaaacactga
+      901 tttatctgat gtgcgttgtt tagtagatca tatcccatcg caaataattg gtaggacaaa
+      961 atcgggtact ttggagctcg aaactgatga tgttggactt aaatatcgtt gtaagttacc
+     1021 aaacacaaca tttgcacgtg atttatatga gaacatgcgt gtaggcaaca tcaatcaatg
+     1081 ttcgtttggt tttatgcttg acgataaagg cgatgaagtg cgttttgatg aacaagaaaa
+     1141 catttacaaa cgtactttaa cagcaattcg tgaacttaca gatgtttctg tagtgactta
+     1201 tccggcttac aaagacactg atgttaaacc agcattacgt agtattgaaa ccgttaaaaa
+     1261 agaacaacgt aaaaaagaat tagaaataag actaaagaaa cactctatat taaataatat
+     1321 ttggtgaagt tgaacaccat tatcaaatac agccattgga catgctgaat atagcgatgt
+     1381 ctattttttt atg
+//

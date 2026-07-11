@@ -1,0 +1,33 @@
+>Feature sample3_85 Table1
+1	333	CDS
+			protein_id	lcl|sample3_85_1
+			product	hypothetical protein
+			note	no search hits
+272	574	CDS
+			protein_id	lcl|sample3_85_2
+			product	hemolysin
+			inference	protein motif PFAM:PF10779.8
+786	950	CDS
+			protein_id	lcl|sample3_85_3
+			product	hypothetical protein
+			note	no search hits
+947	1132	CDS
+			protein_id	lcl|sample3_85_4
+			product	hypothetical protein
+			note	no search hits
+1133	1240	CDS
+			protein_id	lcl|sample3_85_5
+			product	hypothetical protein
+			note	no search hits
+1243	1458	CDS
+			protein_id	lcl|sample3_85_6
+			product	DNA packaging protein
+			inference	protein motif PFAM:PF11123.7
+1474	3126	CDS
+			protein_id	lcl|sample3_85_7
+			product	Large Terminase
+			inference	protein motif PDB:8DGC_F
+3278	3550	CDS
+			protein_id	lcl|sample3_85_8
+			product	hypothetical protein
+			note	no search hits

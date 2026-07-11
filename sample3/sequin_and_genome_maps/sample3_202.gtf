@@ -1,0 +1,3 @@
+sample3_202	Cenote-Taker	CDS	787	2	.	-	0              	gene_id "lcl|sample3_202_1"; gene_name "major tail protein"; gene_inference "protein motif Uniprot:A0A0B4ZXN7_9CAUD"
+sample3_202	Cenote-Taker	CDS	1304	801	.	-	0              	gene_id "lcl|sample3_202_2"; gene_name "Minor tail protein "; gene_inference "protein motif PDB:3FZ2_G"
+sample3_202	Cenote-Taker	CDS	1807	1301	.	-	0              	gene_id "lcl|sample3_202_3"; gene_name "minor tail protein "; gene_inference "protein motif PFAM:PF06763.10"

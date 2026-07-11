@@ -1,0 +1,9 @@
+>Feature sample3_212 Table1
+3	1448	CDS
+			protein_id	lcl|sample3_212_1
+			product	Terminase large subunit
+			inference	protein motif CDD:pfam03354
+1423	1662	CDS
+			protein_id	lcl|sample3_212_2
+			product	membrane protein
+			inference	protein motif PFAM:PF06341.10

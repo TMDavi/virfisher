@@ -1,0 +1,17 @@
+>Feature sample3_177 Table1
+67	2	CDS
+			protein_id	lcl|sample3_177_1
+			product	hypothetical protein
+			note	no search hits
+519	82	CDS
+			protein_id	lcl|sample3_177_2
+			product	hypothetical protein
+			note	no search hits
+1769	621	CDS
+			protein_id	lcl|sample3_177_3
+			product	Major Capsid Protein
+			inference	protein motif PDB:5WK1_D
+2012	1779	CDS
+			protein_id	lcl|sample3_177_4
+			product	hypothetical protein
+			note	no search hits

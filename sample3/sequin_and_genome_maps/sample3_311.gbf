@@ -1,0 +1,91 @@
+LOCUS       sample3_311             1351 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae
+            sedis;f_Herelleviridae;-_Bastillevirinae;g_Tsarbombavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Tsarbombavirus sp. ct7G5S0 (unknown)
+  ORGANISM  Tsarbombavirus sp. ct7G5S0
+            Unclassified.
+REFERENCE   1  (bases 1 to 1351)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1351)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1351
+                     /organism="Tsarbombavirus sp. ct7G5S0"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(1..414)
+                     /inference="protein motif CDD:cd08051"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="head to tail adaptor"
+                     /translation="MIFNNPNGGNPYEHNNEQLLDRETVNNYTLEDYGLTVDAIKVNH
+                     FGIQVTDPRTGEELPDAFYKAKIEQAVAQVEKMLDIVILPRYVQEHHDFHRNDFDSFM
+                     FIHTHRRPIVQMEKIRMEYGGGSIFEYPTKWWRINK"
+     CDS             complement(439..648)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MLVNPVFAGKSVATIFGQVVFNEKGENNELPIEQQKELGQVPGY
+                     TFVDNEPKKATPKKAASKAKTEEKE"
+     CDS             complement(742..1350)
+                     /inference="protein motif PDB:5LII_P"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Major Capsid Protein"
+                     /translation="-
+                     DNALVEDRLPQANAPMPPQSIVATVNKDKKGKFTAEDVKAGLSYKVVVFSDEAESVAS
+                     QEVTASLAAADDSVSLAITLQTLYQAQPQFVVVYRQGRETGHYFQIARVAMSKAVNNV
+                     ITFVDTNEIIPETTDVFLGEMNPQVVSLLELLPMMRLPLAQMNATYTFTVLWYGALAL
+                     YAPKKWVRIKNVKYIPALAADVTIPVK"
+ORIGIN      
+        1 cttgttaatt ctccaccact tggtagggta ttcaaaaata gaccctccac catattccat
+       61 acggattttt tccatctgta cgatcggtct acggtgtgta tggatgaaca taaagctatc
+      121 gaagtcatta cgatggaagt cgtgatgctc ctgaacatat cgaggaagaa taacaatgtc
+      181 tagcatcttt tctacttgtg ccactgcctg ctcaatctta gctttataga atgcatcggg
+      241 taactcttcc ccagtacgag gatcagtaac ctgaataccg aaatggttaa ccttgattgc
+      301 atctacagtc aaaccataat cttctagcgt ataattattc acagtctctc tatcaagtaa
+      361 ctgctcatta ttgtgctcgt aggggtttcc accgtttggg ttattaaata tcattagtaa
+      421 ccgccctcag ctttcttatt attctttttc ctctgtttta gctttacttg cagctttctt
+      481 aggtgtcgct ttctttggct cattatctac gaacgtgtat ccaggtacct gacctagttc
+      541 cttttgttgt tcgattggta gttcgttatt ctcacctttc tcattgaaaa caacttgtcc
+      601 aaagattgta gctactgatt tacctgcgaa tactgggttt actaacataa tatctctcct
+      661 ttattaaata aaaaggagca gaatatttca tctgctccct atttagtttt actattcagt
+      721 tttacttaag ctctgtattc cttacttaac aggaattgta acatctgctg ctaatgcagg
+      781 gatgtattta acgttcttaa tacgtaccca tttcttagga gcgtatagag ctagtgctcc
+      841 gtaccaaaga actgtgaacg tgtaagtagc gttcatttga gctaaaggta aacgcatcat
+      901 tggtagtaac tcaagtaagc taactacttg tgggttcatt tccccaagga atacgtctgt
+      961 agtttcagga ataatttcgt ttgtatcaac gaaagtaatt acgttgttaa ctgctttaga
+     1021 catagccaca cgagcgattt ggaagtaatg tccagtctct ctaccttgac ggtacacaac
+     1081 tacgaattgt ggttgtgctt ggtataaagt ttgtagagtg atcgctagag atacagagtc
+     1141 atctgctgct gctagagaag cagttacttc ttgagaagct acagattctg cttcgtcaga
+     1201 gaatactaca actttgtatg aaagacctgc tttaacgtct tcagcagtga atttaccttt
+     1261 tttgtctttg ttaactgtag ctacgatgct ttgtggtggc attggagcgt tagcttgtgg
+     1321 taaacgatct tcaactaatg cgttgtcgtt t
+//

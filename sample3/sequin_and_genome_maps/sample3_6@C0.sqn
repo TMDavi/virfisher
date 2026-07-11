@@ -1,0 +1,3283 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Nankokuvirus sp. ctAQHAX" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_6@C0" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;f_Vandenendeviridae;g_Nankokuvirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 27135 ,
+              seq-data
+                ncbi2na '4978517655AF65AA4D16880214E001BD837BEF60BBA25341A6B04
+90110FABCD93CA420BAE6A47BAB70DD90D0A0234E06515E91B7D206067B9077D8F8E79D5A24DBA
+B10BD1E94D7EA58983590DD4638256B9359253441C155F5495A4496A7F774CA2804E02F48FA524
+C57A03C4956359041E9C9C58B3E4BBB5F81AC869DC6BAFD057FE097AA1EF6086E88095C749B609
+5CDAC8B78A297E4E1EB0656AB4B553D355CE5D2E5285CEFE0F62EBD86CA8396D322722528EBCB2
+AB2AFE8BA127EFEF7C5C6D80A814F658BA795E855C174AD323DDE52BAD10BF73DAD94C30E15EA8
+AB5C685B46304AA0F3A53BC12A5CCA7DB2094BF27CA4B15CB3A00A17E00A5ACE669551AA96CDAA
+2A2EA42E557556DB7097CD07A1DF62D4F504A7DC6094CC3452D33450D399224D6ACA3AD094FADD
+D777B420F7B043472B461B854FBB04B7D21ED3DA92A93F955F5E575C0727A7DB6097D539452543
+CEC125E94EB4E953EEC1A4F9394A3452125D252D43EEC14F55354924833552528254E15D54F935
+CAE34957A0C6D8FBB054E5454E572CA5DF62989C3969B77715D1A822F557F3CE98583220E563D3
+9A5ECA53C43A5254A828F93C44329F15515783E12977F8A72529D212627E2F110F455511CCF954
+755394455E13D05539549F492313F9F61825E8CFD48D3869974E94576ADFBC0C55269767A0FD20
+D38C55A7B20580FE0068E57552D117528E5548CCFF5529EB95282AE5539D1F80FFA6AAEAFDE0F8
+00EF84A55E5AA7D10E9544F679488A2915CEBFEFCECE3BE1569D5E5ECAF9C6A9FD7821D50A537B
+2E57BB89E9C1EA70A0A3B5524D5BBF80848060DE4106EA82C5F7C54E90711D17A63AE07A09E831
+74ED7A9EAFF522A4557D5F6272BAC26A388EADACF18815412BE4FD7A13AEBCE3B508ECF106388E
+09BFA0A2A0838EEE20EE6FFB1E9EE09D75B502B828A8FA528EB42EB10A0ACE5E385917FD42C456
+9DE450CEFCD8C4ACF8B395E8E37BD327C6A7B5F45D76C56F62AEB4DA322B578A13710815DD6AD0
+BD71E8EFAE7BBE0A2828CE3E789E1339D06EF9E1782EA5EA12878C2ADD4A2B9E2A2F6C97AC4396
+AE4A0CB858F45671E9B379141B83051E832EA5738E1F603A905EF4D9E5AB1471B79F56FE242A89
+97A11768413718C15D164A8BD7A17DD4E2B8D4928A5483827B7092F6F94578EAEE54E5EE02095D
+F627E90BA0928AAFD78E94C2BBD0821B169EE6305EB2BF5E8B36B77A143575F916EBAD711B49BE
+F5E9E6AB15A8AB6CD5F620E88317E1EA68E27B18C35826DE03D3613BBEA2BFC0E80F6E2CCCEA78
+9FD3786C02291E7A57AE03A0A18A8F558915D1FC560AB1B7B9283BADDFD7A2442A4EACAB2394E3
+1F10C8753A265E15BC62ADF028A26C57F62A80B8085D4A3F9DCF505501B701F4F807E4A2827A4E
+15E05E2C09179F69C5471D6F68687757F105F7A20282B8DEFC56CCEAC9E3922AFC6DD520A9B1D5
+157C62023BE62EFCE5095F94D575D2AECBA30D7B6E9F4C5A826F495655D2BE2DA88156A46EA02E
+87324B7A127137A2529557D2941F7DDDEA9E0E88BE279E9E44D82084236C1AFE86892AC6BB3073
+634D616105F6B17AD623D5595520828229755D08BA86B8287575EDA7916D41EBA1377DD7B89597
+F638BAF9FAA1C5E8AE3654428AFEE816F6D7B6EE8384A0921A8DB535F50A78F257BB54221DE9E5
+882819490ACD4A03ADDFEB8924E85F95B95E82E7B38E4A736C04A2845838115381879C6E7B909D
+E5DA83E356D5E4E17AE97AC51D29E568EAD56FC117564A339A81B3141174DE6022AB8B5E02A5EE
+37A28797B1D5DC6A97D7A3BE1749862AB153D86182610DC42051C610567593A5F5D0BB7B68AE7B
+8E61D08A3E048C07D882F75E921D2BA578289E9DBEAEFE284EAD7E878A90B545797DC40A7362CE
+4505F6BEEA2F92C68EAA8C24EA28E3D21E2FB7822F4E6EDADEE6485D57D82BAEDDA3869731B7E8
+208E3B4089EC6105575B49AF5D61E95E8827F4A970AE8AD2E238E82199D125BA567A94FF828B5F
+55E7D8176BD60DE7A06E881C5F17AF2A0898A48AD9409F34A2FB502DF69B4EC55F602E282AFE11
+22A223FA0838D961DDFD7A743F378A2B8CE6E3B86E7F1D00A09517B3AEAB1CA4E421750F91750A
+D0A8E2678229359C2BD8F5DB75277AEED7E451D46BD888F929C79E8B9AAF47F6E84D7D77DD6B74
+6AF495654BBEA383F6DABBAEBAEA0009C594A33A225BFC27CE82927E0938B84FC509D00A0FE502
+5EC2246DEEB2DEBB2BA9529E8A1DEBFDE1EE97A0EABF4F821AD74200E8381C79582E6B08671CD0
+0A2A8E20E4A83C078986532E4AB3A90A67F712809D2673BBF53F8E81D715460457BD28A0F51E7A
+7A21F3712180A5B8F1D7FBDA14E7E0BD3F6289F054A457DF1584217E94DEEB907DCEEEA5B7D84E
+09802B3F87C03C4D5EA28923898187DA21E8278B3D1BBE26E0EABA5C94ACE27A239D28C40D8F78
+0820D2E26C1DB37B437FA3BA8193D468282C61C9F24A521BC1BB9E8ABE11CAC9575AC5FB7FDF83
+FC16288FF0E007CE09F7B9EF6394B7A4A77F37BE29412EF42294D05E720842BABC51D5417EE714
+BB96945E85FAA1386ACEBACC798A0822B2484517196A8AD31911E0420AE0277A08A17490A4C427
+9E2E035B5493574A3B5E09EEBB82362314F777A5E28BBE0E3A005B0EA36F8249F9582EE8A77AD1
+9A3DE8AEF437EAB897375355EE3E5C1624A08BD7A4EA50E28318AF822A718BE060241565B0E801
+080A7A3A56E595E5426F703D65045E8E2E65862BE31FA577CC26E095E081575582E76179463429
+8AEF4DA55A02B60D9139E8225A058DC645B95E1E62415D56F92D624A48A689A5A2B0D2AF5B4EE2
+04BCE9F68CEE8682794EF8FE682C590D17E084D7E3D9D5818E051E385B7549189936D8A775EF60
+65248E8599FD1C6E4D0626619657A52AD9233801CE921073E6679E3A19419407A688E88A4A25AC
+9DD9436A97D397DEAE0BA1A296596A771A54A4D09DC44957B254A349075185E8404BB66386C99B
+99DA7E456DD2899AFD93AD7171E976342D396829B58A39654A749126E5A28BD27D8B3651543A62
+E511AC1AC25A892B8D0E239587D7BD8267B9242F79079896BA988606FB62EF9E618B19A283D01C
+3619667690A2BAEE3A837A3A0B8AEE2858D628BAD62AD1A73F5644AEFADD180382850EA209D780
+42A0A2E3C11B12117A28A095AD5EABAB0AF5B46AEADE55CF908174A5C2B32FA7CDEDA14D476C28
+A3C20E04F8FA2C29170AB90447A8940EB55837D809E8E0818AB877EBDEBA862FE0A02E885F7357
+37481229EA84F60988D90885E81A52A5E5967A9B58B0537F8E3AE1F2DC6A46A8B4AA2B0F991BE0
+8F99AE3D938BCE8FA8E7F16708339814189236796041B6C284D362FA706D3598E7AE3A018F1B9C
+92297EC43D28CDB0828B78E38704E2208BF82167D58F5E0A4D8BA6E1163C7D5AE4858C1B51B31B
+A77E5A2DDE66711B63BA025E909496669DE2AE81F5A38E936287B61B87A481D796E107D8C5A71E
+7398785A347425752425A0C8AE0B83A50027045E24993226677A287D465C40DC6E806E38DAA4D1
+54D3D37D0A90914464CD80E4D008D81A08809034690A33E809341262B3A738585192279A29E9C2
+9A41D7AA2E9396EEA282A8E1924EA605CF56B0F427881A6232EB29060AFDC7585E89A8C09C19D0
+F7992594154A16D76179E8E23E52BD2A380DB2579980290ABE65A565D1812612CFA433BE6223EB
+C65AE0B43C534E46203FA065E4D8604A265D24974EB898908A8AC38ED2434D2E2E6B0336B165E8
+D887BD9457F8AB242BB1971F6BBC15491A68E52C48639C5B580BA629F458880E8A532BD3EEA81B
+7DE736E5161B8089E600BA1856FE85E026E8F1F52D4D7A682784D7AC5BBEAB25ED027150937DBA
+B95D741F7D2E8E759DEB097B4EE7DA9D15AEE341409155F39EAB18475FE4A27E4A89EB877FD176
+1F0156A5F84ADEABFEDB37CFF412528AE3381AF7200FD12558EB525F7D5AB80CEAC2F982AFE2BE
+23FE0AF81AC6B1610BA8EF86FC71352EDAE800E48E396CFEE0A39FA0FD42E2338134248CA2AC4E
+000F77887C71DFADAA9E525A900BDF1E37ABE8FB777D12A20AF82BDC52DFBFA03E8A4198E2E202
+838D7A40B11E97DEEEABC0B5C413428842BDAB42BED8E009B5C2EAF85EDF7A75C4273D0611A082
+43D2E8C8257838E02E0D53398831F600E8E5DE4D79A84214E8809D49773958E0867B82F733A30F
+90392DB4578D1A3D680AF2DA98E02BB53880FB5B21BFAA82B2E931B7505F6C0D4955E7E08BEBEC
+7614D4A7F0D742021B11E0F5688026CD145EB657BD0A3F194ABBC14F50A401B75364C97639CD82
+E1540A49CFC9E5FFF3E57FF495E7F8D76D513F5B101ECB55F46DFF8821F7FE35EC4C55575C7982
+DCFBB0BFA4FF405AD795F4DFDFD390080156507D6D26ABF6F415AB3D8572BBC774897B90231D34
+A67B52DB7F417A21ED028192477F1A09282DD117B8E117575B529262F5483F4DF75E50CD591D27
+F42DA697C318F09D4FF454DD7DDDF96FD017A2A0233C4D759BFDF5B401A09D51F8E29FD4A9C5D8
+CD7C95D02ADF6E97D06A03BE5D07FC79343884275E817D6C71EFA8518E886374465AA4C9CC85D8
+1D778255F4C74F57DA8B5167D4C41BE18437D3D3D45DB14538DFF7F524DE7DDFA9F5E81F21D354
+A087CBB414A3E194831528F94A18D365DED2AE057FF5FFD3D25D7E57A1090ACFA7E1BD4DDA63B8
+299F825BDE2DD4CAA020B17AFE5AB05F5D6ABF7FAED29EA92B26996F5077D8128494CDFED4DDDA
+B12B8D116F8FF525445945BA3A0BC6784B80AB4EFEF9D3FAB75E0EE0E8081B7EF8262D4ACAE685
+DFEFDAFE5E9ED4AE9D23A1327E4A9525B9257B58052BE049F8AB3767E23F561207352829D01E2A
+5B7938DAEC4ADC6B49B9D3B4C75FEDE53A72C52F4BDA3BB3AE7EA9D7E8B850D34C7B5E0EF7F400
+9E0404F5D0EC75F355EE07575848F134CD7D3FD3EDA6C3DF4AF07B8DBFAFFD12CDDD77F46A7D25
+D05DB5B433FDE83D4DB11EB214DD3D08F77CF8977E61AF76EF5245E919FFA1BFE827E5C5292DB1
+E751AD24571F17A11F5005BF52AD2D307D40CA21B0948538065DF529EF49FC1D0D1B72D5327CC6
+1747B545E2C0CD4B97F9E5D04975DA47A55E534E9D53A407A9178D59257A97B523D17FDACC8E5D
+4D5288E0B92D6D56D0A1C85A217D2F7EB5D4F53557D1B297498837D4B60C79578414801125B717
+631BFF49B5DBEB8E31ED78B8D7D4D6F98E354D7ECA63AEB4E5FD417DF4AC4860E26AC9F1292495
+0628E1476A4B514A5288124935407D6658A4E52B5DDAF82A26E82E89F4BEF537E84DFFD38F5D73
+A9249AA225564B20F45F5E92ED6082CBEA315E17964B55E44B71F7D85396FFB3F4FB5449F7778F
+FBAA07F754341753EC9D16EEA41232B5405290DFD0878753ED5F52BD02ACCEFA33A2B96D36C22D
+7D13A5015D7F812B1B58C052B5F3E0D7D855E50B22C5116BD6F7501E88F97DD80DC5F7D3DF5D74
+7F52512A66AFD4538EFB50AEBBD532239F7E49ABE6986C4A23DE75376F40545499F7ED36C5676A
+C36DE5084144D01D5B5FE87EEE6BAD2463B7963A34F74EB468A97E00DF51EB4D57D8C3584C56D5
+2F65AA7779B3DB7681D794A2BB244A3BFDB9F45F7DD345FAC4A9AC91FD4905A302DDAB343752DA
+11DF15E9434AFC49B54452A49BEB58C496A4E79DA83F5AC55F6B3E53794A096F9DD5317D8B527F
+D535BA2A7EA7F9EF7A28E3BF947D251FDD9601A09EBEE27E477AA5F0DFA5326F467946827B0379
+E5AAB658538524A8B5E7864818ED4A190DBEB35EA5DB52B2347FB1E9E2B5A7E889EB127D2B2BB6
+EBE349B79DBDAB4319F7D44297F93268814A974CB2A0ADC46B5F76809FE52A93B278EE7E174275
+DB7960C7609AF45B3668E97A50E7A096E1AE1553B58F739E98DF82C9A90DDE55AD54A1BE1B2557
+FAA6982FDD9E27E95604553394A5BAB6DF7F145479A81FBDFA5DF794E87EF8294AC4A8AC17A29B
+E2214A74EBAEB7D9E45A4524F8FF4A698F686F9DA794ADF6927D4E3B5479D1EB6AB8074C00F75F
+03D1027EAB39410A597D3B161E9F97B6D8E2892FC687D77BA0342A8A0AC0CFF192258FD848A45E
+DECBE5EDB56744575F155A47A16B14352BE9055BA08EF353750694A8D357740663818810A934BE
+BFD41E9957DFBD57E6F7FB495E258F2567C349D3F95A9F73DA832D5B36B5D4F77E353DEF9505DD
+8F5DBEE0AF6D158196E65F2527E1A7BBFB9757A19D5B5FBDA8C9824CF083D1EA2DD48D3554917A
+084F5CBBA27DFE556A78AEF54A4A3A079EA4379EA7785548DB0A8CFA92221C49140A4DD6E9D21A
+DB0054F51A8EC8F615F20B54DD4F51378E7D451577D00978D275A89155ED68AB055269E52B2CD5
+27E14F3F420CC54A2DD5B817155BB004874EEBC5D8357D8F538286E3B6CCDD4DD7528CDDAA3233
+C88E130D4A3F4D36D4BE6520F93646C87F1A7B8BDC4147D2A520CAAFB19A7D05D05F7C9743C52B
+531F1D7CE3FB2C46E19D8F789B7FF4EBFDB526A93B3F85FE2ABD2B2E3595756EAB7FA1257FC095
+D4A5145FA3EB547A97DDFA3D797F69F53442EC6207A41A0B11455E81EF8294DADEAFBD1DEF8E38
+6E67117D7D5FD49DD956A7D82C8D97794ABDC421F7867644317ECAFDDFF7A1F4D48AF879E2859D
+BF74208E82620B7439714E37604B2D686694322E74A4899F72ADF4F6A75FDED29CBAC4E5A4F996
+91A3C4A0609495BD68112A0A6B9D283D7A782DF7E9207D1F4E7EC92087182FE7E7E77D6AF76D28
+11DBE8637DB25E9D07A096C2AB49D485F92FEA7C92B94AB97614BF925109DF69DBEE08D879ADE8
+084BBFB295F9DF49DA839EB3209E561DE528253254A79538068D29ED4FE094E6BBDFA6B658B602
+FB18EAE0D90493FD32C075F7B81E8A52CE5E975FAAFB4174B71A8FD6FF6D4FD194912961EA07BA
+052ADF7E01A5FACFD17D2B06563B1F75A3E94BE35698964EB7582BECD803D5BA6CFB5185B79FDD
+7D1FEA920866881E6F56DFE5F5146D04174075DB5283F7EC7DE8ADA08D9EA39F6C0956D3BD6093
+8E5F6C57D4E105FB6EB1FB71B5D5A0823C6D78D471012AEDB754A0E7BBEF8F618224D4B650881E
+ACD26B045819F64BD1C4D803BACF90E5A1922698EE8F94AD409B5EA7D7A2F48B4D20076DB59B1F
+4C27DF749FDD45DFE2A8D2C67C1E587A3B7D4A8755B92B037453400ED9437D3ADEA5225DA61BBA
+4A3B1E7559569C609D46754DF6EDC2A529368453537FA9EC8F92A0AE3A1FA567D2B2D7694936A2
+8DA04FB523477CDF66B05E5F81E7DDC5FA0BA7D4AE25E79D95BADDBF91A5C6F7DA7E8AEB45F84B
+49FD4575FD4E7518317ED17D1D492751E7E0BE595FB5FFAC4DB47FF93015D7CF0603D16DE27FF1
+483A4074D45D96267EC7501E77D33ABE7D4E7AD2413912CB48C49D353829D52A8BEF9651E68C5F
+971089E424DFEDDF6C2327424115BD9BF7C4B7EE6C4EFC375FFA4EE8E1F6156F7D24AC3439796D
+2DAC7AE98CB115DF8E5E6D043B6E264B3D11AA13AE981352915E24775E9E4E22512C89BFF769B9
+6C5DA97AC155D76F7522A5F52967EA296FB157878E37EFD5E8434791417D918117122474982876
+99264E025DFCE7DE7D12A2C55E9FF77AB3D411316BFF05EC45BE3A6FB18B63913B52052749028F
+F84AD4D5ED2B7D8CFEA4587FC2E61E75F6C0DD79E2438C9FFDCAED5DA833B1B7AB6B2AD4C15117
+497F746BBFA5230AE92D594FEF68E528C3298D482EBE3137E17FA9AC05B895BEF4BF7514434FB7
+D3045D728E9F9BE97FDEBE7B55692B8ADD7FA5E7937E7A5F44BB1655FD6C77DB7181B7A97D35CD
+DABBB183130D15326F7A3B14AC9E9AE60B5065882D7A0AD146B2F7EAB1E74EDC75F9A8F1FE4AA4
+D7054391790ED07CFD299000959447A9A9F8F8D27F51E7DF4929D20A27DF9FA867DDF5A051067B
+1225E893485C5EB5EC9DA7E451A6C9A53D1F53B2D7E8192828B517E68FF7D4B6B16DE5B4D1DAD8
+1DFE94AAF62BE145E4497AC4B63522CDF6D6930DAC620474E2A6D3B94FE7E04AD7869D2FABE7F7
+6B4F4F775FFD2FEF7E749F9A7C17FA7867FF1A96BF74AE5AA5D79E25D7BF25DA1D22B940360451
+BDD37E15F75284952E4A79E8493A11DA8AED4A9B35E5205FA3E83909280F4E2BECB7F85D069BDD
+2221DF86975A9E987D2DA94447D76E822AE3AC6045609227851EA0D494EBBDD046B25F498E937D
+469F928278EABFEF41C46846FC6B592AC26AFE1A13F6BD75FE8F88BD1CC51E7EA020B415F84072
+00FCCB0CF3C0CCF3330CC42A2A2EA42E55757EC70B330F0CF0F1CCAF0FFCE23B029EC328C3C0CD
+72C20F4BF4A024E285EE757BB4296E528EB295D78A1CE4F5746D092ABE114B190BB872B3E10111
+7B2AE732EDCC8CC52FC217A8ABD75D7D5774A4541428B0B3890BDB02A522E90576EB6951428274
+A574298EDE5A227E344D74209E09794B94294F49D38D8603850E6D5213752D6DD08E9E10AEF679
+717A495E2A44A6D8F864902042DE1AEF5E24A28E05F6912B6C83DD9D1CE5E5080A24C9390B54B2
+0B0E8DABBF5A2D0ABB3BA2D2F7A78F94057A085EB8344A3497096C23A9742BD4A775A2C5889FE9
+E9E240B35388F8A9CED769DFBAECAA5D52551CA6F56896CE9A8AAF82BD1446055719568AF96AB2
+B5D4A7702D7A20BB49685FE28EA2D45A437E11A6C7811AFC315D460804A2B14E2013BDBC655394
+A019FDB89AF5A752F51576B7D8A1AC884DC6D35A09FF67826031EE3FE27DB39A328073066779B0
+24692ADB0ABF50AF683F6CF6F46387618DC4435E0A0A8EBDED01B8AFF2ACAADFA614AFA1D40F41
+5274BD837887959400DDF87F37803BAC0BA3F088F48EEA1618278EE48A2B8D49375686AD6AF141
+59C3F4C958490AB2F5E6A94AB50B8575C4F5BDAD5D0AE2A27E1EF0D086E5EBD8F52A26894022C1
+751970A5E91E64528AF2FD068AAE9226BF0E45A1EC0D69B585A9367AF40D4955D45039EEC2FA1E
+F92E098CA755A36C25AC1BAA322A75459E24128AF63D74112550079C4A4BD2729CA7E22B2C95BF
+F5005DD1F10D29BBA600AFC191E87F87524FEEAF60D5146DE50DC5639C36ADFB675AB4987482E1
+5F255A637D9EA9FFC7F7415B0E8AF90386F50F4756442426E3B78630912CD35EC65D51929A2B0B
+545DB250BA745815391FA0A33629FA495A2053D4CDF1A95E8A5E99048CBA3BE150771AF7F6088F
+E3AC28752364AD7532F7D8A4DD018A09D72097A8A3DB3F40A924BE1825052B212499DE1B173E24
+874A07543B5E23075D2BFE384F77468873D4913D72195FB9857D3E002A849718A11A6AB2A28F8D
+50822EB4842BA745FFC62AF96BED9020528B778C85DFA0E5112A42652082505D356C457B1F525A
+3BD15AFB8081DCD58B18374DE205764D17B03BD2387A71EAAE1832559326A9FFFB952A3E956A43
+904289714E9F380E1548A30AD7718E436760DA6D7A89CD4A4A5E38292A86BAA25E45A4585B2315
+E8299E8947AC292E3809E68E79C79181E73E892817605E94DAC52E42479C092907A01797A9A3B4
+5A2986496FDE6AEF0A70AE0F5B6492E9608658BE925B479427C181EF2795C0A4C04A87AA9F840B
+C255C9331E14CC242201C'H } ,
+            annot {
+              {
+                desc {
+                  name "Table1" } ,
+                data
+                  ftable {
+                    {
+                      data
+                        gene {
+                          locus "sample3_6tRNA1" } ,
+                      location
+                        int {
+                          from 25142 ,
+                          to 25211 ,
+                          strand plus ,
+                          id
+                            local
+                              str "sample3_6@C0" } ,
+                      qual {
+                        {
+                          qual "product" ,
+                          val "tRNA-Asn" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "sample3_6tRNA1" } ,
+                      location
+                        int {
+                          from 25269 ,
+                          to 25356 ,
+                          strand plus ,
+                          id
+                            local
+                              str "sample3_6@C0" } ,
+                      qual {
+                        {
+                          qual "product" ,
+                          val "tRNA-Tyr" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "sample3_6tRNA1" } ,
+                      location
+                        int {
+                          from 25558 ,
+                          to 25634 ,
+                          strand plus ,
+                          id
+                            local
+                              str "sample3_6@C0" } ,
+                      qual {
+                        {
+                          qual "product" ,
+                          val "tRNA-Gln" } } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_1" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 53 ,
+              seq-data
+                ncbieaa "MNATLARLQNERCATLRLMLLPEHRGYKFTGHPWAERIRNLHDEARCIRSHHN
+" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 52 ,
+                          id
+                            local
+                              str "sample3_6_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_2" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 72 ,
+              seq-data
+                ncbieaa "MKVQIGQHTLEITAPIRNNWLATEYCSVSLNGRRLYGGFNPFEAWGLFEDVEK
+ALLSVEALSVESEEALHDW" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 71 ,
+                          id
+                            local
+                              str "sample3_6_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_3" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 74 ,
+              seq-data
+                ncbieaa "MTGNARGQSPFIPYASVPGPMFEFEWFDVGNAVIELEPGWLVGVGFGVDSLFV
+LTYVEREPFAEWLPWTPNLRS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 73 ,
+                          id
+                            local
+                              str "sample3_6_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_4" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 143 ,
+              seq-data
+                ncbieaa "MVLFMYDVDPGSLPVGCYGAFLKTPKAICSALCELANWAKEGCPQHPVFERQK
+RICNNVGKYLLTHGNYTHLAMVNWKLEYLMSWAGFSRGHPLPFELGGKRDEMGRYYENPNRLHFLDMVVMMSKMYYND
+EMKRLEGGKNDV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 142 ,
+                          id
+                            local
+                              str "sample3_6_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_5" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 113 ,
+              seq-data
+                ncbieaa "MMCENVRFVLAVKLLRPKVKEGLARMVKWYKEGMPDDRTFSKYTRLCTNMFID
+TGIEYALDDLFIAYGLSFTSSYPFEGGHRIEVPEDIYKNPLRVKFLLDVGAVLKEEGYDC" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 112 ,
+                          id
+                            local
+                              str "sample3_6_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_6" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 124 ,
+              seq-data
+                ncbieaa "MIAELTYAQRVADLKWAWDRTDKGLQEVLREFVAWYNAGCRNSDRFTRYWRIC
+TNVNNHWNSGPYDDFEMGNLFIAAGYHYVCFPFEQGERLDTSDNIYDNPHRREFLDLLHEVIQQEAQNEAV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 123 ,
+                          id
+                            local
+                              str "sample3_6_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_7" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 120 ,
+              seq-data
+                ncbieaa "MKLSKQFVATLMGVPMPVKEALFELGKWKQEGFPDGHKVFKKTYRLCDNLVGF
+LEYRSLDQSLLAPWWSYTSALFLAAGYPGGSYPFENGEYLDWADELYDNPKRLKFIDMCWEVLNGNS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 119 ,
+                          id
+                            local
+                              str "sample3_6_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_8" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 113 ,
+              seq-data
+                ncbieaa "MEIREYIWAELSSDVKEALLALVKWKDEGFPEHPHFTRRVRLCRNVVSFLEHK
+GMGRVDAMILTIDSMERLTRYEGLKGGAYPFEGKVKDLQDLLYSNPKRLNFIETCRRKLA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 112 ,
+                          id
+                            local
+                              str "sample3_6_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_9" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 300 ,
+              seq-data
+                ncbieaa "MTLNLSKAPASATHYSVRTDSPFTTFWRKEGDLFTRIWVADAEGLRLPEGRTP
+TPYEKDVASVYAKPLPSPPQGVVDNPVVASYREAFSPAPQVESGEPRARGKVDYSSLDSYIWSQAPLQANFFSLGLNG
+ELSCWLHIEEDKIVTVWTEQGTVYNYRSSDRQPSVPGPRFPRPQKKEEASPQEWDGEGLPPVGCTVQLVDISSPVSPP
+FDEWLLGDYLEVIAHKEVCGTVRPVVWNDRKQTGSSILPRLISPVSQETLAAEKERQQGIQEMVSLVSSMDLARALEV
+LYDAGYRKQEDTE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 299 ,
+                          id
+                            local
+                              str "sample3_6_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_10" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 117 ,
+              seq-data
+                ncbieaa "MNTHERLLRAVQALPRELIPSLHDLVAWYHSGCPDGSPFNTSRRICGNVYQHL
+ICERGVSPERACDLEDCLYSLYGAFLDVDLSDEGYPFDDEATIYKNHYDNPLRMAFLKCLSEVL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 116 ,
+                          id
+                            local
+                              str "sample3_6_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_11" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 226 ,
+              seq-data
+                ncbieaa "MRLKRIEQINFEKFSWQTQVALKELARWVFEDMGPWTEGKSHPAFYKGYRVCT
+NLRLWELQYGWGDKHGRMIQTELSEEFMRVGLCADLPFEGGVSDDGLYVLEEDDVKELYDNPLRQRFLRLALEKLSGP
+KVEVSEMMEDALTAVARWAILKESFPCFEPRFRICWNVENYLTWLGKSEAEVAKAYQELSKVFGVMYPFESEEGFDTE
+GEIWKNDRRLSFLAQFI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 225 ,
+                          id
+                            local
+                              str "sample3_6_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_12" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 122 ,
+              seq-data
+                ncbieaa "MRDVTCFTQKEAHLYGGVLGMQDLQLHLQGQGMSAEEASAKVRFLVSSSGVSL
+HHSTVREIAGYCWSAGFTFVDILPLLRSHGFSPAQCWDEFRRVWWWWEKSYRQDMESRFKLMEGSLKHE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 121 ,
+                          id
+                            local
+                              str "sample3_6_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_13" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 104 ,
+              seq-data
+                ncbieaa "MQGIKLSDAIVQGMGKALSTGKLSAMCFHLMELLPHEHPVQEEFHCWLETYLQ
+TKGRDYSFVRTMLEVHFEELNPGTLLTRQDLGHLWCNFYVWAVFDMKRKGI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 103 ,
+                          id
+                            local
+                              str "sample3_6_13" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_14" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 62 ,
+              seq-data
+                ncbieaa "MSERLRRLEAEYSRVEREWGGLARYELEMLRIQIDSERRISERNSYLSIFGCG
+NAFHGRKYD" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 61 ,
+                          id
+                            local
+                              str "sample3_6_14" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_15" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 129 ,
+              seq-data
+                ncbieaa "MKTYEASVLFDASLAGSLSVEANSVQEAINLLEDKVGYHSPTLCYQCAGHLDL
+GDMTGMVVYCEEEEVADTTYAGEVIRTLNKKVKALEEDLSKAYKLLSEIRPSIPQDVLKLWCEDRDTILSGLRSVE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 128 ,
+                          id
+                            local
+                              str "sample3_6_15" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_16" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 447 ,
+              seq-data
+                ncbieaa "MMENRNGIVEAACPKCGGSGHADSGGVQSWGEPISIPCDCLTEQEEFLAWANE
+EYEVEEGYELNESNPAVMENKKGWMARAALPKRSKFRQHLDECADEVDTWPSYKREALKNPSPKCSTCHDQGEVFIGP
+GKVESHMLEEPEPIYAPCPDCEQPSPLQSEQAEAERPEVIRVPSCENSYGFGYVDGSCHVDLRKYRNHLEDILDSLPN
+DEPLMTVSQHERIVEALLFERQQMDRAFTTCINERDAALARVADMKTMADNYCALLMDANAKLAEMERQEPVALANRG
+LHAFWVKWTEAAAGLYGPGIKLYTAPVAQDQQLHDLDKQCRDDVARALGLHPSQERGFAWSYLLASIKSCRKASEDAA
+QAQHSVPEEFSFEYRHPNGECHTVTVSREQVINEMPDFLFEALCSKFCNCEPVGETNVVECCCDEYAEEFKLIDAALG
+KEVV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 446 ,
+                          id
+                            local
+                              str "sample3_6_16" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_17" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 81 ,
+              seq-data
+                ncbieaa "MGIWMEVRCEDRSEEWSEGHGYFPHRCWSHENEGPMGEAPETREGVINTYRHL
+EEEARSLGWVRFRHGWVCPYCKNLRPKV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 80 ,
+                          id
+                            local
+                              str "sample3_6_17" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_18" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 170 ,
+              seq-data
+                ncbieaa "MNIDWSKAPKGATHWEPNGPRIFESWMKNEGDSWFWWDEFEGKWRPSIPISEQ
+RLGTFEARSQETWNGQGLPPLGVRVTIFDDGDLVYGHGESGEVIAHVEDCAVIRMSYGLGCFTAKNMRTNEQIAAEQR
+RKDIIELANVIRDAGDGNDYVLAEALYNSGYRKKESDDD" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 169 ,
+                          id
+                            local
+                              str "sample3_6_18" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_19" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 107 ,
+              seq-data
+                ncbieaa "MTNMREEFEDRFPIPEGIEWRDTDYFPVQTDNVHVYVALAGVSARYTSMWKAW
+QASRAALRVELPDDGIEDCRRDWQNSCRDNFDTGYCYATDRITQALQQAGIEVK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 106 ,
+                          id
+                            local
+                              str "sample3_6_19" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_20" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 73 ,
+              seq-data
+                ncbieaa "MAKKLTPEQRIERALEDFHAYKSTWKRDDRGITPSFIFKGKHHTHIEMHQKIE
+RKRKQITARILESINSEVWL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 72 ,
+                          id
+                            local
+                              str "sample3_6_20" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_21" } ,
+            descr {
+              title "Ead/Ea22-like protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 158 ,
+              seq-data
+                ncbieaa "MTDHAELRRLAKAATPGEWHAVWEEGDDAAWANLFPVIQAENGEIVVGNEGFY
+SDLERDKANAQFCAAANPRTVLDLLDEIARFRDEIVALREKARVAPARLTNSDSIGNMLREIGYAGEVNYHHAREIWN
+ACIDEQERLSSLMVSEQEGGNDVSNHQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Ead/Ea22-like protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 157 ,
+                          id
+                            local
+                              str "sample3_6_21" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_22" } ,
+            descr {
+              title "Uncharacterized protein [Function unknown] [Nankokuvirus
+ sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 166 ,
+              seq-data
+                ncbieaa "MSAIISECGKYRYRLDRDCSPPFEGSKVYAYFGVNPSTADASTDDATVRKWRG
+FTERNGGHRFIVGNVFCYRATDVKELRKVDDPFGPESVDYFQSILAEADILVPCWGSLSKLPKHLRGCPPQLLQWMLR
+SGKPVMCFGLTRCDQPKHPLMLGYDTPLQELAGSW" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Uncharacterized protein [Function unknown]" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 165 ,
+                          id
+                            local
+                              str "sample3_6_22" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_23" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 85 ,
+              seq-data
+                ncbieaa "MNGSRKFHSPDGPAFFPGEIWVSCEGFEVEILKVERYGTDKWDVDVYYIQCRW
+KNADDAVFVKDAWNFQVRYEHQADRRVHEKIL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 84 ,
+                          id
+                            local
+                              str "sample3_6_23" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_24" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 49 ,
+              seq-data
+                ncbieaa "MKKFSETYYSWSGAASRAKVLTDLGWIVSLHREKVEGSTSLVWKLEATR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 48 ,
+                          id
+                            local
+                              str "sample3_6_24" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_25" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 122 ,
+              seq-data
+                ncbieaa "MSEKGMILAKYTGLLCGVKVLQHQGDKVRVKVVDEKRPKWVDLSSGSYKLFND
+TEEAIQWIEALNDESESHMREYFENGCLCILRDKTMEKAPASMPDEDAVKFYMDNCKCSRHPDHGFRKG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 121 ,
+                          id
+                            local
+                              str "sample3_6_25" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_26" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 87 ,
+              seq-data
+                ncbieaa "MKGVHEKLSVDVWGKVVAYVSNLRKSSPLLEELVVLDHPGFNPQERRTLNSRR
+KAYHHLVALFKDLRQGVNHSKAKRLHRIASMLSK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 86 ,
+                          id
+                            local
+                              str "sample3_6_26" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_27" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 76 ,
+              seq-data
+                ncbieaa "MELNRIKAADLKAECGILAGEDEILGTRCLDGGRCHHRCETSCFRKECCVPLT
+VSRLKDDWTAPDEYLCTGSESNT" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 75 ,
+                          id
+                            local
+                              str "sample3_6_27" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_28" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 92 ,
+              seq-data
+                ncbieaa "MKIVVNVVWKRWTPEGNEYEGASEEFEVYSYAPACEIVSIVVPTVVRKVPGAC
+LIDAVKVEATFPVEGHEDPLRAKDIEVALESLIKWELPF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 91 ,
+                          id
+                            local
+                              str "sample3_6_28" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_29" } ,
+            descr {
+              title "Tfp pilus assembly protein, major pilin PilA [Cell
+ motility, Extracellular structures] [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 59 ,
+              seq-data
+                ncbieaa "MKKEKGFTLTEAMIVLAILGILASILVDTKSSWDESKFQEAQEKQMLERKDHG
+GTRWNE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Tfp pilus assembly protein, major pilin PilA
+ [Cell motility, Extracellular structures]" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 58 ,
+                          id
+                            local
+                              str "sample3_6_29" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_30" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 191 ,
+              seq-data
+                ncbieaa "MSTLTVDLYTDHADGPQFEPSWIVLSGNLKRDTLKLFNLVSDRAARLGPASYV
+HLSHLDSQANRNKEVRTYLDSLQQDVLSIHIQETQMSNKHDPFTVSVTSIHGGGVGWKINGVITCTREMDKDMAVLFE
+ELERRRYLPQPDTKETPEEGYPANQVLLSPMETQNGFKRLHIAEMERQANTLLVQGKEAE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 190 ,
+                          id
+                            local
+                              str "sample3_6_30" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_31" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 78 ,
+              seq-data
+                ncbieaa "MKNQTITVNLKNYADNENEGYDVICRREFTGDKEYIEECLFSFLKEHSGQYDD
+WSLQGAPSTIHIRTELVLAMADKGV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 77 ,
+                          id
+                            local
+                              str "sample3_6_31" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_32" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 111 ,
+              seq-data
+                ncbieaa "MGLDVIELKLNSLEEAFHGLAYVSYLEVMTDPGNGFGSVQVSRVLTVEQYDCL
+VGKLPKRPKACQVLEHENRRKRLNKRILNEMVYQCTMEFQKILTDEVEAEARERGEIL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 110 ,
+                          id
+                            local
+                              str "sample3_6_32" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_33" } ,
+            descr {
+              title "peptidase HslV family [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 142 ,
+              seq-data
+                ncbieaa "MTTIAYKDGIIATDGRITQDSIITNEDAEKRIEVDGCVFWLSGAVFDWKILAE
+AYVKGDGMEDQELKVSGLVLDGDGLHFISWDGGIYTEKVNLDRPRAAGSGAQFAMGAMMAGASAEEAVEAAKALDIYS
+GGTVRSYKLWD" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "peptidase HslV family" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 141 ,
+                          id
+                            local
+                              str "sample3_6_33" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_34" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 68 ,
+              seq-data
+                ncbieaa "MKKMSKMEQLKLHFHAPFNREDLACLGAEVWDAAVLLAWWTARVVILVGLLPV
+SYPLIRLYLKKVGKA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 67 ,
+                          id
+                            local
+                              str "sample3_6_34" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_35" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 63 ,
+              seq-data
+                ncbieaa "MEVDWEKVPHKIREKLWDNEIQNGMVEEVDCAGDCGRSGYPNYFFGHCQEGEF
+YCGGSPRCCP" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 62 ,
+                          id
+                            local
+                              str "sample3_6_35" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_36" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 92 ,
+              seq-data
+                ncbieaa "MKKVDFEKAISSLENGTGVVLYLAGVEGFNKDLVYRTYLFKGGFGHVKDSYDD
+GTSISNIYPLNLEGTMESVLKDCLVWDLSVAHTVSYNGG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 91 ,
+                          id
+                            local
+                              str "sample3_6_36" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_37" } ,
+            descr {
+              title "Replicase [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 520 ,
+              seq-data
+                ncbieaa "MSFTPTSEQWDIMEAAEDLAAEQRPNRRLKINAGAGAAKTTTMSLVSQRLQVT
+SLYLAFNKSMAEEAKNKFPQWVVKKTTHGLAYGVFGAKLSEKLRRPKGGYVNVLGTGAEIARYFKIASIESDMGVTVT
+ASSIGQAIRDTVNRFEYSADEELEVKHISYMPLAKLSEKDRVDLPYYEALVLRYAKALWKKRIDPNEQTLINHDTYLK
+LYQLSKPDLSQYKVIYLDEAQDTNDCVLDIVLRQQDSLLVMVGDPRQQIYSFRGSVNAMAKIKAPECKLTTSFRFGEK
+VAEVANIILQNSKAQALHGWEKLDSKVWESNGFLADGNTEGVPEIPEQHARLYRTNAALVWDAVNLIGQGKSVRLEID
+TRDFIRLLESATALYQGDEKKVKHENILCYTSWQEFRDEYAESPGELGRVCRIIEGDDQWKIFKALRDHENDPSADIV
+LTTAHKSKGREFDVVVLADDYPSGYDDKKRWVGLNEMEQNLLYVAATRCKKHLYGNTTLDNIMVETRALWLESEEEE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Replicase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 519 ,
+                          id
+                            local
+                              str "sample3_6_37" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_38" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 161 ,
+              seq-data
+                ncbieaa "MDQENGGPIRDYSRIEARANELIKRANRLRADKERKGNKKGRQLENQLMPLFS
+FIAFERDDPWPLEMDNIFHGVANLDWYRSSAGGKEGVSGTTGNYRQVPLSKSALRKIFTFLPLISTEEVRKLLLIDDR
+QASRYMKAALLAYPKLCEFKENFYEFHPDQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 160 ,
+                          id
+                            local
+                              str "sample3_6_38" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_39" } ,
+            descr {
+              title "DprA like DNA recombination mediator protein
+ [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 200 ,
+              seq-data
+                ncbieaa "MSLFYTGVGSRETPGYILEIMVKLGYYLAAAGVTLRTGGAPGADQAFEEGWWK
+HQMWNGDGTSKGRIYIPWNGFYDRLSHGDAFGAVVSLPNIPYDLGVRAQQIAQQFHPAWEHLSPGAKKLHTRNVFQVL
+GDDLETPSEFLICFAIPNKDGSVQGGTNTAVKLAKAHGVRVTNLHNEESRGWATEWIKRMEDRYGTIPE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DprA like DNA recombination mediator protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 199 ,
+                          id
+                            local
+                              str "sample3_6_39" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_40" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 82 ,
+              seq-data
+                ncbieaa "MDLVIEAKKVEVEAAYNPYSGPEVVVELTAVKSTCDAILAQLDDDEILDYVIS
+NIYPRDILEEMEIYDITSFMESKGFEVTT" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 81 ,
+                          id
+                            local
+                              str "sample3_6_40" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_41" } ,
+            descr {
+              title "lytic transglycosylase [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 187 ,
+              seq-data
+                ncbieaa "MKTLEALCLSTLLAASGLLFEIMVGIETSRFHLLEKRAVLSSQPLDEVQKRET
+YKVLCERQKSCRTLAEAIYFEARGESWKGKEGVAHVIINRVNNPDRWPSTVPGVVYFRCQFSYTCDGSRKAGIQEKAQ
+WDQSKVVAWRALKGLSKDPTGGADHYLNPSKVKYMPRWTKTMKKTLRIERHVYYKS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "lytic transglycosylase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 186 ,
+                          id
+                            local
+                              str "sample3_6_41" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_42" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 164 ,
+              seq-data
+                ncbieaa "MKMLLRFTHRTTFDSATAKNTAWLQMDSLIRFMGSLGYGFLAESGSFYTSIPE
+LKSKGLQTLSFQTAVDLHNEPKSLWLQTGRGTLAPAKPKLQGLELTPYGFQLSQATKIVQRVFLTRTRKSKQANFVVF
+CYKHEVKFCQEDFSQEFLSTAFPVFRNGLASFL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 163 ,
+                          id
+                            local
+                              str "sample3_6_42" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_43" } ,
+            descr {
+              title "DNA ligase; Provisional [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 422 ,
+              seq-data
+                ncbieaa "MQKVTMYQKDKGGNFKQWSCWSEGDKVFVEHGKEGGKLTVKVTTSKPKNVGRA
+NETTGEQQAHLEATSKVEKQFKAGYREDKSDLDNVPILPMLAEDYLKRAKSITFPAIYSPKMDGVRCLALRHEDGSVE
+LRSRGGEQYILPHVAEALAQTMKIGDIFDGEIYLHGESLEDIQSAVKRTDPLKEVEKAEKKLMKYADDEFSDDSELQE
+AQDALDLAIHIAALRPALQYHIFDVVNCEAFGVTADTQFSWRLDALRRINNTAFLGDDTLFVVDQDVIFFREDVDKYH
+DKVVMEGYEGIMLRNMTGLYEASQRSSDLQKYKKFLDEEFEVVDVVEGKDGNAVLRVFCPKVKEKADGRGQYATGIFD
+TTFGDHAARRDQLANPEKYIGRYLKVKYQGRFKKTLVPQFPVGLCWREMDENGNPVD" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DNA ligase; Provisional" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 421 ,
+                          id
+                            local
+                              str "sample3_6_43" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_44" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 90 ,
+              seq-data
+                ncbieaa "MYAQDCKKRERVLLELSYEETKMLAALVGKVSAVAATTPLGAFMDELYLTTVH
+VADQHGSNPYEEQFGVQALGEVDEFAILVKSSDGEFR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 89 ,
+                          id
+                            local
+                              str "sample3_6_44" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_45" } ,
+            descr {
+              title "Deoxycytidylate deaminase [Nucleotide transport and
+ metabolism] [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 129 ,
+              seq-data
+                ncbieaa "MRCAESFAECSVGVRAKVGAVIVQGNKIISQGYNGLPSGLEGPLENEEGVTRP
+EVRHAEKNALLWLSCSQESAQGAWMFATMSPCEYCAHDIVDAGIKRVYYRHQYRLTAGIDYLLKNGVEVIHMPKGD" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Deoxycytidylate deaminase [Nucleotide transport
+ and metabolism]" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 128 ,
+                          id
+                            local
+                              str "sample3_6_45" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_46" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 145 ,
+              seq-data
+                ncbieaa "MKTMIVVEKLNNGLTVYRPKVKMYQPLLDRLLSWHPNKWRDCHLIWPNTVRKA
+EVWVMDPTDPDVHIPEGHLEKAIIAQQEIYEGAVALKSRCPNIEDLTGMDLSKSFAELVLDMCIDSYNAINGVQVKNR
+YVLEYPEKSQGYSL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 144 ,
+                          id
+                            local
+                              str "sample3_6_46" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_47" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 88 ,
+              seq-data
+                ncbieaa "MSSTPRTTVVTFQDFSALDFAPPATWYIQNAMGDYVFVHTRDRMKAQTFVDEE
+YGKGRYTVKASKMQQAKGDLTCRGTATRKGQRKPS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 87 ,
+                          id
+                            local
+                              str "sample3_6_47" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_48" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 132 ,
+              seq-data
+                ncbieaa "MTEKATQLSRQDLFKQMAHDALMSVLVPIMPDEDTLDRLYQAVQVVNLEPLAK
+EFDRVMTADGTDWKKIRKVDSFLRSKDYMEVNGRYAVVQAELQDQVGLMLQALYSVVVPEEKRPKQEAPSEPAEEAVE
+S" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 131 ,
+                          id
+                            local
+                              str "sample3_6_48" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_49" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 182 ,
+              seq-data
+                ncbieaa "MSVKPAYPADRKRVRVVEQNPISFLQAVEDAIAEGYRVENTMAGFPVVSSASG
+VRTITLFHEEVCGPTEVASPEAVKSLSENAVEVKDYNLMNFLLAFQSKVLAGYALDTSRVSMLSSSLHWAVLEKGQDE
+NVVFDFGTSESEAKQEAQQEAPAPEKPARKKRQPKVKPQAEQEQTEKGENE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 181 ,
+                          id
+                            local
+                              str "sample3_6_49" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_50" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 118 ,
+              seq-data
+                ncbieaa "MSKFVKGQSGNPRGRPTKEAQALKAMSAGELDHILKKLKPASAKAIQLMIDEM
+TNASQTSPVRLKMADKVFAAYLAALRAQASIDAAKNKSDGVPEQEDEPSAQVVEFSLTMPAKKGA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 117 ,
+                          id
+                            local
+                              str "sample3_6_50" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_51" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 82 ,
+              seq-data
+                ncbieaa "MQVPVEVMDRVFPESRVYVESVLADCQTLEDLVNHRISLSRKMGLKVPGSPEY
+RELWLAEQSIHEIEGYVLGSCGVGASQPH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 81 ,
+                          id
+                            local
+                              str "sample3_6_51" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_52" } ,
+            descr {
+              title "hypothetical protein [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 100 ,
+              seq-data
+                ncbieaa "MRNMFVTPHARKRFRERFRLQFHPSVFEDGRDIYVIRKLFAEAKYCDFELRMR
+IGNYNALCVKHGRVVRVSKVRNFVFVHDDSTIYTILKEGMVLSNVRF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 99 ,
+                          id
+                            local
+                              str "sample3_6_52" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_53" } ,
+            descr {
+              title "Large Terminase [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 272 ,
+              seq-data
+                ncbieaa "MTFQFTPAQASVMSDDKHSIILYASHAGGGKSHLVAKWLTEPMHLEGYRGLAA
+RRTIPYLTGPGGLAQQIVDVDPTLRFFRRDLMVRTPDRRSSIVLRGISNEEAPRSLGGFVFQRAAVDEANQVDSSALT
+YLLSRLRNSQCPEITPQVLMTFSHGDYSSTFLDALVRPFIEKGDSLRGHGGVGRIDPKKSGQTRWLTFLRGLPVVAKN
+QESLIDLLECHTGQAPEEANLIPYTLYFQPDVHPVVKELYPEYESHLRTLASPVNVQMTGYWG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Large Terminase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 271 ,
+                          id
+                            local
+                              str "sample3_6_53" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_6_54" } ,
+            descr {
+              title "receptor binding complex [Nankokuvirus sp. ctAQHAX]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 141 ,
+              seq-data
+                ncbieaa "MAYEMTPEDKVLYDAIARIGVLGAIQAGLMKAGDGGEPAPAPTVDTLEGAGAT
+GKAVMKAADAATARTAIGAGTSNLAIGTSASTAKAGNWKPAWADVTGGDAAVSAGVKAKVNSVAAVAEDAELAAVTAK
+LNELLAALKA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "receptor binding complex" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 140 ,
+                          id
+                            local
+                              str "sample3_6_54" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_1" ,
+                  location
+                    int {
+                      from 185 ,
+                      to 346 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_2" ,
+                  location
+                    int {
+                      from 395 ,
+                      to 613 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_3" ,
+                  location
+                    int {
+                      from 603 ,
+                      to 827 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_4" ,
+                  location
+                    int {
+                      from 2203 ,
+                      to 2634 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_5" ,
+                  location
+                    int {
+                      from 2624 ,
+                      to 2965 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_6" ,
+                  location
+                    int {
+                      from 2955 ,
+                      to 3329 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_7" ,
+                  location
+                    int {
+                      from 3316 ,
+                      to 3678 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_8" ,
+                  location
+                    int {
+                      from 3665 ,
+                      to 4006 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_9" ,
+                  location
+                    int {
+                      from 4003 ,
+                      to 4905 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_10" ,
+                  location
+                    int {
+                      from 4902 ,
+                      to 5255 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_11" ,
+                  location
+                    int {
+                      from 5255 ,
+                      to 5935 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_12" ,
+                  location
+                    int {
+                      from 5945 ,
+                      to 6313 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_13" ,
+                  location
+                    int {
+                      from 6517 ,
+                      to 6831 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_14" ,
+                  location
+                    int {
+                      from 6860 ,
+                      to 7048 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_15" ,
+                  location
+                    int {
+                      from 7145 ,
+                      to 7534 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_16" ,
+                  location
+                    int {
+                      from 7531 ,
+                      to 8874 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_17" ,
+                  location
+                    int {
+                      from 8874 ,
+                      to 9119 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_18" ,
+                  location
+                    int {
+                      from 9163 ,
+                      to 9675 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_19" ,
+                  location
+                    int {
+                      from 9668 ,
+                      to 9991 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_20" ,
+                  location
+                    int {
+                      from 9992 ,
+                      to 10213 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_21" ,
+                  location
+                    int {
+                      from 10210 ,
+                      to 10686 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:pfam13935" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_22" ,
+                  location
+                    int {
+                      from 10667 ,
+                      to 11167 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:COG4333" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_23" ,
+                  location
+                    int {
+                      from 11250 ,
+                      to 11507 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_24" ,
+                  location
+                    int {
+                      from 11491 ,
+                      to 11640 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_25" ,
+                  location
+                    int {
+                      from 11637 ,
+                      to 12005 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_26" ,
+                  location
+                    int {
+                      from 12013 ,
+                      to 12276 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_27" ,
+                  location
+                    int {
+                      from 12546 ,
+                      to 12776 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_28" ,
+                  location
+                    int {
+                      from 12851 ,
+                      to 13129 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_29" ,
+                  location
+                    int {
+                      from 13126 ,
+                      to 13305 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:COG4969" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_30" ,
+                  location
+                    int {
+                      from 13302 ,
+                      to 13877 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_31" ,
+                  location
+                    int {
+                      from 13879 ,
+                      to 14115 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_32" ,
+                  location
+                    int {
+                      from 14112 ,
+                      to 14447 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_33" ,
+                  location
+                    int {
+                      from 14438 ,
+                      to 14866 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF00227.25" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_34" ,
+                  location
+                    int {
+                      from 14863 ,
+                      to 15069 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_35" ,
+                  location
+                    int {
+                      from 15078 ,
+                      to 15269 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_36" ,
+                  location
+                    int {
+                      from 15259 ,
+                      to 15537 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_37" ,
+                  location
+                    int {
+                      from 15534 ,
+                      to 17096 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:1UAA_A" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_38" ,
+                  location
+                    int {
+                      from 17074 ,
+                      to 17559 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_39" ,
+                  location
+                    int {
+                      from 17514 ,
+                      to 18116 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF02481.14" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_40" ,
+                  location
+                    int {
+                      from 18113 ,
+                      to 18361 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_41" ,
+                  location
+                    int {
+                      from 18371 ,
+                      to 18934 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:4F55_A" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_42" ,
+                  location
+                    int {
+                      from 18989 ,
+                      to 19483 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_43" ,
+                  location
+                    int {
+                      from 19543 ,
+                      to 20811 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:PHA02587" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_44" ,
+                  location
+                    int {
+                      from 20824 ,
+                      to 21096 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_45" ,
+                  location
+                    int {
+                      from 21099 ,
+                      to 21488 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:COG2131" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_46" ,
+                  location
+                    int {
+                      from 21512 ,
+                      to 21949 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_47" ,
+                  location
+                    int {
+                      from 21958 ,
+                      to 22224 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_48" ,
+                  location
+                    int {
+                      from 22334 ,
+                      to 22732 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_49" ,
+                  location
+                    int {
+                      from 22729 ,
+                      to 23277 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_50" ,
+                  location
+                    int {
+                      from 23756 ,
+                      to 24112 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_51" ,
+                  location
+                    int {
+                      from 24114 ,
+                      to 24362 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_52" ,
+                  location
+                    int {
+                      from 24567 ,
+                      to 24869 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_53" ,
+                  location
+                    int {
+                      from 25752 ,
+                      to 26570 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:5OE8_A" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_6_54" ,
+                  location
+                    int {
+                      from 26643 ,
+                      to 27068 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_6@C0" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:3U6X_L" } } } } } } } } }

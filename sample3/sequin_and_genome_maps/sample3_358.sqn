@@ -1,0 +1,343 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Jerseyvirus sp. ctNL58B" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_358" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;f_Sarkviridae;-_Guernseyvirinae;g_Jerseyvirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1218 ,
+              seq-data
+                ncbi2na 'C0EF99114204006B39248010CA4EB9E816B12FD98275945808BD4
+A7B20F6FAAB8AAC6B80DBC17217968944C09DFB1D396EA9F525BD8068E0800819060A3E86B02B0
+23D6C0A31EF01ADC0867DA5660DAF3B59DF8A3F104358631EB629F4441A40CB67227A2144B3040
+5EB9D88239C6E2AE0F8EF29E63801AE0BEC1831F12BE5B6A8C8E16026960812B181706104C0841
+20AA3F20E2613C502082F0A4F4F8903E0D63F270EAEA099233D83E09E99B36E7A491D8268802E5
+855BEEF458606037DB44F94BA58807DFE3FAAC04014AEBA88CD59DCDB445497B96B28060FCD5C0
+05E8429BEAEFBEBBE6F178340A08BF0FD48C899E8C49B7CF85ABCF6F396183D022494B96B2E5E0
+80E07FD4597907FB90341A0E9828A16841DF90E224E8197B66794E7C16C2C00080AA94D2155B34
+5027C94D8A0'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_358_1" } ,
+            descr {
+              title "replicative DNA helicase [Jerseyvirus sp. ctNL58B]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 196 ,
+              seq-data
+                ncbieaa "-VAHTKNKNGMQQKTIGMVLEPVQFREAPPPKEFQAVEFVGGEGYGEIVNLDL
+PEPHKALVLMPWGFQPFETDEEKERNEGLDGKGKDSVKDTVKRSKDASARESVMSALEDLQQSDDTGRGFTQRQIVAR
+AGDHSITNLVLEKMLREGELMLGCDENGEVVTNTYRLPSGIDDRKRPKNRYEPNDNIKTTEGDLE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "replicative DNA helicase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 195 ,
+                          id
+                            local
+                              str "sample3_358_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_358_2" } ,
+            descr {
+              title "hypothetical protein [Jerseyvirus sp. ctNL58B]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 191 ,
+              seq-data
+                ncbieaa "MSDITKEEVKAFIEQIESDLANGWEAQIFELKLARIVLAALEAEKSADPVVFT
+DERNLRHIASGRETSLIWGKQNQVVGDIPLYRHTQPVPVGNEFIPKNLDKALGVVGVALPESKEEFNFQIERWIQRLI
+DRVIRYADEFKEQPVPVVPEEMNFSTACNFVQINGMAKEDRTTLAMRAWNACRAAMLNRK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 190 ,
+                          id
+                            local
+                              str "sample3_358_2" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_358_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 592 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_358" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:1NLF_A" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_358_2" ,
+                  location
+                    int {
+                      from 589 ,
+                      to 1164 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_358" } } } } } } } }

@@ -1,0 +1,29 @@
+>Feature sample3_70 Table1
+3	1586	CDS
+			protein_id	lcl|sample3_70_1
+			product	Capsid protein
+			inference	protein motif PFAM:PF02305.16
+1588	2355	CDS
+			protein_id	lcl|sample3_70_2
+			product	Minor capsid protein 
+			inference	protein motif UniProt:tr|A0A0C5AFV1_9VIRU
+2359	2781	CDS
+			protein_id	lcl|sample3_70_3
+			product	capsid scaffold
+			inference	protein motif PFAM:PF09675.9
+2874	3044	CDS
+			protein_id	lcl|sample3_70_4
+			product	hypothetical protein
+			note	no search hits
+3041	3301	CDS
+			protein_id	lcl|sample3_70_5
+			product	DNA binding protein
+			inference	protein motif UniProt:tr|A0A0G2UEC9_9VIRU
+3414	3539	CDS
+			protein_id	lcl|sample3_70_6
+			product	hypothetical protein
+			note	no search hits
+3539	4423	CDS
+			protein_id	lcl|sample3_70_7
+			product	Rep protein
+			inference	protein motif PFAM:PF05840.12

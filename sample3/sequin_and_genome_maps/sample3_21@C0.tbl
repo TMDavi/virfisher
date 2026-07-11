@@ -1,0 +1,125 @@
+>Feature sample3_21@C0 Table1
+622	2	CDS
+			protein_id	lcl|sample3_21_1
+			product	ribonucleoside-triphosphate reductase, adenosylcobalamin-dependent
+			inference	protein motif CDD:TIGR02505
+1008	811	CDS
+			protein_id	lcl|sample3_21_2
+			product	hypothetical protein
+			note	no search hits
+1190	1005	CDS
+			protein_id	lcl|sample3_21_3
+			product	Phage protein Gp52
+			inference	protein motif CDD:pfam17468
+1881	1174	CDS
+			protein_id	lcl|sample3_21_4
+			product	sigma K factor
+			inference	protein motif PFAM:PF17468.1
+2801	2034	CDS
+			protein_id	lcl|sample3_21_5
+			product	metallo phosphoesterase
+			inference	protein motif PFAM:PF14582.5
+3249	2794	CDS
+			protein_id	lcl|sample3_21_6
+			product	phosphofructokinase
+			inference	protein motif PFAM:PF07659.10
+3518	3246	CDS
+			protein_id	lcl|sample3_21_7
+			product	Glutaredoxin-like protein, YruB-family
+			inference	protein motif CDD:TIGR02196
+4150	3518	CDS
+			protein_id	lcl|sample3_21_8
+			product	DNA polymerase
+			inference	protein motif PDB:5IKN_F
+4861	4364	CDS
+			protein_id	lcl|sample3_21_9
+			product	Recombination endonuclease VII
+			inference	protein motif PFAM:PF02945.14
+4955	4812	CDS
+			protein_id	lcl|sample3_21_10
+			product	hypothetical protein
+			note	no search hits
+5788	4952	CDS
+			protein_id	lcl|sample3_21_11
+			product	Pimeloyl-ACP methyl ester carboxylesterase [Coenzyme transport and metabolism, General function prediction only]
+			inference	protein motif CDD:COG0596
+6162	5785	CDS
+			protein_id	lcl|sample3_21_12
+			product	Protein of unknown function (DUF2493)
+			inference	protein motif CDD:pfam10686
+6317	6162	CDS
+			protein_id	lcl|sample3_21_13
+			product	hypothetical protein
+			note	no search hits
+6550	6314	CDS
+			protein_id	lcl|sample3_21_14
+			product	Hypothetical phage protein Gp63
+			inference	protein motif CDD:pfam17471
+7099	6713	CDS
+			protein_id	lcl|sample3_21_15
+			product	site specific recombination directionality factor RDF
+			inference	protein motif PFAM:PF16475.4
+7829	7131	CDS
+			protein_id	lcl|sample3_21_16
+			product	DNAB replicative helicase
+			inference	protein motif PDB:3BH0_A
+8603	8004	CDS
+			protein_id	lcl|sample3_21_17
+			product	Calcineurin-like phosphoesterase superfamily protein [General function prediction only]
+			inference	protein motif CDD:COG4186
+8740	8600	CDS
+			protein_id	lcl|sample3_21_18
+			product	hypothetical protein
+			note	no search hits
+8970	8737	CDS
+			protein_id	lcl|sample3_21_19
+			product	Phage protein Gp68
+			inference	protein motif CDD:pfam17469
+9253	9011	CDS
+			protein_id	lcl|sample3_21_20
+			product	hypothetical protein
+			note	no search hits
+10110	9301	CDS
+			protein_id	lcl|sample3_21_21
+			product	PD (D E)XK nuclease superfamily
+			inference	protein motif PFAM:PF12705.6
+10526	10107	CDS
+			protein_id	lcl|sample3_21_22
+			product	hypothetical protein
+			note	no search hits
+10851	10582	CDS
+			protein_id	lcl|sample3_21_23
+			product	transcriptional repressor
+			inference	protein motif PFAM:PF10078.8
+11143	10865	CDS
+			protein_id	lcl|sample3_21_24
+			product	hypothetical protein
+			note	no search hits
+11271	11140	CDS
+			protein_id	lcl|sample3_21_25
+			product	hypothetical protein
+			note	no search hits
+11363	11268	CDS
+			protein_id	lcl|sample3_21_26
+			product	hypothetical protein
+			note	no search hits
+11554	11360	CDS
+			protein_id	lcl|sample3_21_27
+			product	hypothetical protein
+			note	no search hits
+11835	11569	CDS
+			protein_id	lcl|sample3_21_28
+			product	transposase
+			inference	protein motif PFAM:PF07282.10
+12002	11838	CDS
+			protein_id	lcl|sample3_21_29
+			product	Family of unknown function (DUF5419)
+			inference	protein motif CDD:pfam17441
+12732	12010	CDS
+			protein_id	lcl|sample3_21_30
+			product	Gene 88 protein
+			inference	protein motif CDD:pfam17338
+13179	12868	CDS
+			protein_id	lcl|sample3_21_31
+			product	hypothetical protein
+			note	no search hits
