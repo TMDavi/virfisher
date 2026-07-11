@@ -1,0 +1,6 @@
+StructuredCommentPrefix	##Genome-Assembly-Data-START##
+Assembly Method	unknown_assembler
+Genome Coverage	0.00x
+Sequencing Technology	Illumina
+Annotation Pipeline	Cenote-Taker 3
+URL	https://github.com/mtisza1/Cenote-Taker3

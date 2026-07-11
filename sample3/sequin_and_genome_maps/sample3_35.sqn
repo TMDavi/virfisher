@@ -1,0 +1,895 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Saetivirus sp. ct2XBGZ" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_35" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Floreoviria;k_Loebvirae;p_Hofneiviricota;c_Faserviricetes;o_Tubul
+avirales;f_Inoviridae;g_Saetivirus] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 8551 ,
+              seq-data
+                ncbi2na 'A5C5006F363F271A901A82F3E1FDD5E7B07D0F9C15E14C07FA12B
+652DD6057D9FD6F9A3CE30B5C5B5E232F9530D901FDEF3F70F4F210FE3D5DD08481A0D519CB5FE
+D5F9D7ED286F910C4F65946B8FF9974CE4999FD1033DF89B621C44125F3738F0219D185970B6E1
+A4D67D9D91E18E0EEF89F90090090293DDC019FD00FE380D8226FF10097B81E7E4D1FA5FDFD6D7
+89F342402650DC389F8BB7C7DD99CEEE207AF1B212719659CFD960B609AC99B85F7DFBC9083801
+573E779D3A5F8AE382DC80B4987812BFCDC316FE71BA28E35E01BAFC675089F96403577405718F
+21B9203BDBD97429FF8A33F902026B46F98EFF116E1655F56FF46FF42AE184F05603AFA09E9097
+2E43E3993453F8EAAF1C39FF6C299D8409403C0373A1C60FBE05934E1AC45910D3F5DC7D39D562
+4E026EB4420D7C88F99DD6E32D7062D2B90003163D0A48823E3F4002BDA6BEBC6D9C0C5FD0004D
+869411361FE1603D01034A458269D0DEDB76F4367C0EBBC843D43FCE9A79DEDD6DE9B88E65BF19
+8E03408A3866B8C1F40D0F49023811FEF72014F6599E58E0A63FC267DF8F98EA69B7FBC0640890
+15E4079F19C000F06C8EB7FF75B15BC698E03899A53D0A4D7FD0296DC3D715BFC08FA67F907080
+43F35BA6F64538E16819938FFC9DDC8228BF8B367439D9A08B389B3908A0967FFAF62BE7DE7835
+E6F3B3A6380CCDF8A39965158FAEFAAFA992561561143EAE97E876ED1C1ED94CFFF0163F7051EC
+2840400E3C4429F0FD630218CF48502FFC30571C7A603DB14BA6F3C1F9FBF40951D0BCF16D02CD
+E289FE998B70C1A52F7D4347EDAC0DCF8F3EDED160A1FF7FC76E1A504ACDA91033C177D01F560B
+8086F030A693038582243FF1070E190F22D9FEBA7E9FE4AFD327BFCBEB7EBF0C52D108E123FD2F
+FEF1417FF6993C34EA7392FA7F03AF2EF4202416290D9778F0313B0E883C453800091C0926F0DB
+E5DFC924BE6907A670E690D51282442595F8E6BEA83F17716FBEBE8EEABBAB1E438FB69FEDA5D0
+2EB4002B9410A6170C143F0EBE55FBA873342A9F0F957E3FF3AFC00CE647FDC1FCFF710773E78B
+3F4FF7D3F9F1CD2F97FFA5E3007CDD0D78A79A69E7CFC8CC76AA6BD7909B8C4603FCC0A7D0F274
+3C315744F97364F840CDF8E343B32DFF4DC7AC11F5B47743BEF8C3ED78E91355E3F371293B9017
+0948455D0CF9A47DE43BF8A1BE707CC439FBCE2401A4FFF4CC7E618341D095F8E703B87C107D61
+439B8FAD95C7E978F97E30964D05C38571C35FE517BE9A7F0D42D7B035F7BD7DF45EF802563B12
+8168401A01F6847A6F3C39CD083781863F010360C78CF4C18CE0C007FD05383864F1B49D0C9143
+1A53E84093EF8123804239D23318030C009F49040C9670C33439CF0F64050B4F3E829042D0D1E9
+DCD1680C4848F2F9A7B439F7AE3A6FB369CF8E97E5842F007FB8550C7855FC1EE0A6006BF075F7
+DEF8B73FE0101B492CB0414B42F8E5822A7FF051DF02014C8430FC3E28C7435CFC821380D63F0D
+A67F970F5DD0EE3BE3B3C0055F3AE3FCB3E9E60C499C8F80DCF767F6FF733F319DC47FA480CF3F
+12BBC75EF96816F533FF4688C3400E9CE5ECFFC7D530D1AB3C7A647483159CF9A7F7E9C67E6943
+35ED3AFC989BFC7667BE53C1F05BFC10EBCDAFC9FE9E69F79CECE57659287E588F196571BAD8E6
+EAA3BFBD5D4398F53BB6614DFF4900B8D6FABFAA3A43DC6C34400ED8BC1BCE98BBF3FEC1AB01EA
+77A02D7E3E7B4B64F6E19DD388A6C52F9470DD0CD05C0A038CA5B8C068115BF336DE5E10971AD8
+233E231EA73B430B7C631B70A1ADC36E7E38B9AC7EBF077646E818C2058425F1D8C8FFE4CD640F
+A8EA3B8FF4DBD20CFD0EB6301095B8AB7E7891BEF479098F2168E40D5FF7371CFBFA3DD19FAD27
+4035739401F44DA4CB40CE98C63C19DC16F8C2E8E73AA078FECC9DF18C409233D4814735D1A45C
+F6BFE557EB13D1A59CC4B55C4798804D3993C700FF3D200C746EF94EF65BA99E5F6B9E6F7A4FD1
+365E25E27CF41DBD29D00D039C1F78B58530BCDE273EA69FC53F5233165F978E65ED1FD89EDC1A
+E4099747D7389F4373A9FE036055FD19E6034F340D2B9D00E01CF479C0034803800B2C2D79D663
+AB8FFDB7FF800F11A6E896109A219E5090DC73DD0B599B4BC75C37E39FD7F5E5464957F62D3684
+65CF9E2FE7DFAC764901AA3C0BEFFAB42BBDDAF7B09FC59578FEBD69E2C579FFFE3D6F7999D1AF
+1C5EB408E9065CEC3423255609008AC3455E73EE09DC59F41CCD601D027778FEBD0D467429C5DC
+98BFB828C24AE8C3C76BE03DD58314395E3EFD6B127412F2001D8EEFBCDA73E3B9640A40FFCD8A
+5B0D1E21E0F298C126272AB017D0965FE3026A7FBC50FEBC397509D02307EFCCF62D298FF065FA
+D0A7377AB42E315BFBE25B5C337E3CE8CA899AF1307BE9481B97F7EBB5076147869A442EF41B36
+26028ECA6F27C82E19646F3AB863B8FFAF341422DCBDED1E1D853E49633CF1410991FC3851AF9A
+C0B5AD014DBDDAEB74FD63802643B60D6BBD7BDD023155F0FAE977F6751B41420EC40289F2ADBC
+D0B416CF300AA7CC957C3DF94F9DE933F4727F89BB4F9367E99F437B2CF9CF9EE2CBE79A6715ED
+17BEA0CF0995D5D4F7815F5476D56EB02F77DF7B94DD3C97FC477A6B37FD95FB54F9F85DED123F
+0040BFE59F5DC4740591D03D1800403FFED3F67D8F4C3801D500DA8BFCC24DE3FCE904FC530905
+70C647880D276F01E9E3E11E721459004F8CFBDF0D7256FF9FFF98E7F540F97F31BABFDBE6B79B
+84D724B98FD2AD0F5E78779C800F9F9D34BC8C9A6D7FDE03478F7F9FE83BD3353273F9FB7EC6C7
+FE66FFEC64FC32F64FAC4EFCD5D6FFED3DCBE00BC503F2EDF9AD340CEBA704EB4F037AF1C0FFA5
+957FBFB5F8041FAABE97541EF429AF34E1024D1BDC00F415BF17F4D2F7F7A1C007FE23D900385B
+8F1DEFAE31FFBFC1C7AFFB45D97BB340D8313458FF9D0401AF1BEFFF7FC85FD6E03477FCD1903F
+667F7E8A704'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_35_1" } ,
+            descr {
+              title "Rep protein [Saetivirus sp. ct2XBGZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 697 ,
+              seq-data
+                ncbieaa "-YQNVIDLATGKREVIDFLPAVTSIANPDHKLWTGRQSPNPSLSVADYDKSYR
+PEIVAHNRKLSVISNSLDNLIPSQDRTESHASPLSLAPCQDVAQYIRRHGDFAPHMQRAFTNILERRDYTTALSMIKD
+AHDRLSRDGIRFARTDDECVELAKAKAKAFSKTLSKFDEIEERFTKACELLASLGLSFRPELIKQKRQSNELECLTSR
+AMCENWLRRQLRRRYFAEVEAVARDLLLVSKNENPYCSAHGLEVMKSRKSATEQVLSNTVCYVEDDPETWFTLQELAA
+KSLSNPTIRRAEMFVRLKAFEDICKESGHVAMFYTVTAPSRFHVFKGDDINPKWLEAGKPSAIDAHHHLMGVTNAFRK
+ALDKAKIKIYGLRIVEPHHDGTPHNHFLYFMLPEHESVVTRILRDCALRDSPNESGAKKYRFKAEKIDFKKGSAVGYV
+AKYLSKNIDGQHIDFDRNSNKSGTEAAQSVVSFNRLNGVRQFQFYGGCSVSVWREMRRLRDEIKEDDAVITSNQFSKD
+EHFVLETIRRAADEGDFKRFLIAMGGVFVKRKEQTLQTAYAKKINVDGLFLRTRYGDEMSAAIQGILFKGRLIPTRFK
+DWRFATKKQFIRGVRTMMTGTRMIFSSLEEEFEYRSMLAEEYERMQEEAAFWFEVASAESCVMYGDEIYLEDAPPPDW
+CWGWAQPDPDTNWVALDSCH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Rep protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 696 ,
+                          id
+                            local
+                              str "sample3_35_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_35_2" } ,
+            descr {
+              title "hypothetical protein [Saetivirus sp. ct2XBGZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 104 ,
+              seq-data
+                ncbieaa "MITQGLISDKDDIQTKVFNNPTTGEIRTSGVINLLVSKPTQVITVKVSEELWR
+ESNNGQFFQSLVGKSIDYCLSPKDFSFTRDGQQVSGTNINLFKLPEVKDVK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 103 ,
+                          id
+                            local
+                              str "sample3_35_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_35_3" } ,
+            descr {
+              title "hypothetical protein [Saetivirus sp. ct2XBGZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 38 ,
+              seq-data
+                ncbieaa "MTEEQFLQLMTQLESLWWLGFAGFIAVLVGLGLIPVTR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 37 ,
+                          id
+                            local
+                              str "sample3_35_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_35_4" } ,
+            descr {
+              title "major coat protein [Saetivirus sp. ct2XBGZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 73 ,
+              seq-data
+                ncbieaa "MKKSTKAALIVASLAAVAATGANAAIPQEAQAALDAVGEFTSTVVGWMWGVGT
+AMIVGFVGLKVVKKGANKAT" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "major coat protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 72 ,
+                          id
+                            local
+                              str "sample3_35_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_35_5" } ,
+            descr {
+              title "minor head protein; receptor binding [Saetivirus sp.
+ ct2XBGZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 499 ,
+              seq-data
+                ncbieaa "MRTFLTLFSTTLLLSISFSSFAYYQLPFWPDKTYLNPEAAAAAYLDILGGGSC
+KRDTRNFIKASISSINTPHIAYRIDKYLDDQCIVFSSTGNTSVTLNVVDNCPDGTSPDLSTGMCKPKPDTPQYCGTSA
+MFEDVANLYNACYEQNGIFSYTCDESTQALDAKCDLTTSDQCVIGRPTWPDCLDKPHQPNDPTNPLPPVGGFNPSPVN
+PSVPSSPVEKPDVQEPDKTETSDTGVINAIKNLNDDLNKSNTDIHNDMNKNFSTMNDALRQLNSTNTAIGQSIVEQMK
+QDAQIYENNKKLQQQIAANNINAINSQTKSLLEGNKSITGSITGNTDRLVAAVNASGDGVVSAIDGLADKLKLCDPNT
+DPFNCEGENGLTPSSVESILKQTSAVVTTSQVDAEEGFLTTLKETIDNNLIEDTQSYLEDMKSDLIGALPNSSQCDVD
+VLKTPYGDFSIGCEYSARLKSILAFVFYIYTLYTLAEILFTGVTPVAGTVPYFSRR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "minor head protein; receptor binding" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 498 ,
+                          id
+                            local
+                              str "sample3_35_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_35_6" } ,
+            descr {
+              title "minor coat protein [Saetivirus sp. ct2XBGZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 123 ,
+              seq-data
+                ncbieaa "MAMPVFLLPIITGITGALRIPAIAAFLATLAANILSWFSERFTRAVAINLTVL
+TMVIGLALAAASAMYALAAGLAEITPPYVVDAWGMFVPSNAIPCVATIFSAKVIRWVWGWQFYVITKMSS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "minor coat protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 122 ,
+                          id
+                            local
+                              str "sample3_35_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_35_7" } ,
+            descr {
+              title "Zonular occludens toxin (Zot) [Saetivirus sp. ct2XBGZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 361 ,
+              seq-data
+                ncbieaa "MASVYFVTGKLGSGKSLIAVSRIRDALMRGVPVATNLNINLKEMIGRDKRNTR
+LYRLPDKPTVEDIEILGYVNKSYDTSKDGLIVLDECGTWFNSRTWNDKNRQALLDRFLHIRKLGWDVIFIVQNISMVD
+KQAREGLAEHVVHCKRLDRMQIPFLSTIVWILTLGQLKIPMPKLHIGIVKYGDTINALTVDKWMLWGTDLYSSYDTKQ
+IFQNHYPHGTYSVLPPWYIHGRYTVPYTARNIMRITKILFRKYSRVAMFAVGAAFGAAFWHFTSPEPELIQLVQAQNQ
+MLTSESDHKLSELLGGFTISRYTALPDAPVTFELSNGAKRLTSYELQSMGFEIEPLSRCEIIIKSGAQNETIHC" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Zonular occludens toxin (Zot)" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 360 ,
+                          id
+                            local
+                              str "sample3_35_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_35_8" } ,
+            descr {
+              title "Type II secretion system protein [Saetivirus sp.
+ ct2XBGZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 442 ,
+              seq-data
+                ncbieaa "MKLFTAKKSENEKVVSPAPRWVIFRLFEKLHGVEPTSGDAAKQSTILKSARQL
+LLILMLSFPAHAAPFESSDTPIAEFASWYSQQTGIKVVLGQGVLGSVSFTAPDLVPAEYPAFFDSVLRAHGYYLVKDG
+NAYVIKIAPEAKEVITPAIVKLYRFNYIRNSKLSDLVQSTLKATSSEFVKDKQVDNYSVEILPNTNALIVSGTAQQLE
+KLDVLLSAIDVPQRQIFIEAVITETELGDNSELGVNLQAAFDKAGFVTNLVNASKLKDNLFIFESGDFNALVKAISGS
+SDTRLLSRPNILIMDRERGYITVGQNVPFLVSNSTTDGGTSVQRIERKDVGVSLEVTPHVMGDDVILVINQESSSVTD
+STIAADIITNKRTLMTTVAVKSGQTIVLGGLISDEKRNVESGVPVLKDTPLIGGLFRSTSTKNVQKELRVVIKSTVL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Type II secretion system protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 441 ,
+                          id
+                            local
+                              str "sample3_35_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_35_9" } ,
+            descr {
+              title "putative transcription regulator [Saetivirus sp.
+ ct2XBGZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 123 ,
+              seq-data
+                ncbieaa "MNRSEMTKNFVFREFECGLSVEEAAKLCFKSVTEVKQWDKGEKIPPECKRLMR
+WHRRRELYHGDEWEGFRMEGGRLIFPTGDRVAPQQLLTAIAILQIEAPSDAMTRSKLVKYARAMARIKGL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "putative transcription regulator" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 122 ,
+                          id
+                            local
+                              str "sample3_35_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_35_10" } ,
+            descr {
+              title "helix turn helix protein [Saetivirus sp. ct2XBGZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 154 ,
+              seq-data
+                ncbieaa "MYQCELLNAYKNAQKYVQDKQIAMDMNIPKQRISDFRKGRRYLTDEQAIFLAE
+SAGIDPEIALLGCHADRNENPRIKAIWESIAKKQNGLGLRTISMFCGGLAVSISQFNELISQCVLGLLMVNVAIKSDA
+YKTPDFGSFHYESKRNDKKFCFS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "helix turn helix protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 153 ,
+                          id
+                            local
+                              str "sample3_35_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_35_11" } ,
+            descr {
+              title "Domain of Unknown Function with PDB structure (DUF3850)
+ [Saetivirus sp. ct2XBGZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 90 ,
+              seq-data
+                ncbieaa "MTKHHVLKIQPVYLSSVLSGLKTFEIRKNDRDYSVGDTFVLTTGFVTSPVYQI
+EYITDFAQQNGYVVFSFRPFREITLLSRKFRAFLEAN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Domain of Unknown Function with PDB structure
+ (DUF3850)" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 89 ,
+                          id
+                            local
+                              str "sample3_35_11" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_35_1" ,
+                  location
+                    int {
+                      from 1 ,
+                      to 2094 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_35" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05840.12" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_35_2" ,
+                  location
+                    int {
+                      from 2147 ,
+                      to 2461 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_35" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_35_3" ,
+                  location
+                    int {
+                      from 2472 ,
+                      to 2588 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_35" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_35_4" ,
+                  location
+                    int {
+                      from 2726 ,
+                      to 2947 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_35" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:PHA00025" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_35_5" ,
+                  location
+                    int {
+                      from 3025 ,
+                      to 4524 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_35" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05616.12" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_35_6" ,
+                  location
+                    int {
+                      from 4531 ,
+                      to 4902 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_35" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:PHA00094" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_35_7" ,
+                  location
+                    int {
+                      from 4907 ,
+                      to 5992 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_35" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05707.11" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_35_8" ,
+                  location
+                    int {
+                      from 5973 ,
+                      to 7301 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_35" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:5WQ8_J" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_35_9" ,
+                  location
+                    int {
+                      from 7309 ,
+                      to 7680 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_35" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:PHA01082" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_35_10" ,
+                  location
+                    int {
+                      from 7640 ,
+                      to 8104 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_35" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:4IA8_B" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_35_11" ,
+                  location
+                    int {
+                      from 8281 ,
+                      to 8550 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_35" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:pfam12961" } } } } } } } } }

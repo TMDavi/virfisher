@@ -1,0 +1,9 @@
+>Feature sample3_98 Table1
+1	1338	CDS
+			protein_id	lcl|sample3_98_1
+			product	tail protein
+			inference	protein motif PFAM:PF13550.5
+1351	3387	CDS
+			protein_id	lcl|sample3_98_2
+			product	Tail protein
+			inference	protein motif PDB:2VFN_A

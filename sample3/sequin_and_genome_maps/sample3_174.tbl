@@ -1,0 +1,13 @@
+>Feature sample3_174 Table1
+2	361	CDS
+			protein_id	lcl|sample3_174_1
+			product	minor tail protein
+			inference	protein motif PFAM:PF12810.6
+362	1324	CDS
+			protein_id	lcl|sample3_174_2
+			product	Putative structural protein 
+			inference	protein motif UniProt:tr|R4JHS9_9CAUD
+1394	1822	CDS
+			protein_id	lcl|sample3_174_3
+			product	hypothetical protein
+			note	no search hits

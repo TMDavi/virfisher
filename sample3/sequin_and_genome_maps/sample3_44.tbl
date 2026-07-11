@@ -1,0 +1,73 @@
+>Feature sample3_44 Table1
+1	129	CDS
+			protein_id	lcl|sample3_44_1
+			product	hypothetical protein
+			note	no search hits
+122	844	CDS
+			protein_id	lcl|sample3_44_2
+			product	Erf like ssDNA annealing protein
+			inference	protein motif PFAM:PF04404.11
+837	1148	CDS
+			protein_id	lcl|sample3_44_3
+			product	hypothetical protein
+			note	no search hits
+1148	1618	CDS
+			protein_id	lcl|sample3_44_4
+			product	hypothetical protein
+			note	no search hits
+1618	1986	CDS
+			protein_id	lcl|sample3_44_5
+			product	hypothetical protein
+			note	no search hits
+1989	2357	CDS
+			protein_id	lcl|sample3_44_6
+			product	hypothetical protein
+			note	no search hits
+2357	2530	CDS
+			protein_id	lcl|sample3_44_7
+			product	hypothetical protein
+			note	no search hits
+2533	2766	CDS
+			protein_id	lcl|sample3_44_8
+			product	hypothetical protein
+			note	no search hits
+2763	3176	CDS
+			protein_id	lcl|sample3_44_9
+			product	GTP binding domain
+			inference	protein motif PFAM:PF02481.14
+3173	3490	CDS
+			protein_id	lcl|sample3_44_10
+			product	HNH nucleases; HNH endonuclease signature which is found in viral, prokaryotic, and eukaryotic proteins
+			inference	protein motif CDD:cd00085
+3480	3716	CDS
+			protein_id	lcl|sample3_44_11
+			product	hypothetical protein
+			note	no search hits
+3713	4363	CDS
+			protein_id	lcl|sample3_44_12
+			product	phage replisome organiser
+			inference	protein motif PFAM:PF09681.9
+4345	4695	CDS
+			protein_id	lcl|sample3_44_13
+			product	hypothetical protein
+			note	no search hits
+4742	5950	CDS
+			protein_id	lcl|sample3_44_14
+			product	Helicase ATPase
+			inference	protein motif PDB:3BH0_A
+5947	6135	CDS
+			protein_id	lcl|sample3_44_15
+			product	hypothetical protein
+			note	no search hits
+6153	6392	CDS
+			protein_id	lcl|sample3_44_16
+			product	transcriptional regulator WhiB like
+			inference	protein motif PFAM:PF02467.15
+6367	6588	CDS
+			protein_id	lcl|sample3_44_17
+			product	hypothetical protein
+			note	no search hits
+6581	6865	CDS
+			protein_id	lcl|sample3_44_18
+			product	hypothetical protein
+			note	no search hits

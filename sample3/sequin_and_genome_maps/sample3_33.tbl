@@ -1,0 +1,61 @@
+>Feature sample3_33 Table1
+1	144	CDS
+			protein_id	lcl|sample3_33_1
+			product	hypothetical protein
+			note	no search hits
+141	452	CDS
+			protein_id	lcl|sample3_33_2
+			product	hypothetical protein
+			note	no search hits
+449	901	CDS
+			protein_id	lcl|sample3_33_3
+			product	hypothetical protein
+			note	no search hits
+903	1616	CDS
+			protein_id	lcl|sample3_33_4
+			product	hypothetical protein
+			note	no search hits
+1606	1695	CDS
+			protein_id	lcl|sample3_33_5
+			product	hypothetical protein
+			note	no search hits
+1692	1976	CDS
+			protein_id	lcl|sample3_33_6
+			product	hypothetical protein
+			note	no search hits
+1973	2434	CDS
+			protein_id	lcl|sample3_33_7
+			product	nucleoside 2 deoxyribosyltransferase
+			inference	protein motif PFAM:PF09152.9
+2638	2435	CDS
+			protein_id	lcl|sample3_33_8
+			product	hypothetical protein
+			note	no search hits
+2640	2810	CDS
+			protein_id	lcl|sample3_33_9
+			product	hypothetical protein
+			note	no search hits
+3529	2816	CDS
+			protein_id	lcl|sample3_33_10
+			product	virion protein
+			inference	protein motif CDD:PHA02564
+3871	3533	CDS
+			protein_id	lcl|sample3_33_11
+			product	Rz like spanin
+			inference	protein motif PFAM:PF10805.7
+6064	3935	CDS
+			protein_id	lcl|sample3_33_12
+			product	hypothetical protein
+			note	no search hits
+7300	6074	CDS
+			protein_id	lcl|sample3_33_13
+			product	hypothetical protein
+			note	no search hits
+8334	7315	CDS
+			protein_id	lcl|sample3_33_14
+			product	hypothetical protein
+			note	no search hits
+8581	8348	CDS
+			protein_id	lcl|sample3_33_15
+			product	hypothetical protein
+			note	no search hits

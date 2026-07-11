@@ -1,0 +1,9 @@
+>Feature sample3_420 Table1
+2	517	CDS
+			protein_id	lcl|sample3_420_1
+			product	Baseplate wedge protein
+			inference	protein motif PDB:5IV5_GH
+533	1069	CDS
+			protein_id	lcl|sample3_420_2
+			product	Domain of unknown function (DUF4815)
+			inference	protein motif CDD:pfam16075

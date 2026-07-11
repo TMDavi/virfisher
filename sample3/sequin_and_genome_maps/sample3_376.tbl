@@ -1,0 +1,13 @@
+>Feature sample3_376 Table1
+217	2	CDS
+			protein_id	lcl|sample3_376_1
+			product	lipoprotein
+			inference	protein motif PFAM:PF06295.11
+772	227	CDS
+			protein_id	lcl|sample3_376_2
+			product	tail fibre assembly protein
+			inference	protein motif PFAM:PF02413.16
+1168	773	CDS
+			protein_id	lcl|sample3_376_3
+			product	Long tail fiber
+			inference	protein motif PDB:5NXF_A

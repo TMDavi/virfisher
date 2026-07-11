@@ -1,0 +1,72 @@
+LOCUS       sample3_441             1039 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;o_Au
+            tographivirales;f_Autosignataviridae;-
+            _Molineuxvirinae;g_Axomammavirus] [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Axomammavirus sp. ctM4LCV (unknown)
+  ORGANISM  Axomammavirus sp. ctM4LCV
+            Unclassified.
+REFERENCE   1  (bases 1 to 1039)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1039)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1039
+                     /organism="Axomammavirus sp. ctM4LCV"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(3..1037)
+                     /inference="protein motif PFAM:PF11134.7"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Phage stabilisation protein"
+                     /translation="-
+                     EVFDKAGRKCVVSVDPSVEQYVRNADPYKNIRMLTVADYTFIVNKTVPVRAAPDMTPS
+                     VGDTALVFCAFGQYGVSYKIFIGGVQAALYMTPDGSDAGHVVYIKTEHIARILHEQLL
+                     LWEGIGDYTTSRDGTTITIKKNDGTEIEVTTEDGSKGKDLVAIKNRTTSTDLLPSRAP
+                     SGYKVQINPTGSKPESRYWLEAVPKEGGNLVAWRECLAPDSLVGFNKNTMPHILVRDD
+                     IVDGLAHFRLRQGDWVDRDVGDDLTNPFPSFLDQTIGGLFMVQNRLCFSNGEAVAMAR
+                     TSRFFEFFRPTVLSALATDPIDTYSDASEVYELTDSVSLDGDTVLFSRTAQFLL"
+ORIGIN      
+        1 ggtagcagga attgcgctgt acgggagaag agtacggtat cgccgtccag agaaacagag
+       61 tccgtcaact catagacctc gctcgcatcg gagtaagtgt caattgggtc ggtcgccagc
+      121 gcagacaaca cggttgggcg gaagaactca aagaagcgag aggtacgagc catagccaca
+      181 gcctcgccat tagagaagca cagtctgttc tgaaccataa acagaccacc gattgtctgg
+      241 tcaaggaagg aagggaatgg gttggtaagg tcgtcgccga catcacggtc tacccaatca
+      301 ccttgacgta ggcggaagtg agccaaacca tccacaatgt catcacgaac caagatgtgt
+      361 ggcattgtgt tcttgttaaa ccccactagg gaatcaggag ctaagcactc acgccacgca
+      421 acaaggttac caccttcttt tggaacagcc tcaagccaat aacgcgactc aggcttactg
+      481 cccgtagggt taatttgtac cttgtaccca gaaggtgcac gggatggaag aaggtcggtt
+      541 gaggttgttc ggttcttaat ggcaaccaag tccttaccct tagatccgtc ctctgtcgtc
+      601 acctctatct ctgttccgtc attcttcttg atggtgattg tagtgccatc ccttgatgtg
+      661 gtgtagtctc ctatgccctc ccacaaaagc aactgctcat gcaatattct tgcgatgtgc
+      721 tctgtcttta tatagacgac atgacctgca tcgctaccat caggtgtcat atatagtgcc
+      781 gcttgcactc caccaataaa gattttatac gacacaccat actgaccaaa cgcacagaac
+      841 actagcgcag tgtcaccaac ggagggtgtc atgtcaggcg ctgcacgaac aggtacggtt
+      901 ttgttaacaa tgaacgtgta gtctgcaacc gttagcatac ggatgttctt gtacgggtct
+      961 gcattgcgca catactgctc tacactaggg tctaccgaca caacacactt acgtcctgcc
+     1021 ttgtcgaaca cctctgggg
+//

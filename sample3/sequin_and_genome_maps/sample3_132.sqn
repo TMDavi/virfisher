@@ -1,0 +1,555 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Mohonavirus sp. ctT3Q4B" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_132" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;g_Mohonavirus] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 2573 ,
+              seq-data
+                ncbi2na '0FBDC1F74031135F7FE8142FD0BE83B3FDEF13833012BD17F78F2
+62F432FA10A320C4134D0DF415F9E832E65CB0805FF943D78337F07EA036A3F53805FEB348906C
+483450CAF61EA1047045ECC170B461E79C519F1D3508EED83F0CFEC0BFB03B9D33FB375FCF3F0F
+EC0144ADF71FC5EE0BE79EF87037C7F80701BF4C482D7DDF7D1C114D7718C3BCB30C4F5889F6C0
+5DF8E20BBC332E845F7154C0BF77F74818F14FFCC0710BB04E3CF5D77D3103D027E93274D423C4
+53FE41081D34BF94828F75E1BAA11B53E439F460CB80B2B1DFFBF7F3D3CEFB5F36BEB04F4F0CA7
+EC67DDFC8832BF1DB51838073C437D106B3E7A07C7C27ECC24014D7C1C2EED8144EE4D833EBB4D
+42C08932F047D8D354276CBF49441DF42A0244D0033EC8FF4DDBD424DF4FF42C24FBF502F60179
+03E14E7FEFDF01D0440BF37B4D47427EF23B81501F1BFE633422CDF7BFE1EB832ADA014F4F3406
+E6F4977C3340986B8FFB5C410CDE7E3D38BD510748CB078C34DF7BB417C5FD034FB03C6DB67142
+53F244327C83014F47F4378F40582F7AF5301D414C4FF93A27B772B43CB047F6AE68C7C4FFE7FA
+7C3FC134114D40744500C3C5B9F74C44F7C33A60C71DD188FC6D5247D4B9CBEEE417FBFDC40435
+FF08F90D1FCDF7AC06FCE1500F3DD7D05007F03716C1CDF7D42D41117023EE6CF430824F9EB930
+513F43B1BE0FF1DAED4B3D74BFD0CB9C3FD7DEAEB0318C17F03D04EE8137DB13F3D74D41DF4330
+EC0ABCC1780FB37B0C5CD077D01F78300DFADF7BFE3AD036DF4DC0B56C07D1CEFC5CA3F5500C04
+F2250C9FDD45D23FF790C0415F919C5F861A4354300F4C0C9FD33CF7DFDF6523D0F93F4C14CD90
+180C11F7907FAF01FF65F823FC57C3D4131F97B34F3438F6044D6D04ABC6F7B80'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_132_1" } ,
+            descr {
+              title "hypothetical protein [Mohonavirus sp. ctT3Q4B]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 130 ,
+              seq-data
+                ncbieaa "MSTFTNFTNIKFDTSWMSKRGSSSRDLGYTGVSVVPVEPIGDSVRCSDTKGFM
+EIPISQVKDIQELAKGFLLGALFQQGLKIDDVVFYPCPTIELANQKGEPVYIHVTENTFQLETWFQKKDVYFEKLEQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 129 ,
+                          id
+                            local
+                              str "sample3_132_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_132_2" } ,
+            descr {
+              title "hypothetical protein [Mohonavirus sp. ctT3Q4B]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 72 ,
+              seq-data
+                ncbieaa "MKRRNNHVTLVVYKNGNRSEKEKLYGVEGVHYINTSHQEVYEALGMYYTNIIV
+EDGVSEEEKDFCMKRLVSK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 71 ,
+                          id
+                            local
+                              str "sample3_132_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_132_3" } ,
+            descr {
+              title "DNA polymerase B [Mohonavirus sp. ctT3Q4B]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 337 ,
+              seq-data
+                ncbieaa "MGHKRLPEDKVIAILKGLFVENKGCTQLALEVLGRKSRESSIRHIKNVYEKHG
+NYFGVSLDGVDVKIKPKQKCKYPHPKVLLIDLETAPCKMYGWSLWNQNFGLNQIESEWFILSYCAKWLGSDDVIYNDL
+KGKVDTEDDYQLLSELWELMNQADIVVGQNHRRFDIKRLNARLIMNGFRPYSPVKTEDTLDIAKRKFGFTSNKLEWMT
+DKLCVEFKKQKHGQFAGFELWKQCLLENEDAWNEMKIYNIFDVLSLEELWLKLRAWDDRSVNYALYLDDTNIRCTCGS
+THLVKDGFAYTSLSKFQQYRCEDCNSFIRGRVNLFSKEKRTSLLMNVTNR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DNA polymerase B" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 336 ,
+                          id
+                            local
+                              str "sample3_132_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_132_4" } ,
+            descr {
+              title "hypothetical protein [Mohonavirus sp. ctT3Q4B]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 77 ,
+              seq-data
+                ncbieaa "MYEDVPHVEFKGYRIYHPEGKLALLKTEEYWTPSKIQRTLKCGYAPAMLLIEY
+AQSLGVLDLEEDSYGRFKVLVEGE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 76 ,
+                          id
+                            local
+                              str "sample3_132_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_132_5" } ,
+            descr {
+              title "hypothetical protein [Mohonavirus sp. ctT3Q4B]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 95 ,
+              seq-data
+                ncbieaa "MKAIYEFYWDCRRQGSVQGLFIAEKSEVEKAIGSNVYFGEILGKHSEVYGTLD
+EDDLTIKTEDQDFIQKFEELIGITDTISGYNPLHYIEELDEE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 94 ,
+                          id
+                            local
+                              str "sample3_132_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_132_6" } ,
+            descr {
+              title "hypothetical protein [Mohonavirus sp. ctT3Q4B]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 58 ,
+              seq-data
+                ncbieaa "-ERNPVDGCVRIIDNDTGKYVGIKGKIFKAKSLTKVAEVLFRLRYGYEMQLNL
+AKKEE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 57 ,
+                          id
+                            local
+                              str "sample3_132_6" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_132_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 391 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_132" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_132_2" ,
+                  location
+                    int {
+                      from 473 ,
+                      to 691 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_132" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_132_3" ,
+                  location
+                    int {
+                      from 856 ,
+                      to 1869 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_132" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:cd05781" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_132_4" ,
+                  location
+                    int {
+                      from 1872 ,
+                      to 2105 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_132" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_132_5" ,
+                  location
+                    int {
+                      from 2106 ,
+                      to 2393 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_132" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_132_6" ,
+                  location
+                    int {
+                      from 2395 ,
+                      to 2571 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_132" } } } } } } } }

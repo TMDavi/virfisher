@@ -1,0 +1,1006 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Suturavirus sp. ctY20FZ" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 4 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_47" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Floreoviria;k_Loebvirae;p_Hofneiviricota;c_Faserviricetes;o_Tubul
+avirales;f_Plectroviridae;g_Suturavirus] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 6805 ,
+              seq-data
+                ncbi2na '3FEF08C10F5FEDCF9CE4338CB033F00FEE6E3F000E302C50BCCF0
+100F85CB3EF0008CF10F0E0F1880EACE813F3C083FAA83C8038F0FC7E70E3B380EB94F0EFB2D8C
+FFCE00F3A3E0EE24F00F97AC40CF5FCFEC3F8B0FAEBBCC0EF3FEF3CBC32F76EBF0BD2FDDBD37F1
+090B0903370AABC00CC2C38F700B8C30A22C3030E3C2F0CFFDFEF3EBF07BEBFEBFCF9C33EF3A41
+23F2BFF41EF013CFC8379C18FFCC0FAC913F3F3CF9844D73FF4BCCCF9BFA0F34F3A83C87CFFCF9
+328AF004398018F3C8ECFCFBFFCFC33FAF833F7FFEEB1EC1070C3FC90C5CC0FB3F000C38C7FC08
+3C1F38409038338FD4B71FC39C610873FCE42BF235CB0F393F2FFACF03EAEBE23AFC2E78C00E30
+C3CF8FC07FF1040F328BCE03C7E03D108CFD02A3842803C3FC8E38CB1EB23FF003CFBF300300C0
+338FF3FF0CC8CCFE0CFCFFF5CFBF50D02F3213FE3FA3CFC3FF0F70F3003F0F0CE8CF3C00F70F74
+33FCF0E3BC24231FFDFE80BFFF40FF23CFFCF70CFF08BCCFE33F70FF020FCFCFF0F7DC18831EBF
+E7FFFB000EBFFCF33500D0E7FF0CFF08F578FCD241F3F0150CBC3F330E7CC3303BC3403CF3DFFF
+F40F84334078CFF97DC30E30B31D0D0C03CF233848C0D00CD0AFF0FE3C7FC39CF0CFAC08CB73F4
+BC3AFF0FF25FCC39C78F80C380F0C3AC33F860C53300BECBE330FC9BB4CC4039A63F8FAC0C3F97
+ACE023B330FF3C3A8CB04ECFC90EEDE2FBF0C33EB0FCFE5FE33C13F08F3BC2F73FCBBC98EBC3A1
+FF19CFFCB2C00C3BEF08000B0AAB98EBF3464547C7C0AAC02D9A261F2A90655FC7E3C1C1107913
+4F00C0CF900FC030CCF10D03C1FD033011F0F33E02FD01CFCCBF5FA1A07FC0EC3F2EFFFCFE828B
+F3003830EFFCF4230FC10301B4C3B3F3839FC0F3BC0020CF3F0002EFF3AC3CEF0033EFF14720F2
+F0C30D76C300EA2F0031E80038C003EE832DB3D9D90A03ECF680933803FF80FB003F0BFFE1FC1F
+396F0E2023BC003B0038FC0BCFFF0C33036F8E010D73DBDC00D30283FC0333B31F38B340066892
+F47F4CD33C05000C5C12EFB10431E0046B3C30033C0BDB92BDC3823BEF0337E70333EF0079C30E
+30B54034F38FC04F026CD0FCB003EC00D40AF02DAEF3E0F378108FC3F3D2F02307C0F3FF7FFB8C
+00EBCC03EBFCBEE32F3CEBF2303F220FC0033BF79E320033F203F2F0031C3FC7BC3003143F0AEF
+0032FCF6F43F603E0EC407EF0F40C6CFE0A88F0FF3A48C88EF03B020EE900FE07FC71C00C41F30
+CBFCAAFC9008C738CDF3AD3CF3FF95E30C3EFCACECC04D82128C3EFB3D3000C000E2F001D3C003
+BA43E5FA1043C5103C3C0100010BF23F33FCFE10FD0FFEFB3CF83C1F013F0F3BF8BF40DF00AFD7
+E8681F0330F03BFFF39F3F301FCFC040011C3FFCF30FFC3C34FFF33F0BF405E037FC20DCCC8FFC
+0202880DF383A3F72C4BE3233E41AB00F3C08E102B0E02C0E232F313F114BCF03C803AC7BC0AC4
+023FB4034038FC03078E00F3F20F005F3F0F8EB0FCFF3BF67C0EA3A003C33EF814CC4803CC1890
+83D3C1033DC30F4D0C1202432F0CE01043CECFBFB3C38C7BF8803A376F3EF80FBBC3803BCFF0F0
+D0CF3DCAF200E1C2000123EF0AF303A408302303E3CF03C800F0EF0AD3352FD248E03C70E04F89
+0CB02003C83800901C2F3301063C033FAF0EF31343BF171C0314F3F3BC200B0F0BCCDF0D30EF3E
+33EBBCE828413FC2F3CB2042C003CCEF003202E20D0030E8CCBE738FF3CBF430F3FCFB33F3BCFD
+F73BFFE300800F0008C0F100E003C81F803880F02F203C08FC00C288B8C3C387BFF9043CFF0C73
+43BF3BCF0CFFC12C2C4B3F08F003033F0FED64FBDC002C83F020EA801800F000923037BE0C2F0C
+D0C0317E90B3003E3FCBFF2EF0F1C0342BC88F942BFCF3C3202CFF0B8AEFBC383903FFC920AC72
+D78642EF3C240C923FE7AEF7E78FA98F9FF1C1E3F36BFFCAB44CEF3C3CF5BCBFC3BFBAFF283E01
+0D202F0F468CF0CFC30C07705F8FF2CBC13F280A0C2003902ECE23F33CE0FCE1CF3FFA2F0D15CF
+3FC8CFBCCFEFB3FF0C7EFFEBF3CFFC3FC27B3FF2BA300C3A1E033FFF9062CCD8ADFF103FFCFF3D
+400780F8C3FEDACBDCF8C33C7CF4B0F38CACFE3CBEFFFD70FEBCD0CFCFF330043C8FAEBB213BF0
+0FCFF0FCFC82100833C0FF7CF8FEC0F8FCC9033FCFF37FF3EFEFF0FC4BF333FCBDC4D2F1E33CD7
+FF3FFF2C3FF8CF37FFFADFFFCB0DFFD011803E3C03CF00B2D43343CF0EB9FEAC7AC01FCF8E1F3F
+3640F9C2FE10EFCF70F3FCF0E3800328BFCAFC0D3F23FC00C00F300C5940E32FC3FEFE380CFFEC
+CE0EB9C05A08030C00BF26BF0F533FFEF3B6D2FE30C33EFFE7A1060F0D00F8BA0CC888F9C338F3
+EF5CE4BB3C05CB33FFD7CFF00E00CAFFFE387C8E3CFCB38004804BC0604901AC022F6C00B40'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_1" } ,
+            descr {
+              title "Zonular occludens toxin (Zot) [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 69 ,
+              seq-data
+                ncbieaa "-VKITIPLSIAMQYDSKYLKFVRDLKNDKVPSYIKQNWPSIVKKDITINELRE
+MGMEHLLKNLGELEND" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Zonular occludens toxin (Zot)" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 68 ,
+                          id
+                            local
+                              str "sample3_47_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_2" } ,
+            descr {
+              title "hypothetical protein [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 97 ,
+              seq-data
+                ncbieaa "MINLLANDVWNGAINVVVDIFMKIMDWMWALKLPGTNIPLFVIWVIGGVINVI
+LLLVNSSRGLSSVSRSSLQASKQISKGVKNISNDSKSDNKESNK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 96 ,
+                          id
+                            local
+                              str "sample3_47_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_3" } ,
+            descr {
+              title "hypothetical protein [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 78 ,
+              seq-data
+                ncbieaa "MIKLIFFFVIGLTVGFGFIANIVMATDLGFSTVKHYLESANDFYKLVAHLFII
+ATHPIFQLYIAFGIIIMGIRLIFIA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 77 ,
+                          id
+                            local
+                              str "sample3_47_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_4" } ,
+            descr {
+              title "hypothetical protein [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 394 ,
+              seq-data
+                ncbieaa "MRKRLLDVFIVFYLIFGWIFLFCGTVTTNNFSNTYKLYLKNNDTFKELTYDKA
+NEYDFQSTLMLRQDYFMQGLDPSNYAFSFGIKLGGWDGLSADKNDNNYWFKLFTTNYRSYEITWNSQDISKGWQGKLI
+LDDDSTGRFLKIIVYKNKIKYDFIFNIDIFEYLFFPIVSNQSYRHFDLDYLIFNSNYKNLINMDIIKNSNSQYFINDV
+KQDTFSLESFFQILDYFYSNILRVIFDISNFKEFIYFNSSNENTGFAFFVKNGFLLYPKSMLFNILRFPDLSATYLNP
+IVNLYNAYNINVNQNYYSFFSNWQYQTDILPSNNDKYTQSIKLLDMTDKSKYQGFNLITFNAINIGKDSLFQLMVLIL
+AFIMLLIEIMKLIMVIFDEYHIKVVVDII" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 393 ,
+                          id
+                            local
+                              str "sample3_47_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_5" } ,
+            descr {
+              title "Rep protein [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 309 ,
+              seq-data
+                ncbieaa "MNNVFIQDNLTNKRHNVFMNALNYVKKEYYLKKVFYGNYVKNIVLPLELVNNN
+PRNKMGVKNTGKNDKKLWNSRIRSQGNCIRKAYENFWNCKNLSFLTLTYAVNEKDVKKCKNDLKLFFNNINRWWNNPI
+RSKNHKGILKYMYTYEYQKRGAVHFHIILNQKIPNSVVQQYWKHGINKNIKVRAGSNEDVVKYLAKYIVKTANNDKSQ
+NHYDLNIKAYQFSKNCKNPKVKVGVIELSEQDLIYSVKDNLNYFSFCDKNGYKIGFSCDSYYGLDKFREFKKYVSADR
+KIFRNLVKNTNFTVNKNTNLRC" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Rep protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 308 ,
+                          id
+                            local
+                              str "sample3_47_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_6" } ,
+            descr {
+              title "hypothetical protein [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 66 ,
+              seq-data
+                ncbieaa "MADRDVKCKECGKIWTFTTKNTTYNSFRGLAKDTMISYGHYYFCPDNNCLGMY
+KHRRQDNCCIHKK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 65 ,
+                          id
+                            local
+                              str "sample3_47_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_7" } ,
+            descr {
+              title "hypothetical protein [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 115 ,
+              seq-data
+                ncbieaa "MNGFLVQLIDIATGKIIKDDKGNESKWDSYTFTPVIKLENGTVKGTKDLSKSK
+WFKITDENYLELKPYLIDGNLFYVSLKWDGKINIVEPYTENYNEQEFINKYSNNSSITESNS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 114 ,
+                          id
+                            local
+                              str "sample3_47_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_8" } ,
+            descr {
+              title "hypothetical protein [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 38 ,
+              seq-data
+                ncbieaa "MAKNKDKLIIKLEKLMLRSYPVSADEITNEHWAIVKKN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 37 ,
+                          id
+                            local
+                              str "sample3_47_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_9" } ,
+            descr {
+              title "hypothetical protein [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 75 ,
+              seq-data
+                ncbieaa "MKKQTKLYKQRLKYLVNVIHQCLPTKIPLFMLRKVIKLYLNHNVIDIGVMEGQ
+HFKLLVEQVKNYMLKIESENQK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 74 ,
+                          id
+                            local
+                              str "sample3_47_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_10" } ,
+            descr {
+              title "hypothetical protein [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 83 ,
+              seq-data
+                ncbieaa "MILLVSIIILLYIYVISSMFFDKRKIKKDKLQNEKLELENEKLKLEIKDLKIR
+RVIINDCFCNNYFNTINVYVINIFNSKYSI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 82 ,
+                          id
+                            local
+                              str "sample3_47_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_11" } ,
+            descr {
+              title "hypothetical protein [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 71 ,
+              seq-data
+                ncbieaa "MNANFLAEGTSPDASVIKQIADFAGVLADWAIAFTNWFIGFLGSHMLLIIPLV
+LMFVVLGIETIRKLIHGY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 70 ,
+                          id
+                            local
+                              str "sample3_47_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_12" } ,
+            descr {
+              title "hypothetical protein [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 52 ,
+              seq-data
+                ncbieaa "MQSVWDLYYEFMTIIFGVNHPIILDIVIFVVFLILVFGLLFLILSCIFRWIK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 51 ,
+                          id
+                            local
+                              str "sample3_47_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_13" } ,
+            descr {
+              title "hypothetical protein [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 69 ,
+              seq-data
+                ncbieaa "MDWNIFLQRVYRGLLQIFYFIPKTEIDNFVGSSIDNITYSVIMIGIWLVVFFL
+IWLSIFILYKTIRLVV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 68 ,
+                          id
+                            local
+                              str "sample3_47_13" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_47_14" } ,
+            descr {
+              title "Zonular occludens toxin (Zot) [Suturavirus sp. ctY20FZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 259 ,
+              seq-data
+                ncbieaa "MFKIYFNLFRRQKNIKFSYWFVNWFIANILFYLFIVCFNLQFIYFSSTSVTDI
+ILFIFLVIFDIIFFWSFFSNLFQTRKLIKIIKSSPISIINGALGTGKTLLMTYLSQIAKFDNVYSNYFINDEKIGVLG
+LNHLDFKNKNYKIPPNDSLILFDEIFLYMNGAKPEENNKKFSGLIPYFLLCRQFDNNIVFAGQRINQNWVEYREIANM
+IIVPMQCIKPSIFFPYFKMKIGFFDDLDDYLVWKTETVKRTANGKRVRKK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Zonular occludens toxin (Zot)" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 258 ,
+                          id
+                            local
+                              str "sample3_47_14" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 211 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05707.11" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_2" ,
+                  location
+                    int {
+                      from 204 ,
+                      to 497 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:PHA00645" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_3" ,
+                  location
+                    int {
+                      from 497 ,
+                      to 733 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_4" ,
+                  location
+                    int {
+                      from 746 ,
+                      to 1930 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_5" ,
+                  location
+                    int {
+                      from 2454 ,
+                      to 3383 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05840.12" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_6" ,
+                  location
+                    int {
+                      from 3464 ,
+                      to 3664 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_7" ,
+                  location
+                    int {
+                      from 4024 ,
+                      to 4371 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_8" ,
+                  location
+                    int {
+                      from 4532 ,
+                      to 4648 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_9" ,
+                  location
+                    int {
+                      from 4650 ,
+                      to 4877 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_10" ,
+                  location
+                    int {
+                      from 4892 ,
+                      to 5143 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_11" ,
+                  location
+                    int {
+                      from 5378 ,
+                      to 5593 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_12" ,
+                  location
+                    int {
+                      from 5656 ,
+                      to 5814 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_13" ,
+                  location
+                    int {
+                      from 5814 ,
+                      to 6023 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:PHA00646" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 4 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_47_14" ,
+                  location
+                    int {
+                      from 6026 ,
+                      to 6802 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_47" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05707.11" } } } } } } } } }

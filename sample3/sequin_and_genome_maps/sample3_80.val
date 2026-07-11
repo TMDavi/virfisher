@@ -1,0 +1,41 @@
+WARNING: valid [SEQ_DESCR.BadCollectionDate] Collection_date format is not in DD-Mmm-YYYY format DESCRIPTOR: BioSrc: Dhakavirus sp. ctX1Y4I BIOSEQ-SET: lcl|sample3_80
+ERROR: valid [SEQ_DESCR.BioSourceInconsistency] Metagenome source should also have metagenomic qualifier DESCRIPTOR: BioSrc: Dhakavirus sp. ctX1Y4I BIOSEQ-SET: lcl|sample3_80
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: prohead core protein; Provisional [lcl|sample3_80:c112-2] [lcl|sample3_80: raw, dna len= 4008] -> [lcl|sample3_80_1]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif CDD:PHA02557) FEATURE: CDS: prohead core protein; Provisional [lcl|sample3_80:c112-2] [lcl|sample3_80: raw, dna len= 4008] -> [lcl|sample3_80_1]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif PFAM:PF03420.12) FEATURE: CDS: Prohead core protein protease [lcl|sample3_80:c778-143] [lcl|sample3_80: raw, dna len= 4008] -> [lcl|sample3_80_2]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif UniProt:tr|A0A0B6VSS8_9CAUD) FEATURE: CDS: Prohead core protein [lcl|sample3_80:c1206-778] [lcl|sample3_80: raw, dna len= 4008] -> [lcl|sample3_80_3]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif CDD:PHA02608) FEATURE: CDS: prohead core protein; Provisional [lcl|sample3_80:c1481-1206] [lcl|sample3_80: raw, dna len= 4008] -> [lcl|sample3_80_4]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif CDD:PHA02531) FEATURE: CDS: portal vertex protein [lcl|sample3_80:c3055-1481] [lcl|sample3_80: raw, dna len= 4008] -> [lcl|sample3_80_5]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif PDB:5IV5_FH) FEATURE: CDS: Baseplate wedge protein [lcl|sample3_80:c3604-3113] [lcl|sample3_80: raw, dna len= 4008] -> [lcl|sample3_80_6]
+ERROR: valid [SEQ_FEAT.StartCodon] Illegal start codon used. Wrong genetic code [11] or protein should be partial FEATURE: CDS: tail sheath protein; Provisional [lcl|sample3_80:c4008-3790] [lcl|sample3_80: raw, dna len= 4008] -> [lcl|sample3_80_7]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif CDD:PHA02539) FEATURE: CDS: tail sheath protein; Provisional [lcl|sample3_80:c4008-3790] [lcl|sample3_80: raw, dna len= 4008] -> [lcl|sample3_80_7]
+WARNING: valid [SEQ_DESCR.FastaBracketTitle] Title may have unparsed [...=...] construct BIOSEQ: lcl|sample3_80: raw, dna len= 4008
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80
+WARNING: valid [SEQ_DESCR.BadStrucCommInvalidFieldValue] unknown_assembler is not a valid value for Assembly Method DESCRIPTOR: UserObj: StructuredComment BIOSEQ: lcl|sample3_80
+ERROR: valid [SEQ_DESCR.BadStrucCommInvalidFieldName] Annotation Pipeline is not a valid field name DESCRIPTOR: UserObj: StructuredComment BIOSEQ: lcl|sample3_80
+ERROR: valid [SEQ_DESCR.BadStrucCommInvalidFieldName] URL is not a valid field name DESCRIPTOR: UserObj: StructuredComment BIOSEQ: lcl|sample3_80
+NOTE: valid [SEQ_DESCR.BadStrucCommInvalidFieldValue] Structured Comment invalid DESCRIPTOR: UserObj: StructuredComment BIOSEQ: lcl|sample3_80
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_1
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_1
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_1
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_2
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_2
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_2
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_3
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_3
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_3
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_4
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_4
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_4
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_5
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_5
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_5
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_6
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_6
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_6
+ERROR: valid [SEQ_INST.BadProteinStart] gap symbol at start of protein sequence (gene? - tail sheath protein; Provisional) BIOSEQ: lcl|sample3_80_7: raw, aa len= 72
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_7
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_7
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_80_7

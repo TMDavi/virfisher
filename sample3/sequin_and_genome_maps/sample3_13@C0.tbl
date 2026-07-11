@@ -1,0 +1,193 @@
+>Feature sample3_13@C0 Table1
+213	1	CDS
+			protein_id	lcl|sample3_13_1
+			product	Portal protein
+			inference	protein motif PDB:5NGD_C
+1746	226	CDS
+			protein_id	lcl|sample3_13_2
+			product	Large Terminase
+			inference	protein motif PDB:5OE8_A
+1951	2349	CDS
+			protein_id	lcl|sample3_13_3
+			product	hypothetical protein
+			note	no search hits
+4760	4437	CDS
+			protein_id	lcl|sample3_13_4
+			product	hypothetical protein
+			note	no search hits
+5091	4903	CDS
+			protein_id	lcl|sample3_13_5
+			product	hypothetical protein
+			note	no search hits
+5552	6019	CDS
+			protein_id	lcl|sample3_13_6
+			product	hypothetical protein
+			note	no search hits
+6016	6372	CDS
+			protein_id	lcl|sample3_13_7
+			product	hypothetical protein
+			note	no search hits
+6420	6968	CDS
+			protein_id	lcl|sample3_13_8
+			product	Putative ATP dependent Clp protease
+			inference	protein motif PDB:1TG6_E
+7029	7214	CDS
+			protein_id	lcl|sample3_13_9
+			product	hypothetical protein
+			note	no search hits
+7211	7504	CDS
+			protein_id	lcl|sample3_13_10
+			product	hypothetical protein
+			note	no search hits
+7505	7690	CDS
+			protein_id	lcl|sample3_13_11
+			product	hypothetical protein
+			note	no search hits
+7725	8003	CDS
+			protein_id	lcl|sample3_13_12
+			product	hypothetical protein
+			note	no search hits
+8000	8278	CDS
+			protein_id	lcl|sample3_13_13
+			product	hypothetical protein
+			note	no search hits
+8259	8606	CDS
+			protein_id	lcl|sample3_13_14
+			product	hypothetical protein
+			note	no search hits
+8608	9267	CDS
+			protein_id	lcl|sample3_13_15
+			product	homing endonuclease
+			inference	protein motif PFAM:PF05551.10
+9276	9545	CDS
+			protein_id	lcl|sample3_13_16
+			product	hypothetical protein
+			note	no search hits
+9542	9754	CDS
+			protein_id	lcl|sample3_13_17
+			product	hypothetical protein
+			note	no search hits
+9764	10000	CDS
+			protein_id	lcl|sample3_13_18
+			product	hypothetical protein
+			note	no search hits
+10003	10419	CDS
+			protein_id	lcl|sample3_13_19
+			product	Deoxycytidylate deaminase  [Nucleotide transport and metabolism]
+			inference	protein motif CDD:COG2131
+10416	11624	CDS
+			protein_id	lcl|sample3_13_20
+			product	ATP-dependent DNA ligase  [Replication, recombination and repair]
+			inference	protein motif CDD:COG1793
+11637	12101	CDS
+			protein_id	lcl|sample3_13_21
+			product	hypothetical protein
+			note	no search hits
+12159	12719	CDS
+			protein_id	lcl|sample3_13_22
+			product	lytic transglycosylase
+			inference	protein motif PDB:4F55_A
+12721	13281	CDS
+			protein_id	lcl|sample3_13_23
+			product	(p)ppGpp synthetase, RelA/SpoT family
+			inference	protein motif CDD:TIGR00691
+13271	13702	CDS
+			protein_id	lcl|sample3_13_24
+			product	hypothetical protein
+			note	no search hits
+13702	14256	CDS
+			protein_id	lcl|sample3_13_25
+			product	Calcineurin-like phosphoesterase superfamily protein [General function prediction only]
+			inference	protein motif CDD:COG4186
+14269	14505	CDS
+			protein_id	lcl|sample3_13_26
+			product	hypothetical protein
+			note	no search hits
+14507	14782	CDS
+			protein_id	lcl|sample3_13_27
+			product	Predicted DNA-binding protein, XRE-type HTH domain [General function prediction only]
+			inference	protein motif CDD:COG5606
+14779	15186	CDS
+			protein_id	lcl|sample3_13_28
+			product	hypothetical protein
+			note	no search hits
+15198	16115	CDS
+			protein_id	lcl|sample3_13_29
+			product	RNA ligase and tail fiber protein attachment catalyst
+			inference	protein motif PFAM:PF09511.9
+16126	16545	CDS
+			protein_id	lcl|sample3_13_30
+			product	ATPase
+			inference	protein motif PFAM:PF01712.18
+16555	17430	CDS
+			protein_id	lcl|sample3_13_31
+			product	Baseplate wedge protein
+			inference	protein motif PDB:5IV5_BD
+17427	17645	CDS
+			protein_id	lcl|sample3_13_32
+			product	hypothetical protein
+			note	no search hits
+17702	19264	CDS
+			protein_id	lcl|sample3_13_33
+			product	nicotinamide phosphoribosyl transferase; Provisional
+			inference	protein motif CDD:PHA02594
+4431	4357	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Gln
+			inference	tRNAscan-SE score: 54.5
+4276	4203	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Trp
+			inference	tRNAscan-SE score: 28.9
+4052	3981	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Arg
+			inference	tRNAscan-SE score: 60.9
+3970	3897	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Lys
+			inference	tRNAscan-SE score: 38.7
+3715	3629	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Ser
+			inference	tRNAscan-SE score: 23.1
+3619	3538	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Leu
+			inference	tRNAscan-SE score: 61.1
+3324	3252	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Ile
+			inference	tRNAscan-SE score: 76.1
+3239	3164	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Asp
+			inference	tRNAscan-SE score: 59.6
+3155	3073	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Tyr
+			inference	tRNAscan-SE score: 26.2
+2752	2676	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Cys
+			inference	tRNAscan-SE score: 54.4
+2665	2593	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Asn
+			inference	tRNAscan-SE score: 68.2
+2524	2449	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Pro
+			inference	tRNAscan-SE score: 69.4
+2442	2367	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Gly
+			inference	tRNAscan-SE score: 67.6
+2360	2287	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Phe
+			inference	tRNAscan-SE score: 64.1
+2277	2202	gene
+			gene	sample3_13tRNA1
+			product	tRNA-Glu
+			inference	tRNAscan-SE score: 67.6

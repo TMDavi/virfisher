@@ -1,0 +1,7 @@
+sample3_80	Cenote-Taker	CDS	112	2	.	-	0              	gene_id "lcl|sample3_80_1"; gene_name "prohead core protein; Provisional"; gene_inference "protein motif PHA02557"
+sample3_80	Cenote-Taker	CDS	778	143	.	-	0              	gene_id "lcl|sample3_80_2"; gene_name "Prohead core protein protease"; gene_inference "protein motif PFAM:PF03420.12"
+sample3_80	Cenote-Taker	CDS	1206	778	.	-	0              	gene_id "lcl|sample3_80_3"; gene_name "Prohead core protein"; gene_inference "protein motif UniProt:tr|A0A0B6VSS8_9CAUD"
+sample3_80	Cenote-Taker	CDS	1481	1206	.	-	0              	gene_id "lcl|sample3_80_4"; gene_name "prohead core protein; Provisional"; gene_inference "protein motif PHA02608"
+sample3_80	Cenote-Taker	CDS	3055	1481	.	-	0              	gene_id "lcl|sample3_80_5"; gene_name "portal vertex protein"; gene_inference "protein motif CDD:PHA02531"
+sample3_80	Cenote-Taker	CDS	3604	3113	.	-	0              	gene_id "lcl|sample3_80_6"; gene_name "Baseplate wedge protein"; gene_inference "protein motif PDB:5IV5_FH"
+sample3_80	Cenote-Taker	CDS	4008	3790	.	-	0              	gene_id "lcl|sample3_80_7"; gene_name "tail sheath protein; Provisional"; gene_inference "protein motif PHA02539"

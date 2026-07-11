@@ -1,0 +1,344 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Aguilavirus sp. ctLE4Z0" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_464" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;g_Aguilavirus] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1004 ,
+              seq-data
+                ncbi2na 'EF692793622D1282C9EAA777820AC3249FD5D994FBED94FE04123
+E9BC394FF42242FF88E8CD5ABD128A4906279EFC0F6A28C3CA925FF65E5A8B44FFDE4CDE31FEBD
+51C7CFEBA1147FB70F6D23DE1486BD29EC67C58C15E73C9D2E3B23AD31B4957EE4CDB79466492B
+93F8E7B9037B7A7D35EB44E4102ED6F12059EB01EC50989401AFFDB4638FD240E99A671EF74D33
+167D58C8938E3E2DE6D7BD0E7D7834640DE6FEDA9BFBFAD9F7413666027874A88C16BBFD2B7F65
+365F4A7D688EE243E62B6F9ADE7F69F7434A508C3594E38B84AFE8FF5E7CE5BDE63E26CFDF6163
+059824D87153135037909E1D396F2411B952574D353639E8FD924670584'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_464_1" } ,
+            descr {
+              title "IS66-like element accessory protein TnpA [Aguilavirus sp.
+ ctLE4Z0]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 88 ,
+              seq-data
+                ncbieaa "MGTKVSDMQKNVTPGRRKGCPNYPPEFKQQLVAASCEPGISISKLALENGINA
+NLLFKWRQQWREGKLLLPSSESPQLLPVTLDAAAE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "IS66-like element accessory protein TnpA" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 87 ,
+                          id
+                            local
+                              str "sample3_464_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_464_2" } ,
+            descr {
+              title "DNAB Like Replicative Helicase [Aguilavirus sp. ctLE4Z0]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 209 ,
+              seq-data
+                ncbieaa "-VSVLRNPASMDDEGWARVANGMSQLADLDVWVVDASRLSVEEIRSIAERHKQ
+ENPNLSLIMADYLGLIEKPKADRNDLAIAHISGSLKAMAKDLKTPVISLSQLSRDVEKRPNKRPTNADLRDSGSIEQD
+ADSIIMLYREAVYDENSSAAPFAEIIVTKNRFGSLGTVYQRFCNGHFVACDQDEARQICTASNAPAARGRRYAQGADV
+" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DNAB Like Replicative Helicase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 208 ,
+                          id
+                            local
+                              str "sample3_464_2" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_464_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 265 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_464" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:NF038385" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_464_2" ,
+                  location
+                    int {
+                      from 372 ,
+                      to 1001 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_464" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:3BGW_F" } } } } } } } } }

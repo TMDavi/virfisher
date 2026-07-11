@@ -1,0 +1,9 @@
+>Feature sample3_307 Table1
+1	234	CDS
+			protein_id	lcl|sample3_307_1
+			product	baseplate wedge subunit
+			inference	protein motif PFAM:PF10934.7
+234	1358	CDS
+			protein_id	lcl|sample3_307_2
+			product	Baseplate wedge protein
+			inference	protein motif PDB:5IV5_GD

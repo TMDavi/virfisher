@@ -1,0 +1,95 @@
+LOCUS       sample3_245             1543 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;o_Pa
+            ntevenvirales;f_Straboviridae;-_Tevenvirinae;g_Dhakavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Dhakavirus sp. ct7KQSP (unknown)
+  ORGANISM  Dhakavirus sp. ct7KQSP
+            Unclassified.
+REFERENCE   1  (bases 1 to 1543)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1543)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1543
+                     /organism="Dhakavirus sp. ct7KQSP"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             1..243
+                     /inference="protein motif CDD:PHA02552"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="head completion protein; Provisional"
+                     /translation="-
+                     VKFDNGQQFFFEVKPFKETHPPAAPAKMTTAAKKRYINEHYTWSVNKDKWKAAKATAD
+                     KMGINFRLITENSLKKLGWKG"
+     CDS             231..1067
+                     /inference="protein motif UniProtKB:D7RMF1_9CAUD"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA end protector protein"
+                     /translation="MERMSIFSYINEATETTKGSKPTRSEQQWIALGVEYAKAKAKGV
+                     SAKKFAEDKGIKYSSFTSAMSRYSSRIKTAVQVEKLQKKPGNKLTKAERQLILVNSFR
+                     KSIRDKIANEGAAVNNKSAKWFTETLKKGIRGHQVSKPSPGKLYAYIYDAKHKDTLPY
+                     WDKYPLIIYLGLGKHNLMYGLNLHYIPPKARQQFLEELLKQYASTPTITNSTKLKIDW
+                     SKVKGFAGADVMIKAYIPGNIKGPLVEIKPSDWANVVMLPLQQFVSKGKRYSAQKVWK
+                     NA"
+     CDS             1153..1542
+                     /inference="protein motif PDB:5IV5_W"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Baseplate wedge protein"
+                     /translation="MNGLFNQTNTTNFILEVSDAGMTQAFKLNVQDVTLPGIHIPVSD
+                     VPGSTQGIHRAKMPGSTVEFDPLIVNFLVDRELKSWLDVYKWMLSLNNYVTHDSEAWH
+                     PKGQPEAITLHILDNNKQKIVMSIHYYG"
+ORIGIN      
+        1 tgggttaagt ttgataacgg ccaacaattc ttttttgaag tcaaaccttt taaagaaacc
+       61 catcctccag cggctcctgc taaaatgact acagccgcta aaaagagata tatcaacgaa
+      121 cattatacat ggagtgtaaa taaagataaa tggaaagctg ctaaagctac agcagataaa
+      181 atgggaatca attttagatt gataactgaa aactcactga aaaaattagg atggaaagga
+      241 tgagtatatt ttcctacatc aatgaggcca ctgaaaccac aaaaggttct aagcctactc
+      301 gttcagagca acaatggata gctttaggtg ttgaatatgc caaagctaag gccaaaggcg
+      361 tctcggctaa gaaattcgct gaagataaag gcattaagta ttctagcttt acatctgcga
+      421 tgtctcgata ctcgagtcga attaaaactg ctgtacaggt cgaaaaactc cagaagaaac
+      481 ctggcaataa attaaccaaa gctgagcgtc aattaatttt ggtgaatagt tttagaaaga
+      541 gtattcgtga taagattgct aacgaaggcg ctgctgtaaa caataaatca gctaaatggt
+      601 ttacagaaac attaaagaaa ggaattcgtg gacaccaggt atctaaacca tctcctggta
+      661 agctttatgc ttatatctat gatgctaaac acaaggacac attaccctac tgggacaaat
+      721 atcctttaat catttatctt gggcttggta agcataatct gatgtacggg ttgaacttac
+      781 actatattcc gcctaaagca cgccagcaat ttctagaaga attgctgaag caatacgcga
+      841 gtacgcctac cattacgaac tcgactaaat taaaaatcga ttggagtaag gtaaaaggat
+      901 tcgctggcgc tgacgtgatg attaaggctt atatccctgg aaatatcaag ggtcctttag
+      961 tagagataaa accttctgat tgggctaatg tagtcatgct tccgcttcag caatttgtat
+     1021 ctaaaggtaa gcgttactca gctcagaaag tatggaagaa cgcataataa tctattatcc
+     1081 cagccagtta ttgaatggaa cagacctagg accattatac actggctagg acttaagcaa
+     1141 tataggaatc atatgaacgg tttatttaac caaactaaca ctaccaactt tatcttagag
+     1201 gttagtgacg caggaatgac gcaggcattc aaattaaacg tgcaagatgt aacactacct
+     1261 ggtatccata ttccggtctc agacgtccca ggatcgaccc agggcataca ccgtgctaag
+     1321 atgccaggtt ctacagtaga attcgacccg ttgattgtga actttcttgt agaccgtgaa
+     1381 ttgaaatcat ggcttgacgt ttataagtgg atgctgtcat taaacaacta tgtaacccat
+     1441 gattcagaag cctggcatcc taaaggccag cctgaggcta tcaccctcca cattcttgat
+     1501 aacaacaaac agaaaatcgt aatgagcatt cattactacg gcg
+//

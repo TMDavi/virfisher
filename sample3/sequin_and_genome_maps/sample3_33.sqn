@@ -1,0 +1,1077 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Chivirus sp. ct88JJL" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_33" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;f_Casjensviridae;g_Chivirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 8581 ,
+              seq-data
+                ncbi2na '7BC44585159ED6303566539E3E9E8D0A196AF60373D615A189653
+915C40DF3AA8A964938684E74E06519915996D34981E8A4829CDEBA5B43ACD4E188DEBF84D3534
+ADA967B59268194B53E08587DE964C498217808BA96145E76BDBA6629915A936C64FEA1A665ED6
+C3F418228C0CC00380668D3CF524A29596129F6B4D6506660BA8DEC56F6D69336F09A75E669860
+82DB19D8EC6902A78586F3A4DBDC6B3C56F656A51B6CD4656B7A5B5B159E53D36E660A7658C44E
+956B31652F873635BA7D658A8267A5982A4D08C801DA184D35379ED6C063FC2C6A79AFC53C35E0
+7A58A9E13A718E02261108C591F52C49A6A37AC79C5A9BF869A640B7C56831D9514946589CEB12
+610A63A564EBA0BB1A7AE809408560819597858E439E79BC65AA5359C6E822AC965A03AA4EB4D0
+2179937D9A206DAC967DD9A8B3F656A42808A1B42666006399A4281295A7A680678C976AB1E5AB
+B60C14D936D25936369687A620B9E99E81FE564235B3AE5A8F8591B1A49A4E961F736D9A812428
+C07853608603ADF5A67D56BD2986958287D314F398A1D058E5070409967EDB49FF5A694B585FFE
+1821FA28E382CE361BE29CC01A0316E508C016A7A58F029875B93F47858F41A93031C6816E760E
+A0645A966E08A33FFE9AB9979726A8CF3F5E62F4988F0D2B216375E00E0031BA1833058A7C3381
+B833BB0569A5095B4E3737A5A96C595B134DAF7A7916F5860AD04D78096088696EDAFB6341DC6D
+4423BD5AD19645E046941F62C42160A62316860C7A7A0E463A0F8E659EE19EF79E3EB82198E64B
+D291599A23E08A609A783356B7D0C17634DEBB5D1E6B145210D8AB81B1AEB4D1514853F073F525
+9325BD963F4DBABA63796E6BF4DED246DF5D963B23A666612048086992AF0D7F619351F1A60923
+6F26514D2A2FCF8FD3CE45DA513FF359BF97BD5906ED3EF7AF3C378D7BF95F6E6D79594865822A
+710600626590A195B7C35A983257B4E49655A5639F5AC6615354EC4A50D98FBA59960E639B150D
+168203365BA99ED4D965F86A7814ED452F896458B5A519DB66946BAC6BC129FA597C18E5656992
+17D76347DB58B146CF66F9EC69B4A5819F5ABD5BFDBA68E397D4521664EBB6CB6E8AF49BF673DA
+B41A52069A517BF26CA68C6FBDD069AB951676307DD9162D8FF9C5B4F67F99FB6CB2BAD22E1A43
+A668E5A396ADFE07998269ED6D976F19A8D257E51A61551D8EF95ABEF3E60D599A7DEFC94DAF3F
+5D34FEA08CAB3519FEFD2B664EDA660ADE060A9A2FF9886BF695A205B81966D2E8B5E1BF761BEB
+096AED6DE6EF7AFE32B69826BEF86C4B16594524D82536D20DBAA23E1210B707E3965A2F355696
+F56F53F674FAB9F5D10003C9A8425670833C15B43ED2C4409A42E3F9158EFD6EBA79A4FDB1361F
+B664D3C5E742C5E1A1DB26E8FAA24DFEDEAC3C9FCDA4CB9E401F8847FE40E3E6A1B5FB4AB3D65B
+4F8C4E783C5E7816426BF392EE750D6AC21935EE5979E0E37A784309A5A04EB16A34A80DB43799
+06EF50C5E3F10D9B586DA4AE86D68CB696A3663B9D49178F85B4AFA396A12DAB4AB1B666819C7A
+79345E1813A316876987D95A29A4EC7AC59B452F4103E652689B188DA89649AFA9FD145F77081E
+6918DE05F9D9F544EDBDAB7DB2D499FD386EB196E9647863A586FB28395AB4AB2D6F979E451613
+98126D2666144524AF0DA2BBB1DF5959164C966C5EFC199B5884916A042D21F85081EE1806EFEB
+9936E849A8E9DBEBCD9C0F92452E9B4A87D919BB078CA09844E31D90126C61B479A59B9D86584B
+6AD060B696A3C497B8493799A6046D216E936A369266B069798C3D7994662D3E266A2DBD05A99F
+799A52051BD87D1A1929B6EC4DA49A3A97814526D8F4E9818111486DA86C6A3B6361E43148F511
+7BF6E78DF6144FD35A49A82D1626D9A5146901851963F45FB6C603AD18CA639491A106D165E7D1
+8EFB280DAB4D8DA59E843A6C3D441BB121FD6C80E1F5840A6B186DB9E6E131D31164DE6C09AE96
+F5BA597858B97648D3F6965301E69DFE1491F658507E96668DD8E9F61A5247DD6141FA599A08A1
+2B0FC5B547B005D540BFF659B63BF06480E9C19F65C645A84ACEC2FEA7DD94F53EC29F658507E9
+6678C546DF4D2513A557C66183FAC587F095A52FFB0AF526625B592ADA114FE41B3E01944A597E
+F426D8AEF767F6BF8BA5521F663669876DC755241A3F6A536D686F859F416290A6A0787FA03B63
+BCC4ADF9ED6146D655423A596C1E1A0CAAC1975BC98FA6D1E61A69BF820CD6DE966207A186D36B
+84ABC066CC7F6D82158A678DE4DE018FF7A3B13B564BD0058206AB2272EF14504C3BD9134030E5
+8184EDBC96ECBFB1A8601C1DB4D78C8EF8ABFEBB698D4F51753B3FF6F7B5E714580D9312BFE66F
+67D3C366968484085E30A3DE31B6AEEF99850C60254C65386DB4A6F5961A52440D0C681E515140
+52D63EBF9ABE632F489C211A4683CD020E1A7C1995821328E1533526663853F985B0CBE341A8B0
+965BFE6E5BE55E5803BEF0D0BCD3E841B3A78582DB34FAEF8C04A567E163BD36EF3E38E53C0164
+B940712932ECD5D5F362E38E583E408F61BEF7AF52D1F595A67E76063978C31FB1876B89A45E0F
+D2DA6C597D6EF8514858BF1AD342B65FC6A6C643458C798237AFBEF6926D1BD81AC4CDAD9979AE
+FA3E4ACE9F61D9656A809E6118DE32E69BA28629BD187D51E6F846DA5BE931A7AD1F51E9B4A666
+F3E69C5A0536344C82DB526DEF6564FEB9AC5EDE954063EEC6EBADAE4763A641AF0790F6FBD9B2
+37E12EFA6B7CD8DD8FD82CB14E6F4A349ABE155077D5719A3FD5ACBAED51D8ED463BDD8C666319
+31A8495A7F4E98258314526196DBAC0954E12E29BE16181E9A51AE0FD2646645ED69A576106801
+BACD9E93C6451B15A69F52305F92AEB15F4650FDA6CBADB15B4483F013F6B39D7CEB7C6386581A
+67D9E2DBDB4F52DF95A59BDB76044930731FF4B6E8C9966D8C1F7FF9BB65FFE963853970786BED
+46DE1FFCF491AD3941A520EFF80'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_1" } ,
+            descr {
+              title "hypothetical protein [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 47 ,
+              seq-data
+                ncbieaa "MLHTDHPLSDKSRAMLIGWIKDAGFEIYSDPDEPPCTLQILWGRAAA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 46 ,
+                          id
+                            local
+                              str "sample3_33_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_2" } ,
+            descr {
+              title "hypothetical protein [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 103 ,
+              seq-data
+                ncbieaa "MTDMLMNATRTRAVISELEAEGYLVAVNGIHDEIWFDIIHQVGPLSAAERQSI
+EDRLLAAYSEDLKEWADHLLGSWREAHPGIVRIWDGAPVRNFNEEDKYKK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 102 ,
+                          id
+                            local
+                              str "sample3_33_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_3" } ,
+            descr {
+              title "hypothetical protein [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 150 ,
+              seq-data
+                ncbieaa "MKRGSLFQQEARRQASVIRQRAKWDLYPFVRHIVKRLLRGDEEVVRSMYGKGL
+TDVMASFYGITRSPGPRRIHARSGRPYPLPFIVREGSPIHMAPVYRQLTIDPWLPPREALAAKGIKIENSDDIIHLLS
+VNDFKYGLRFTINPELAEG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 149 ,
+                          id
+                            local
+                              str "sample3_33_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_4" } ,
+            descr {
+              title "hypothetical protein [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 237 ,
+              seq-data
+                ncbieaa "MATMKERHKIPHFQYSGGIWYCYRAFDGGAKSYPEYSPTSHAELWYSDKAMAR
+MVEVYGWWKAKDPKNARLTDAMLLRYAGAIRYVEEGSRRKWGMVIKDLRIFAENVGSRFSREYFARARKEDVKRAKTM
+RGKEQARLAETLIASGYCRVSNNHRIVSRIDRPDWREVLALELCPQDPYGAGIDRTYGSGMADFYRRGNSKDKLTIED
+EMVFRRFPGSGDGPKDFIPLCEDSTDAN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 236 ,
+                          id
+                            local
+                              str "sample3_33_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_5" } ,
+            descr {
+              title "hypothetical protein [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 29 ,
+              seq-data
+                ncbieaa "MPTNKAPLVVSFSGGQSDLFDEDLEDDEV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 28 ,
+                          id
+                            local
+                              str "sample3_33_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_6" } ,
+            descr {
+              title "hypothetical protein [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 94 ,
+              seq-data
+                ncbieaa "MIDVEAIKRKYRAKIKPGWPIKGDSVHFTDRFNGHKYYGTVLEWERTGPREED
+IFWRVRLPSGDIISCEFSEINQVDRSPENEKYVDEYNRGLI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 93 ,
+                          id
+                            local
+                              str "sample3_33_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_7" } ,
+            descr {
+              title "nucleoside 2 deoxyribosyltransferase [Chivirus sp.
+ ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 153 ,
+              seq-data
+                ncbieaa "MNVNMCNPAAKPVMIYLAGPYRPYIIGSGCTVPTKVNILKAEETAVSVVDQLY
+VHKMFPVTPHLNTANFEYKTEGEIPDEYWLECTMELMRRCDAVLLIGEDAMRSSGTRAEIEEAKRLNIPVFNNLDHLV
+SSLRYHQTIEGERTVVITHQTI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "nucleoside 2 deoxyribosyltransferase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 152 ,
+                          id
+                            local
+                              str "sample3_33_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_8" } ,
+            descr {
+              title "hypothetical protein [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 67 ,
+              seq-data
+                ncbieaa "MKSINSLMVALTICFAVSGCVERINPAPSFCSVARAIYIGEEDVLTDETARQI
+ATHDEIGERLCGWK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 66 ,
+                          id
+                            local
+                              str "sample3_33_8" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_9" } ,
+            descr {
+              title "hypothetical protein [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 56 ,
+              seq-data
+                ncbieaa "MHLGHIFIRVCLFPQRVIVLVINLILFALRASCPPDAEEGYNENERRKDARLN
+PGE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 55 ,
+                          id
+                            local
+                              str "sample3_33_9" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_10" } ,
+            descr {
+              title "virion protein [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 237 ,
+              seq-data
+                ncbieaa "MAKQKPRGIRNNNPGNIEWGSPWQGLIPRNEATDSRFAQFKDPASGIRAIAVT
+LTTYYDKRKANDGSKIDSVREVIERWAPAVENNVSAYAKQVAAVLAVDPNSETLNLHDYDTMRGLVEGIIRHENGNPE
+AFGLTPYSNANTWYSDEVIEEGLRRAGIVKAAKPVNRTTVAATSVAGLGAAQLVDMVQPVKAAMDSAHGDISSGDWVR
+IAFGAATIAIGLYMGWVAYRKHRAGAAA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "virion protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 236 ,
+                          id
+                            local
+                              str "sample3_33_10" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_11" } ,
+            descr {
+              title "Rz like spanin [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 112 ,
+              seq-data
+                ncbieaa "MSEMERERPGDNSGGIKLDLSVNLPTILTMASMLVAAVLYVNNRFADLSNQNT
+QTDTRLTNVEKRQDSTDAAFTVLRAETVSQNSALRSDLRADMRDLKQSVDTLSSQMMRK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Rz like spanin" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 111 ,
+                          id
+                            local
+                              str "sample3_33_11" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_12" } ,
+            descr {
+              title "hypothetical protein [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 709 ,
+              seq-data
+                ncbieaa "MADEDVGISAAKLVGEALQWNGEKPKLTYLSRCVGEALAISALNIDAAKNFGE
+VLQWDGKLPVLFRAAKLVGEVLAVEAIEIRAAKLVGEVLVKEPQFMAAEMICEALGQAATERPPLYADAVYEYVTQHD
+VVPPLSEVISTESLYTLWNYAIVQRPIDDPISYNIVKQAVTLSVLASPIVTISYDKVKSAWSFAVVAATLGDFPLPDE
+MWSKISTKQVWNLVLQSIDIPYVPTSGVFVRHESTLVVQAHPLPMYTTPASVKSNVVLAAQKRPVERLPRSMTRVAQE
+LSQAVTALPIPMPRSDVFAAQMLSQAVIPADFVDPTVGVEHAAAVTSYAVCEYHVSLPISYTRAKSLTPLVLQFSDNQ
+RAIPLSTMRTKHVSSQFLVKSDLFPVLSRTRVKQVRGYAVRAEEYTPPINLLVWSRADAVRMSVVQQATDYPDPGIPT
+TSAIVSAATAYHVMKALDYEDPNDMWEASKVQIVPQFLEKVVKAQPLRLPISYAPLAQFVELVTRYQYMPPPGEVAES
+GIHVRQVMQPVAFRATYPDPTVPASNLTVNQVLEHIAIPADYPDVHLPTSDAIVNQVLEHVAQIDDFPDPGTMFRPLI
+VSQIIQQAAQDASYPDWSTLHKPLAVQQVIQHVSMTAEYPDKDVPQSFAKVSQVLQHYADKANYPDKDAPQSTLRVRQ
+VLEQVMMRDKSMYEMPQPPRKHRVQITCRFVY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 708 ,
+                          id
+                            local
+                              str "sample3_33_12" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_13" } ,
+            descr {
+              title "hypothetical protein [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 408 ,
+              seq-data
+                ncbieaa "MPVVWHCGFNGIINNTMNIGQAGLFINTNDTTSVSHTLSNDNLINNIFGRGNG
+TQNGGLLPLINYYGRKWSSRAGYGSSYVFGRVKPSFFDNSVPCLSSELSQPANQSDWFGGWQFRIDLCWPSAERLTTS
+WRMGFRIGRATHPTYQNPYQVFVCPAAINEANAQNLYAISVVAGQNEKYMEVEWIADTKTLNIYQDDELVSSRTNYTA
+NDMSFGIILMCEHYVGGNTSSTPFFGFELRDMYIQKIVSDADQRLGSSTKVYAFNPVTDDVVQFSRPDGYSSNAAVAV
+TPIANGGVTPIPSVTAAILGADVVGQQDLYNIDISKVSSRLASVEAVNVRTMARNPLLGSRRVAAIAKSGATQTESEN
+TSTLEQGGLWRFNTLQMVSDPADGSRWNLTKLAGLKVGTKFVA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 407 ,
+                          id
+                            local
+                              str "sample3_33_13" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_14" } ,
+            descr {
+              title "hypothetical protein [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 339 ,
+              seq-data
+                ncbieaa "MFKFCDGYDHYAEIGVKGTTLQGYLEAAGYVVRNASDTTFSVVEGRRTGARAL
+KFTVAASSSVNASLSWGFTTTASLVVFGFAMKAGLSRMRIARIENIVDIEWDTTTGKIRVGEELGVNPLILNAWYYFE
+IEIDKTANTVKIYANNELQLTVAPSSAPTTTYTIVWGQTGTAPNAGEQTLDDFYVIDGSGSRNNARLTPVEVTSRMPT
+ADVSTQWEVVNASSSTPHYQIVSQLSPGGESKPYLQSNTAGATDMYRSNVTLPNNNQIFAVSVIAYARKGDLDDRKLG
+LVVNTEGGTPTEIQVPLTESYKYYQASFEQAPGGSDWNQNNVESLQFGIITR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 338 ,
+                          id
+                            local
+                              str "sample3_33_14" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_33_15" } ,
+            descr {
+              title "hypothetical protein [Chivirus sp. ct88JJL]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 77 ,
+              seq-data
+                ncbieaa "-NILAVGMTVLNKKSDVDNRQLGMVIGQKGDTQKEVIDAALSTTEKYSYAVFE
+TNAAGQDWNDERLSEAPFGVIVRP" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 76 ,
+                          id
+                            local
+                              str "sample3_33_15" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_1" ,
+                  location
+                    int {
+                      from 0 ,
+                      to 143 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_33" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_2" ,
+                  location
+                    int {
+                      from 140 ,
+                      to 451 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_33" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_3" ,
+                  location
+                    int {
+                      from 448 ,
+                      to 900 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_33" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_4" ,
+                  location
+                    int {
+                      from 902 ,
+                      to 1615 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_33" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_5" ,
+                  location
+                    int {
+                      from 1605 ,
+                      to 1694 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_33" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_6" ,
+                  location
+                    int {
+                      from 1691 ,
+                      to 1975 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_33" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_7" ,
+                  location
+                    int {
+                      from 1972 ,
+                      to 2433 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_33" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF09152.9" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_8" ,
+                  location
+                    int {
+                      from 2434 ,
+                      to 2637 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_33" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_9" ,
+                  location
+                    int {
+                      from 2639 ,
+                      to 2809 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_33" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_10" ,
+                  location
+                    int {
+                      from 2815 ,
+                      to 3528 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_33" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:PHA02564" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_11" ,
+                  location
+                    int {
+                      from 3532 ,
+                      to 3870 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_33" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF10805.7" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_12" ,
+                  location
+                    int {
+                      from 3934 ,
+                      to 6063 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_33" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_13" ,
+                  location
+                    int {
+                      from 6073 ,
+                      to 7299 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_33" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_14" ,
+                  location
+                    int {
+                      from 7314 ,
+                      to 8333 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_33" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_33_15" ,
+                  location
+                    int {
+                      from 8347 ,
+                      to 8580 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_33" } } } } } } } }

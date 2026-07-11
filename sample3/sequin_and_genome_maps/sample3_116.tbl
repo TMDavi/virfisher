@@ -1,0 +1,13 @@
+>Feature sample3_116 Table1
+707	3	CDS
+			protein_id	lcl|sample3_116_1
+			product	head to tail adaptor
+			inference	protein motif Uniprot:A0A068YG81_BPCP7
+1662	679	CDS
+			protein_id	lcl|sample3_116_2
+			product	UPPER COLLAR PROTEI
+			inference	protein motif PDB:1IJG_K
+2777	1677	CDS
+			protein_id	lcl|sample3_116_3
+			product	Major Capsid protein
+			inference	protein motif CDD:PHA01075

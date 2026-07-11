@@ -1,0 +1,343 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Bacelvirus sp. ctEPLAH" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_373" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;f_Pachyviridae;g_Bacelvirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1177 ,
+              seq-data
+                ncbi2na '240170FC3253B7F9EFBE04C5B2F9F5E19B0E64FC05E134FEDF2B0
+9D7EF6EBCE5232EC74B1352F5FBE7E3DF02717C8C1DF6334B8CC76F243BC597EF63F8A04017F4C
+5E79B45209FF7F40C3B80B4FD05FBCD0308C52EFF71F4EBEC53FEB534A2CD0D42CDB804CDE35F6
+320C2FDFE30EE200BDD7C137A3D4DFF17FF40BF5ED5FC9008BC880D10304806B179808009045B4
+D68BA41033FC820B8C1AC1EC9F9FBE3F45B480D0043345077C0FB8DE0BE0B03520909930BC65FC
+38CBBF0785F5D254FB198D3F9B02F7DF854F09C309F2E37F51A53C96EEC3FE9F41FEB131F34930
+89F02C383BE093790F9D792BFB630680F59C2BCFB7EC0D8394E3EDCF0036F07803ACD91FBE08EF
+5EB3E810F717F7BEF68293FC8FFB1C0BD93EBFEF7D123DF4353DE5725F3D1E681E3C0'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_373_1" } ,
+            descr {
+              title "Structural protein [Bacelvirus sp. ctEPLAH]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 329 ,
+              seq-data
+                ncbieaa "MAFDLQDNNLSGISVIDKPAGAIADASTFITLSSYADKYVPKLKPKLHTANGR
+GKITKLISLMGQEELYANDRVQWAEEGQLNTIIKGVTYALASGFTSTSDHNLRVGDIVLISDGEINKQATVTVITSSK
+IFVATPDDGVAFSFAGTVSVICDFSNSFAKGTGNFEKGKRWNPDVKENFSHIIKETYSIEGSDMFHDTWIDTPDGPKW
+YNHEVENTGILFDNKVEMTFTLFERKASGDAAGMKGFVPQIEQGGNIANEYITDIEELSKVALRIKQQGTGCTEYTIW
+HNHEQGAYLRQMMSGLNAHYASGSNYGMFNNSKDMAIKLGFA" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Structural protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 328 ,
+                          id
+                            local
+                              str "sample3_373_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_373_2" } ,
+            descr {
+              title "hypothetical protein [Bacelvirus sp. ctEPLAH]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 59 ,
+              seq-data
+                ncbieaa "MSSAVNKARAEWIEESVKNKTNANFSTKSKMPSEQQKGRIVPIPGTSSTSAIP
+FSVNDF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 58 ,
+                          id
+                            local
+                              str "sample3_373_2" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_373_1" ,
+                  location
+                    int {
+                      from 0 ,
+                      to 986 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_373" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif UniProt:tr|S0A161_9CAUD" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_373_2" ,
+                  location
+                    int {
+                      from 996 ,
+                      to 1175 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_373" } } } } } } } }

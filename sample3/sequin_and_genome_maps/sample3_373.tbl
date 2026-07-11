@@ -1,0 +1,9 @@
+>Feature sample3_373 Table1
+987	1	CDS
+			protein_id	lcl|sample3_373_1
+			product	Structural protein 
+			inference	protein motif UniProt:tr|S0A161_9CAUD
+1176	997	CDS
+			protein_id	lcl|sample3_373_2
+			product	hypothetical protein
+			note	no search hits

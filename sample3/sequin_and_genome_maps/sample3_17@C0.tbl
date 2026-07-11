@@ -1,0 +1,97 @@
+>Feature sample3_17@C0 Table1
+3	515	CDS
+			protein_id	lcl|sample3_17_1
+			product	hypothetical protein
+			note	no search hits
+536	1546	CDS
+			protein_id	lcl|sample3_17_2
+			product	tail protein
+			inference	protein motif PFAM:PF05709.10
+1543	3333	CDS
+			protein_id	lcl|sample3_17_3
+			product	minor tail protein
+			inference	protein motif PFAM:PF14594.5
+3350	3793	CDS
+			protein_id	lcl|sample3_17_4
+			product	Protein of unknown function (DUF2744)
+			inference	protein motif CDD:pfam10910
+3790	4056	CDS
+			protein_id	lcl|sample3_17_5
+			product	minor tail protein
+			inference	protein motif PFAM:PF10874.7
+4053	5906	CDS
+			protein_id	lcl|sample3_17_6
+			product	tail protein
+			inference	protein motif PFAM:PF05709.10
+5906	6577	CDS
+			protein_id	lcl|sample3_17_7
+			product	Minor tail protein 
+			inference	protein motif UniprotKB:A0A0M4S373_9CAUD
+6586	6789	CDS
+			protein_id	lcl|sample3_17_8
+			product	hypothetical protein
+			note	no search hits
+7845	6844	CDS
+			protein_id	lcl|sample3_17_9
+			product	Integrase
+			inference	protein motif PDB:1Z19_B
+8359	8796	CDS
+			protein_id	lcl|sample3_17_10
+			product	excisionase
+			inference	protein motif PFAM:PF10935.7
+9090	8920	CDS
+			protein_id	lcl|sample3_17_11
+			product	Helix-Turn-Helix DNA binding domain of truncated MerR-like proteins
+			inference	protein motif CDD:cd04762
+9246	9091	CDS
+			protein_id	lcl|sample3_17_12
+			product	Deoxycytidylate deaminase  [Nucleotide transport and metabolism]
+			inference	protein motif CDD:COG2131
+9629	9477	CDS
+			protein_id	lcl|sample3_17_13
+			product	hypothetical protein
+			note	no search hits
+10012	9626	CDS
+			protein_id	lcl|sample3_17_14
+			product	hypothetical protein
+			note	no search hits
+10283	9999	CDS
+			protein_id	lcl|sample3_17_15
+			product	hypothetical protein
+			note	no search hits
+10467	10267	CDS
+			protein_id	lcl|sample3_17_16
+			product	hypothetical protein
+			note	no search hits
+10673	10467	CDS
+			protein_id	lcl|sample3_17_17
+			product	hypothetical protein
+			note	no search hits
+10813	10673	CDS
+			protein_id	lcl|sample3_17_18
+			product	hypothetical protein
+			note	no search hits
+12647	10824	CDS
+			protein_id	lcl|sample3_17_19
+			product	DNA polymerase
+			inference	protein motif PDB:4XVI_A
+12990	12655	CDS
+			protein_id	lcl|sample3_17_20
+			product	Mycobacterium phage hypothetical protein Gp44
+			inference	protein motif CDD:pfam17510
+13400	12990	CDS
+			protein_id	lcl|sample3_17_21
+			product	HTH DNA binding protein
+			inference	protein motif PFAM:PF00239.20
+14317	13610	CDS
+			protein_id	lcl|sample3_17_22
+			product	Thymidylate synthase complementing protein
+			inference	protein motif CDD:pfam02511
+14963	14385	CDS
+			protein_id	lcl|sample3_17_23
+			product	hypothetical protein
+			note	no search hits
+16252	14975	CDS
+			protein_id	lcl|sample3_17_24
+			product	ribonucleoside-triphosphate reductase, adenosylcobalamin-dependent
+			inference	protein motif CDD:TIGR02505

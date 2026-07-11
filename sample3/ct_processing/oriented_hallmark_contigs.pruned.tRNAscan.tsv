@@ -1,0 +1,52 @@
+sample3_42 	1	3146	3225	Gln	TTG	0	0	39.2	
+sample3_42 	2	3230	3301	Gly	TCC	0	0	64.0	
+sample3_11@C0 	1	2942 	3018 	Pro	TGG	0	0	57.8	
+sample3_11@C0 	2	3026 	3103 	Glu	TTC	0	0	50.1	
+sample3_11@C0 	3	3349 	3425 	Asn	GTT	0	0	40.4	
+sample3_11@C0 	4	3497 	3584 	Tyr	GTA	0	0	47.9	
+sample3_11@C0 	5	3591 	3667 	Asp	GTC	0	0	57.4	
+sample3_11@C0 	6	4100 	4175 	Lys	TTT	0	0	55.1	
+sample3_11@C0 	7	4180 	4256 	Met	CAT	0	0	47.2	
+sample3_11@C0 	8	4259 	4333 	Ile	GAT	0	0	50.0	
+sample3_11@C0 	9	4671 	4752 	Undet	NNN	0	0	23.1	pseudo
+sample3_11@C0 	10	4992 	5079 	Ser	TGA	0	0	29.8	pseudo
+sample3_11@C0 	11	5337 	5413 	Leu	TAG	0	0	55.3	
+sample3_11@C0 	12	5421 	5496 	Lys	CTT	0	0	57.2	
+sample3_11@C0 	13	5503 	5578 	Ala	TGC	0	0	55.0	
+sample3_11@C0 	14	5585 	5659 	Gly	TCC	0	0	49.4	
+sample3_11@C0 	15	6089 	6165 	Thr	TGT	0	0	34.6	
+sample3_11@C0 	16	6261 	6335 	Val	TAC	0	0	42.4	
+sample3_11@C0 	17	6337 	6414 	Leu	CAA	0	0	38.7	pseudo
+sample3_11@C0 	18	6420 	6495 	Arg	ACG	0	0	54.0	
+sample3_11@C0 	19	7082 	7156 	Gln	TTG	0	0	40.5	
+sample3_11@C0 	20	7159 	7237 	Leu	TAA	0	0	44.3	
+sample3_11@C0 	21	7243 	7318 	Gln	CTG	0	0	46.7	
+sample3_11@C0 	22	7350 	7425 	His	GTG	0	0	46.8	
+sample3_11@C0 	23	7440 	7507 	Phe	GAA	0	0	37.1	
+sample3_11@C0 	24	8357 	8432 	Cys	GCA	0	0	48.6	
+sample3_13@C0 	1	4431 	4357 	Gln	TTG	0	0	54.5	
+sample3_13@C0 	2	4276 	4203 	Trp	CCA	0	0	28.9	
+sample3_13@C0 	3	4052 	3981 	Arg	TCT	0	0	60.9	
+sample3_13@C0 	4	3970 	3897 	Lys	TTT	0	0	38.7	pseudo
+sample3_13@C0 	5	3715 	3629 	Ser	AGA	0	0	23.1	pseudo
+sample3_13@C0 	6	3619 	3538 	Leu	TAG	0	0	61.1	
+sample3_13@C0 	7	3324 	3252 	Ile	GAT	0	0	76.1	
+sample3_13@C0 	8	3239 	3164 	Asp	GTC	0	0	59.6	
+sample3_13@C0 	9	3155 	3073 	Tyr	GTA	0	0	26.2	pseudo
+sample3_13@C0 	10	2752 	2676 	Cys	GCA	0	0	54.4	
+sample3_13@C0 	11	2665 	2593 	Asn	GTT	0	0	68.2	
+sample3_13@C0 	12	2524 	2449 	Pro	TGG	0	0	69.4	
+sample3_13@C0 	13	2442 	2367 	Gly	TCC	0	0	67.6	
+sample3_13@C0 	14	2360 	2287 	Phe	GAA	0	0	64.1	
+sample3_13@C0 	15	2277 	2202 	Glu	TTC	0	0	67.6	
+sample3_15@C0 	1	4208 	4282 	Asn	GTT	0	0	68.6	
+sample3_15@C0 	2	4323 	4401 	Trp	CCA	0	0	66.8	
+sample3_15@C0 	3	4406 	4477 	Gln	CTG	0	0	45.1	
+sample3_15@C0 	4	4513 	4585 	Glu	CTC	0	0	57.1	
+sample3_15@C0 	5	4590 	4669 	Tyr	GTA	0	0	59.6	
+sample3_6@C0 	1	25143	25212	Asn	GTT	0	0	34.5	
+sample3_6@C0 	2	25270	25357	Tyr	GTA	0	0	78.1	
+sample3_6@C0 	3	25559	25635	Gln	TTG	0	0	58.0	
+sample3_2@C0 	1	30152	30078	Pro	TGG	0	0	53.9	
+sample3_1 	1	36385	36311	Pro	TGG	0	0	64.8	
+sample3_48 	1	630 	714 	Leu	TAG	0	0	66.9	

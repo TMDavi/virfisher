@@ -1,0 +1,9 @@
+>Feature sample3_348 Table1
+373	146	CDS
+			protein_id	lcl|sample3_348_1
+			product	DNA helicase
+			inference	protein motif PFAM:PF11637.7
+1248	370	CDS
+			protein_id	lcl|sample3_348_2
+			product	DNA helicase
+			inference	protein motif PDB:1RIF_B

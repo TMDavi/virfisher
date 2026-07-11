@@ -1,0 +1,2 @@
+sample3_276	Cenote-Taker	CDS	2	763	.	+	0              	gene_id "lcl|sample3_276_1"; gene_name "Tail needle protein"; gene_inference "protein motif PDB:3C9I_E"
+sample3_276	Cenote-Taker	CDS	818	1447	.	+	0              	gene_id "lcl|sample3_276_2"; gene_name "Neck protein "; gene_inference "protein motif UniProtKB:D5GVB0_9CAUD"

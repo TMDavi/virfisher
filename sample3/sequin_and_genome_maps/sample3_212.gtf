@@ -1,0 +1,2 @@
+sample3_212	Cenote-Taker	CDS	3	1448	.	+	0              	gene_id "lcl|sample3_212_1"; gene_name "Terminase large subunit"; gene_inference "protein motif CDD:pfam03354"
+sample3_212	Cenote-Taker	CDS	1423	1662	.	+	0              	gene_id "lcl|sample3_212_2"; gene_name "membrane protein"; gene_inference "protein motif PFAM:PF06341.10"

@@ -1,0 +1,17 @@
+>Feature sample3_172 Table1
+302	51	CDS
+			protein_id	lcl|sample3_172_1
+			product	Terminase subunit 
+			inference	protein motif UniProt:tr|A0A0N7CEC6_9VIRU
+501	295	CDS
+			protein_id	lcl|sample3_172_2
+			product	hypothetical protein
+			note	no search hits
+1708	554	CDS
+			protein_id	lcl|sample3_172_3
+			product	tail protein
+			inference	protein motif PFAM:PF06006.11
+2067	1834	CDS
+			protein_id	lcl|sample3_172_4
+			product	hypothetical protein
+			note	no search hits

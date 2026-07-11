@@ -1,0 +1,101 @@
+LOCUS       sample3_257             1501 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae
+            sedis;-_Bronfenbrennervirinae;g_Peeveelvirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Peeveelvirus sp. ct4JGCM (unknown)
+  ORGANISM  Peeveelvirus sp. ct4JGCM
+            Unclassified.
+REFERENCE   1  (bases 1 to 1501)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1501)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1501
+                     /organism="Peeveelvirus sp. ct4JGCM"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(1..249)
+                     /inference="protein motif PFAM:PF03354.14"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Large Terminase"
+                     /translation="MTDYVTKYAKKVVSGEILASLKNIQVCKRHLSFMENPPNGCHWD
+                     NHLSNKAIKFVEMLPDPKTNQPMPLMEFQKFIVGSLYGW"
+     CDS             complement(252..719)
+                     /inference="protein motif PFAM:PF05119.11"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Small Terminase"
+                     /translation="MAGRPKKLLSNSNKNYTKEEIIEKERQEAQLNKFSKIDTEPPHF
+                     LDEIAKQEYLRILPHMQELPISNLDKAQLAQYCSFYSDFVKASLILEREDLILEDDKG
+                     NQKVNPAFNIKEKAGIRLQQTANTLGLTIDSRLRIMVPDEKEDDDPYMEFVSD"
+     CDS             complement(849..1193)
+                     /inference="protein motif PDB:5H0M_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="HNH endonuclease"
+                     /translation="MKRCGHPTCNVLINHNESYCDKHKQYANENYNDLRRRNDPEYLR
+                     FYKSKTWQNMRRIVLLEHDFICVSCGNQATMVDHIVPTKIDWARRLDKSNLQPLCDAC
+                     HNQKTKEDLKKY"
+     CDS             complement(1209..1499)
+                     /inference="protein motif CDD:cd11541"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Nucleoside Triphosphate Pyrophosphohydrolase (EC
+                     3"
+                     /translation="-
+                     IMINELSEALWNIANLTNVLGINLDEIAGHSVTTILMNKPNQTINLDNGIKQGDKVLF
+                     QGSKYLVDGSIGNLLLISNDKDDRQVTVQDVKKVDRE"
+ORIGIN      
+        1 ccagccgtat aagctcccaa caatgaattt ctgaaactcc ataagaggca tgggctggtt
+       61 tgttttaggg tctggaagca tttccacaaa tttaattgct ttgttagaca aatgattatc
+      121 ccaatggcaa ccattcggcg ggttctccat aaaagatagg tgacgtttac atacttgaat
+      181 attcttcaaa cttgccaaaa tttctcctga aactaccttt tttgcgtatt tagtaacata
+      241 atcagtcatt actaatcact cacaaattcc atatatggat catcatcttc tttttcatca
+      301 ggaaccataa tacgcaatcg gctatcaata gttaatccta aagtattagc tgtttgttgc
+      361 aatcgaatac ccgctttttc ctttatgttg aacgccggat taaccttttg atttcctttg
+      421 tcgtcttcta aaatcaagtc ttcgcgctct aaaatcaaac ttgctttaac aaagtcacta
+      481 taaaaactac aatattgtgc taattgtgct ttatctaagt tggaaattgg caattcttgc
+      541 atgtgcggta atattcttaa gtattcttgt ttcgctattt catctaaaaa gtgcggtggt
+      601 tcagtatcga ttttagaaaa tttatttaat tgagcttctt gacgctcttt ttcaataatt
+      661 tcttcttttg tataattctt gttcgaattt gacaaaagct tcttaggtct acccgccata
+      721 aattagcacc tcctactaaa aaaacttaaa taaagggaat tttttgagaa gaaaactctg
+      781 ctccgttctc cagaaccttt cattgacgcc cgtttcatct ttgggggggc ttcctatttt
+      841 tatctttttt aatatttctt caaatcttct tttgtctttt ggttatggca agcatcacac
+      901 aaaggctgta aattactttt gtctaatctt cttgcccaat caatttttgt tggtacaata
+      961 tggtcaacca tagtcgcttg attgccacaa gaaacacaaa taaaatcatg ttctaacaat
+     1021 acaattcgac gcatgttttg ccacgttttc gatttataaa atcttaaata ctctggatcg
+     1081 tttcgacgtc tcaaatcatt gtaattttca tttgcatatt gcttgtgttt atcacaataa
+     1141 ctttcattat gattaatcaa tacattacat gttggatgac cacatcgctt cataatagac
+     1201 aatgcacatc actccctgtc gactttctta acatcttgca cagttacttg tctatcatct
+     1261 ttatcattgc taattaacaa taagtttcct atcgatccat caacaagata cttactacct
+     1321 tgaaacaata ctttgtctcc ttgttttata ccattgtcta aattgatagt ctgattaggt
+     1381 ttattcatca agatagtggt aacactatga ccagctatct catccaagtt aatacctaac
+     1441 acgttagtaa gattagctat attccacaat gcttcgctaa gttcatttat cataattcct
+     1501 t
+//

@@ -1,0 +1,2 @@
+sample3_181	Cenote-Taker	CDS	1752	1	.	-	0              	gene_id "lcl|sample3_181_1"; gene_name "tail tape measure protein "; gene_inference "protein motif Uniprot:A0A0A0RMC0_9CAUD"
+sample3_181	Cenote-Taker	CDS	1994	1752	.	-	0              	gene_id "lcl|sample3_181_2"; gene_name "Family of unknown function (DUF5361)"; gene_inference "protein motif pfam17318"

@@ -1,0 +1,111 @@
+LOCUS       sample3_189             1933 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae
+            sedis;f_Andersonviridae;-_Ounavirinae;g_Kolesnikvirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Kolesnikvirus sp. ctCPZ79 (unknown)
+  ORGANISM  Kolesnikvirus sp. ctCPZ79
+            Unclassified.
+REFERENCE   1  (bases 1 to 1933)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1933)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1933
+                     /organism="Kolesnikvirus sp. ctCPZ79"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             3..569
+                     /inference="protein motif PFAM:PF03864.14"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Major Capsid protein"
+                     /translation="-
+                     ELVEHMEDTANTGGLTNGEQIIVLVDRAFFRKLTGHAKVREAYMAQQAVSSYGLITGS
+                     LKTGRSDGVATATNEFPYRGVVFRQYNGKFTDKRNTVHKLVGINGVEDSVGVGHAFPN
+                     TAMLGEANDLYQISYGPANKMGYVNTLGQDLYVFEYAKDRDEGTDFEAHSYMMPICTR
+                     PQLLVDVRADKAS"
+     CDS             589..1056
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MYTGNPSTNPLDRIRILCTDTDNDDLMIDDSVLEFFYVSNDKNE
+                     RRAAIQALRYILMQFAKMADEKVGGVYERNSDRFANFKSALDDLVKNGIVGTPYAGGI
+                     SKCDIELRKCNPDSVNKSVEYGDAFSYGDNRCDDRFFNGSPNRMVIAFVDKES"
+     CDS             1057..1542
+                     /inference="protein motif PFAM:PF05069.12"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Virion morphogenesis family"
+                     /translation="MVKRVIGEGRNILMKAVKNIAKSTVKVGFFAEQGKHYSGFSYPA
+                     LMYLHEVHGIPASNGKVYRRAFETAMQIDRKLLIAQAQKNLKRMLSTGQTNPDLVLSQ
+                     FGKDSIKSLKKVFGNPSLLPPNTPSTIKSKGGRNTPLVDTSDLVDNLAYKTSNRGGLR
+                     K"
+     CDS             1539..1925
+                     /inference="protein motif PFAM:PF10665.8"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Minor capsid protein"
+                     /translation="MRLLRRHTLQIVRKTSEGYYNENGRWVSGEASVTVPIRGNLQPY
+                     NNSLTQKVLPKGVVATDVRILYTVAQLRTSDEVAWTEADVLLLNDIEYECFSVMDWSQ
+                     QLARTSHYEYLFIRRDKINQVRNASE"
+ORIGIN      
+        1 tcgacgaact ggttgagcac atggaagaca ccgctaacac tggtggtctg actaacggcg
+       61 aacagattat cgttctggtt gaccgtgcgt tcttccgtaa gttgactggt catgctaaag
+      121 tacgtgaagc gtacatggcg caacaggcag tctcttcata cggtctgatt actggttctc
+      181 tgaagactgg tcgttcagat ggtgttgcta cagcgactaa cgagttcccg taccgtggcg
+      241 ttgttttccg tcagtacaac ggtaagttca ctgacaagcg taacactgtt cacaagctgg
+      301 ttggtatcaa cggcgttgaa gattctgttg gtgttggtca tgcgttccct aacactgcga
+      361 tgttgggtga agcgaacgac ctgtaccaga tttcatacgg ccctgctaac aagatgggtt
+      421 acgtgaatac tcttggtcag gacttgtacg tgttcgaata cgctaaagac cgtgacgaag
+      481 gtactgattt cgaggctcat tcttacatga tgccaatctg tactcgtcca cagttgctgg
+      541 tcgatgttcg cgctgacaag gcaagctaag actcttcagg agggttaaat gtatacgggt
+      601 aacccaagca ctaaccctct tgacagaatc agaattcttt gcacagacac cgataatgat
+      661 gacctcatga ttgatgattc tgtgctggaa ttcttctatg tatcgaacga taagaacgaa
+      721 cgtagagcgg ctattcaagc acttcgctac atcttaatgc agtttgctaa aatggctgac
+      781 gagaaagttg gtggtgtcta tgagcgaaac tcagaccgct tcgccaactt taaatcggct
+      841 cttgacgact tagttaagaa tggcattgtt gggacacctt atgcaggtgg tatcagcaaa
+      901 tgtgacattg aattgagaaa atgtaatccc gattctgtga acaagagtgt tgaatacggt
+      961 gatgctttca gctatggtga caaccgttgt gacgataggt tctttaacgg gagtcctaac
+     1021 cgaatggtta ttgctttcgt agacaaggaa tcataaatgg taaaacgtgt catcggtgag
+     1081 ggtagaaata tccttatgaa agccgtcaag aacattgcaa agtcaactgt aaaggttggc
+     1141 ttttttgctg aacaaggcaa gcactactca ggtttctctt atcctgcgtt aatgtacctt
+     1201 catgaagttc atggtattcc agcgtctaac ggtaaagttt atcgtagagc gtttgaaact
+     1261 gctatgcaga ttgacaggaa attactgata gcgcaagctc agaagaatct aaaacgtatg
+     1321 ctctcaacag ggcagactaa ccctgacctc gtactttctc aattcgggaa agactctatc
+     1381 aagtctctta aaaaggtctt tggtaatcca agtctcctgc ctccgaacac accttcaact
+     1441 attaaatcga agggtggtag aaatacgcct ctggtcgata catctgacct tgttgataat
+     1501 ctggcgtata agacttctaa ccgtggagga ttgaggaaat gagactacta agaagacaca
+     1561 ctcttcaaat tgtgagaaag acctcagaag gttactacaa cgaaaacgga cgttgggttt
+     1621 ctggtgaggc atctgtaaca gttcctatcc gaggcaattt acagccttac aataacagcc
+     1681 ttactcagaa agttctacca aaaggtgttg ttgcaactga cgtgagaatc ctctatacag
+     1741 tggcacaact cagaacatct gatgaggttg cttggacgga ggctgacgtt ctcttgttga
+     1801 atgacattga gtacgaatgc ttcagtgtga tggattggtc acagcagctt gcacgaactt
+     1861 ctcactatga atatcttttc atccgaagag ataagattaa ccaagtccgt aatgcgagtg
+     1921 aataatgtct ttg
+//

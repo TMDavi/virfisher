@@ -1,0 +1,291 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Axomammavirus sp. ctM4LCV" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_441" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;o_A
+utographivirales;f_Autosignataviridae;-_Molineuxvirinae;g_Axomammavirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1039 ,
+              seq-data
+                ncbi2na 'AC9283E67B1A8822C6B365B5220122D6D074C85D9D9368B0BB43E
+ADAD949921046BEA682074082622B1894C94497653C88244B7BDE0530121458FB7AD0A0A0A83AB
+EB0ADB6584D1ADC54345F86CA682E25014D443B4D181423BBA4FBBDFBC0551CA834A27091D1946
+410AF145F7FE8125D09430661D29F1E56CABC3FB17EC5482B91A8E820ADAF8AFBDAF7C3A4142D7
+C57C8D6D77B6D177377BD6D3DF7E3AE3ECB94D5F8EEBB2DD7395D51009079D390CF7E63B9DEDFC
+CC861385E4D9C534AED3332E59F91D450C08FF31844531E140644811C992ED141A2AED3B4A6791
+812B1AFFBC10E06ECB7905BC931A3BDFB1AB793E644C79DC472ADC5844111F1B5E5FB6045DEA8'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_441_1" } ,
+            descr {
+              title "Phage stabilisation protein [Axomammavirus sp. ctM4LCV]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 345 ,
+              seq-data
+                ncbieaa "-EVFDKAGRKCVVSVDPSVEQYVRNADPYKNIRMLTVADYTFIVNKTVPVRAA
+PDMTPSVGDTALVFCAFGQYGVSYKIFIGGVQAALYMTPDGSDAGHVVYIKTEHIARILHEQLLLWEGIGDYTTSRDG
+TTITIKKNDGTEIEVTTEDGSKGKDLVAIKNRTTSTDLLPSRAPSGYKVQINPTGSKPESRYWLEAVPKEGGNLVAWR
+ECLAPDSLVGFNKNTMPHILVRDDIVDGLAHFRLRQGDWVDRDVGDDLTNPFPSFLDQTIGGLFMVQNRLCFSNGEAV
+AMARTSRFFEFFRPTVLSALATDPIDTYSDASEVYELTDSVSLDGDTVLFSRTAQFLL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Phage stabilisation protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 344 ,
+                          id
+                            local
+                              str "sample3_441_1" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_441_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 1036 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_441" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF11134.7" } } } } } } } } }

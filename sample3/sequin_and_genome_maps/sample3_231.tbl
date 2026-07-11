@@ -1,0 +1,13 @@
+>Feature sample3_231 Table1
+1	231	CDS
+			protein_id	lcl|sample3_231_1
+			product	baseplate assembly protein
+			inference	protein motif CDD:PHA02611
+228	1397	CDS
+			protein_id	lcl|sample3_231_2
+			product	baseplate hub subunit
+			inference	protein motif CDD:PHA02612
+1351	1623	CDS
+			protein_id	lcl|sample3_231_3
+			product	Baseplate hub distal subunit
+			inference	protein motif PFAM:PF11110.7

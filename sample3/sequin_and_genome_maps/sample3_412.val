@@ -1,0 +1,19 @@
+WARNING: valid [SEQ_DESCR.BadCollectionDate] Collection_date format is not in DD-Mmm-YYYY format DESCRIPTOR: BioSrc: Pbunavirus sp. ctNV2D1 BIOSEQ-SET: lcl|sample3_412
+ERROR: valid [SEQ_DESCR.BioSourceInconsistency] Metagenome source should also have metagenomic qualifier DESCRIPTOR: BioSrc: Pbunavirus sp. ctNV2D1 BIOSEQ-SET: lcl|sample3_412
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: Virion morphogenesis family [lcl|sample3_412:c549-1] [lcl|sample3_412: raw, dna len= 1083] -> [lcl|sample3_412_1]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif PFAM:PF05069.12) FEATURE: CDS: Virion morphogenesis family [lcl|sample3_412:c549-1] [lcl|sample3_412: raw, dna len= 1083] -> [lcl|sample3_412_1]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif PDB:2LFP_A) FEATURE: CDS: tail completion protein [lcl|sample3_412:c1082-546] [lcl|sample3_412: raw, dna len= 1083] -> [lcl|sample3_412_2]
+WARNING: valid [SEQ_DESCR.FastaBracketTitle] Title may have unparsed [...=...] construct BIOSEQ: lcl|sample3_412: raw, dna len= 1083
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_412
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_412
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_412
+WARNING: valid [SEQ_DESCR.BadStrucCommInvalidFieldValue] unknown_assembler is not a valid value for Assembly Method DESCRIPTOR: UserObj: StructuredComment BIOSEQ: lcl|sample3_412
+ERROR: valid [SEQ_DESCR.BadStrucCommInvalidFieldName] Annotation Pipeline is not a valid field name DESCRIPTOR: UserObj: StructuredComment BIOSEQ: lcl|sample3_412
+ERROR: valid [SEQ_DESCR.BadStrucCommInvalidFieldName] URL is not a valid field name DESCRIPTOR: UserObj: StructuredComment BIOSEQ: lcl|sample3_412
+NOTE: valid [SEQ_DESCR.BadStrucCommInvalidFieldValue] Structured Comment invalid DESCRIPTOR: UserObj: StructuredComment BIOSEQ: lcl|sample3_412
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_412_1
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_412_1
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_412_1
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_412_2
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_412_2
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_412_2

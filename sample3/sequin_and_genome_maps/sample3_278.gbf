@@ -1,0 +1,92 @@
+LOCUS       sample3_278             1443 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;g_Mohonavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Mohonavirus sp. ctC9OHT (unknown)
+  ORGANISM  Mohonavirus sp. ctC9OHT
+            Unclassified.
+REFERENCE   1  (bases 1 to 1443)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1443)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1443
+                     /organism="Mohonavirus sp. ctC9OHT"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             1..222
+                     /inference="protein motif PFAM:PF11863.7"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail sheath"
+                     /translation="-
+                     LAIVKERVESVLIEGVERKLFASFDPVKVPDRISFSDQAARILKDVTYNAYFASKINF
+                     AIINGNLTYKEELA"
+     CDS             224..685
+                     /inference="protein motif PFAM:PF11681.7"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="virion structural protein"
+                     /translation="MGRTYNSGSVLSNWNGIDLAEGYQSMSIEPSGDLKAFKMDAQGK
+                     RTTSILADRSATFSVTYDQTATTVELLDNIIAAEQIVNSRVAIPYSGQIIFNDPLGST
+                     GSFVALNASLQSGVGESWEKEVGERTFTFHCELLLRGDPALIMANLADYLI"
+     CDS             742..1284
+                     /inference="protein motif PFAM:PF10876.7"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail assembly chaperone"
+                     /translation="MLSKRSVTTTINNHKYKLQKWNTKTVFEEGTELLKVVSPSLTML
+                     AGDLIDGTKSADQELFEDVLSSKKYALTEAFSVLNSTLTREHISTLVDKTLSGLSYYD
+                     SEEEEWVKVDDYSDLFDQEEYEADFLDVLFWTLKENLYSFFIKQGMFNSKIRSLSKLV
+                     KSFVENMPKSEEKQEDLSLE"
+ORIGIN      
+        1 gatcttgcaa ttgtgaaaga acgtgttgag agtgtactga ttgagggtgt tgaacgtaaa
+       61 ctatttgcaa gtttcgatcc tgtaaaagta cctgatcgca tctcgttctc tgatcaagct
+      121 gcacgtatcc tcaaagacgt aacttacaac gcatactttg catctaagat caactttgca
+      181 attatcaacg gcaacctaac ttataaagag gagttagcat aatatggggc gtacttataa
+      241 ctccggttcg gtacttagta actggaatgg tattgacctt gcagaaggtt accagtctat
+      301 gtcaatcgaa ccaagtggtg atctaaaagc atttaagatg gatgcgcaag gcaaacgtac
+      361 cactagtatc ttagctgacc gttctgcaac atttagtgta acctacgacc aaaccgcaac
+      421 cactgttgag ctgttggata atatcatcgc agcagagcag attgtcaata gtcgagttgc
+      481 aatcccttac tccggtcaga ttatcttcaa cgacccacta ggttcgacag gttcattcgt
+      541 agcattgaac gcaagcttac agagcggtgt aggtgaatca tgggagaaag aggtaggtga
+      601 gcgtacattc actttccact gtgaattact acttcgtggt gacccagcac ttatcatggc
+      661 aaacttggca gattacttaa tctaatcctg catggggcta ggggaaaccc tagctctttt
+      721 ttcatttcaa ggagaaaata tatgttatca aaacgtagcg taacaacaac tatcaacaat
+      781 cataaataca aacttcaaaa atggaataca aaaactgtat ttgaagaagg taccgaatta
+      841 ctaaaagtag tgtcaccaag cttaactatg ttagcaggtg atttgattga cggtactaaa
+      901 tcagcagatc aagagttatt tgaggatgta ttatcatcca aaaaatatgc cctaaccgaa
+      961 gctttctctg tcctaaattc aacattaact cgtgaacata tctcaacttt agtagataaa
+     1021 actctaagtg gactaagtta ttacgatagt gaagaagaag agtgggttaa ggttgatgat
+     1081 tatagtgatt tattcgacca agaagaatat gaagcagact ttctcgacgt actattctgg
+     1141 acactaaagg agaatctgta cagttttttt ataaagcaag gtatgttcaa ctcaaagata
+     1201 aggtcgttgt caaaactcgt gaagagcttc gtagagaaca tgccgaagag cgaggaaaaa
+     1261 caagaagact tgagtttaga gtaatagact ctgcaataga gcagaatcca aacttactta
+     1321 tttactctcg tgcatttgag ttggtttgtt cggaatattg taaggaaagt atagatacaa
+     1381 tattacatga gtgggattat gaccaatttt atgaattgga attctttgta gattaccgta
+     1441 cag
+//

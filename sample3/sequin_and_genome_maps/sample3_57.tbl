@@ -1,0 +1,37 @@
+>Feature sample3_57 Table1
+2	313	CDS
+			protein_id	lcl|sample3_57_1
+			product	RstB protein
+			inference	protein motif PFAM:PF07459.10
+313	585	CDS
+			protein_id	lcl|sample3_57_2
+			product	hypothetical protein
+			note	no search hits
+585	824	CDS
+			protein_id	lcl|sample3_57_3
+			product	Filamenous Major Coat protein
+			inference	protein motif PDB:2IFO_A
+821	1030	CDS
+			protein_id	lcl|sample3_57_4
+			product	Filamentous Major Coat protein
+			inference	protein motif PDB:2IFO_A
+1175	2572	CDS
+			protein_id	lcl|sample3_57_5
+			product	attachment protein
+			inference	protein motif PFAM:PF05616.12
+2572	2889	CDS
+			protein_id	lcl|sample3_57_6
+			product	Minor Head Virion Protein
+			inference	protein motif PFAM:PF10734.8
+2900	4045	CDS
+			protein_id	lcl|sample3_57_7
+			product	Zonular occludens toxin (Zot)
+			inference	protein motif PFAM:PF05707.11
+4131	4313	CDS
+			protein_id	lcl|sample3_57_8
+			product	hypothetical protein
+			note	no search hits
+4313	5461	CDS
+			protein_id	lcl|sample3_57_9
+			product	Replication initiation factor
+			inference	protein motif PFAM:PF02486.18

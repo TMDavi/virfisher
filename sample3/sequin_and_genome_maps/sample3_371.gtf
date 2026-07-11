@@ -1,0 +1,2 @@
+sample3_371	Cenote-Taker	CDS	858	1	.	-	0              	gene_id "lcl|sample3_371_1"; gene_name "DNA primase"; gene_inference "protein motif PDB:2AU3_A"
+sample3_371	Cenote-Taker	CDS	1185	871	.	-	0              	gene_id "lcl|sample3_371_2"; gene_name "Replicative helicase DnaG Primase"; gene_inference "protein motif PDB:2R6A_B"

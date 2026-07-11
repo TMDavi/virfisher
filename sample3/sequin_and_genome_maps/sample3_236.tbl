@@ -1,0 +1,17 @@
+>Feature sample3_236 Table1
+3	317	CDS
+			protein_id	lcl|sample3_236_1
+			product	Minor capsid protein
+			inference	protein motif PFAM:PF10665.8
+314	709	CDS
+			protein_id	lcl|sample3_236_2
+			product	tail component
+			inference	protein motif PFAM:PF04883.11
+709	1128	CDS
+			protein_id	lcl|sample3_236_3
+			product	tail completion protein
+			inference	protein motif PFAM:PF13554.5
+1128	1598	CDS
+			protein_id	lcl|sample3_236_4
+			product	Tail tube protein
+			inference	protein motif PDB:5NGJ_A

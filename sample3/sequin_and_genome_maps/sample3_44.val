@@ -1,0 +1,73 @@
+WARNING: valid [SEQ_DESCR.BadCollectionDate] Collection_date format is not in DD-Mmm-YYYY format DESCRIPTOR: BioSrc: Kostyavirus sp. ctJ02G2 BIOSEQ-SET: lcl|sample3_44
+ERROR: valid [SEQ_DESCR.BioSourceInconsistency] Metagenome source should also have metagenomic qualifier DESCRIPTOR: BioSrc: Kostyavirus sp. ctJ02G2 BIOSEQ-SET: lcl|sample3_44
+ERROR: valid [SEQ_FEAT.StartCodon] Illegal start codon used. Wrong genetic code [11] or protein should be partial FEATURE: CDS: hypothetical protein [lcl|sample3_44:1-129] [lcl|sample3_44: raw, dna len= 6866] -> [lcl|sample3_44_1]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif PFAM:PF04404.11) FEATURE: CDS: Erf like ssDNA annealing protein [lcl|sample3_44:122-844] [lcl|sample3_44: raw, dna len= 6866] -> [lcl|sample3_44_2]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif PFAM:PF02481.14) FEATURE: CDS: GTP binding domain [lcl|sample3_44:2763-3176] [lcl|sample3_44: raw, dna len= 6866] -> [lcl|sample3_44_9]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif CDD:cd00085) FEATURE: CDS: HNH nucleases; HNH endonuclease signature which is found in viral, prokaryotic, and eukaryotic proteins [lcl|sample3_44:3173-3490] [lcl|sample3_44: raw, dna len= 6866] -> [lcl|sample3_44_10]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif PFAM:PF09681.9) FEATURE: CDS: phage replisome organiser [lcl|sample3_44:3713-4363] [lcl|sample3_44: raw, dna len= 6866] -> [lcl|sample3_44_12]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif PDB:3BH0_A) FEATURE: CDS: Helicase ATPase [lcl|sample3_44:4742-5950] [lcl|sample3_44: raw, dna len= 6866] -> [lcl|sample3_44_14]
+WARNING: valid [SEQ_FEAT.InvalidInferenceValue] Inference qualifier problem - bad inference prefix (protein motif PFAM:PF02467.15) FEATURE: CDS: transcriptional regulator WhiB like [lcl|sample3_44:6153-6392] [lcl|sample3_44: raw, dna len= 6866] -> [lcl|sample3_44_16]
+ERROR: valid [SEQ_FEAT.NoStop] Missing stop codon FEATURE: CDS: hypothetical protein [lcl|sample3_44:6581-6865] [lcl|sample3_44: raw, dna len= 6866] -> [lcl|sample3_44_18]
+WARNING: valid [SEQ_DESCR.FastaBracketTitle] Title may have unparsed [...=...] construct BIOSEQ: lcl|sample3_44: raw, dna len= 6866
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44
+WARNING: valid [SEQ_DESCR.BadStrucCommInvalidFieldValue] unknown_assembler is not a valid value for Assembly Method DESCRIPTOR: UserObj: StructuredComment BIOSEQ: lcl|sample3_44
+ERROR: valid [SEQ_DESCR.BadStrucCommInvalidFieldName] Annotation Pipeline is not a valid field name DESCRIPTOR: UserObj: StructuredComment BIOSEQ: lcl|sample3_44
+ERROR: valid [SEQ_DESCR.BadStrucCommInvalidFieldName] URL is not a valid field name DESCRIPTOR: UserObj: StructuredComment BIOSEQ: lcl|sample3_44
+NOTE: valid [SEQ_DESCR.BadStrucCommInvalidFieldValue] Structured Comment invalid DESCRIPTOR: UserObj: StructuredComment BIOSEQ: lcl|sample3_44
+ERROR: valid [SEQ_INST.BadProteinStart] gap symbol at start of protein sequence (gene? - hypothetical protein) BIOSEQ: lcl|sample3_44_1: raw, aa len= 42
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_1
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_1
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_1
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_2
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_2
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_2
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_3
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_3
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_3
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_4
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_4
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_4
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_5
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_5
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_5
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_6
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_6
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_6
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_7
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_7
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_7
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_8
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_8
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_8
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_9
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_9
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_9
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_10
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_10
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_10
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_11
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_11
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_11
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_12
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_12
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_12
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_13
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_13
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_13
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_14
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_14
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_14
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_15
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_15
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_15
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_16
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_16
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_16
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_17
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_17
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_17
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioProject format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_18
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad BioSample format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_18
+ERROR: valid [SEQ_DESCR.DBLinkProblem] Bad Sequence Read Archive format - unknown DESCRIPTOR: UserObj: DBLink BIOSEQ: lcl|sample3_44_18

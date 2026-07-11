@@ -1,0 +1,4 @@
+sample3_221	Cenote-Taker	CDS	3	515	.	+	0              	gene_id "lcl|sample3_221_1"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_221	Cenote-Taker	CDS	517	1320	.	+	0              	gene_id "lcl|sample3_221_2"; gene_name "Tail tube protein"; gene_inference "protein motif PDB:5MU4_D"
+sample3_221	Cenote-Taker	CDS	1330	1518	.	+	0              	gene_id "lcl|sample3_221_3"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_221	Cenote-Taker	CDS	1502	1666	.	+	0              	gene_id "lcl|sample3_221_4"; gene_name "hypothetical protein"; gene_inference "no search hits"

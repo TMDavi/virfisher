@@ -1,0 +1,6 @@
+sample3_92	Cenote-Taker	CDS	1538	3	.	-	0              	gene_id "lcl|sample3_92_1"; gene_name "Tail length tape measure protein"; gene_inference "protein motif PFAM:PF06120.10"
+sample3_92	Cenote-Taker	CDS	1873	1658	.	-	0              	gene_id "lcl|sample3_92_2"; gene_name "tail protein"; gene_inference "protein motif PFAM:PF06223.11"
+sample3_92	Cenote-Taker	CDS	2271	1897	.	-	0              	gene_id "lcl|sample3_92_3"; gene_name "Phage tail assembly chaperone"; gene_inference "protein motif pfam06222"
+sample3_92	Cenote-Taker	CDS	2993	2277	.	-	0              	gene_id "lcl|sample3_92_4"; gene_name "Tail tube protein"; gene_inference "protein motif PFAM:PF16463.4"
+sample3_92	Cenote-Taker	CDS	3345	3052	.	-	0              	gene_id "lcl|sample3_92_5"; gene_name "tail component"; gene_inference "protein motif PFAM:PF05657.10"
+sample3_92	Cenote-Taker	CDS	3532	3392	.	-	0              	gene_id "lcl|sample3_92_6"; gene_name "tail component"; gene_inference "protein motif PFAM:PF04883.11"

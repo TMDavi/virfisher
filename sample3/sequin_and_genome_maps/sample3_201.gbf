@@ -1,0 +1,108 @@
+LOCUS       sample3_201             1811 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae
+            sedis;f_Sarkviridae;-_Guernseyvirinae;g_Jerseyvirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Jerseyvirus sp. ct92AFI (unknown)
+  ORGANISM  Jerseyvirus sp. ct92AFI
+            Unclassified.
+REFERENCE   1  (bases 1 to 1811)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1811)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1811
+                     /organism="Jerseyvirus sp. ct92AFI"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             1..699
+                     /inference="protein motif PDB:5NGJ_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Tail tube protein"
+                     /translation="-
+                     IQHTLTAESDVQADLRIADKLETGNLCKTYSILTWLKGKCGNPDSYIVTRGVEFTGFT
+                     IEQAVNAMVTGSFPFIGLNQEILQAPPSGSDFTTNFSARPFASVDVSAYDGAAPLKLI
+                     DTFTITNDNGASAQFELGNTSVAFVGRGRAANTFSLAGKLYDLTLLNKFLDETEMEVS
+                     SVLDGPDGAMSFTLKRASLTSATPEIGGPESITLSLGGQATGDQFQSSIVIQRIKYA"
+     CDS             complement(728..958)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MTNKYNRTMTNTEGDSITCDVYDVLRAFDIRDPALQHALKKLLC
+                     TGLRGHKDADTDLREAMESLDKYRLYLSNLEE"
+     CDS             complement(955..1188)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MTRILWIFVLMPMLIVAALVTIAFAIGLILLFIIMDASVFVNVY
+                     KGITGLTAVECRILYVGCVAVSAAVLLGEDLDL"
+     CDS             complement(1185..1811)
+                     /inference="protein motif CDD:cd07386"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA polymerase II, small subunit"
+                     /translation="-
+                     GVGVINLLGDFAHFDSLDAVTPASGHVLDADTRYQKLVRYMIRMVRRVVNMALVKHQS
+                     VRLLIVQGNHDESGMIWLAEMFNTLYDNEPRVFVDTSPDVYKMVQHGKTTLFFHHGHK
+                     ARFDAIEPVMIAKFRKAFGESVYSYAHVGHLHHQKIVESRNMIVEQHRTLAAKDAYAS
+                     RGGWMSGRSANVITYSAEYGEVARLTISPEMLG"
+ORIGIN      
+        1 ggtatccagc atacccttac cgccgaatcc gacgtccagg ccgatttgcg tatcgcagat
+       61 aaactggaaa ccggtaactt gtgtaagaca tattcgattc ttacgtggtt gaaaggtaag
+      121 tgcggaaacc cggattcata catcgtaacc cgtggcgtcg agtttaccgg gttcactatc
+      181 gaacaggctg ttaacgcgat ggtgacaggt tcattcccgt tcatcggctt gaatcaggaa
+      241 attttacaag caccgccgag tggttcggac ttcacgacca attttagcgc ccgcccgttt
+      301 gcatcggttg atgtatctgc ttacgacggt gccgcgccgc ttaaacttat cgacacgttt
+      361 actattacta acgacaacgg cgcatccgca cagtttgagt tagggaatac tagcgtggca
+      421 tttgttgggc gcggtcgtgc tgctaacact ttctcgctgg cgggtaaact gtacgacctt
+      481 acgttattga ataaattcct ggatgaaaca gaaatggagg tatcttcggt tcttgatggt
+      541 cctgatggcg caatgagttt cacgcttaaa cgcgcttcac tgacgtcagc aactcctgaa
+      601 atcggcggcc ctgagtctat caccctttct cttggggggc aggcaaccgg cgaccagttc
+      661 cagtcatcaa ttgttatcca gcgcattaag tacgcctaat aaaaaggccc ctttcggggc
+      721 cttagtttca ttcttcgagg ttgctcaggt atagccggta tttatccaga ctctccatcg
+      781 cctcacgtag gtcagtatcg gcgtctttat ggccccgcaa accagtacac aacagcttct
+      841 tcaaagcgtg ctgtagcgca gggtcacgta tgtcgaaggc cctcagaacg tcgtagacgt
+      901 cacaggtgat gctatcaccc tcggtgtttg tcattgtacg gttgtatttg tttgtcataa
+      961 atcaaggtcc tctcctaaaa gcacagccgc agaaactgcc acacaaccta catatagaat
+     1021 acgacattct acagcagtaa gtccggtaat acctttgtat acattaacga acaccgatgc
+     1081 gtccataatg ataaatagca gtatcaaacc gatggcaaac gcaatagtta ccagcgccgc
+     1141 aacgattaac atcggcatta atacgaaaat ccacaggatt cttgtcaccc cagcatctcc
+     1201 ggtgaaatgg ttaaacgtgc gacctcacca tattcggcgc tataagtaat tacatttgca
+     1261 ctccgacctg acatccaacc ccctcgcgat gcgtaggcgt ctttcgccgc taaggtgcgg
+     1321 tgttgttcga caatcatatt acggctttct acaatcttct ggtggtggag gtggcctacg
+     1381 tgtgcatagc tataaacact ctcaccgaac gctttgcgga atttggcaat cataaccggt
+     1441 tcgatagcgt caaatctggc tttatggcca tgatgaaaga acagtgttgt tttgccgtgt
+     1501 tgcaccatct tgtacacatc cggggacgta tccacaaata cgcgaggctc gttgtcgtac
+     1561 agcgtgttga acatctcggc caaccaaatc atgcctgatt cgtcgtggtt cccttgtaca
+     1621 atgagcaggc ggactgattg atgtttaacc aacgccatat taaccacgcg ccgaaccata
+     1681 cgaatcatat agcgcaccaa cttctggtaa cgtgtatccg catctaacac atggccactt
+     1741 gcgggcgtaa cggcgtcaag gctgtcgaag tgtgcgaagt cccctaagag attaataaca
+     1801 cccacaccgg c
+//

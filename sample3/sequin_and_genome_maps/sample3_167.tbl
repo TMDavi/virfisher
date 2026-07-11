@@ -1,0 +1,5 @@
+>Feature sample3_167 Table1
+1	2082	CDS
+			protein_id	lcl|sample3_167_1
+			product	tail protein
+			inference	protein motif PFAM:PF13550.5

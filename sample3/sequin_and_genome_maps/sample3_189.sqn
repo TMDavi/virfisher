@@ -1,0 +1,456 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Kolesnikvirus sp. ctCPZ79" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_189" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;f_Andersonviridae;-_Ounavirinae;g_Kolesnikvirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1933 ,
+              seq-data
+                ncbi2na 'D8607AF8913A08459C11EBADE1C1A6048F36F7AF85B9BDF5B0BE1
+EB4E702C6E09B13A641292DDF4C6B78F1EBDDE087ADBD23AEF9C4987062F56C5BA6FBFD6D2C41A
+C2F478426C11EF4427AFACD069BE08F7BEBBEB4E6F5704798EFAB8260617B148FD31A579C108EA
+F1B831DFAD287EC6EF60C670216E182B1E3F629D3DF138E50DEC76D44BE7AD8EF667842909C21D
+F4A2AF03B31AB0542470577E120D20F7F91211630E385D38F8E3DEE7A0F7DCECD818C20606C89A
+73D091F67137C392FE700E9E1880BEBAEDCE2601D2167D941FC0DA77E187CBC20E93EFA845F392
+BACD240EE13E0F8803B0D58F7B8108BBE0C6B8E7F49CEB8416FB8632BDFC1A8B5C160EBCF9FDB2
+10A0D303AC01BB4DAE2AC80CD7CE025B4204F902D07B02BE9FFF9E0429091C74AFDDF35E6F0EC5
+F4E0BD3ACF526DC1AC0BF36C89BF8079CE48F84A03C78C9909D20837006CE77412A48705785DB1
+FDD0F6A021DCD0B77C00ADFEB0D42DD797581117D073C0D82AEB2031977AD8C4DE17EF8C37A6CC
+21F705BA28F8A038871C2084477D03EE20217482BC710600686FABF7AE2937B04BD7358A43F125
+F10C125F1D202F71402BBEF90786E20D77312E9107481378E2BE7E868A786F77EF8384F8B1839F
+4BB8E8FAD1249F9181F74738337FD35822308F050B5B0E62E0C3B7F80'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_189_1" } ,
+            descr {
+              title "Major Capsid protein [Kolesnikvirus sp. ctCPZ79]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 188 ,
+              seq-data
+                ncbieaa "-ELVEHMEDTANTGGLTNGEQIIVLVDRAFFRKLTGHAKVREAYMAQQAVSSY
+GLITGSLKTGRSDGVATATNEFPYRGVVFRQYNGKFTDKRNTVHKLVGINGVEDSVGVGHAFPNTAMLGEANDLYQIS
+YGPANKMGYVNTLGQDLYVFEYAKDRDEGTDFEAHSYMMPICTRPQLLVDVRADKAS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Major Capsid protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 187 ,
+                          id
+                            local
+                              str "sample3_189_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_189_2" } ,
+            descr {
+              title "hypothetical protein [Kolesnikvirus sp. ctCPZ79]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 155 ,
+              seq-data
+                ncbieaa "MYTGNPSTNPLDRIRILCTDTDNDDLMIDDSVLEFFYVSNDKNERRAAIQALR
+YILMQFAKMADEKVGGVYERNSDRFANFKSALDDLVKNGIVGTPYAGGISKCDIELRKCNPDSVNKSVEYGDAFSYGD
+NRCDDRFFNGSPNRMVIAFVDKES" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 154 ,
+                          id
+                            local
+                              str "sample3_189_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_189_3" } ,
+            descr {
+              title "Virion morphogenesis family [Kolesnikvirus sp. ctCPZ79]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 161 ,
+              seq-data
+                ncbieaa "MVKRVIGEGRNILMKAVKNIAKSTVKVGFFAEQGKHYSGFSYPALMYLHEVHG
+IPASNGKVYRRAFETAMQIDRKLLIAQAQKNLKRMLSTGQTNPDLVLSQFGKDSIKSLKKVFGNPSLLPPNTPSTIKS
+KGGRNTPLVDTSDLVDNLAYKTSNRGGLRK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Virion morphogenesis family" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 160 ,
+                          id
+                            local
+                              str "sample3_189_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_189_4" } ,
+            descr {
+              title "Minor capsid protein [Kolesnikvirus sp. ctCPZ79]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 128 ,
+              seq-data
+                ncbieaa "MRLLRRHTLQIVRKTSEGYYNENGRWVSGEASVTVPIRGNLQPYNNSLTQKVL
+PKGVVATDVRILYTVAQLRTSDEVAWTEADVLLLNDIEYECFSVMDWSQQLARTSHYEYLFIRRDKINQVRNASE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Minor capsid protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 127 ,
+                          id
+                            local
+                              str "sample3_189_4" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_189_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 568 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_189" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF03864.14" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_189_2" ,
+                  location
+                    int {
+                      from 588 ,
+                      to 1055 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_189" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_189_3" ,
+                  location
+                    int {
+                      from 1056 ,
+                      to 1541 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_189" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05069.12" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_189_4" ,
+                  location
+                    int {
+                      from 1538 ,
+                      to 1924 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_189" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF10665.8" } } } } } } } } }

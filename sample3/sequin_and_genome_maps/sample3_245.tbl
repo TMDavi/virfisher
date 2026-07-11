@@ -1,0 +1,13 @@
+>Feature sample3_245 Table1
+1	243	CDS
+			protein_id	lcl|sample3_245_1
+			product	head completion protein; Provisional
+			inference	protein motif CDD:PHA02552
+231	1067	CDS
+			protein_id	lcl|sample3_245_2
+			product	DNA end protector protein 
+			inference	protein motif UniProtKB:D7RMF1_9CAUD
+1153	1542	CDS
+			protein_id	lcl|sample3_245_3
+			product	Baseplate wedge protein
+			inference	protein motif PDB:5IV5_W

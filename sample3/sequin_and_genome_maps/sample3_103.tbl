@@ -1,0 +1,17 @@
+>Feature sample3_103 Table1
+2	688	CDS
+			protein_id	lcl|sample3_103_1
+			product	tail tape measure protein 
+			inference	protein motif UniProtKB:R2PRN9_9ENTE
+705	1652	CDS
+			protein_id	lcl|sample3_103_2
+			product	tail protein
+			inference	protein motif PFAM:PF05709.10
+1659	2816	CDS
+			protein_id	lcl|sample3_103_3
+			product	minor tail protein
+			inference	protein motif PFAM:PF14594.5
+2833	3243	CDS
+			protein_id	lcl|sample3_103_4
+			product	lectin
+			inference	protein motif PFAM:PF09458.9

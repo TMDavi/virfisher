@@ -1,0 +1,2 @@
+sample3_180	Cenote-Taker	CDS	60	1625	.	+	0              	gene_id "lcl|sample3_180_1"; gene_name "Portal protein"; gene_inference "protein motif PDB:5NGD_C"
+sample3_180	Cenote-Taker	CDS	1719	2009	.	+	0              	gene_id "lcl|sample3_180_2"; gene_name "Putative phage serine protease XkdF"; gene_inference "protein motif PFAM:PF14550.5"

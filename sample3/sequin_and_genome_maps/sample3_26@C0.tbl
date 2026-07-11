@@ -1,0 +1,65 @@
+>Feature sample3_26@C0 Table1
+3	329	CDS
+			protein_id	lcl|sample3_26_1
+			product	Predicted DNA-binding protein, XRE-type HTH domain [General function prediction only]
+			inference	protein motif CDD:COG5606
+331	690	CDS
+			protein_id	lcl|sample3_26_2
+			product	hypothetical protein
+			note	no search hits
+704	1219	CDS
+			protein_id	lcl|sample3_26_3
+			product	hypothetical protein
+			note	no search hits
+1220	1480	CDS
+			protein_id	lcl|sample3_26_4
+			product	hypothetical protein
+			note	no search hits
+1477	2022	CDS
+			protein_id	lcl|sample3_26_5
+			product	Dihydrofolate reductase (DHFR)
+			inference	protein motif CDD:cd00209
+2024	2923	CDS
+			protein_id	lcl|sample3_26_6
+			product	Thymidylate synthase
+			inference	protein motif CDD:pfam00303
+3331	2960	CDS
+			protein_id	lcl|sample3_26_7
+			product	hypothetical protein
+			note	no search hits
+3525	3328	CDS
+			protein_id	lcl|sample3_26_8
+			product	hypothetical protein
+			note	no search hits
+6127	3605	CDS
+			protein_id	lcl|sample3_26_9
+			product	Tail fiber
+			inference	protein motif PDB:4A0U_B
+7342	6176	CDS
+			protein_id	lcl|sample3_26_10
+			product	Virion structural protein 
+			inference	protein motif UniProtKB:F8SK26_9CAUD
+7647	7345	CDS
+			protein_id	lcl|sample3_26_11
+			product	hypothetical protein
+			note	no search hits
+8504	7647	CDS
+			protein_id	lcl|sample3_26_12
+			product	baseplate protein
+			inference	protein motif PFAM:PF11041.7
+9976	8507	CDS
+			protein_id	lcl|sample3_26_13
+			product	Baseplate wedge protein
+			inference	protein motif PDB:5IV5_GD
+10395	9976	CDS
+			protein_id	lcl|sample3_26_14
+			product	baseplate wedge subunit
+			inference	protein motif PFAM:PF10934.7
+11018	10395	CDS
+			protein_id	lcl|sample3_26_15
+			product	phage baseplate
+			inference	protein motif PDB:4RU3_A
+11155	11018	CDS
+			protein_id	lcl|sample3_26_16
+			product	hypothetical protein
+			note	no search hits

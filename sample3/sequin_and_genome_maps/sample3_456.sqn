@@ -1,0 +1,292 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Tsarbombavirus sp. ctJPQDH" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_456" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae
+ sedis;f_Herelleviridae;-_Bastillevirinae;g_Tsarbombavirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1012 ,
+              seq-data
+                ncbi2na 'B2FB8CF64B6FBECA0D9F79EEF3407C88DBC67D791FBEC3375E6C8
+10BC96492C58CC47727F6C1BF9E60E4A8DB07FC2DF85E7B079C38E7EEC81632FD5794B51146CCF
+F130C6F924BC3EECF64FE59C89C8B2892CBEAFE71BDE0F0DD416F175B79BD5D7820BEE99DAB7E8
+EC51E839ECA2F12C5E457EC4CD25EC1B8EF16F1CF7C3E2DD65EB9511BF0B2CE2D055BDB16F6453
+79C43C23FBE74D0EFBF12F5BDAEC8159C8C4A6C468F9FC36EF17829B31BFC9EFB74FE4923B31F3
+7950BC45B79E72F498F1C3F175B20E0A225E35EFE2134EF0C88C7D4AEF26F5D7B1DFF83671ECF6
+91C14B092DAA49D65FC17E7CBBFB17FB0BB829FB5FF0E1F1780DB81B0E7E4B3'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_456_1" } ,
+            descr {
+              title "Minor structural protein [Tsarbombavirus sp. ctJPQDH]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 336 ,
+              seq-data
+                ncbieaa "-ASITFTISGKSLKGQAFTLTKVQTLSKVKGGAAPTAYWLVPNTVAIQKSTGG
+TLTPGSISINMMSQTGSGSPSFYGGKLVIAELAADGVTWADKYTSAANETTAKTYTPSGNTIKAIRVRLYLAGSTPNG
+TVNNIDEQQILIVADGANGTNGVDSYYLNVWAPGGDSIKNSNGNITLQADMYKGAGTVTPTAFQWYIQDPSATTSSGG
+NADGGNGWRLIQNVANPTTAPTLALAANANTQLTAATYYVKYTWCGLAGETIGSTQASLAVTAGQDLKVTIPAFAANV
+TKARVYIGTAAANLFYAGDITTSAGSVTISKFDNTAEAIPTTTTANITT" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Minor structural protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 335 ,
+                          id
+                            local
+                              str "sample3_456_1" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_456_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 1009 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_456" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif UniProtKB:L0L861_9CAUD" } } } } } } } } }

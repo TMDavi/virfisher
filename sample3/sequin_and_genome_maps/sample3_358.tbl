@@ -1,0 +1,9 @@
+>Feature sample3_358 Table1
+3	593	CDS
+			protein_id	lcl|sample3_358_1
+			product	replicative DNA helicase
+			inference	protein motif PDB:1NLF_A
+590	1165	CDS
+			protein_id	lcl|sample3_358_2
+			product	hypothetical protein
+			note	no search hits

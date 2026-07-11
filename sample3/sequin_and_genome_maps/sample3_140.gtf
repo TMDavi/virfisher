@@ -1,0 +1,2 @@
+sample3_140	Cenote-Taker	CDS	1	2178	.	+	0              	gene_id "lcl|sample3_140_1"; gene_name "Tailspike protein"; gene_inference "protein motif PDB:4OJL_C"
+sample3_140	Cenote-Taker	CDS	2241	2486	.	+	0              	gene_id "lcl|sample3_140_2"; gene_name "Tailspike protein"; gene_inference "protein motif PDB:4OJL_C"

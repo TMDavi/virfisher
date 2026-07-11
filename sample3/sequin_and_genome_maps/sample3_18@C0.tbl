@@ -1,0 +1,97 @@
+>Feature sample3_18@C0 Table1
+2	469	CDS
+			protein_id	lcl|sample3_18_1
+			product	lectin
+			inference	protein motif PFAM:PF09458.9
+777	1583	CDS
+			protein_id	lcl|sample3_18_2
+			product	LPXTG-anchored collagen-like adhesin Scl2/SclB
+			inference	protein motif CDD:NF038329
+2180	2494	CDS
+			protein_id	lcl|sample3_18_3
+			product	endolysin
+			inference	protein motif PFAM:PF01510.24
+3482	2997	CDS
+			protein_id	lcl|sample3_18_4
+			product	hypothetical protein
+			note	no search hits
+3874	3488	CDS
+			protein_id	lcl|sample3_18_5
+			product	sigma factor
+			inference	protein motif PFAM:PF07638.10
+4162	3878	CDS
+			protein_id	lcl|sample3_18_6
+			product	hypothetical protein
+			note	no search hits
+4496	4176	CDS
+			protein_id	lcl|sample3_18_7
+			product	hypothetical protein
+			note	no search hits
+5553	4507	CDS
+			protein_id	lcl|sample3_18_8
+			product	DNA polymerase II, small subunit
+			inference	protein motif CDD:cd07386
+5747	5550	CDS
+			protein_id	lcl|sample3_18_9
+			product	hypothetical protein
+			note	no search hits
+6291	5731	CDS
+			protein_id	lcl|sample3_18_10
+			product	hypothetical protein
+			note	no search hits
+6851	6288	CDS
+			protein_id	lcl|sample3_18_11
+			product	hypothetical protein
+			note	no search hits
+7566	6895	CDS
+			protein_id	lcl|sample3_18_12
+			product	DNA polymerase
+			inference	protein motif PDB:5IKN_F
+8123	7764	CDS
+			protein_id	lcl|sample3_18_13
+			product	Resolvase
+			inference	protein motif PDB:1OB8_A
+8983	8120	CDS
+			protein_id	lcl|sample3_18_14
+			product	DNAB replicative helicase
+			inference	protein motif PDB:3BH0_A
+9485	9027	CDS
+			protein_id	lcl|sample3_18_15
+			product	Minor capsid protein
+			inference	protein motif PFAM:PF10665.8
+9938	9528	CDS
+			protein_id	lcl|sample3_18_16
+			product	hypothetical protein
+			note	no search hits
+10876	9935	CDS
+			protein_id	lcl|sample3_18_17
+			product	PD (D E)XK nuclease superfamily
+			inference	protein motif PFAM:PF12705.6
+11228	10878	CDS
+			protein_id	lcl|sample3_18_18
+			product	Siphovirus protein of unknown function (DUF5664)
+			inference	protein motif CDD:pfam18909
+11533	11333	CDS
+			protein_id	lcl|sample3_18_19
+			product	hypothetical protein
+			note	no search hits
+11757	11530	CDS
+			protein_id	lcl|sample3_18_20
+			product	hypothetical protein
+			note	no search hits
+12358	11774	CDS
+			protein_id	lcl|sample3_18_21
+			product	hypothetical protein
+			note	no search hits
+12739	12428	CDS
+			protein_id	lcl|sample3_18_22
+			product	hypothetical protein
+			note	no search hits
+13087	12779	CDS
+			protein_id	lcl|sample3_18_23
+			product	hypothetical protein
+			note	no search hits
+15394	15612	CDS
+			protein_id	lcl|sample3_18_24
+			product	5-methylcytosine-specific restriction endonuclease McrA [Defense mechanisms]
+			inference	protein motif CDD:COG1403

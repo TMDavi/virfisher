@@ -1,0 +1,25 @@
+>Feature sample3_94 Table1
+255	1	CDS
+			protein_id	lcl|sample3_94_1
+			product	Replication protein O
+			inference	protein motif PFAM:PF04492.12
+403	242	CDS
+			protein_id	lcl|sample3_94_2
+			product	hypothetical protein
+			note	no search hits
+732	436	CDS
+			protein_id	lcl|sample3_94_3
+			product	Bacteriophage CII protein
+			inference	protein motif CDD:pfam05269
+1089	874	CDS
+			protein_id	lcl|sample3_94_4
+			product	DNA-binding transcriptional regulator, XRE-family HTH domain  [Transcription]
+			inference	protein motif CDD:COG1476
+1164	1859	CDS
+			protein_id	lcl|sample3_94_5
+			product	Repressor protein CI
+			inference	protein motif PDB:2FJR_A
+2361	2882	CDS
+			protein_id	lcl|sample3_94_6
+			product	hypothetical protein
+			note	no search hits

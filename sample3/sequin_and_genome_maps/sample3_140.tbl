@@ -1,0 +1,9 @@
+>Feature sample3_140 Table1
+1	2178	CDS
+			protein_id	lcl|sample3_140_1
+			product	Tailspike protein
+			inference	protein motif PDB:4OJL_C
+2241	2486	CDS
+			protein_id	lcl|sample3_140_2
+			product	Tailspike protein
+			inference	protein motif PDB:4OJL_C

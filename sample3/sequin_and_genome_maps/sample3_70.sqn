@@ -1,0 +1,638 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Gokushovirales sp. ctKQGWU" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_70" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Floreoviria;k_Sangervirae;p_Phixviricota;c_Microviricetes;o_Gokus
+hovirales] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 4423 ,
+              seq-data
+                ncbi2na 'E8D54DBFE738F5919E13D66E70BF8DB4BF1D30861FF8E7AF37EF5
+EFCEE8E2BDF56B8C4FC3F833879FF9DB7A71D7FFD7BCE8C33AFFA32DFFDFFFBD705BF8FEA307A4
+02FCEB8926C15EB8F61F73BEF5D042FDD592BAF39EFAF7F908733ABF141EFAD2BEB9E90C73F54F
+99FFF1DB9730DF3FA0E0EBF223483F100F7B05BE31EB86B5E39B69F41C3C46FBE65BAC26938F3F
+C7DE47D4E97482AF7DEC1FE53CAC52E75CF0B48C41D0BD2FC0CEB9051FF0F7B376C78EF0EFF2BF
+C3AE79EFAE79EB4273F6FE89C31EBFB3923F8B4A71E79073C34BE6D2D3F48F4007FC89B8E76EBA
+C46F31A23CF6E74FDAEF3F75E19DBF126D78337EBA69DC752F34F0D73E5404DAB12BBC7A6B2C75
+DD9C37E7AEFAC7B5D977AD3A7F1D2DBD1E04E9B0F3EBFAF2CF6E78FE1F3412AFE4DB3BADDBD446
+F38FFCFD5E7FE73BEAE0497BF30DB8BECCF86BDE7063AC3BFFAF34226FA9E0CDBC425F740FD0BF
+BF0B71499291CF8E7E91FA7482FC4DFE5C7F832C6FCF4A00D75EFDDBBEF9AFAE79A70E8492FCFF
+E3DFDFD30EFBE76D7395FB3DEF5E938D8D3F70CEA2F7F79CFAC79E4AE7CFFAE95E7AE79CFAEBDC
+FAEBAFF8E7ACCAD08671C39E70E7D909104836E3FD081B3B7DC797340A9C79E33809E7AFC0D539
+E9F3DD0AEB977DD4A699909C7FE70D7AFC9F79509E748BCE786FAD09E7DDBB23BC33E6DE79E09C
+A9DB1C7FA70C3127D02BEF4A23C50DD4879C38D29C29C73DF7DFAD24334839EC020AB307C1E2BE
+80FC1489C73E10AF3C242E5689CEEA32EF0A78BF83780FDDAF22F997C042B8EF0A73A39FEAC39E
+B287F8082F497FBE8CFFDBDEFF0F08AE3F39B01B88FFEF6F79FF0F38E48EFBF70E01A7F87EE28E
+3DFE9CD4B79E28A0DC33C31CDBCA6BFA5F12B8BC5C18EF08E5D2DEB8FF1C3F978FF4C494E0CFBD
+908742283FF18BD79E2F9B9449FF3B6FEF8238830DB8E29DB6FCAFEF829EF8DFBE25CEF2F0AFBD
+7897B100F6C83FB12A805593F2EABFFFFBBCCBFBFB9BFF91EFFFFA2CFCE83EDC3823F8EF8F6DB9
+FC88FFE08DBBF76FE4C2A751D3896F1B9DFCDB0A3F819CF823F9BBC23E68A7B38F42F3CFDEF0A1
+1E79D29FFADB5CFFEF5E73D7BE67DBAFF6E388F0DB2E3DC68E37E76D35E18FF89FCE236BDFF8E3
+984ACD3D0BCF8966DFBE76E4021F828EF435E3B1CCE5EA2FDD529E14BFDC7E3B07ADCAE117FEBB
+75FFFEF407FA2BFCE657BB76D3DEF0424DBDE7092FC2453DDB1EF9A79C3BA77435CE6E9AFA6DEC
+397EFF4D43959EE68EDA3A76B02FEC2CA0C06E9B60AC7762F14EE84BB369E587E06B7690EA739B
+EFC460D857F185307BFCF11F1738E3D43F95529AF6F23CE78FF482FCE018F1B09BBC2DD4BDAFF3
+B69AE2CEB883AC73DB553FD39FBF3DAF387FFA30AECFF0821F7DE98823F31F409FF22DFCEA533A
+5FDF26FAC3BF17D8B59E5CCF9CACFBBD20AF1AB8FC9E0913CDBBCD1E38EB80F3E36EF5E0F434CE
+D1F095ACFAE70BAF220BF6878EFFD76E3CEEBCF0EBBC21C25D5033CE1BFEF626E2CD7AECFF488C
+BE549B89F8E9CC77C3F87AE20F71B76DFD2F6E24AF4379DB7F438'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_70_1" } ,
+            descr {
+              title "Capsid protein [Gokushovirales sp. ctKQGWU]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 527 ,
+              seq-data
+                ncbieaa "-PHRFAMIPHADIPRAKFDRQFTHKTTFDAGYLVPVYVDEVLPGDTFNLNMTA
+FARLATPFFLLWIIWFWIVFFFFVPNRLIWDNWQKFMVSSVTLVIRLLCCSSTSFSRRWLCCWFFARLYGFTNCWSGW
+CWQYYFPLRFFTRAYNLIWNEWFRDQNLQNSVTVDTGDGPDASASTNYTLLRRGKRHDYFTSALPWPQKGSSVTLPLG
+TSAPIKSDTTQVQFKYGATTFNSVSRTDVNVLGFNGAAVGAAGQAISFGANTGLYADLSQATAATINQLRQSFQIQKL
+LERDARGGTRYTEIIRAHFGVISPDARLQRPEYLGGGSTPVIINPIAQTSGTGVTGGSTPLANLAGVGTVLASGHGFT
+QSFTEHGVIIGLVSIRADLTYQQGLHRMWSRSTRYDFYFPAFAMLGEQPVYNRELYIDGSANDGNVFGYQERWAEYRY
+KPSQISSLFKSTSAGTIDAWHLAQKFTSLPTLNSTFIQENPPVSRVVAVGAAANGQQFIFDSFFHNVVARPMPLYSVP
+GMIDHF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Capsid protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 526 ,
+                          id
+                            local
+                              str "sample3_70_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_70_2" } ,
+            descr {
+              title "Minor capsid protein [Gokushovirales sp. ctKQGWU]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 255 ,
+              seq-data
+                ncbieaa "MGVLSAIGTAAGAYFGGPAGAAIGGSIGGGFDAGIGQDATNAANASQAQQNRD
+FQERMSSTAYQRATADMKAAGLNPMLAYSQGGASSPGGAQATFANPGLASAQAAQSYADVGQAASRVDVNIASAAEAR
+ARTTLANNTASKVVQEITNLQTANDQAKATILLLGQQYQNAVKEGYNLTEVGNLTRATIDKVIKQVPGAMWDSVKAEF
+ESEISRLELRLKQGDVKAMDALGNAGRTLKEVQPLLDIFRSVLIKR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Minor capsid protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 254 ,
+                          id
+                            local
+                              str "sample3_70_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_70_3" } ,
+            descr {
+              title "capsid scaffold [Gokushovirales sp. ctKQGWU]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 140 ,
+              seq-data
+                ncbieaa "MRKREIFVRSAFNYDADVVSNETALTCEDDSLAIQSAEEESNINTIVRRFGLT
+GELPNDVKMPQSGDFTNLPDFHTAMNIVRKTQEEFLRVPAELRATAFMSFVEDENNRDEARRLGLLKAVDLVEPMLVK
+VVPEPVQNS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "capsid scaffold" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 139 ,
+                          id
+                            local
+                              str "sample3_70_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_70_4" } ,
+            descr {
+              title "hypothetical protein [Gokushovirales sp. ctKQGWU]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 56 ,
+              seq-data
+                ncbieaa "MELSNEDLMLIRRALEIFEDRVSRLHKGSTHEPLRALYRKDLNAIEDLRVKIA
+EAV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 55 ,
+                          id
+                            local
+                              str "sample3_70_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_70_5" } ,
+            descr {
+              title "DNA binding protein [Gokushovirales sp. ctKQGWU]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 86 ,
+              seq-data
+                ncbieaa "MIQVIISVKDTAAQAFGRPIFVPAIPVALRGFRDEINRSDSTDDLARHPDDFE
+LYEIGSFDDATGIIQVIEPRLVARAKDLKDVQS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DNA binding protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 85 ,
+                          id
+                            local
+                              str "sample3_70_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_70_6" } ,
+            descr {
+              title "hypothetical protein [Gokushovirales sp. ctKQGWU]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 41 ,
+              seq-data
+                ncbieaa "MRPVSRHSVNKHRSAKQFKHHSRTVAAANVALNPMRGGWRL" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 40 ,
+                          id
+                            local
+                              str "sample3_70_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_70_7" } ,
+            descr {
+              title "Rep protein [Gokushovirales sp. ctKQGWU]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 295 ,
+              seq-data
+                ncbieaa "MPCFHPMPAVRMSDGSVKFVSRNKRGVEGTLELPCGQCIGCRLERSRQWAMRC
+LHESTLYDHNCFITLTYDDSNLPPGGSLDYADFQKFMKRLRKRVKSPVRFYVGGEYGENGTIRPHFHACLFGYDFLDK
+VYFKKTSSGEKIYTSKLLESLWAIWPFLALVMFTFESAAYIARYCVQKVTGDLAEAHYRVITDDGEIIDRVPEFNHMS
+LKPGIGAKWLEKFRTDVFPRDYVVINGVKTKPPKYYDVLFEREYPGVFSEIVAQRELDGYTLNLTGENSTSRLSVREQ
+VQSARLSM" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Rep protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 294 ,
+                          id
+                            local
+                              str "sample3_70_7" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_70_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 1585 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_70" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF02305.16" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_70_2" ,
+                  location
+                    int {
+                      from 1587 ,
+                      to 2354 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_70" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif UniProt:tr|A0A0C5AFV1_9VIRU" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_70_3" ,
+                  location
+                    int {
+                      from 2358 ,
+                      to 2780 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_70" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF09675.9" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_70_4" ,
+                  location
+                    int {
+                      from 2873 ,
+                      to 3043 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_70" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_70_5" ,
+                  location
+                    int {
+                      from 3040 ,
+                      to 3300 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_70" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif UniProt:tr|A0A0G2UEC9_9VIRU" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_70_6" ,
+                  location
+                    int {
+                      from 3413 ,
+                      to 3538 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_70" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_70_7" ,
+                  location
+                    int {
+                      from 3538 ,
+                      to 4422 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_70" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05840.12" } } } } } } } } }

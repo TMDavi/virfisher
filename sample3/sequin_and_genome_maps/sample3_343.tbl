@@ -1,0 +1,5 @@
+>Feature sample3_343 Table1
+1260	1	CDS
+			protein_id	lcl|sample3_343_1
+			product	Head Tail Connector Protein
+			inference	protein motif PDB:3J4A_A

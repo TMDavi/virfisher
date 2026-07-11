@@ -1,0 +1,5 @@
+sample3_118	Cenote-Taker	CDS	1	198	.	+	0              	gene_id "lcl|sample3_118_1"; gene_name "ADP-ribosyltransferase; Provisional"; gene_inference "protein motif PHA02566"
+sample3_118	Cenote-Taker	CDS	256	546	.	+	0              	gene_id "lcl|sample3_118_2"; gene_name "Family of unknown function (DUF5498)"; gene_inference "protein motif pfam17602"
+sample3_118	Cenote-Taker	CDS	1534	581	.	-	0              	gene_id "lcl|sample3_118_3"; gene_name "baseplate protein"; gene_inference "protein motif CDD:PHA02605"
+sample3_118	Cenote-Taker	CDS	2628	1534	.	-	0              	gene_id "lcl|sample3_118_4"; gene_name "baseplate protein"; gene_inference "protein motif CDD:PHA02613"
+sample3_118	Cenote-Taker	CDS	2759	2631	.	-	0              	gene_id "lcl|sample3_118_5"; gene_name "hypothetical protein"; gene_inference "no search hits"

@@ -1,0 +1,13 @@
+>Feature sample3_389 Table1
+2	718	CDS
+			protein_id	lcl|sample3_389_1
+			product	tail fiber protein
+			inference	protein motif PFAM:PF03906.13
+715	897	CDS
+			protein_id	lcl|sample3_389_2
+			product	Phage holin T7 family, holin superfamily II
+			inference	protein motif CDD:pfam10746
+894	1121	CDS
+			protein_id	lcl|sample3_389_3
+			product	Small terminase subunit 
+			inference	protein motif UniProtKB:A0A0F6NYF2_9CAUD

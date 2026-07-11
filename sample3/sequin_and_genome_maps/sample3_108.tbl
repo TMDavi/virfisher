@@ -1,0 +1,25 @@
+>Feature sample3_108 Table1
+274	2	CDS
+			protein_id	lcl|sample3_108_1
+			product	hypothetical protein
+			note	no search hits
+423	698	CDS
+			protein_id	lcl|sample3_108_2
+			product	hypothetical protein
+			note	no search hits
+713	1105	CDS
+			protein_id	lcl|sample3_108_3
+			product	terminase large subunit
+			inference	protein motif PFAM:PF03354.14
+1125	2414	CDS
+			protein_id	lcl|sample3_108_4
+			product	endonuclease
+			inference	protein motif PFAM:PF10544.8
+2411	2512	CDS
+			protein_id	lcl|sample3_108_5
+			product	hypothetical protein
+			note	no search hits
+2766	3098	CDS
+			protein_id	lcl|sample3_108_6
+			product	Large Terminase
+			inference	protein motif PDB:5OE8_A

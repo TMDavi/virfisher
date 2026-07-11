@@ -1,0 +1,132 @@
+LOCUS       sample3_118             2759 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;o_Pa
+            ntevenvirales;f_Straboviridae;-_Tevenvirinae;g_Dhakavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Dhakavirus sp. ct2E5DD (unknown)
+  ORGANISM  Dhakavirus sp. ct2E5DD
+            Unclassified.
+REFERENCE   1  (bases 1 to 2759)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2759)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2759
+                     /organism="Dhakavirus sp. ct2E5DD"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             1..198
+                     /inference="protein motif CDD:PHA02566"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ADP-ribosyltransferase; Provisional"
+                     /translation="-
+                     TVTSPSELSESVYDGDHLMETGEVKLMNGFKEFLVSESVSESNEAMEILAASLDISSL
+                     PNKFKM"
+     CDS             256..546
+                     /inference="protein motif CDD:pfam17602"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Family of unknown function (DUF5498)"
+                     /translation="MKSAFRFNGQELVVENVIPASEEFDSAVGNELRRVFGEDKQFDL
+                     RPIENFSQPEQTENIFNGVVTGQLESEAPISITVFVKKQPLMTAAGFISFRK"
+     CDS             complement(581..1534)
+                     /inference="protein motif CDD:PHA02605"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="baseplate protein"
+                     /translation="MYTLQEFQNQAINIDLQRNNLFSVVFATVPSSKSQALLDQFGGA
+                     LFNNIPLNTDLFGITQGDLTQGVTTLVTAGTQKLIRKSGISKYLIGAMSSRVVQSLLG
+                     EFEVGTYLMDFFNMAYPTAGLLVHAVKIPDNTLNYEMDLNHNSPNIKITGREYSPLVL
+                     SFRMDSEAANYRAFNDWVNSVQDPITQLRALPEDVEADIQVNLHSRNGLPHTVVMLNG
+                     CVPVSVSSPELSYDGDNQIASFDVTFAYRSVQTGAVGKQAAYEWLEDKVLKGVAGISE
+                     SNSLSASVAKLSRLSGASSGLTGLVNTFGGRAINNGISRLL"
+     CDS             complement(1534..2628)
+                     /inference="protein motif CDD:PHA02613"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="baseplate protein"
+                     /translation="MIMKVKEIDIDVASLFKGGSKTSAGQSKAKPAQTTVTAQYPAER
+                     ASGNDTSTDMVLNDLYKNGLLFTAYNFSSRVSPDLRNDRSSQMTKKFSKAAGKLTSNT
+                     GGFSAVKNLFSNNSKGVKFDSQALANILLPRSKSDVDSVTHKFNDVGESLITKGGGTA
+                     TGILSNVASTAVFGALESVTNGVMADSGEQIYTTARSMYAGPDNRTKVFTWEMTPRNA
+                     QDLIQIIKIYEIFNYYSYGETGNSAFAGELKEKIDTWYRSTFKKEAIDNFDGKLLGEG
+                     ITSFLSNVIVVSNPTIWYIRNFGNTSSYDGREDIFGPCQIQSIRFDKTPDGHFNGLAI
+                     APNLPSTFSLEVTFREIITLNRGSLYTEGF"
+     CDS             complement(2631..2759)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="-QQAPTQINQQTNIKKTSKTSYNLPPQSSTPAPGMRQATKVN"
+ORIGIN      
+        1 gctacagtga catctccttc agaactcagt gagtccgttt acgatggtga ccatctgatg
+       61 gaaaccggtg aagttaaatt gatgaacggg tttaaagaat tcctagtttc agaatctgtt
+      121 tcagaaagta atgaggctat ggaaatcctt gctgcatctt tggacatctc ttctttacca
+      181 aataaattca aaatgtagtt tacaacacca caaggatgtg gtactattac cttacacaaa
+      241 catgaggaga acattatgaa atctgcattc cgctttaacg gtcaagaact ggtagttgaa
+      301 aacgttatcc ctgcttctga agagttcgac agtgcagtcg gtaatgaatt acgtcgagtt
+      361 ttcggcgaag acaagcagtt cgacttacgt ccaattgaaa atttttcaca acccgaacaa
+      421 actgaaaata tctttaatgg tgtagtaacc ggccagcttg aatctgaagc tcctatttct
+      481 attacggtct ttgttaaaaa gcagccatta atgacagcag caggtttcat ttcgttccgt
+      541 aaataaaccc ctaaaggaga gcttacgctc tccttttttg ttatagcaac ctggatattc
+      601 cattattaat agcacgccca ccaaatgtat taaccaatcc ggtcaatcca ctagaagctc
+      661 ctgaaagtcg gcttaattta gctacagaag cacttaatga gttactctca cttatacctg
+      721 ctacgccttt aaggacttta tcttccagcc attcataagc agcttgttta ccaactgcac
+      781 ctgtctgcac acttctataa gcaaatgtaa catcaaacga agcaatttgg ttatcaccat
+      841 cataggataa ttccggcgat gaaacactaa caggaacaca tccattaagc attaccaccg
+      901 tatgtggcaa tccattacga gaatgaaggt tgacttggat gtcagcttca acatcttcag
+      961 gcaatgctct taattgtgta atagggtctt ggacactatt gacccaatca ttaaaagcac
+     1021 ggtagttagc agcttcagaa tccatacgga agcttaatac caatggggaa tattctcttc
+     1081 cggtaatttt gatattaggc gagttgtggt tcaaatccat ttcatagttc aaagtattat
+     1141 ccggaatttt aacggcatgg actaaaagac ccgccgtagg ataagccata ttgaaaaaat
+     1201 ccataagata agttccgact tcaaactcac ctagtaagct ctgcacaacc ctggatgaca
+     1261 tagctccaat cagatattta cttatgcctg acttacgaat caacttctga gtgcccgctg
+     1321 tcactaatgt cgtaacacct tgggttaaat ctccttgggt aattccaaac aaatcggtat
+     1381 tcaacgggat attgttaaat aaagctccac cgaactggtc gaggagcgct tgggatttag
+     1441 aagaaggaac tgtagcaaat actacactaa acaggttatt cctttgtagg tcaatattaa
+     1501 ttgcctggtt ttgaaattct tgtaaagtat acattagaat ccttccgtat aaagtgagcc
+     1561 acggttcaaa gtaatgattt cacggaaagt aacttctaaa ctaaacgtgg atggtaagtt
+     1621 aggagcaata gccaaaccat taaaatgtcc gtcgggagtt ttatcaaatc gtatactttg
+     1681 gatttggcac ggtccgaaaa tatcttcacg tccgtcatat gaacttgtat taccaaagtt
+     1741 tcgaatatac caaatagttg ggttacttac cacaataaca ttagaaagga aacttgtgat
+     1801 accttctcct aatagcttgc cgtcaaagtt atcaatagct tcttttttaa atgtggaacg
+     1861 gtaccaagta tcaatcttct cttttaattc accggcaaag gcagagttgc ctgtttcacc
+     1921 ataagaatag taattaaaga tttcgtatat tttaataatc tgaataaggt cttgggcgtt
+     1981 tctaggggtc atttcccaag tgaatacctt agtacggtta tctggtcctg catacatact
+     2041 acgtgcggtt gtgtatattt gctcaccgga atcggccatt acaccgttag ttacagattc
+     2101 caatgcacca aatacagcag tactggcaac gttactcaaa atacccgtag cagtaccacc
+     2161 acctttagta attaatgatt cgcctacatc attaaattta tgcgtaaccg aatcaacatc
+     2221 agatttagaa cgagggagca aaatattggc taaagcctgg ctatcaaatt taactccttt
+     2281 agagttgtta ctaaacaggt ttttaacagc actgaaccct ccagtattac tggtaagttt
+     2341 acctgcagct tttgaaaact ttttggtcat ttggcttgag cggtcgttac gtaaatcagg
+     2401 tgatacgcga gagctaaaat tatatgccgt aaaaagtaat ccatttttat ataaatcgtt
+     2461 taacaccata tctgtagagg tatcattgcc ggaggccctt tcggccggat actgggcagt
+     2521 taccgtagtt tgggccggtt tagctttaga ttggcccgcg gaggtttttg aacctccttt
+     2581 aaataaggag gctacgtcaa tgtcaatttc ttttactttc attatcattc ctaattaact
+     2641 ttagtagctt gacgcatacc aggagcagga gtggaagact gtggtggtaa attataacta
+     2701 gtcttactcg ttttcttgat attcgtttgc tgatttattt gagttggagc ttgctgact
+//

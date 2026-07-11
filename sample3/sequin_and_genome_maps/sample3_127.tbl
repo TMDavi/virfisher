@@ -1,0 +1,13 @@
+>Feature sample3_127 Table1
+970	2	CDS
+			protein_id	lcl|sample3_127_1
+			product	Large Terminase
+			inference	protein motif PFAM:PF05876.11
+1529	960	CDS
+			protein_id	lcl|sample3_127_2
+			product	terminase small subunit
+			inference	protein motif PFAM:PF07278.10
+2661	1516	CDS
+			protein_id	lcl|sample3_127_3
+			product	Chromatin remodeling complex ATPase
+			inference	protein motif PDB:5JXR_A

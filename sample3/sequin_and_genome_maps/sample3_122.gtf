@@ -1,0 +1,2 @@
+sample3_122	Cenote-Taker	CDS	851	63	.	-	0              	gene_id "lcl|sample3_122_1"; gene_name "Phage tail fibre adhesin Gp38"; gene_inference "protein motif pfam05268"
+sample3_122	Cenote-Taker	CDS	2689	881	.	-	0              	gene_id "lcl|sample3_122_2"; gene_name "Long tail fiber"; gene_inference "protein motif PDB:5NXF_A"

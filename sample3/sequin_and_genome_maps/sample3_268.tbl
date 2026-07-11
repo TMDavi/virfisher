@@ -1,0 +1,17 @@
+>Feature sample3_268 Table1
+2	331	CDS
+			protein_id	lcl|sample3_268_1
+			product	nucleoside 2 deoxyribosyltransferase
+			inference	protein motif PFAM:PF09152.9
+331	648	CDS
+			protein_id	lcl|sample3_268_2
+			product	Protein of unknown function (DUF550)
+			inference	protein motif CDD:pfam04447
+638	1231	CDS
+			protein_id	lcl|sample3_268_3
+			product	Siphovirus protein of unknown function (DUF5664)
+			inference	protein motif CDD:pfam18909
+1242	1463	CDS
+			protein_id	lcl|sample3_268_4
+			product	DNA polymerase B
+			inference	protein motif CDD:cd05781

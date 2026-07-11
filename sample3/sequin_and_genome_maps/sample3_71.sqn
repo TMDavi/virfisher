@@ -1,0 +1,682 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Limdunavirus sp. ctHMDSZ" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_71" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;-_Mccleskeyvirinae;g_Limdunavirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 4379 ,
+              seq-data
+                ncbi2na '2CD1C343C500AA3FF170F0BD12380303D3B3B1726763F0A517F0C
+7DEF32F8148143E02C6D03250F221072673E081410940B80B109810F05F23F288C00C3A3041300
+80014543C3E701FB3CF7FF1CBE734CD1C5CFE9CFC43FFA8334CFF43DCB3F9CF88EBEFD3C7CF33C
+A2E2C3C2D7B80A9FFFCF9B3F4E330CF2C44030583A01B0C3A4EA73A130DB0411F443D1337DBA43
+4CCE52FCB2133F72B3CF026BECDC2D3C0F71CF267CE9F3C013EFC7CFF0D514784B1433FFE4FA8C
+E9873E89B3F8057ECF3F11091F2FC9220FA336F28714F558243E50B3F2306200081CBC04348605
+02032BECFFFCFEBB8C43AF3101F0F00A18141380FC6CC4811FA8FE38010505CD1C38310BFF1914
+D04588037F023807AE383F06543CAE2BEC2D8FA72FF8108541215D00252E03C7DFC4BF3E31594E
+3BFE03DFB395212F8E9B3CB100608C4640833820F21F948ABB3EFC343F7E709D12B402C04C22E3
+A2BA230B3C7C3F328C325FDD3917C341470988C7047E13CB8242E23CD650C4303C1272C0D00D0B
+01402A71408F8F32504000940E3E3F4C29FFCF3C1FAC4564F511E8F553EA330B1594D020505BBC
+52051890C3BF51433407830F86452F8C2004F3E3EBF801B4A4B16DF15FF7F1C380C64D9C2ACE87
+1667EC704D070FF50167E03203F1A4C20F30FCBD0CCB092033C3C0153E2CF20721A83BECD1C139
+BF8167F033EAF2F0FC5EFB37B170DEF03B070B650F8B3E2EFABE50BDF1EE714F4FD289043078ED
+B14B4FF030EA33F9FC7345CF1C2F14CE873C080506B33EBCFEF16ED94D0EFE3E2C2B714F057031
+EED5CDB2C7E9B33B7FBA0BC3D030DD5781C39FC565B07E04917F0F223A8F0D7B8C3DAF14356700
+1A75B491FAE313D302D27EB31C3DED7E70ED33CF17F7C0D0B7EC3FB30B00F406B323B97B147E71
+2012D12CFA6FC33AFE0EB1CCC488B0BCD50C7F8A7A805FCFCB26C0ECD02F37262C9434CD1F80FE
+0AA4676FE9DBEF22C921054FE896F02D13F1A8BEFEE3A8CF8F30053CCD4D2FF05DB7B8C3FAC14C
+FCCBECF8C2ECFFF2D514B32A3012F99FB19E078E3E51716943D43BCBDA7EC453F130EBFDC40B43
+6FF0DFA7EFC783340DF8F3EB3F94480FEBC3E2FF8FFC9CD4F99189FB714F34C3484C02D0C507C1
+34C2183130B88CF2F9E3B00322FF67EAFC073401584ED40C748D613C7EAD1D8B032F576F3FFC2C
+0FBDCB3784DDCB7503B0CD34F35504325E3CB6E03F377743E9DB4433CD7703C94B78ECF850E028
+734F7850C0C2A205370DD3053F885E324C0C76FFC329EB64775943D212ACFBDE087E4C25118AAF
+9D433C38F5BDB291FA7EF104F82FF4DC2CA4C31501322537D40C940C53E3B747379BF6E3EF8131
+D401BFBAFFC0D0C032FA8F34BBCF7C9E052C1C51D8A1FBF450CC30B03ECCF51914EC2626300F7C
+0CEB7436C7F5B3CD22C3C8EFF2C33482E3ED32053EFFF033ABEF14B400BD4C474C324F250BC17B
+A42C205FFACCC46FF47C0F4C328902632BF4DBC37C74004C3543E7DBE9EB6E0C3C99C3C4CD4FF5
+33EBE6D4F30CDBFED8A32C942FAFABC'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_71_1" } ,
+            descr {
+              title "hypothetical protein [Limdunavirus sp. ctHMDSZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 83 ,
+              seq-data
+                ncbieaa "-ITNQLPKGDFYLIKFTDENKFMYVPSARFKATFNTSVIVEPEPIESTSNSQL
+ETTSAIEEPTSQSESTSEQLTLDLGDKNNG" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 82 ,
+                          id
+                            local
+                              str "sample3_71_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_71_2" } ,
+            descr {
+              title "hypothetical protein [Limdunavirus sp. ctHMDSZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 62 ,
+              seq-data
+                ncbieaa "MDNNIKEKTTQLIAKLVLFFLLVAIISLPIWLFTIFGNIIFSILVFAIEMVVS
+LLIILGVSN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 61 ,
+                          id
+                            local
+                              str "sample3_71_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_71_3" } ,
+            descr {
+              title "Bacteriophage holin [Limdunavirus sp. ctHMDSZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 127 ,
+              seq-data
+                ncbieaa "MAWAMDIIVTTLHNSHIFVAIIYASLVDIFLGIIKAVVSKSLNSTISAYGLLK
+HCLLILIPPLTVPIFFALGYGDYWSVFETLVLFTQALSLAENWISLGLPFPEAIAKYLDNEKKELVKQSDEPKK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Bacteriophage holin" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 126 ,
+                          id
+                            local
+                              str "sample3_71_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_71_4" } ,
+            descr {
+              title "hypothetical protein [Limdunavirus sp. ctHMDSZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 126 ,
+              seq-data
+                ncbieaa "MKFTYTEHLGFDENNQPITNEYKFLRTINTEKIFKDETGDEFNAQLGEVVSRL
+ASFEQDPTDPQKASEITSLQFIDTRHDVLKFLYAQTVDGVLVQNEDTRKEYEELDLPEGVLFNQFLAKLTGQK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 125 ,
+                          id
+                            local
+                              str "sample3_71_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_71_5" } ,
+            descr {
+              title "hypothetical protein [Limdunavirus sp. ctHMDSZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 54 ,
+              seq-data
+                ncbieaa "MHLNQPLSEILTLDISEASEIIRQYNKLTASKSKSSKPKGLPKIDYSQQKKPN
+D" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 53 ,
+                          id
+                            local
+                              str "sample3_71_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_71_6" } ,
+            descr {
+              title "Receptor Binding Protein [Limdunavirus sp. ctHMDSZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 310 ,
+              seq-data
+                ncbieaa "MTLARTELVYQADFMNVSPSADGAVFSGIGNRIITGLIPSLIKGAVQVTAGKA
+LVQGRLFELTSTKTYTPSTTIGTQYLGLMVDLTQSNIDGDTVTNNQYTVGFFNSPYGNLVIGDSKANIPLFKMTGTTS
+VIVAPEMNGSTVRTWQPNTQYSIGDLVTFNRLGTDTTGKLTNPIFKAVQTHVSDTTFPSSSNTQWVLINISAYYIELN
+YNSYAVNFYFKRFGKLVDVSTSAVVHTLSDAYFISKEKGKTVLPDVFKPINNVFLSTGASIIQFDIGGNIIARGSGNT
+VGSLMAGTYIPMGNPVWNAGVPS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Receptor Binding Protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 309 ,
+                          id
+                            local
+                              str "sample3_71_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_71_7" } ,
+            descr {
+              title "Baseplate protein [Limdunavirus sp. ctHMDSZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 289 ,
+              seq-data
+                ncbieaa "MSDTRTIYLKNNEGTIYSSDPSNVGSEYLDMSGFDSLNPSENSIFTSATNISL
+MYSSYDVKLVLTFMSDYDNGRQARAQWIAKNQNSINQISVANTNNQDLIFSKQAKIKTIDFVENHYVNGVQAELTLEL
+AGRWQSSVQRTSATVYPYTGGTKKYTYQYNYKYGYQIITDEVKTDGYNGFIINIPSQTTPVNVTLTAPNGLSATLTTS
+QTSVPLQISSDMIGYSLDNFDTFTLLNKGFPASKYWDNLLSVYSTIQTILNANTVTVSVASGTGTSIPFEFYLYKLQD
+LI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Baseplate protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 288 ,
+                          id
+                            local
+                              str "sample3_71_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_71_8" } ,
+            descr {
+              title "hypothetical protein [Limdunavirus sp. ctHMDSZ]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 323 ,
+              seq-data
+                ncbieaa "-NQLGYYPRQNDIIMDATNMENGYVISANYSRPANEAIGIMFLSKINDETYRF
+APIMNLSENVYIPKGSYLPQVNLANAIMSVWNFLTGNNPYLKNNGSMTITSDITKTSNYSDNTESTIETIFKNFIARL
+HGAWNIQFTYYIGETSPRVVVTGSAKNNTDNPNYFIDLKTTNVLEYVQQSRNADSETSMVFGYLEDGSMFGYYAYLDE
+NFNVVTSQVPTNGIINIGATPRVAYASLQNNTLSELAESATSLLKTSIYAIRSQMVMRLDGSPLFIGQNDSPFIGQYI
+RLANLEDNIVTSQLREINFTTNQAIVGDNDDITFGD" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 322 ,
+                          id
+                            local
+                              str "sample3_71_8" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_71_1" ,
+                  location
+                    int {
+                      from 0 ,
+                      to 251 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_71" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_71_2" ,
+                  location
+                    int {
+                      from 244 ,
+                      to 432 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_71" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_71_3" ,
+                  location
+                    int {
+                      from 512 ,
+                      to 895 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_71" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05105.11" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_71_4" ,
+                  location
+                    int {
+                      from 960 ,
+                      to 1340 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_71" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_71_5" ,
+                  location
+                    int {
+                      from 1402 ,
+                      to 1566 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_71" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_71_6" ,
+                  location
+                    int {
+                      from 1587 ,
+                      to 2519 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_71" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:4L9B_A" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_71_7" ,
+                  location
+                    int {
+                      from 2533 ,
+                      to 3402 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_71" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif UniProt:tr|A0A0D3MKV1_9CAUD" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_71_8" ,
+                  location
+                    int {
+                      from 3405 ,
+                      to 4376 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_71" } } } } } } } }

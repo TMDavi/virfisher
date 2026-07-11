@@ -1,0 +1,4 @@
+sample3_236	Cenote-Taker	CDS	3	317	.	+	0              	gene_id "lcl|sample3_236_1"; gene_name "Minor capsid protein"; gene_inference "protein motif PFAM:PF10665.8"
+sample3_236	Cenote-Taker	CDS	314	709	.	+	0              	gene_id "lcl|sample3_236_2"; gene_name "tail component"; gene_inference "protein motif PFAM:PF04883.11"
+sample3_236	Cenote-Taker	CDS	709	1128	.	+	0              	gene_id "lcl|sample3_236_3"; gene_name "tail completion protein"; gene_inference "protein motif PFAM:PF13554.5"
+sample3_236	Cenote-Taker	CDS	1128	1598	.	+	0              	gene_id "lcl|sample3_236_4"; gene_name "Tail tube protein"; gene_inference "protein motif PDB:5NGJ_A"

@@ -1,0 +1,674 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Stopavirus sp. ctOLX1S" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_85" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;o_A
+utographivirales;-_Autographivirales incertae sedis;g_Stopavirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 3792 ,
+              seq-data
+                ncbi2na 'DC7B37907A01FCCD43B0F1245042ECDE03AB9CF3C7C5084392B1C
+193C0448CCBFC4BCD248EBAF7073D079C47C79FC523FF712B3C03A702C0E1FB7BC492810BF00CC
+0737FE70D0937AF70209C83C8AECDFC433C339720008F114020FC982D9C7A2C21FDF44E201FEE7
+8183A00CF7C024C8203800203C2DBC2108EFDCEAC2AE87C8BCDF273EA11FB2FA0F32AF7F4BF0B8
+0CECF0C7F37F9DFF9C48170397148C4CCF0D083F103CF187930442BCED4F6CC347C30E3E15238A
+F0D04087243C8FC7E408CE2C4544E223A00BFC80BF420003E00203008000CCFC04FC20082E0CF0
+EB0E91CAAB37CF020ACF0C0A08CCD03802204C110E70CA4C7E81CCF3CA2CDCBEA7F8E1CDBD0F22
+BD33EB3BE12080F3B432301032820FCC344E84AF0B0703AF8C0FFFCCCF7FAE4B238E73A8CFCFE3
+23F3F4864500080080030F38902303C320713D0C72481273C080B088238EC0272E17C3BE7212FD
+F0230EB3E3A3C5E40630D472B83C30381C53F96008072F003070C034A2FCE46001E023F4A0FDFB
+1767E824FC23C5E758B10E4B3D0D921CCF9C3A2101B30F30B9BF22BBEA00BE8F1B4173B3EE88F3
+C7E151030333EBEEDE42C00C89238FF2C6FFBF0879CDA239431F7537025C0AE140843708F2FF8E
+F9179FC9374505F4BC0DFCACC1F449C1EA2C8921F0F3E78633201F4A031D2152FCE22301FAE09C
+F022FE094CBC0520AB720733FF2B1144048102CFC430BC422228CC23C8CFA1272315CB80043C03
+7CEBD0B7E45CF3CB047EA04E07CCAC09C7854F08FE18008FCF202209CBCEB6CCA7F04E4BD41C84
+413C2E3F232315DF01C023F2CB5F0FC0571C7917882B6CEA72F75E0F12E8387E5C1B28F10A23AF
+3F4854E4864A887A321C47AFBB0E2CF857D2B02B0238849F3EEF1C033C0EB0CDCECBE392BAFF07
+7AF1D224C772701FB2B3670804E0BC208CF8F8A007FAD0ACEFE097CF025F37CE081C54EC7120F0
+C21017704044820C72315C897F3F9124C830DFE39CBB4F2228738AB1C325CCD45204A7708C52F0
+ECD030B23C482AE7046F3642384A32391C40ED3BCF3E8CF127F40214233B438210802281CFC942
+0F2043DFE84E30C084313AF4033084CDC2E51CF23032041CF2DC1CF23073CBC330830D30F333A0
+C3A838200F322E1C32220CC0C4E0438C05FCCDF025F3B03702B0C202C10080C92090F211FD2080
+8C6FE3CC9CC09E12005DC0D7020852FA0A400BF3FE8BF9E087F72B4E4BE1C777238C0322AEDF2B
+F92030FEC08037A414C6CCA77800C0F5573ABB3FB0FCF82AEBAFAE3273E4113BE47B03073CFCCF
+70040391EBCC9052C1473CF7F33FF31FC83CF703CFFF23FFE'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_85_1" } ,
+            descr {
+              title "hypothetical protein [Stopavirus sp. ctOLX1S]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 110 ,
+              seq-data
+                ncbieaa "-TVSATGNFISNVITAPTSVSEMGAIITYQDNAGTNALNTDIVLQLSADGGSN
+YSTATLTALPDFSTGIKMAKVNDLSVTAGTSLKYKLSFANQASGSKEARIRGVSLQY" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 109 ,
+                          id
+                            local
+                              str "sample3_85_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_85_2" } ,
+            descr {
+              title "hemolysin [Stopavirus sp. ctOLX1S]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 100 ,
+              seq-data
+                ncbieaa "MLIKHLVLKKLELEVYLYNINMPRKKITPKEFSEVATGVRLSSHEKLCAERME
+NILKSIEEMKKEIKSLRQDVSMGKGGLRVILAIGTLVVGIIGFFQFK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hemolysin" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 99 ,
+                          id
+                            local
+                              str "sample3_85_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_85_3" } ,
+            descr {
+              title "hypothetical protein [Stopavirus sp. ctOLX1S]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 54 ,
+              seq-data
+                ncbieaa "MRDGKVLESFKKKIEKEIKEKNIFKHLRKEVNINGNGTRGYLIKEGINKGRYI
+K" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 53 ,
+                          id
+                            local
+                              str "sample3_85_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_85_4" } ,
+            descr {
+              title "hypothetical protein [Stopavirus sp. ctOLX1S]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 61 ,
+              seq-data
+                ncbieaa "MKREHNTMLIGILGTILLGVSSWALMTIVQLEVHIGMLTEEIMSIDKQIGRIY
+NHMDRLSN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 60 ,
+                          id
+                            local
+                              str "sample3_85_4" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_85_5" } ,
+            descr {
+              title "hypothetical protein [Stopavirus sp. ctOLX1S]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 35 ,
+              seq-data
+                ncbieaa "MVDKFFYIFFGAVDDAMGYLFDRFISDAPKKKKKK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 34 ,
+                          id
+                            local
+                              str "sample3_85_5" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_85_6" } ,
+            descr {
+              title "DNA packaging protein [Stopavirus sp. ctOLX1S]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 71 ,
+              seq-data
+                ncbieaa "MSKDKLIELHSILAEQLLKKVREDDVKASDLNVARQFLKDNGIDGLPANDNPL
+GELINELPFAEKKLVKNN" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DNA packaging protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 70 ,
+                          id
+                            local
+                              str "sample3_85_6" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_85_7" } ,
+            descr {
+              title "Large Terminase [Stopavirus sp. ctOLX1S]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 550 ,
+              seq-data
+                ncbieaa "MHEKLKDFRNFLYLAWKHLRLPAPSTMQYSIADYIANGDKRIIISAFRGVGKS
+WITSTYVLWRLLLDPQINILVVSASKNRADDFSTFCLRLLSEMPILLHLKPKGDQRQSKISFDVAPALASHQPSVKSL
+GITSQLTGSRADLIIADDIETSGNTQTQFMRDKLGEAIKEFEAIVKPEGSRTIFLGTPQTEQSIYNKLQERGYKIRYW
+TARYPSEKQLKSYGSSLAPIISNTWEHELIGKATDPLRFDEKDLLEREASYGRIGFNMQFQLDTTLSDLDRYPLKLKD
+LVVLNLNPTTAPEKVVWASSPELQWNDLPNVGLQGDGYFRPMQTQGDWIDYTGCVMSIDPSGKGKDETAYCVTKILNG
+NIYVVDAGGFNSGYSEHTLAKLVGIAKKHEVKKILIEENFGQGMFEALLKPYLMKNYPCTTELIRQTSNKHRRILDTL
+EPLFAQHRIIFDASVIREDYEGTNSLYPPEQALRYQLMYQISRLQKGANTLSQDDRIDALQMSCYYWILQLSKDQDMS
+MKTRKEELFSQELEQFFGHDNKDNTWFKI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Large Terminase" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 549 ,
+                          id
+                            local
+                              str "sample3_85_7" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_85_8" } ,
+            descr {
+              title "hypothetical protein [Stopavirus sp. ctOLX1S]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 90 ,
+              seq-data
+                ncbieaa "MNNDKPLYLKALCKSKGNKKVTKEIAEAIRHFQKKDTFDYSYKADRKPLNPKE
+DQLEGKKFILEFAEDFLGHAVDYSLDDKIEGVLGLQK" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 89 ,
+                          id
+                            local
+                              str "sample3_85_8" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_85_1" ,
+                  location
+                    int {
+                      from 0 ,
+                      to 332 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_85" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_85_2" ,
+                  location
+                    int {
+                      from 271 ,
+                      to 573 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_85" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF10779.8" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_85_3" ,
+                  location
+                    int {
+                      from 785 ,
+                      to 949 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_85" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_85_4" ,
+                  location
+                    int {
+                      from 946 ,
+                      to 1131 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_85" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_85_5" ,
+                  location
+                    int {
+                      from 1132 ,
+                      to 1239 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_85" } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_85_6" ,
+                  location
+                    int {
+                      from 1242 ,
+                      to 1457 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_85" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF11123.7" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_85_7" ,
+                  location
+                    int {
+                      from 1473 ,
+                      to 3125 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_85" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:8DGC_F" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_85_8" ,
+                  location
+                    int {
+                      from 3277 ,
+                      to 3549 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_85" } } } } } } } }

@@ -1,0 +1,8 @@
+sample3_34	Cenote-Taker	CDS	2	1711	.	+	0              	gene_id "lcl|sample3_34_1"; gene_name "Putative structural protein "; gene_inference "protein motif UniProt:tr|R4JHS9_9CAUD"
+sample3_34	Cenote-Taker	CDS	1708	4554	.	+	0              	gene_id "lcl|sample3_34_2"; gene_name "Putative structural protein "; gene_inference "protein motif UniProt:tr|R4JHS9_9CAUD"
+sample3_34	Cenote-Taker	CDS	4555	5079	.	+	0              	gene_id "lcl|sample3_34_3"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_34	Cenote-Taker	CDS	5076	5501	.	+	0              	gene_id "lcl|sample3_34_4"; gene_name "Putative structural protein "; gene_inference "protein motif UniProt:tr|R4JHS9_9CAUD"
+sample3_34	Cenote-Taker	CDS	5582	6010	.	+	0              	gene_id "lcl|sample3_34_5"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_34	Cenote-Taker	CDS	6316	6600	.	+	0              	gene_id "lcl|sample3_34_6"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_34	Cenote-Taker	CDS	6674	8176	.	+	0              	gene_id "lcl|sample3_34_7"; gene_name "endolysin"; gene_inference "protein motif PFAM:PF00182.18"
+sample3_34	Cenote-Taker	CDS	8180	8563	.	+	0              	gene_id "lcl|sample3_34_8"; gene_name "holin"; gene_inference "protein motif PFAM:PF16081.4"

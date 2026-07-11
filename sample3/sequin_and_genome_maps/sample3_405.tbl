@@ -1,0 +1,5 @@
+>Feature sample3_405 Table1
+1095	1	CDS
+			protein_id	lcl|sample3_405_1
+			product	Large Terminase
+			inference	protein motif PFAM:PF05876.11

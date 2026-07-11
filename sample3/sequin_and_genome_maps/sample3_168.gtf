@@ -1,0 +1,4 @@
+sample3_168	Cenote-Taker	CDS	277	2	.	-	0              	gene_id "lcl|sample3_168_1"; gene_name "Large Terminase"; gene_inference "protein motif PFAM:PF03354.14"
+sample3_168	Cenote-Taker	CDS	860	342	.	-	0              	gene_id "lcl|sample3_168_2"; gene_name "Large Terminase"; gene_inference "protein motif PFAM:PF03354.14"
+sample3_168	Cenote-Taker	CDS	933	1259	.	+	0              	gene_id "lcl|sample3_168_3"; gene_name "Replication protein C"; gene_inference "protein motif PFAM:PF06504.10"
+sample3_168	Cenote-Taker	CDS	1259	2080	.	+	0              	gene_id "lcl|sample3_168_4"; gene_name "Mos transposase"; gene_inference "protein motif PDB:4U7B_B"

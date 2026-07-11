@@ -1,0 +1,99 @@
+LOCUS       sample3_180             2010 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae
+            sedis;-_Stephanstirmvirinae;g_Phapecoctavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Phapecoctavirus sp. ctYO6IT (unknown)
+  ORGANISM  Phapecoctavirus sp. ctYO6IT
+            Unclassified.
+REFERENCE   1  (bases 1 to 2010)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2010)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2010
+                     /organism="Phapecoctavirus sp. ctYO6IT"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             60..1625
+                     /inference="protein motif PDB:5NGD_C"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Portal protein"
+                     /translation="MSTGKRTYTKKSEYWDKGAANKAALSPTKEAEKEKTLLLSPEIG
+                     TIGLNSIKAFTNFMQPYETRFPECIRTFKEMGEDPDVATALDATYIFVDRAFFDFKIK
+                     YNVNSAKSRKAAKFIDYMLRNMQAPLRQYVRSLLTYKQYGFAFAEKVYELDEDPKSPY
+                     FGYWRLTKLAFRPQDTLHMAQPFTYSADGRSILSVNQNITNTMLAPGNTTLETGIKEI
+                     PFSKVLFVGSNITENNPLGVSPLLAVYRSWREKSLIQEFEVIGVSKDLGGMPVLKVPS
+                     DILNRASLDPAGDEAQSLRVLQANIANLHSGEQAYMVLPSDVYEGTVMRQYDLVFQGV
+                     DGTGKQFDTQALIKQRKLDIYNRFGAGVLIMGDGDAGSFALSDNKQTLLSHFIERDVD
+                     IVVEAINSQLIPQTLRLNNIFLSDEDMPKFVSGEMGDPDIEVNAKAIQQLVASGAIPL
+                     TPEVINEFLEKIGFEYRIPDDIVANKEKFFEFMDNYMPDKTSRSGDGLATAGTGTSDS
+                     ISALDPSAQNLSN"
+     CDS             1719..2009
+                     /inference="protein motif PFAM:PF14550.5"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Putative phage serine protease XkdF"
+                     /translation="MELNKDTLWELFKTFAGFKENSESQQDSIPSQKPETLVKQNKFD
+                     EEKMQVIEVLYCPPEEDDLHGERMSDLEIRKMVDNFNENITNISGNLGHMKNT"
+ORIGIN      
+        1 gtgaggttgt atataataca gccttgcctt aacgatttta tacctgactg gaggaacaag
+       61 tgtcaacagg aaaaagaacg tacactaaaa agtcagaata ctgggacaaa ggtgctgcaa
+      121 ataaagctgc tctctctcca acaaaagagg cagagaaaga gaaaacgtta ctcctgtcac
+      181 ctgaaatagg aacgatcgga ttaaactcaa tcaaagcatt tacgaatttc atgcaacctt
+      241 atgagactcg tttcccagaa tgtattcgca cttttaaaga gatgggtgaa gaccctgatg
+      301 tagctactgc tcttgacgct acatatatct ttgtagatag agcattcttt gatttcaaga
+      361 taaaatacaa tgtaaactcg gcaaagtcaa gaaaagctgc caagtttatt gattacatgt
+      421 tacgcaatat gcaagcccct ctacgtcaat atgttagatc acttttgaca tataagcaat
+      481 atggttttgc attcgcagag aaagtttatg agttggatga agatcctaaa agtccttact
+      541 ttgggtattg gcgattgacc aaattggctt ttagaccaca agacactctt cacatggctc
+      601 aaccttttac atattcggca gacggacgtt ctattctatc tgttaaccag aatatcacca
+      661 atacgatgtt agctccaggt aatacaactt tagaaactgg tatcaaagaa attcctttca
+      721 gtaaagtttt atttgttggt agcaacatta cagagaataa cccactagga gttagtccgc
+      781 ttttagctgt atatcgtagc tggcgtgaaa aatctcttat tcaggaattt gaggttattg
+      841 gggtatctaa agatttaggc ggtatgccag ttctcaaggt tccaagtgac attctaaaca
+      901 gggcatcttt agatcctgct ggggatgaag cacaatctct tcgagttctc caagccaaca
+      961 tcgctaacct gcactctggt gagcaagcct acatggtatt gccttcagac gtttatgaag
+     1021 gtacagtgat gcgtcaatac gatcttgtat tccaaggtgt tgatggcacg ggtaaacagt
+     1081 ttgacactca agcgctaatc aaacaacgca aactggatat ttataaccgt tttggtgcgg
+     1141 gtgtgttgat tatgggtgat ggtgatgcag gaagttttgc gctttctgac aacaaacaaa
+     1201 cactattgtc tcattttatt gagcgagatg tagatattgt tgtagaagct ataaactctc
+     1261 aactgatccc tcaaacacta cgattaaaca atatcttcct ctctgatgaa gatatgccta
+     1321 agtttgtcag tggtgaaatg ggtgatcctg atattgaagt aaatgctaaa gctattcagc
+     1381 agttggtagc ctctggtgca atacctttaa ccccagaagt tattaacgag ttccttgaaa
+     1441 aaattggttt tgaatatcgc atccctgatg atattgttgc caacaaagag aaattctttg
+     1501 aattcatgga taactatatg cctgacaaaa cttcacgatc aggagatggt ttagctacag
+     1561 caggaactgg aacatctgat agcatttctg ctttagatcc ttcagcacaa aacctgtcga
+     1621 attaaaaata tttaatattt tttaattttt ctattgacaa aacaacaaat atcctgtaga
+     1681 ctaagattta tgggatatct gtttttaaga ggtttcaaat ggaactcaat aaagatacac
+     1741 tgtgggaact cttcaaaacc ttcgctggtt ttaaagagaa ttctgaatcc caacaagatt
+     1801 ctataccatc tcaaaaacct gaaactctag tcaaacaaaa taaatttgat gaagaaaaga
+     1861 tgcaggttat tgaggtcttg tattgtccac ctgaagaaga cgatctccac ggagagcgca
+     1921 tgtctgattt ggaaatcagg aagatggttg acaacttcaa tgagaatatt accaacatta
+     1981 gtggtaatct tggtcacatg aagaacaccg
+//

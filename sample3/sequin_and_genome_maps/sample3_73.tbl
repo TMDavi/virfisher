@@ -1,0 +1,53 @@
+>Feature sample3_73 Table1
+204	1	CDS
+			protein_id	lcl|sample3_73_1
+			product	hypothetical protein
+			note	no search hits
+532	299	CDS
+			protein_id	lcl|sample3_73_2
+			product	Capsid vertex protein
+			inference	protein motif PDB:5VF3_S
+1095	574	CDS
+			protein_id	lcl|sample3_73_3
+			product	dCTP pyrophosphatase; Provisional
+			inference	protein motif CDD:PHA02602
+1190	1390	CDS
+			protein_id	lcl|sample3_73_4
+			product	hypothetical protein
+			note	no search hits
+2415	1387	CDS
+			protein_id	lcl|sample3_73_5
+			product	DNA primase
+			inference	protein motif PDB:1NUI_A
+2615	2454	CDS
+			protein_id	lcl|sample3_73_6
+			product	Major Capsid Protein
+			inference	protein motif PFAM:PF07068.10
+2823	2632	CDS
+			protein_id	lcl|sample3_73_7
+			product	Minor capsid protein 
+			inference	protein motif UniProt:tr|L7TJ42_9CAUD
+3019	2798	CDS
+			protein_id	lcl|sample3_73_8
+			product	hypothetical protein
+			note	no search hits
+3455	3021	CDS
+			protein_id	lcl|sample3_73_9
+			product	hypothetical protein
+			note	no search hits
+3750	3457	CDS
+			protein_id	lcl|sample3_73_10
+			product	hypothetical protein
+			note	no search hits
+4049	3810	CDS
+			protein_id	lcl|sample3_73_11
+			product	hypothetical protein
+			note	no search hits
+4190	4050	CDS
+			protein_id	lcl|sample3_73_12
+			product	hypothetical protein
+			note	no search hits
+4295	4191	CDS
+			protein_id	lcl|sample3_73_13
+			product	Discriminator of mRNA degradation
+			inference	protein motif CDD:pfam17587

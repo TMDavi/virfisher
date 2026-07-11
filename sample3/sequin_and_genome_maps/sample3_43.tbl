@@ -1,0 +1,57 @@
+>Feature sample3_43 Table1
+1063	2	CDS
+			protein_id	lcl|sample3_43_1
+			product	anaerobic ribonucleoside-triphosphate reductase
+			inference	protein motif CDD:TIGR02487
+1943	1149	CDS
+			protein_id	lcl|sample3_43_2
+			product	anti repressor Ant
+			inference	protein motif PFAM:PF03374.13
+2312	1956	CDS
+			protein_id	lcl|sample3_43_3
+			product	hypothetical protein
+			note	no search hits
+2644	2324	CDS
+			protein_id	lcl|sample3_43_4
+			product	hypothetical protein
+			note	no search hits
+2915	2727	CDS
+			protein_id	lcl|sample3_43_5
+			product	hypothetical protein
+			note	no search hits
+3114	2950	CDS
+			protein_id	lcl|sample3_43_6
+			product	hypothetical protein
+			note	no search hits
+3284	3811	CDS
+			protein_id	lcl|sample3_43_7
+			product	hypothetical protein
+			note	no search hits
+4193	3942	CDS
+			protein_id	lcl|sample3_43_8
+			product	hypothetical protein
+			note	no search hits
+4476	4195	CDS
+			protein_id	lcl|sample3_43_9
+			product	hypothetical protein
+			note	no search hits
+4778	4479	CDS
+			protein_id	lcl|sample3_43_10
+			product	hypothetical protein
+			note	no search hits
+5070	4783	CDS
+			protein_id	lcl|sample3_43_11
+			product	hypothetical protein
+			note	no search hits
+5662	5081	CDS
+			protein_id	lcl|sample3_43_12
+			product	Mom like DNA modification protein
+			inference	protein motif PFAM:PF14236.5
+6144	5725	CDS
+			protein_id	lcl|sample3_43_13
+			product	hypothetical protein
+			note	no search hits
+7187	6150	CDS
+			protein_id	lcl|sample3_43_14
+			product	DNA Polymerase I
+			inference	protein motif CDD:cd08642

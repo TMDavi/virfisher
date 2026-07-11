@@ -1,0 +1,17 @@
+>Feature sample3_115 Table1
+334	2	CDS
+			protein_id	lcl|sample3_115_1
+			product	Baseplate wedge protein
+			inference	protein motif PDB:5IV5_A
+636	343	CDS
+			protein_id	lcl|sample3_115_2
+			product	Baseplate wedge protein
+			inference	protein motif PDB:5IV5_ZA
+1157	636	CDS
+			protein_id	lcl|sample3_115_3
+			product	hypothetical protein; Provisional
+			inference	protein motif CDD:PHA02606
+2910	1168	CDS
+			protein_id	lcl|sample3_115_4
+			product	Baseplate
+			inference	protein motif CDD:pfam06714

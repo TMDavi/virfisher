@@ -1,0 +1,17 @@
+>Feature sample3_123 Table1
+1578	1	CDS
+			protein_id	lcl|sample3_123_1
+			product	Putative phage tail protein
+			inference	protein motif PFAM:PF13550.5
+1807	1568	CDS
+			protein_id	lcl|sample3_123_2
+			product	hypothetical protein
+			note	no search hits
+2037	1807	CDS
+			protein_id	lcl|sample3_123_3
+			product	hypothetical protein
+			note	no search hits
+2687	2049	CDS
+			protein_id	lcl|sample3_123_4
+			product	Minor tail protein
+			inference	protein motif PFAM:PF05100.11

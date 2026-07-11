@@ -1,0 +1,29 @@
+>Feature sample3_48 Table1
+3	599	CDS
+			protein_id	lcl|sample3_48_1
+			product	Integrase
+			inference	protein motif PDB:1Z19_B
+999	3641	CDS
+			protein_id	lcl|sample3_48_2
+			product	DNA directed RNA polymerase
+			inference	protein motif PDB:1MSW_D
+3704	4282	CDS
+			protein_id	lcl|sample3_48_3
+			product	DNA Helix Destabilizing Protein
+			inference	protein motif PDB:1JE5_B
+4245	4700	CDS
+			protein_id	lcl|sample3_48_4
+			product	endodeoxyribonuclease I
+			inference	protein motif PDB:1M0D_D
+4681	5181	CDS
+			protein_id	lcl|sample3_48_5
+			product	endodeoxyribonuclease I
+			inference	protein motif PDB:1M0D_D
+5165	6256	CDS
+			protein_id	lcl|sample3_48_6
+			product	DNA polymerase
+			inference	protein motif PDB:5IKN_F
+630	714	gene
+			gene	sample3_48tRNA1
+			product	tRNA-Leu
+			inference	tRNAscan-SE score: 66.9

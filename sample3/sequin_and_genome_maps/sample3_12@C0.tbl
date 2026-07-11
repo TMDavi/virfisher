@@ -1,0 +1,109 @@
+>Feature sample3_12@C0 Table1
+1	1224	CDS
+			protein_id	lcl|sample3_12_1
+			product	Large Terminase
+			inference	protein motif PDB:5OE8_A
+1235	2722	CDS
+			protein_id	lcl|sample3_12_2
+			product	Portal Protein
+			inference	protein motif PDB:5NGD_B
+2724	3140	CDS
+			protein_id	lcl|sample3_12_3
+			product	Putative phage serine protease XkdF
+			inference	protein motif PFAM:PF14550.5
+3133	4020	CDS
+			protein_id	lcl|sample3_12_4
+			product	hypothetical protein
+			note	no search hits
+4037	4411	CDS
+			protein_id	lcl|sample3_12_5
+			product	Head decoration protein
+			inference	protein motif PDB:1TD0_D
+4422	5477	CDS
+			protein_id	lcl|sample3_12_6
+			product	Major Capsid protein
+			inference	protein motif PFAM:PF03864.14
+5531	6016	CDS
+			protein_id	lcl|sample3_12_7
+			product	hypothetical protein
+			note	no search hits
+5994	6461	CDS
+			protein_id	lcl|sample3_12_8
+			product	Virion morphogenesis family
+			inference	protein motif PFAM:PF05069.12
+6461	6832	CDS
+			protein_id	lcl|sample3_12_9
+			product	Minor capsid protein
+			inference	protein motif PFAM:PF10665.8
+6832	7452	CDS
+			protein_id	lcl|sample3_12_10
+			product	hypothetical protein
+			note	no search hits
+7455	8777	CDS
+			protein_id	lcl|sample3_12_11
+			product	tail sheath
+			inference	protein motif PDB:3J9Q_Q
+8788	9309	CDS
+			protein_id	lcl|sample3_12_12
+			product	virion structural protein
+			inference	protein motif PFAM:PF11681.7
+9362	9865	CDS
+			protein_id	lcl|sample3_12_13
+			product	virion structural protein
+			inference	protein motif PFAM:PF11681.7
+9865	10368	CDS
+			protein_id	lcl|sample3_12_14
+			product	virion structural protein
+			inference	protein motif PFAM:PF11681.7
+10505	10774	CDS
+			protein_id	lcl|sample3_12_15
+			product	tail assembly chaperone
+			inference	protein motif PFAM:PF10876.7
+10795	11016	CDS
+			protein_id	lcl|sample3_12_16
+			product	hypothetical protein
+			note	no search hits
+11006	13342	CDS
+			protein_id	lcl|sample3_12_17
+			product	tail tape measure protein 
+			inference	protein motif Uniprot:K8AAU2_9ENTR
+13339	14106	CDS
+			protein_id	lcl|sample3_12_18
+			product	tail fiber protein
+			inference	protein motif PFAM:PF06995.10
+14106	14471	CDS
+			protein_id	lcl|sample3_12_19
+			product	hypothetical protein
+			note	no search hits
+14472	15353	CDS
+			protein_id	lcl|sample3_12_20
+			product	tail protein
+			inference	protein motif PDB:1WRU_A
+15350	16108	CDS
+			protein_id	lcl|sample3_12_21
+			product	central spike protein
+			inference	protein motif PDB:3VTO_Q
+16251	16484	CDS
+			protein_id	lcl|sample3_12_22
+			product	baseplate wedge subunit
+			inference	protein motif PFAM:PF10934.7
+16485	17951	CDS
+			protein_id	lcl|sample3_12_23
+			product	Baseplate wedge protein
+			inference	protein motif PDB:5IV5_GD
+17953	18717	CDS
+			protein_id	lcl|sample3_12_24
+			product	Protein of unknown function (DUF2612)
+			inference	protein motif CDD:pfam11041
+18727	20730	CDS
+			protein_id	lcl|sample3_12_25
+			product	tail fiber protein
+			inference	protein motif UniProtKB:Q859E1_9CAUD
+20776	21153	CDS
+			protein_id	lcl|sample3_12_26
+			product	Tail assembly chaperone
+			inference	protein motif PFAM:PF16778.4
+21163	21924	CDS
+			protein_id	lcl|sample3_12_27
+			product	Baseplate protein 
+			inference	protein motif PDB:2FKK_A

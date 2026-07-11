@@ -1,0 +1,285 @@
+>Feature sample3_2@C0 Table1
+521	3	CDS
+			protein_id	lcl|sample3_2_1
+			product	hypothetical protein
+			note	no search hits
+1035	523	CDS
+			protein_id	lcl|sample3_2_2
+			product	hypothetical protein
+			note	no search hits
+1184	1038	CDS
+			protein_id	lcl|sample3_2_3
+			product	hypothetical protein
+			note	no search hits
+1897	1184	CDS
+			protein_id	lcl|sample3_2_4
+			product	Baseplate protein 
+			inference	protein motif PDB:2FKK_A
+2137	1898	CDS
+			protein_id	lcl|sample3_2_5
+			product	hypothetical protein
+			note	no search hits
+2387	2160	CDS
+			protein_id	lcl|sample3_2_6
+			product	hypothetical protein
+			note	no search hits
+2626	2387	CDS
+			protein_id	lcl|sample3_2_7
+			product	hypothetical protein
+			note	no search hits
+3005	2619	CDS
+			protein_id	lcl|sample3_2_8
+			product	hypothetical protein
+			note	no search hits
+4904	3060	CDS
+			protein_id	lcl|sample3_2_9
+			product	hypothetical protein
+			note	no search hits
+5964	4906	CDS
+			protein_id	lcl|sample3_2_10
+			product	Head decoration protein 
+			inference	protein motif UniProt:tr|A0A076YKH6_9CAUD
+6675	5974	CDS
+			protein_id	lcl|sample3_2_11
+			product	Protein of unknown function (DUF2612)
+			inference	protein motif CDD:pfam11041
+8099	6675	CDS
+			protein_id	lcl|sample3_2_12
+			product	Baseplate wedge protein
+			inference	protein motif PDB:5IV5_GD
+8467	8108	CDS
+			protein_id	lcl|sample3_2_13
+			product	baseplate wedge subunit
+			inference	protein motif PFAM:PF10934.7
+9192	8464	CDS
+			protein_id	lcl|sample3_2_14
+			product	phage baseplate
+			inference	protein motif PDB:4RU3_A
+10054	9185	CDS
+			protein_id	lcl|sample3_2_15
+			product	tail protein
+			inference	protein motif PDB:3CDD_D
+10388	10038	CDS
+			protein_id	lcl|sample3_2_16
+			product	hypothetical protein
+			note	no search hits
+11254	10388	CDS
+			protein_id	lcl|sample3_2_17
+			product	tail fiber protein
+			inference	protein motif PFAM:PF06995.10
+12378	11254	CDS
+			protein_id	lcl|sample3_2_18
+			product	tail tape measure protein 
+			inference	protein motif PFAM:PF01832.19
+12958	12554	CDS
+			protein_id	lcl|sample3_2_19
+			product	hypothetical protein
+			note	no search hits
+13420	12965	CDS
+			protein_id	lcl|sample3_2_20
+			product	virion structural protein
+			inference	protein motif PFAM:PF11681.7
+14849	13434	CDS
+			protein_id	lcl|sample3_2_21
+			product	tail sheath
+			inference	protein motif PDB:5LI4_E
+15576	14863	CDS
+			protein_id	lcl|sample3_2_22
+			product	hypothetical protein
+			note	no search hits
+16037	15570	CDS
+			protein_id	lcl|sample3_2_23
+			product	head closure knob
+			inference	protein motif PDB:5A21_F
+16477	16034	CDS
+			protein_id	lcl|sample3_2_24
+			product	Virion morphogenesis family
+			inference	protein motif PFAM:PF05069.12
+16929	16474	CDS
+			protein_id	lcl|sample3_2_25
+			product	head to tail adaptor
+			inference	protein motif PFAM:PF13262.5
+18011	16980	CDS
+			protein_id	lcl|sample3_2_26
+			product	Major Capsid protein
+			inference	protein motif PDB:5WK1_D
+18498	18031	CDS
+			protein_id	lcl|sample3_2_27
+			product	virion structural protein
+			inference	protein motif PFAM:PF11133.7
+19580	18522	CDS
+			protein_id	lcl|sample3_2_28
+			product	hypothetical protein
+			note	no search hits
+20536	19580	CDS
+			protein_id	lcl|sample3_2_29
+			product	Minor capsid component
+			inference	protein motif PFAM:PF04233.13
+20862	20533	CDS
+			protein_id	lcl|sample3_2_30
+			product	Transcriptional regulator containing PAS, AAA-type ATPase, and DNA-binding Fis domains [Transcription, Signal transduction mechanisms]
+			inference	protein motif CDD:COG3829
+22295	20859	CDS
+			protein_id	lcl|sample3_2_31
+			product	Portal protein
+			inference	protein motif PDB:3KDR_C
+23514	22288	CDS
+			protein_id	lcl|sample3_2_32
+			product	Large Terminase
+			inference	protein motif PDB:5OE8_A
+23888	23514	CDS
+			protein_id	lcl|sample3_2_33
+			product	Terminase small subunit
+			inference	protein motif PDB:3P9A_H
+23957	24754	CDS
+			protein_id	lcl|sample3_2_34
+			product	ParB like protein
+			inference	protein motif CDD:cd16403
+24754	24948	CDS
+			protein_id	lcl|sample3_2_35
+			product	hypothetical protein
+			note	no search hits
+25525	25094	CDS
+			protein_id	lcl|sample3_2_36
+			product	hypothetical protein
+			note	no search hits
+25773	25522	CDS
+			protein_id	lcl|sample3_2_37
+			product	hypothetical protein
+			note	no search hits
+26688	25984	CDS
+			protein_id	lcl|sample3_2_38
+			product	phosphoadenosine phosphosulfate reductase
+			inference	protein motif PFAM:PF02677.13
+26986	26675	CDS
+			protein_id	lcl|sample3_2_39
+			product	hypothetical protein
+			note	no search hits
+27285	26983	CDS
+			protein_id	lcl|sample3_2_40
+			product	hypothetical protein
+			note	no search hits
+27623	27282	CDS
+			protein_id	lcl|sample3_2_41
+			product	hypothetical protein
+			note	no search hits
+28057	27620	CDS
+			protein_id	lcl|sample3_2_42
+			product	hypothetical protein
+			note	no search hits
+28242	28781	CDS
+			protein_id	lcl|sample3_2_43
+			product	hypothetical protein
+			note	no search hits
+28726	28902	CDS
+			protein_id	lcl|sample3_2_44
+			product	transcriptional repressor
+			inference	protein motif PFAM:PF03869.13
+28899	29114	CDS
+			protein_id	lcl|sample3_2_45
+			product	hypothetical protein
+			note	no search hits
+29304	29567	CDS
+			protein_id	lcl|sample3_2_46
+			product	hypothetical protein
+			note	no search hits
+29548	29790	CDS
+			protein_id	lcl|sample3_2_47
+			product	hypothetical protein
+			note	no search hits
+29787	29987	CDS
+			protein_id	lcl|sample3_2_48
+			product	hypothetical protein
+			note	no search hits
+30999	30811	CDS
+			protein_id	lcl|sample3_2_49
+			product	hypothetical protein
+			note	no search hits
+33853	31337	CDS
+			protein_id	lcl|sample3_2_50
+			product	primase helicase
+			inference	protein motif PFAM:PF08273.11
+34158	33967	CDS
+			protein_id	lcl|sample3_2_51
+			product	hypothetical protein; Provisional
+			inference	protein motif CDD:PRK01617
+34379	34158	CDS
+			protein_id	lcl|sample3_2_52
+			product	hypothetical protein
+			note	no search hits
+35825	34389	CDS
+			protein_id	lcl|sample3_2_53
+			product	Replicase
+			inference	protein motif PDB:1UAA_B
+36290	35826	CDS
+			protein_id	lcl|sample3_2_54
+			product	hypothetical protein
+			note	no search hits
+36634	36245	CDS
+			protein_id	lcl|sample3_2_55
+			product	Nuclease
+			inference	protein motif PDB:4QBL_E
+36863	36636	CDS
+			protein_id	lcl|sample3_2_56
+			product	hypothetical protein
+			note	no search hits
+37373	37047	CDS
+			protein_id	lcl|sample3_2_57
+			product	hypothetical protein
+			note	no search hits
+37660	37373	CDS
+			protein_id	lcl|sample3_2_58
+			product	hypothetical protein
+			note	no search hits
+38567	37653	CDS
+			protein_id	lcl|sample3_2_59
+			product	Exonuclease
+			inference	protein motif PDB:3SZ4_A
+38947	38570	CDS
+			protein_id	lcl|sample3_2_60
+			product	hypothetical protein
+			note	no search hits
+39103	39312	CDS
+			protein_id	lcl|sample3_2_61
+			product	transcriptional regulator
+			inference	protein motif PFAM:PF06114.12
+39287	40228	CDS
+			protein_id	lcl|sample3_2_62
+			product	AAA domain protein
+			inference	protein motif PFAM:PF13479.5
+40235	40816	CDS
+			protein_id	lcl|sample3_2_63
+			product	single strand DNA binding protein
+			inference	protein motif PFAM:PF05037.12
+40836	41120	CDS
+			protein_id	lcl|sample3_2_64
+			product	hypothetical protein
+			note	no search hits
+41192	41380	CDS
+			protein_id	lcl|sample3_2_65
+			product	hypothetical protein
+			note	no search hits
+41556	42200	CDS
+			protein_id	lcl|sample3_2_66
+			product	Uncharacterized bacterial subgroup of the DEDDy 3'-5' exonuclease domain of family-B DNA polymerases
+			inference	protein motif CDD:cd05782
+42169	42381	CDS
+			protein_id	lcl|sample3_2_67
+			product	hypothetical protein
+			note	no search hits
+42347	42943	CDS
+			protein_id	lcl|sample3_2_68
+			product	pyrophosphatase
+			inference	protein motif PFAM:PF08761.10
+43082	44530	CDS
+			protein_id	lcl|sample3_2_69
+			product	DNA helicase
+			inference	protein motif PDB:1RIF_B
+45296	44505	CDS
+			protein_id	lcl|sample3_2_70
+			product	hypothetical protein
+			note	no search hits
+30152	30078	gene
+			gene	sample3_2tRNA1
+			product	tRNA-Pro
+			inference	tRNAscan-SE score: 53.9

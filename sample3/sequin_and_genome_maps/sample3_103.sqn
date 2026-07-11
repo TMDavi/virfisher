@@ -1,0 +1,474 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Pahexavirus sp. ct1OVEE" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_103" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;g_Pahexavirus] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 3244 ,
+              seq-data
+                ncbi2na '839CD68BBEEDF6BA6DE7BE9ABFF4BD8E9B72AF6CBAE5B99ABF0EA
+95A2E69B72673939CEA769EEDC9AEF4CBB9EABFF5A0DE56B0CF2999DDAC33AAD7EF2EDE6A5B82E
+BF7ACEAC3ACD6B79FE2E9FBE8C7B994CEAF74AE9C19E4036BFEACF4F55B76EEFDB862BE96D2BEF
+96BFA78AA3C5AC39EBFA6FA39CEDE9BA785B7D68E7BA394AFEBF99DB7BA9DBF116CE92B3499383
+8C22EFBAE0EF06A505CEA8D7062FE609A3E269249B866F819BE9F1BB8F9AAEEBD3BF3D7056DE36
+E5AFE1AE8FA18EFD6F8FAC30D689BBDF4FE1A3CC6AE6D56B4EFBE0E3DBE66BF2BB978AE893FF74
+044EFAAE469DA2E99ABF0EE0956A2B86796BBEBB6AEDA568D68E9ABF6E1AFD7909318D2FBADE6F
+D75E98A2AA2FB6B9A1569ABBE26EEF82E5AFE3DA68E11BF1AF8D6B832ABCE56F3B9F4FE125CE15
+BFEB3AA38920BF6FD2C39C2F128FAFABA695EDAEA0AB1A7FD6BEEF8E5EBBEBDABEA34DEDC30AB8
+EF9E6E97B8F6EF8AA5FE8B6EB7B923E3AFE6EEDF68F35ED8A2CE3E8D1CF8468D76824B79BEFA1A
+BF8A3B8E8DB7A38BA8BF9953565ABAF708BB833E23AFAFEAE53EFBB6B92C4AFFE2A7EB83EFB87A
+DFB5648C13EFC45A3CDB6EE997343FFF8B67807B6F82E83AFED867A2FAEBB6AE34F729F86BF860
+96AE469EBEF8F3AE9A523FFDE85AE6C0B13AEFA97E9ADF72AE1ED1BB8A38CF65EFBA6CEF8EE97B
+83CDB5EBFAEAB78BA6E684A8F3951CF7AE6922DAE9C24AEFAA8C39FA6BF5968FEFCE8238E22D9A
+5BF4F0A3FD295AFD3BBF9E10BEF96BBEDB3CDA387BF6B814BF8A30AE0E349AAFEBBF8FBB979AE1
+DB013BFE1E58B7AF63EEDBA8B3B9B865582987DAEBEFAE966B8A91A369EFFB8A3BE3D8E9628E1E
+BF8DBB62BBF0A395B0468F7813B9374D8E29E24AE7B58BCAA51B6ABF08D8BE9E2DA3BBE6FFA94A
+4378E5EA8FE373BE3BABDE95CF9A23EE6923E3BA2EE3D97AE1ABA182B875CF9AA8F38A30D6D257
+BE9D96EF96BFA796BB9A8FE400F70FBCAAFEFBAB3EEE42AFF8EBBBE162FE3EA740EDEBF8EAC339
+6DEE0AB7A38FF6EEA4618F4AB046BBEEC6BFE5EA4A7EA646BB8EE45D819EF886B86A927D6AD7AA
+2159CE3CEFB5ED4A8FA8120C6942FA23EF56BA5B9A26E52A3BBE6E5897A6EFD3492FBE987FAEFB
+6DC1ABE49'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_103_1" } ,
+            descr {
+              title "tail tape measure protein [Pahexavirus sp. ct1OVEE]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 228 ,
+              seq-data
+                ncbieaa "-AIRSVVSSVASAVGGFFSSMASRVRSGAVRGFNGARSAASSAMHAMGSAVSS
+GVHSVLGFFRNLPGNIRRALGNMGSLLVSAGREVVSGMGNGIRSALSGLLDTVRHMGSQVANAAKSVLGIHSPSRVFR
+DEVGRQVVAGLAEGITGNAGLALDAMSGVADRLPDAVDARFGLRSSVGSFTPYGRYQRMNDKSVVVNVNGPTYGDPNE
+FAKRIERQQRDALNALAYV" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "tail tape measure protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 227 ,
+                          id
+                            local
+                              str "sample3_103_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_103_2" } ,
+            descr {
+              title "tail protein [Pahexavirus sp. ct1OVEE]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 315 ,
+              seq-data
+                ncbieaa "MFIPNPSDRAGLTVDWTMFPLIGNNPERVLHLTDYTGASPVMLLNDSLRGLGV
+PEVEHFSQTHVGVHGSEWRGFNVKPREVTLPVLVSGVGPDPDGGFRDGFLQAYDQLWSAFPPGEEGELSVRTPAGVER
+VLKCRFDSADDTFTVDPVNRGYARYVLHLTAYDPFWYGDEQKFRFSNAKLQDWLGGGPVGGKGTAFPVVLMPGVGSGW
+DHLSNKGDVAAWPVIRVEGPLESWSVQIDGLRVSSDYPVEEYDWITIDTDPRKQSALLDGFEDVMDRLDEWEFAPIPP
+GGSKSVNIEMVGLGAIVVSVQYRFLRAW" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 314 ,
+                          id
+                            local
+                              str "sample3_103_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_103_3" } ,
+            descr {
+              title "minor tail protein [Pahexavirus sp. ct1OVEE]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 385 ,
+              seq-data
+                ncbieaa "MTGLVPQITLFTPDYRRVAPINFFESLKLSLKWNGLSTLELVVSGDHSRLDGL
+TKPGARLVVDYGGGQIFSGPVRKVHGVGPWRSSRVTVTCEDDIRLLWRMLMWPVNYRPGLVGSEWRADRDYAHYSGAA
+ESVAKQVLGDNAWRFPPDLFMEDDESRGRFIKDFQARFHVFADKLLPVLSYYRMTVSVNQFEDKVNDQRGLVFDCVPA
+VTRKHVLTAESGSIVSWEYVRDAPKATSVVVGGRGEGTDRLFCEDVDSMAEDDWFDRVEVFKDARNTDSEHVHLIDEA
+EQVLSELGATSGFKIELAESDVLRFGPGNLMPGDLIYVDVGSGPIAEIVRQIDVECDSPGDGWTKVTPIAGDYEDNPS
+ALLARRVAGLAAGVRDLQKF" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "minor tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 384 ,
+                          id
+                            local
+                              str "sample3_103_3" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_103_4" } ,
+            descr {
+              title "lectin [Pahexavirus sp. ct1OVEE]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 137 ,
+              seq-data
+                ncbieaa "MGIVCKGFDGVLTEFDWAQMSGLMGNMPSVKGLDDFRVGTTIQGNTVLCTVLP
+GQAWAHGVMCTSNAVETVTGQLPGPGETRYDYVVLSRDWEQNTAKLEIVPGGRAERARDVLRAEPGVFHQQLLATLVL
+SSNGLQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "lectin" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 136 ,
+                          id
+                            local
+                              str "sample3_103_4" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_103_1" ,
+                  location
+                    int {
+                      from 1 ,
+                      to 687 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_103" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif UniProtKB:R2PRN9_9ENTE" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_103_2" ,
+                  location
+                    int {
+                      from 704 ,
+                      to 1651 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_103" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF05709.10" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_103_3" ,
+                  location
+                    int {
+                      from 1658 ,
+                      to 2815 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_103" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF14594.5" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_103_4" ,
+                  location
+                    int {
+                      from 2832 ,
+                      to 3242 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_103" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF09458.9" } } } } } } } } }

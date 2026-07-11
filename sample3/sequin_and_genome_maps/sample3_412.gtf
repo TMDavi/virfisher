@@ -1,0 +1,2 @@
+sample3_412	Cenote-Taker	CDS	549	1	.	-	0              	gene_id "lcl|sample3_412_1"; gene_name "Virion morphogenesis family"; gene_inference "protein motif PFAM:PF05069.12"
+sample3_412	Cenote-Taker	CDS	1082	546	.	-	0              	gene_id "lcl|sample3_412_2"; gene_name "tail completion protein"; gene_inference "protein motif PDB:2LFP_A"

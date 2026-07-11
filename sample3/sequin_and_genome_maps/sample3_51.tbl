@@ -1,0 +1,41 @@
+>Feature sample3_51 Table1
+991	2	CDS
+			protein_id	lcl|sample3_51_1
+			product	Pilot protein
+			inference	protein motif PFAM:PF04687.11
+1690	1127	CDS
+			protein_id	lcl|sample3_51_2
+			product	Major Capsid Protein
+			inference	protein motif PDB:1GFF_2
+3019	1724	CDS
+			protein_id	lcl|sample3_51_3
+			product	Major Capsid Protein
+			inference	protein motif PDB:1M06_F
+3583	3131	CDS
+			protein_id	lcl|sample3_51_4
+			product	Scaffold protein
+			inference	protein motif PDB:1CD3_4
+3816	3610	CDS
+			protein_id	lcl|sample3_51_5
+			product	protein C
+			inference	protein motif PFAM:PF12025.7
+5327	3843	CDS
+			protein_id	lcl|sample3_51_6
+			product	Rep protein
+			inference	protein motif PFAM:PF05840.12
+5563	5387	CDS
+			protein_id	lcl|sample3_51_7
+			product	hypothetical protein
+			note	no search hits
+5649	5560	CDS
+			protein_id	lcl|sample3_51_8
+			product	hypothetical protein
+			note	no search hits
+5880	5653	CDS
+			protein_id	lcl|sample3_51_9
+			product	hypothetical protein
+			note	no search hits
+6020	5877	CDS
+			protein_id	lcl|sample3_51_10
+			product	hypothetical protein
+			note	no search hits

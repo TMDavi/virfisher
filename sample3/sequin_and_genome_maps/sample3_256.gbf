@@ -1,0 +1,86 @@
+LOCUS       sample3_256             1506 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;g_Mohonavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Mohonavirus sp. ctU8F1P (unknown)
+  ORGANISM  Mohonavirus sp. ctU8F1P
+            Unclassified.
+REFERENCE   1  (bases 1 to 1506)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1506)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1506
+                     /organism="Mohonavirus sp. ctU8F1P"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(3..164)
+                     /inference="protein motif PFAM:PF05551.10"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="HNH endonuclease"
+                     /translation="MENEIFNFYGVESKRIPYLPNYSASKCGRIFRIDTGKEMSRSPN
+                     RGNSPYLMFR"
+     CDS             complement(719..1504)
+                     /inference="protein motif Uniprot:K8AAU2_9ENTR"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail tape measure protein"
+                     /translation="-
+                     RRSISAVKDRLRAEQQANNIGKARIKQAVGNITAPTGAENMRAYYQELERSERKRLGQ
+                     LERYKTSLSKEYLLNKDNLSLAEQAYKNAIKQAMMQAKTADELRNAVKAERVRLRIAR
+                     ENTREYEKQNFLMRRMQQSSQQMAGNMVSAFAAAGLVSGITRVGQEFESVSNTMLSVT
+                     NDAQLAGQHLAFVRDEAMRLGTPLKEGSKQFAKMLASAGDTVAIGTIQESFRGLSEMS
+                     TVLGLSADESGRAFTALTQVLSKNQVMA"
+ORIGIN      
+        1 gatctaaaca taaggtaagg actattacca cggttaggtg atcttgacat ctccttacca
+       61 gtatcaatcc tgaaaattct tccacactta gatgcggagt agttcggcaa atacggaata
+      121 cgttttgatt ctacaccata gaaattaaag atttcatttt ccattttatc tcctactgtc
+      181 ttcggagtct aagaatatta gctgcggatt gtcagaataa cttagacgag tttttacttt
+      241 acctgacaca ttactgtcag ccctattcta tgttaccatg aatagttagt atcgtcaaga
+      301 actgattccc cgcaattcgt acaatttatt tttctatgta tttctacata acgaaccaaa
+      361 aagtttatat aaaacaataa cttagttctt ccttataatt caatgagtta cgctaaaact
+      421 caccagcaca attgtgcatc tttatgtttc cataaagaat agaccatatc ttcacccgaa
+      481 ggtgtctccc gtttccctaa agatttcatt tcagaaatca ccgtcaatag cttacgtggt
+      541 atgcctgctt tatcaggtct tactggtcgt tggacgttac tctacattag agtcttcgct
+      601 gctgattgtc aacatatctt cagaattttt agggttcgct agtacatcac tgtctagtat
+      661 cctatctgaa gctttatgag gttccagcaa ttaaagagat tttacatgac ccaagaaatt
+      721 aagccatgac ttggttcttt gataagactt gtgtgagagc cgtaaaagcc cttccagatt
+      781 catctgcact taaaccaagt actgttgaca tttcggacaa tcctctaaag gactcttgga
+      841 ttgtgccaat cgccactgta tcacccgcag aagcaagcat ttttgcgaat tgtttactac
+      901 cctctttcaa aggagtacca agccgcatag cttcatctcg aacaaaggca agatgttgtc
+      961 ctgcaagttg agcatcattt gttacagaga gcatcgtatt tgatacagat tcaaactctt
+     1021 gccctactcg tgtgatacca gagactaacc ctgctgctgc aaatgcactc accatgttac
+     1081 cagccatttg ctgtgaggat tgttgcattc ttcgcatcaa aaagttttgc ttttcgtatt
+     1141 cacgagtatt ctcacgagct atacgcaacc gcaccctttc agctttaact gcattacgta
+     1201 attcatcagc agttttagct tgcatcatcg cttgtttgat tgcatttttg taagcttgct
+     1261 ctgctaaact caagttatct ttgttgagaa gatattcttt actaagagaa gttttgtacc
+     1321 tttcaagttg ccctaaacgt tttctttcac tacgttctaa ctcttgataa tacgctcgca
+     1381 tattctcagc acccgtaggt gctgtgatat tccctacagc ttgtttaatc ctagctttcc
+     1441 cgatattatt agcttgctgc tctgcacgta gcctatcttt tacagcacta atacttcttc
+     1501 gtgttc
+//

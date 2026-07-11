@@ -1,0 +1,4 @@
+sample3_230	Cenote-Taker	CDS	156	1	.	-	0              	gene_id "lcl|sample3_230_1"; gene_name "hypothetical protein"; gene_inference "no search hits"
+sample3_230	Cenote-Taker	CDS	668	153	.	-	0              	gene_id "lcl|sample3_230_2"; gene_name "minor tail protein"; gene_inference "protein motif PFAM:PF09931.8"
+sample3_230	Cenote-Taker	CDS	1165	665	.	-	0              	gene_id "lcl|sample3_230_3"; gene_name "virion structural protein"; gene_inference "protein motif PFAM:PF05939.12"
+sample3_230	Cenote-Taker	CDS	1625	1167	.	-	0              	gene_id "lcl|sample3_230_4"; gene_name "tail length tape measure protein"; gene_inference "protein motif PFAM:PF06791.12"

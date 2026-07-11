@@ -1,0 +1,13 @@
+>Feature sample3_214 Table1
+107	3	CDS
+			protein_id	lcl|sample3_214_1
+			product	baseplate like protein
+			inference	protein motif CDD:pfam07880
+967	107	CDS
+			protein_id	lcl|sample3_214_2
+			product	baseplate wedge tail fiber connector
+			inference	protein motif CDD:PHA02581
+1712	1029	CDS
+			protein_id	lcl|sample3_214_3
+			product	baseplate wedge subunit
+			inference	protein motif CDD:PHA02580

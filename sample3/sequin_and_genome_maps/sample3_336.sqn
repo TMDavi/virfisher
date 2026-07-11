@@ -1,0 +1,346 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Kostyavirus sp. ctPJ7T1" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_336" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;g_Kostyavirus] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1280 ,
+              seq-data
+                ncbi2na 'A1B4FA6E9656697E0999B1B77D9538E98E9A26051AEA2A475196F
+8DFB9A7518D6AD368F9598AD7D369D96F74D81279D1AD4A5B659AFB9F7639BD79D76DBE24D268E
+6A386087D96FB697637529D84A995DA1D8E97A19A0F6989F8669AD99F79F7E82794EBBEF55F80B
+F83EEF988BE3005656C565B9460A9AE9A926A9ABBC1ABB4BC72786B858BD866161EE6B765BE795
+D66B46682BB1895AAD16A9E516E3AE1765B5DB5B45A7450626D966BAD89456EB7A746BB2B81A2E
+F69885A75E4918EB87DB4D4526E986A65176A2DA51245A94563D25481A945AA39A666A8256196A
+D2AC86582B49D6E5B63F5F65F82879F9617EB4988666A685DA51B1DA5DB539A5B419638418DE9A
+C85336BB2F69FAE97EC949AE5468AA1BDD49A4AFB164ACB6348AAEF759A6B81385DF6DB5D2E1B6
+B19EE665987940DFAEDB5B6207DABE075196D76B8'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_336_1" } ,
+            descr {
+              title "tail assembly chaperone [Kostyavirus sp. ctPJ7T1]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 132 ,
+              seq-data
+                ncbieaa "MAASKKQKRDRRVKLAEFRVQAIESEGALSSLEIEADNGEVFVIPHPLMLNDE
+EQERIEKHNRGDGLDREQLFDENGEPMKDLAGNPMTRIVEPHKINGVECPPTVVRSAIAIMGEETYARFKAAGGHAND
+V" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "tail assembly chaperone" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 131 ,
+                          id
+                            local
+                              str "sample3_336_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_336_2" } ,
+            descr {
+              title "major tail protein [Kostyavirus sp. ctPJ7T1]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 253 ,
+              seq-data
+                ncbieaa "-EDGVEFNPKFSTDDTKIWQSRRAQRTDVTEDDEEVMFTAAENTPLIDYLRYN
+LPLENVPSVGTAGYKATKPNYTDMVYRQIVVIGVDGRMDEAEYVAEVRPRVSLTKVGKQSFKAKEIDGTELTFGVYPD
+PASGFPARRIPGGPFWAESGGPVLWPTPEVAPVATLVDDEVTIVLQEPVSPNTPFTYTVSQTTGGSTTAATLVGEPVT
+DEDGEVTITVAAPVTPGSYTFRVTAEGSNGETAQSVASNSVTVS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "major tail protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 252 ,
+                          id
+                            local
+                              str "sample3_336_2" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_336_1" ,
+                  location
+                    int {
+                      from 1 ,
+                      to 396 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_336" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF17318.1" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_336_2" ,
+                  location
+                    int {
+                      from 516 ,
+                      to 1277 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_336" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:3UTO_B" } } } } } } } } }

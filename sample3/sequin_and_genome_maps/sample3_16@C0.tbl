@@ -1,0 +1,109 @@
+>Feature sample3_16@C0 Table1
+194	3	CDS
+			protein_id	lcl|sample3_16_1
+			product	hypothetical protein
+			note	no search hits
+579	196	CDS
+			protein_id	lcl|sample3_16_2
+			product	hypothetical protein
+			note	no search hits
+1422	982	CDS
+			protein_id	lcl|sample3_16_3
+			product	hypothetical protein
+			note	no search hits
+2012	1425	CDS
+			protein_id	lcl|sample3_16_4
+			product	hypothetical protein
+			note	no search hits
+3564	2461	CDS
+			protein_id	lcl|sample3_16_5
+			product	ATP dependent DNA ligase
+			inference	protein motif PFAM:PF04675.13
+3757	3539	CDS
+			protein_id	lcl|sample3_16_6
+			product	hypothetical protein
+			note	no search hits
+3960	3754	CDS
+			protein_id	lcl|sample3_16_7
+			product	hypothetical protein
+			note	no search hits
+4207	3971	CDS
+			protein_id	lcl|sample3_16_8
+			product	hypothetical protein
+			note	no search hits
+4368	4192	CDS
+			protein_id	lcl|sample3_16_9
+			product	hypothetical protein
+			note	no search hits
+4583	4365	CDS
+			protein_id	lcl|sample3_16_10
+			product	hypothetical protein
+			note	no search hits
+4789	4580	CDS
+			protein_id	lcl|sample3_16_11
+			product	hypothetical protein
+			note	no search hits
+5405	4851	CDS
+			protein_id	lcl|sample3_16_12
+			product	DNA polymerase
+			inference	protein motif PDB:4XVI_A
+6101	5619	CDS
+			protein_id	lcl|sample3_16_13
+			product	Recombination endonuclease VII
+			inference	protein motif PFAM:PF02945.14
+8385	6169	CDS
+			protein_id	lcl|sample3_16_14
+			product	DNA polymerase
+			inference	protein motif PDB:4XVI_A
+8609	9031	CDS
+			protein_id	lcl|sample3_16_15
+			product	hypothetical protein
+			note	no search hits
+9033	9845	CDS
+			protein_id	lcl|sample3_16_16
+			product	hypothetical protein
+			note	no search hits
+9907	10650	CDS
+			protein_id	lcl|sample3_16_17
+			product	deoxynucleoside monophosphate kinase
+			inference	protein motif PFAM:PF07931.11
+10665	10859	CDS
+			protein_id	lcl|sample3_16_18
+			product	hypothetical protein
+			note	no search hits
+10852	12837	CDS
+			protein_id	lcl|sample3_16_19
+			product	DNA polymerase
+			inference	protein motif PDB:5IKN_F
+12812	13093	CDS
+			protein_id	lcl|sample3_16_20
+			product	hypothetical protein
+			note	no search hits
+13090	13239	CDS
+			protein_id	lcl|sample3_16_21
+			product	hypothetical protein
+			note	no search hits
+13312	14169	CDS
+			protein_id	lcl|sample3_16_22
+			product	hypothetical protein
+			note	no search hits
+14232	15278	CDS
+			protein_id	lcl|sample3_16_23
+			product	Exonuclease
+			inference	protein motif PDB:5HML_B
+15256	15756	CDS
+			protein_id	lcl|sample3_16_24
+			product	Endonuclease
+			inference	protein motif PDB:1A73_B
+15753	16250	CDS
+			protein_id	lcl|sample3_16_25
+			product	Putative endonuclease segE, GIY-YIG domain
+			inference	protein motif CDD:pfam19835
+16272	16520	CDS
+			protein_id	lcl|sample3_16_26
+			product	hypothetical protein
+			note	no search hits
+16496	16798	CDS
+			protein_id	lcl|sample3_16_27
+			product	MazG like pyrophosphatase
+			inference	protein motif PFAM:PF03819.16

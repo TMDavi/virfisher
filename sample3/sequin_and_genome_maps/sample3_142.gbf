@@ -1,0 +1,109 @@
+LOCUS       sample3_142             2430 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae sedis;f_Sarkviridae]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Sarkviridae sp. ctIDFNE (unknown)
+  ORGANISM  Sarkviridae sp. ctIDFNE
+            Unclassified.
+REFERENCE   1  (bases 1 to 2430)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2430)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2430
+                     /organism="Sarkviridae sp. ctIDFNE"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(3..2063)
+                     /inference="protein motif CDD:cd08642"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA Polymerase I"
+                     /translation="MNLLYLDTETFSEADLKKVGSYAYAEHPTTEIVICTYAFDEGPV
+                     QVWDATDGSDMPRDLRRAMLKLQKPDSNLKLVGQNFLMFDRPVIKHCWGFELLVENII
+                     DTMIVAFRHALPGSLAALCEVLNIDASMAKDKRGKALIQRFSKPTPKNYKIRRYTADT
+                     HPKEWAEFIAYAKSDITSMREVYKKMPKWGNSEFEDRVLHLDQVINDRGFKVDVALAE
+                     AAIEAVTRHKEELQEEAQRKYGGSLTGKDFLPILQELAPAHRIHNAQKSTLNDLLADE
+                     DLPDDARTIIEMRLGAASTASTKYAPLLLGRSSDDRRRGCLQYGGAKRTLRWAGKGFQ
+                     PQNLARGYYHDDELDKGISALLKGRAHRRFDVAKLTASTVRSCIIPEDGCKFVVADYS
+                     NVEGRGLAFLSGEETALDTFRAGLDIYCVTAGKMFGMDPDDIKKNFKDIRQIGKACEL
+                     GLGYEGGVGAFVTFAKNLGLDLIEMAKTMAGTFPDHIWAATARGYEWARIQEAKRPPR
+                     PGEKDDRPSYILDKKVWRTCDAIKRMWRESHPQTVAFWCDLKDGILAAVRNPGRDFWA
+                     GANIRSNGERAIRIWRTVETDSSGRNIPGWWLCMELPSGRILSYPGIGVSVTKETDED
+                     GRVNTNVRIKYQGENQLTRQWTTLYTHGGKACENIVQAFCRDLLAYAMLNVEAGGYPI
+                     VLSVH"
+     CDS             complement(2121..2429)
+                     /inference="protein motif PDB:1JE5_B"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="DNA Helix Destabilizing Protein"
+                     /translation="-
+                     QAKNKQQPLILTSVKGEKQVEPDFNIDGEQIEGEQVYSGCVANISIEIWFSEQYKVLG
+                     AKLNGIKFAGEGKAFGGSAVSASVDDLEDDEDETPRRERRRNR"
+ORIGIN      
+        1 tcatgaaccg aaagaactat agggtacccg ccagcctcaa cattaagcat tgcgtaggcc
+       61 aataagtcac gacaaaacgc ctgaacgatg ttctcacaag cctttccgcc gtgtgtgtac
+      121 agggtagtcc actgccgtgt taactggttc tcgccctggt acttaattct tacattggtg
+      181 tttacccgcc cgtcttcgtc ggtttccttt gtcacgctga cgcctattcc tggatatgat
+      241 aggattcgcc ccgacggcag ctccatgcat agccaccatc ctgggatgtt tctaccggat
+      301 gaatcagttt ctactgttct ccagatacgg atagctcttt caccgttgct tcggatattt
+      361 gcgcccgccc agaaatcgcg gccaggatta cgtactgcgg caagaatacc gtctttaagg
+      421 tcgcaccaga aagctacggt ttgcgggtgc gattcacgcc acatacgttt aatagcatca
+      481 catgtacgcc atactttctt atcgagaata tacgatggac ggtcatcctt ctcccccgga
+      541 cgcggcggcc gttttgcctc ctgtatacgc gcccactcat acccgcgagc ggtagcggcc
+      601 cagatatggt cggggaaagt tccggccatt gttttggcca tctcaataag gtcaagacct
+      661 aagtttttgg cgaatgtaac gaacgctccg acgccaccct catagccgag gccaagctcg
+      721 caagcttttc ctatctgtct gatatcctta aagtttttct taatatcatc tggatccatg
+      781 ccgaacatct ttcctgccgt tacgcagtat atatcaagac ccgcgcggaa agtatcaaga
+      841 gctgtttctt ccccggacag gaaggcaagc cctcgccctt caacgttgga atagtccgca
+      901 acaacaaact tacacccgtc ttccgggatt atacagctgc ggacagtgga tgccgttagc
+      961 ttggccacat caaaacggcg gtgtgcacgg cctttaagta atgcggaaat acccttatca
+     1021 agttcatcgt cgtgataata tccgcgcgcc aggttctgag gctgaaaacc tttcccggcc
+     1081 catcgcagtg ttcgcttcgc tccgccgtat tgcagacaac ctcgacggcg gtcatcggaa
+     1141 gaacgaccta acagcaacgg cgcgtatttc gtcgatgcgg tggaagcagc cccgagacgc
+     1201 atctcgataa tagtgcgcgc atcgtccggt aaatcctcat ctgccagcaa gtcgttaagc
+     1261 gtcgacttct gtgcgttgtg gatgcggtgt gccggtgcta gttcctgtaa aataggcaag
+     1321 aagtctttgc cggttagtga accgccatat ttacgttggg cttcttcctg taactcttct
+     1381 ttatggcgcg tgactgcttc aatcgctgct tccgccaatg ccacatcaac cttaaatcct
+     1441 cggtcattaa tcacctggtc taagtgcagc acgcggtctt cgaactcaga attcccccac
+     1501 ttaggcattt tcttatacac ttcacgcatg gacgtaatgt cgctttttgc gtatgcaata
+     1561 aattctgccc actcttttgg gtgggtatcg gcagtataac gtcgaatctt atagttcttg
+     1621 ggcgtaggct tactgaatcg ctgtatcagc gccttaccgc gtttatcctt agccatgctt
+     1681 gcgtcaatgt ttaaaacctc acacagcgcg gccagtgaac ccgggagggc atgtcggaac
+     1741 gcgactatca tagtgtctat aatgttttct accaggagtt cgaatcccca gcaatgctta
+     1801 ataactggtc ggtcgaacat aaggaagttt tggcctacca gtttgagatt gctgtctggt
+     1861 ttttgcagct ttagcatcgc ccgacgcaaa tcacgcggca tatcgctgcc gtcggtggcg
+     1921 tcccatactt gcacagggcc ttcatcgaaa gcgtaggtgc agataacaat ttcggtagtc
+     1981 ggatgttcgg cgtaagcata ggaaccgact ttttttaaat cggcttctga aaatgtttca
+     2041 gtatcgagat aaagcagatt catttatttg acccttatag aaaaggcgac cgaagccgcc
+     2101 ttaattgaaa agaaaatata ttaacggtta cgacggcgtt cgcgacgcgg tgtttcgtct
+     2161 tcatcatctt ccaggtcgtc gacgctggca gaaaccgcag aaccaccgaa tgcctttcct
+     2221 tcgccagcaa atttaatgcc gtttagtttt gcgcctaaaa ctttatattg ctcggagaac
+     2281 cagatttcta ttgagatatt agccacacaa ccactatata cctgctcacc ttcaatctgc
+     2341 tccccatcaa tgttgaagtc tggttctacc tgcttttcac ccttaactga agtcagtatt
+     2401 aatggttgtt gcttgttctt tgcctggaaa
+//

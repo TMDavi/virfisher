@@ -1,0 +1,17 @@
+>Feature sample3_257 Table1
+249	1	CDS
+			protein_id	lcl|sample3_257_1
+			product	Large Terminase
+			inference	protein motif PFAM:PF03354.14
+719	252	CDS
+			protein_id	lcl|sample3_257_2
+			product	Small Terminase
+			inference	protein motif PFAM:PF05119.11
+1193	849	CDS
+			protein_id	lcl|sample3_257_3
+			product	HNH endonuclease
+			inference	protein motif PDB:5H0M_A
+1499	1209	CDS
+			protein_id	lcl|sample3_257_4
+			product	Nucleoside Triphosphate Pyrophosphohydrolase (EC 3
+			inference	protein motif CDD:cd11541

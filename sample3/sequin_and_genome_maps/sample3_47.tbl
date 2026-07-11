@@ -1,0 +1,57 @@
+>Feature sample3_47 Table1
+3	212	CDS
+			protein_id	lcl|sample3_47_1
+			product	Zonular occludens toxin (Zot)
+			inference	protein motif PFAM:PF05707.11
+205	498	CDS
+			protein_id	lcl|sample3_47_2
+			product	hypothetical protein
+			inference	protein motif CDD:PHA00645
+498	734	CDS
+			protein_id	lcl|sample3_47_3
+			product	hypothetical protein
+			note	no search hits
+747	1931	CDS
+			protein_id	lcl|sample3_47_4
+			product	hypothetical protein
+			note	no search hits
+2455	3384	CDS
+			protein_id	lcl|sample3_47_5
+			product	Rep protein
+			inference	protein motif PFAM:PF05840.12
+3465	3665	CDS
+			protein_id	lcl|sample3_47_6
+			product	hypothetical protein
+			note	no search hits
+4025	4372	CDS
+			protein_id	lcl|sample3_47_7
+			product	hypothetical protein
+			note	no search hits
+4533	4649	CDS
+			protein_id	lcl|sample3_47_8
+			product	hypothetical protein
+			note	no search hits
+4651	4878	CDS
+			protein_id	lcl|sample3_47_9
+			product	hypothetical protein
+			note	no search hits
+4893	5144	CDS
+			protein_id	lcl|sample3_47_10
+			product	hypothetical protein
+			note	no search hits
+5379	5594	CDS
+			protein_id	lcl|sample3_47_11
+			product	hypothetical protein
+			note	no search hits
+5657	5815	CDS
+			protein_id	lcl|sample3_47_12
+			product	hypothetical protein
+			note	no search hits
+5815	6024	CDS
+			protein_id	lcl|sample3_47_13
+			product	hypothetical protein
+			inference	protein motif CDD:PHA00646
+6027	6803	CDS
+			protein_id	lcl|sample3_47_14
+			product	Zonular occludens toxin (Zot)
+			inference	protein motif PFAM:PF05707.11

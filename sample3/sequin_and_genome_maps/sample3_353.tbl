@@ -1,0 +1,13 @@
+>Feature sample3_353 Table1
+1	180	CDS
+			protein_id	lcl|sample3_353_1
+			product	Tail connector protein
+			inference	protein motif PDB:4HUD_D
+177	668	CDS
+			protein_id	lcl|sample3_353_2
+			product	small terminase
+			inference	protein motif CDD:PHA02585
+652	1230	CDS
+			protein_id	lcl|sample3_353_3
+			product	DNA packaging protein
+			inference	protein motif PDB:2O0J_A

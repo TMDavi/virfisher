@@ -1,0 +1,13 @@
+>Feature sample3_87 Table1
+3	1178	CDS
+			protein_id	lcl|sample3_87_1
+			product	Capsid protein
+			inference	protein motif PDB:5TC1_M
+1224	1595	CDS
+			protein_id	lcl|sample3_87_2
+			product	hypothetical protein
+			note	no search hits
+1698	3665	CDS
+			protein_id	lcl|sample3_87_3
+			product	RNA dependent RNA polymerase
+			inference	protein motif PFAM:PF03431.12

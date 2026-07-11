@@ -1,0 +1,29 @@
+>Feature sample3_80 Table1
+112	2	CDS
+			protein_id	lcl|sample3_80_1
+			product	prohead core protein; Provisional
+			inference	protein motif CDD:PHA02557
+778	143	CDS
+			protein_id	lcl|sample3_80_2
+			product	Prohead core protein protease
+			inference	protein motif PFAM:PF03420.12
+1206	778	CDS
+			protein_id	lcl|sample3_80_3
+			product	Prohead core protein
+			inference	protein motif UniProt:tr|A0A0B6VSS8_9CAUD
+1481	1206	CDS
+			protein_id	lcl|sample3_80_4
+			product	prohead core protein; Provisional
+			inference	protein motif CDD:PHA02608
+3055	1481	CDS
+			protein_id	lcl|sample3_80_5
+			product	portal vertex protein
+			inference	protein motif CDD:PHA02531
+3604	3113	CDS
+			protein_id	lcl|sample3_80_6
+			product	Baseplate wedge protein
+			inference	protein motif PDB:5IV5_FH
+4008	3790	CDS
+			protein_id	lcl|sample3_80_7
+			product	tail sheath protein; Provisional
+			inference	protein motif CDD:PHA02539

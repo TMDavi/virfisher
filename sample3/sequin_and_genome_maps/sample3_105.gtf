@@ -1,0 +1,2 @@
+sample3_105	Cenote-Taker	CDS	2	2836	.	+	0              	gene_id "lcl|sample3_105_1"; gene_name "minor tail protein"; gene_inference "protein motif PFAM:PF10145.8"
+sample3_105	Cenote-Taker	CDS	2875	3210	.	+	0              	gene_id "lcl|sample3_105_2"; gene_name "lytic transglycosylase-like domain of tail fiber-like proteins and similar domains"; gene_inference "protein motif cd13402"

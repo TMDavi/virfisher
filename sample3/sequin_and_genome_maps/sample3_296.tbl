@@ -1,0 +1,5 @@
+>Feature sample3_296 Table1
+1	1383	CDS
+			protein_id	lcl|sample3_296_1
+			product	Putative phage tail protein
+			inference	protein motif PFAM:PF13550.5

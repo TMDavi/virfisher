@@ -1,0 +1,401 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Peeveelvirus sp. ct0K06R" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_292" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;-_Bronfenbrennervirinae;g_Peeveelvirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1393 ,
+              seq-data
+                ncbi2na '4D03FCF6FA1ACC0EBFB47BC844F0B646320D23043A008FD7C30FD
+7980E91139EBACFF80380AECF230C00242216E522083D500BFCBA070109EA02FB6C763834386FE
+343C82F8C482FF027CD220040D3410880C92BB3FACF53E4C2F6932012604E2CD1A39C3F23C7CD0
+7F005F33C4E6FEE483E0FF0BF0E3833B836E0FC0FE314780C62FBE38001109E03E100F04F8F7A0
+238336380F2106E3A3C994314A6B0EB24F448B63F014EC0CF81FB238B348E0C0D889C78C003E02
+BAE28038B0A0188BE904F3E2B19D038C10603AD322AB39BC0BF847EB78037EBA3D02018FD1B6E7
+F200478FCDE3B9BEFCB234CD53640C3EB284036AC7FA27601E38EFA1F0336FB0BC501104FE46E3
+F3388139BB2904D0D0EF6FEBFCE7E18C0A6382E6FF8E042004FC406C7F0490F6E07C48EFDECB87
+CD69F10211E3BC0524F1B2CF805BC002041B00083C80C21C08047733C0C33FAE0BE0453CD03125
+3E84E7833263B73FFF380'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_292_1" } ,
+            descr {
+              title "Portal protein [Peeveelvirus sp. ct0K06R]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 84 ,
+              seq-data
+                ncbieaa "MKFYSLDGINGLSLLDTLSRTIESDNNGKDFLNNFLRNGTHAGGILKMKGVLD
+NKKARDRAREEFPKVLVELNKLGKLSYSMNQ" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Portal protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 83 ,
+                          id
+                            local
+                              str "sample3_292_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_292_2" } ,
+            descr {
+              title "Portal protein [Peeveelvirus sp. ct0K06R]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 165 ,
+              seq-data
+                ncbieaa "MTFDQLEVDTEVLKLIRENKSSTREIAGVFGIPLHKFGIETANMSITDANLDY
+LSTLKPYITCVCAELNFKFNDEYVNREFKFDTTEIRVVDEKTQAEIDKINIDSGKMNIDEIRQRDGLAPIPGGNGSIH
+RVDLNHVNIELVDEYQMNKSRATDKKLKGGEENE" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Portal protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 164 ,
+                          id
+                            local
+                              str "sample3_292_2" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_292_3" } ,
+            descr {
+              title "prohead serine protease [Peeveelvirus sp. ct0K06R]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 194 ,
+              seq-data
+                ncbieaa "MSKETRVGNIIEVRSNDNNEMVIEGYALKFDTWSENLGGFKETISRRALENTD
+LSDVRCLVDHIPSQIIGRTKSGTLELETDDVGLKYRCKLPNTTFARDLYENMRVGNINQCSFGFMLDDKGDEVRFDEQ
+ENIYKRTLTAIRELTDVSVVTYPAYKDTDVKPALRSIETVKKEQRKKELEIRLKKHSILNNIW" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "prohead serine protease" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 193 ,
+                          id
+                            local
+                              str "sample3_292_3" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_292_1" ,
+                  location
+                    int {
+                      from 1 ,
+                      to 255 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_292" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:TIGR01537" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_292_2" ,
+                  location
+                    int {
+                      from 252 ,
+                      to 749 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_292" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:TIGR01537" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_292_3" ,
+                  location
+                    int {
+                      from 742 ,
+                      to 1326 ,
+                      strand plus ,
+                      id
+                        local
+                          str "sample3_292" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PFAM:PF04586.16" } } } } } } } } }

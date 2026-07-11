@@ -1,0 +1,2 @@
+sample3_264	Cenote-Taker	CDS	947	3	.	-	0              	gene_id "lcl|sample3_264_1"; gene_name "putative encapsidation protein"; gene_inference "protein motif CDD:PHA01076"
+sample3_264	Cenote-Taker	CDS	1483	995	.	-	0              	gene_id "lcl|sample3_264_2"; gene_name "hypothetical protein"; gene_inference "protein motif PHA01816"

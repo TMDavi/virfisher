@@ -1,0 +1,342 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Dhakavirus sp. ct2JA9D" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_374" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;o_P
+antevenvirales;f_Straboviridae;-_Tevenvirinae;g_Dhakavirus]
+ [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 1175 ,
+              seq-data
+                ncbi2na 'D0DE8120A9FC09DD1695062451A33436AD7A0B4044527F26506BB
+EB4C523F1417B922CBC350D8C1F46BE3F624C3F6B2428C5A12F4937935316EC79182B5EE52F632
+2C9F9FD278623F27D8C1FBFB639A0953F6F51ABCDAC816F805F5E0BDE6320B25317D263F4949E1
+49F41489AC1249352FC9A4D2C9979341AF127D0497A0BB9205AC9F6082E20C0FF141F5207F9F92
+52E7D80BF492457852204C9BDA24C4DA3A027DFC99792632ADFC5331E464B9031785ACABCF48A7
+811440CD0090D238A0C9186053153C796950DE2F124520B7A52798CFAC934C16EB45163F49F4B4
+A0205039F688FFF6D18CF7A24B4A3B7EF5EBFD803FC98E327EFC8245063F4A089F6FF52489A14F
+FE070E4F7FF4EEFB305F3C0F080F6239E63E484AD660A12ACA7CB96FF7D079F580C'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_374_1" } ,
+            descr {
+              title "Major Capsid Protein [Dhakavirus sp. ct2JA9D]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 355 ,
+              seq-data
+                ncbieaa "MKKNALVQKWSALLENEALPEIVGASKQAIIAKIFENQEQDILTAPEYRDEKI
+SEAFGSFLTEAEIGGDHGYDATNIAAGQTSGAVTQIGPAVMGMVRRAIPHLIAFDICGVQPLNNPTGQVFALRAVYGK
+DPIAAGAKEAFHPMYAPNAMFSGQGAAETFEALAASKVLEVGKIYSHFFEATGSAHFQAVEAVTVDAGATDAAKLDAA
+VTALVEAGQLAEIAEGMATSIAELQEGFNGSTDNPWNEMGFRIDKQVIEAKSRQLKASYSIELAQDLRAVHGMDADAE
+LSGILATEIMLEINREVIDWINYSAQVGKSGMTNTVGAKAGVFDFQDPIDIRGARWAGESFKALLFQI" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "Major Capsid Protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 354 ,
+                          id
+                            local
+                              str "sample3_374_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_374_2" } ,
+            descr {
+              title "hypothetical protein [Dhakavirus sp. ct2JA9D]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 28 ,
+              seq-data
+                ncbieaa "MSEAVEENGTKPTLSFADLSAIAASRIS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "hypothetical protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 27 ,
+                          id
+                            local
+                              str "sample3_374_2" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_374_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 1066 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_374" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:pfam07068" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  comment "no search hits" ,
+                  product
+                    whole
+                      local
+                        str "sample3_374_2" ,
+                  location
+                    int {
+                      from 1088 ,
+                      to 1174 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_374" } } } } } } } }

@@ -1,0 +1,29 @@
+>Feature sample3_49 Table1
+379	2	CDS
+			protein_id	lcl|sample3_49_1
+			product	Major Capsid protein
+			inference	protein motif PFAM:PF03864.14
+788	405	CDS
+			protein_id	lcl|sample3_49_2
+			product	head decoration
+			inference	protein motif PFAM:PF02924.13
+1865	804	CDS
+			protein_id	lcl|sample3_49_3
+			product	hypothetical protein
+			note	no search hits
+2710	1874	CDS
+			protein_id	lcl|sample3_49_4
+			product	Putative phage serine protease XkdF
+			inference	protein motif PFAM:PF14550.5
+3277	2720	CDS
+			protein_id	lcl|sample3_49_5
+			product	hypothetical protein
+			note	no search hits
+4908	3382	CDS
+			protein_id	lcl|sample3_49_6
+			product	Portal protein
+			inference	protein motif PDB:5NGD_C
+6240	5137	CDS
+			protein_id	lcl|sample3_49_7
+			product	Large Terminase
+			inference	protein motif PDB:5OE8_A

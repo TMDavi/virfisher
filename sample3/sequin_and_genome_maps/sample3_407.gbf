@@ -1,0 +1,79 @@
+LOCUS       sample3_407             1093 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-
+            _Caudoviricetes incertae
+            sedis;f_Andersonviridae;-_Ounavirinae;g_Felixounavirus]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Felixounavirus sp. ct2OM76 (unknown)
+  ORGANISM  Felixounavirus sp. ct2OM76
+            Unclassified.
+REFERENCE   1  (bases 1 to 1093)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1093)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1093
+                     /organism="Felixounavirus sp. ct2OM76"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(2..826)
+                     /inference="protein motif PDB:1WRU_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail protein"
+                     /translation="MSVKDSTAGASFRCYQLAVGSETTAFNDKPTSHAKDSMQMDYFD
+                     NLQFTCNVSYTSQKNKVTSDDTTFEIYNLNKEMRAKFKTVGATVMLRAGYTTGFKRDA
+                     NGDLIIEYDNLPLIYLGTIEYAYTYKRGVDMVTKVICSNDKMERTTIKTSISYKAGTT
+                     RKSVIKDLVNRLGFSLIDEDLSSIDGYTYKNGFSVWGSVAEALTKVCEESSLRWYTFN
+                     KQIRVVPFNAKARQLSWEIYPYNVIDSLQGYYRRTRKVLKKENKTVIKVKTGVRCKI"
+     CDS             complement(826..1092)
+                     /note="no search hits"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="hypothetical protein"
+                     /translation="MELKYKERLDRWFLTLSDVDGNVLLTEKKCLADQSITGRYVIPS
+                     LAGELFVERMYGTDLQPTRNNFGREKAFELNYYTQEDMRLMENL"
+ORIGIN      
+        1 ggattttgca acgaactcca gttttaactt taataactgt cttattctct tttttaagaa
+       61 cctttctagt tcttctatag taaccttgca aagagtcgat aacgttatat gggtaaattt
+      121 cccaagacag ttgtctagcc ttagcgttaa aagggactac tcggatttgc ttattaaatg
+      181 tataccaacg taggctactc tcttcgcaga cctttgttag tgcctctgca acacttcccc
+      241 aaacactaaa accattctta taagtataac catcaatact tgaaaggtct tcatcgataa
+      301 gtgagaagcc taatctattg accaaatctt taatcacact tttacgtgtc gtccctgctt
+      361 tataagagat tgatgtctta attgtggttc tttccatttt atcattagag cagataacct
+      421 ttgtaaccat atctacacca cgcttatacg tataagcata ctcaatagta cctagataga
+      481 ttaatgggag gttatcatac tcaataataa ggtcaccatt tgcatccctt ttaaaaccag
+      541 tagtgtaacc tgccctgagc ataactgttg caccaactgt tttaaacttg gctctcatct
+      601 ctttattaag gttgtagatt tcaaaagtgg tatcatcaga ggttacttta tttttctgag
+      661 acgtataaga cacgttacaa gtgaattgta agttgtcaaa atagtccatt tgcatagaat
+      721 ctttagcatg gcttgtaggt ttatcattaa aggctgtagt ttcactacct acagccaatt
+      781 gatagcacct aaaagaagcc ccagcagtgc tatcttttac agacattata aattctccat
+      841 taatctcata tcttcttgag tgtaataatt aagctcaaat gccttttctc ttccgaagtt
+      901 atttctggta ggttgtaaat cagtaccgta cattcgttca acaaaaagct ctccagctaa
+      961 tgaaggaatt acatagcgtc ctgtgattga ctggtctgca aggcatttct tttcagttaa
+     1021 taatacatta ccatcaacat cagatagcgt caagaaccat ctgtcaagcc tctctttata
+     1081 tttaagctca att
+//

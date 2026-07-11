@@ -1,0 +1,2 @@
+sample3_348	Cenote-Taker	CDS	373	146	.	-	0              	gene_id "lcl|sample3_348_1"; gene_name "DNA helicase"; gene_inference "protein motif PFAM:PF11637.7"
+sample3_348	Cenote-Taker	CDS	1248	370	.	-	0              	gene_id "lcl|sample3_348_2"; gene_name "DNA helicase"; gene_inference "protein motif PDB:1RIF_B"

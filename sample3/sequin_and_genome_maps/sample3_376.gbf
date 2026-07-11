@@ -1,0 +1,86 @@
+LOCUS       sample3_376             1170 bp    DNA     linear       01-JAN-2019
+DEFINITION  [note: taxonomic lineage
+            -_Viruses;-
+            _Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes]
+            [isolation_source=original].
+ACCESSION   
+VERSION
+DBLINK      BioProject: unknown
+            BioSample: unknown
+            Sequence Read Archive: unknown
+KEYWORDS    .
+SOURCE      Caudoviricetes sp. ct3HN0I (unknown)
+  ORGANISM  Caudoviricetes sp. ct3HN0I
+            Unclassified.
+REFERENCE   1  (bases 1 to 1170)
+  AUTHORS   Taker,C.
+  TITLE     Cenote-Taker 2 dummy template file. Do NOT submit
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1170)
+  AUTHORS   Taker,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JAN-2019) Taker 2, Cenote, 1000 Circle St., Cenote,
+            DC 31111, USA
+COMMENT     ##Genome-Assembly-Data-START##
+            Assembly Method       :: unknown_assembler
+            Genome Coverage       :: 0.00x
+            Sequencing Technology :: Illumina
+            Annotation Pipeline   :: Cenote-Taker 3
+            URL                   :: https://github.com/mtisza1/Cenote-Taker3
+            ##Genome-Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1170
+                     /organism="Caudoviricetes sp. ct3HN0I"
+                     /mol_type="genomic DNA"
+                     /isolation_source="unknown"
+                     /collection_date="unknown"
+                     /note="genome binned from sequencing reads available in
+                     unknown;
+                     derived from metagenome: unknown"
+     CDS             complement(2..217)
+                     /inference="protein motif PFAM:PF06295.11"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="lipoprotein"
+                     /translation="MEFQEAWGLAKDAIIPLIGVIWFFFKQKMDKFGSDLEEMEEKSR
+                     ELEKKLVFVESTYATKAELTQMLNQINS"
+     CDS             complement(227..772)
+                     /inference="protein motif PFAM:PF02413.16"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="tail fibre assembly protein"
+                     /translation="MIFTNFKKYIPEDPELKELVEAENILFLRCDQGYDWYDLRSTEF
+                     NNDKMKVVFDDQNRIVFWNTDPTLLCPEDLSIAQVDFNIDTFEDIRNKVLDLETLTLK
+                     DKEYSREELMTQASAKIRSLQETAVALITPLQYAKDLEMATEDELAYLKNLQVYVVKL
+                     NRVPLQKDYPYAIDWPTLPTE"
+     CDS             complement(773..1168)
+                     /inference="protein motif PDB:5NXF_A"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Long tail fiber"
+                     /translation="-
+                     LVRLDYLNSRLTSLQNTLQTNINTVQNNLNNVNNNLSSRINNVESNHQSQITNNYNYA
+                     NGTFVRDIRYTSQGVYYPPGNEVSWTYICSSGYVLSGIIVQETGRSSADNIGGVYFKR
+                     LQRNVNGNWYDIGG"
+ORIGIN      
+        1 tagagttaat ttgatttagc atctgggtaa gttcggcttt agttgcgtaa gttgattcaa
+       61 caaagaccaa cttcttctct agctctcgac ttttctcctc catttcctca agatcagagc
+      121 cgaatttatc cattttttgt ttgaaaaaga accagatgac tccgattaaa gggattattg
+      181 catcctttgc aagtccccat gcttcttgaa attccatagt gatcccttat tctgtcggta
+      241 atgtaggcca atctatagcg taaggatagt ctttttgaag cggaacacga tttagtttaa
+      301 ctacataaac ttgaagattt ttaagataag ctaattcgtc ttcagtagcc atttctaaat
+      361 ctttagcata ctgtaaaggt gttataagtg ctaccgctgt ttcttgtaaa gagcgaattt
+      421 ttgcactagc ttgtgtcatc aactcttcac gggaatactc tttatcctta agagttaagg
+      481 tttctaaatc cagaaccttg ttcctaatat cctcaaaagt atctatatta aaatctactt
+      541 gtgctataga aagatcttca gggcaaagta gtgtaggatc agtattccaa aacacaatac
+      601 gattttgatc atcaaaaacg actttcattt tatcgttatt gaattctgtg ctacgtaaat
+      661 cataccagtc gtaaccttga tcgcaacgaa gaaaaagaat gttctctgct tctaccaatt
+      721 cttttagttc agggtcttca ggaatatatt ttttaaagtt tgtaaatatc atttagcctc
+      781 caatatcgta ccagtttccg ttaacgttgc gctggaggcg tttgaagtaa accccaccga
+      841 tgttatccgc agagctacgt cctgtttcct gtacgataat accagaaaga acataaccag
+      901 aagaacagat ataagtccaa gaaacctcgt tccctggtgg ataatacaca ccttggctag
+      961 tataacgaat atctcttaca aaggttccgt tagcatagtt gtagttattt gtaatctgac
+     1021 tttgatgatt actttctaca ttgtttatac gagaagagag gttgttgtta acattattca
+     1081 agttgttttg aacagtgtta atattcgtct gcaatgtgtt ctgaagggaa gtcaaacgag
+     1141 agttcagata atctaaacga actaaagcat
+//

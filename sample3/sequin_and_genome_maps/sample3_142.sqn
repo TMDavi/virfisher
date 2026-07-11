@@ -1,0 +1,359 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Taker" ,
+            first "Cenote" ,
+            middle "" ,
+            initials "" ,
+            suffix "" ,
+            title "" } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            email "cenote@donotsubmit.net" ,
+            postal-code "31111" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Taker" ,
+                  first "Cenote" ,
+                  middle "" ,
+                  initials "" ,
+                  suffix "" ,
+                  title "" } } } ,
+        affil
+          std {
+            affil "Cenote" ,
+            div "Taker 2" ,
+            city "Cenote" ,
+            sub "DC" ,
+            country "USA" ,
+            street "1000 Circle St." ,
+            postal-code "31111" } } ,
+      date
+        std {
+          year 2019 ,
+          month 1 ,
+          day 1 } } ,
+    subtype new ,
+    tool "tbl2asn 25.7 - LINUX UNIX" } ,
+  data
+    entrys {
+      set {
+        class nuc-prot ,
+        descr {
+          source {
+            org {
+              taxname "Sarkviridae sp. ctIDFNE" ,
+              orgname {
+                mod {
+                  {
+                    subtype metagenome-source ,
+                    subname "unknown" } } ,
+                gcode 11 } } ,
+            subtype {
+              {
+                subtype isolation-source ,
+                name "unknown" } ,
+              {
+                subtype collection-date ,
+                name "unknown" } ,
+              {
+                subtype other ,
+                name "genome binned from sequencing reads available in
+ unknown" } } } ,
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Taker" ,
+                            first "Cenote" ,
+                            initials "C." } } } } ,
+                title "Cenote-Taker 2 dummy template file. Do NOT submit" } } } ,
+          user {
+            type
+              str "DBLink" ,
+            data {
+              {
+                label
+                  str "BioProject" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "BioSample" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } ,
+              {
+                label
+                  str "Sequence Read Archive" ,
+                num 1 ,
+                data
+                  strs {
+                    "unknown" } } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SeriousSeqEntryCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 8 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 1 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2019 } } } ,
+          create-date
+            std {
+              year 2019 ,
+              month 1 ,
+              day 1 } } ,
+        seq-set {
+          seq {
+            id {
+              local
+                str "sample3_142" } ,
+            descr {
+              title "[note: taxonomic lineage
+ -_Viruses;-_Duplodnaviria;k_Heunggongvirae;p_Uroviricota;c_Caudoviricetes;-_C
+audoviricetes incertae sedis;f_Sarkviridae] [isolation_source=original]" ,
+              molinfo {
+                biomol genomic } ,
+              user {
+                type
+                  str "StructuredComment" ,
+                data {
+                  {
+                    label
+                      str "StructuredCommentPrefix" ,
+                    data
+                      str "##Genome-Assembly-Data-START##" } ,
+                  {
+                    label
+                      str "Assembly Method" ,
+                    data
+                      str "unknown_assembler" } ,
+                  {
+                    label
+                      str "Genome Coverage" ,
+                    data
+                      str "0.00x" } ,
+                  {
+                    label
+                      str "Sequencing Technology" ,
+                    data
+                      str "Illumina" } ,
+                  {
+                    label
+                      str "Annotation Pipeline" ,
+                    data
+                      str "Cenote-Taker 3" } ,
+                  {
+                    label
+                      str "URL" ,
+                    data
+                      str "https://github.com/mtisza1/Cenote-Taker3" } ,
+                  {
+                    label
+                      str "StructuredCommentSuffix" ,
+                    data
+                      str "##Genome-Assembly-Data-END##" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "ALT EMAIL:cenote@donotsubmit.net" } } } ,
+              user {
+                type
+                  str "Submission" ,
+                data {
+                  {
+                    label
+                      str "AdditionalComment" ,
+                    data
+                      str "Submission Title:None" } } } } ,
+            inst {
+              repr raw ,
+              mol dna ,
+              length 2430 ,
+              seq-data
+                ncbi2na 'D3816020732AC56525D04F093E6CA50C2D1840197818EF74425FD
+65BBBB12ACB51E5BBC1EBDD95EB1F0F7C4FAEFC5656DF6DAFD7FB467865CF5E8CE328F65586927
+53932514D7A8EFDC5A3834BF71EF75231A3277F45BE7DA33F995952036694A3C6C79A420C5B7F0
+AD914809C6BF9AB98F465131BF0C9344EC6531FDF3620CC63A1AD35F75568669A5BFE5D7B31995
+1D315989AC9A548CEB6A80BD694FBFE94DD0C2B42170BFFA60EC1819D6194574C96294276427FD
+737B78CD7C0BFF7C334DE8D4E58137F5E5BC64B333421599A02CD089EFDF55A12829095D95F41B
+E832D6410407C456DF5A8F31279A12E8E5BC9FA513401A6BB91A5FC2C39A0315F342F4DB6E30CD
+66652BDE29E005FD5A54D92EF67D9D65B3E4841761A6B4DA08185C1241A66CFDB639AE82495621
+937630CB99936D6B035D379490B6F09B61F7B9BEE8E6BB96B9CBD7B00CA420B7F96BCB816533F1
+BEA7DF5EC1DF7F3A66E1E7D0D9E7D650E513417C0D76B4F0D17ADC2E4919ADF607483D551F293F
+DF311F464E86C3B67FF9B390C0F7951DFFABAB3692CC1B60DF32F7EA6CA7C78367B34997C59BF3
+5F2539F9B43BF005D1126694B815A8A93B68198734CBB730EFF714A2F60D5490E7C307ADAD8130
+A0BFE9714BF88F9EDEBFF927F24D958640D19A4CD9E5B6BA6D531F912A5F4D809B2B923043F6B2
+DA3BDA6C24CA0587FFF0369F7803BF4B36230248F4FCFE15F3200A6160965F0F80200CCF06BC61
+A6F6619AEFDB7D34DF52B6D867A48059205160E5FD7D94903F0E5BF2FF997007F33E7688148FDC
+F88CF2511051CCC5E745F4379D54D0EF82DEBDC5E7FD15F0782D2CF0EBEF9FBDFE5E800'H } } ,
+          seq {
+            id {
+              local
+                str "sample3_142_1" } ,
+            descr {
+              title "DNA Polymerase I [Sarkviridae sp. ctIDFNE]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 687 ,
+              seq-data
+                ncbieaa "MNLLYLDTETFSEADLKKVGSYAYAEHPTTEIVICTYAFDEGPVQVWDATDGS
+DMPRDLRRAMLKLQKPDSNLKLVGQNFLMFDRPVIKHCWGFELLVENIIDTMIVAFRHALPGSLAALCEVLNIDASMA
+KDKRGKALIQRFSKPTPKNYKIRRYTADTHPKEWAEFIAYAKSDITSMREVYKKMPKWGNSEFEDRVLHLDQVINDRG
+FKVDVALAEAAIEAVTRHKEELQEEAQRKYGGSLTGKDFLPILQELAPAHRIHNAQKSTLNDLLADEDLPDDARTIIE
+MRLGAASTASTKYAPLLLGRSSDDRRRGCLQYGGAKRTLRWAGKGFQPQNLARGYYHDDELDKGISALLKGRAHRRFD
+VAKLTASTVRSCIIPEDGCKFVVADYSNVEGRGLAFLSGEETALDTFRAGLDIYCVTAGKMFGMDPDDIKKNFKDIRQ
+IGKACELGLGYEGGVGAFVTFAKNLGLDLIEMAKTMAGTFPDHIWAATARGYEWARIQEAKRPPRPGEKDDRPSYILD
+KKVWRTCDAIKRMWRESHPQTVAFWCDLKDGILAAVRNPGRDFWAGANIRSNGERAIRIWRTVETDSSGRNIPGWWLC
+MELPSGRILSYPGIGVSVTKETDEDGRVNTNVRIKYQGENQLTRQWTTLYTHGGKACENIVQAFCRDLLAYAMLNVEA
+GGYPIVLSVH" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DNA Polymerase I" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 686 ,
+                          id
+                            local
+                              str "sample3_142_1" } } } } } } ,
+          seq {
+            id {
+              local
+                str "sample3_142_2" } ,
+            descr {
+              title "DNA Helix Destabilizing Protein [Sarkviridae sp.
+ ctIDFNE]" ,
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 102 ,
+              seq-data
+                ncbieaa "-QAKNKQQPLILTSVKGEKQVEPDFNIDGEQIEGEQVYSGCVANISIEIWFSE
+QYKVLGAKLNGIKFAGEGKAFGGSAVSASVDDLEDDEDETPRRERRRNR" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "DNA Helix Destabilizing Protein" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 101 ,
+                          id
+                            local
+                              str "sample3_142_2" } } } } } } } ,
+        annot {
+          {
+            data
+              ftable {
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_142_1" ,
+                  location
+                    int {
+                      from 2 ,
+                      to 2062 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_142" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif CDD:cd08642" } } } ,
+                {
+                  data
+                    cdregion {
+                      frame one ,
+                      code {
+                        id 11 } } ,
+                  product
+                    whole
+                      local
+                        str "sample3_142_2" ,
+                  location
+                    int {
+                      from 2120 ,
+                      to 2428 ,
+                      strand minus ,
+                      id
+                        local
+                          str "sample3_142" } ,
+                  qual {
+                    {
+                      qual "inference" ,
+                      val "protein motif PDB:1JE5_B" } } } } } } } } }

@@ -1,0 +1,4 @@
+sample3_257	Cenote-Taker	CDS	249	1	.	-	0              	gene_id "lcl|sample3_257_1"; gene_name "Large Terminase"; gene_inference "protein motif PFAM:PF03354.14"
+sample3_257	Cenote-Taker	CDS	719	252	.	-	0              	gene_id "lcl|sample3_257_2"; gene_name "Small Terminase"; gene_inference "protein motif PFAM:PF05119.11"
+sample3_257	Cenote-Taker	CDS	1193	849	.	-	0              	gene_id "lcl|sample3_257_3"; gene_name "HNH endonuclease"; gene_inference "protein motif PDB:5H0M_A"
+sample3_257	Cenote-Taker	CDS	1499	1209	.	-	0              	gene_id "lcl|sample3_257_4"; gene_name "Nucleoside Triphosphate Pyrophosphohydrolase (EC 3"; gene_inference "protein motif cd11541"

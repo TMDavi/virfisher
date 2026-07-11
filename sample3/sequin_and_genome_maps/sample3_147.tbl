@@ -1,0 +1,17 @@
+>Feature sample3_147 Table1
+698	297	CDS
+			protein_id	lcl|sample3_147_1
+			product	hypothetical protein
+			note	no search hits
+918	691	CDS
+			protein_id	lcl|sample3_147_2
+			product	hypothetical protein
+			note	no search hits
+1964	1005	CDS
+			protein_id	lcl|sample3_147_3
+			product	DNA polymerase B
+			inference	protein motif CDD:cd05781
+2347	1961	CDS
+			protein_id	lcl|sample3_147_4
+			product	Exonuclease
+			inference	protein motif PDB:5HML_B
