@@ -98,3 +98,72 @@ rule extract_viral_scaffolds:
 
         seqkit grep -f {output.ids} {input.fasta} > {output.fasta}
         """
+
+rule checkv:
+    input:
+        scaffolds = out("{sample}", "intermediate", "viral_predicted_scaffolds_first_step.fasta")
+    output:
+        viruses = out("{sample}","intermediate", "checkv", "viruses.fna"),
+        proviruses = out("{sample}","intermediate", "checkv", "proviruses.fna"),
+        summary = out("{sample}","intermediate", "checkv", "quality_summary.tsv")
+    params:
+        db = "databases/checkv-db-v1.5/", 
+        outdir = out("{sample}","intermediate", "checkv")
+    conda:
+         "viral-id-sop"
+    threads: config["resources"]["threads"]
+    shell:
+        """
+        checkv end_to_end {input} {params.outdir} -t {threads} -d {params.db}
+        """
+
+rule combine_checkv:
+    input:
+        viruses = out("{sample}","intermediate", "checkv", "viruses.fna"),
+        proviruses = out("{sample}","intermediate", "checkv", "proviruses.fna")
+    output:
+        out("{sample}", "intermediate", "checkv","combined.fna")
+    shell:
+        """
+        python {WORKDIR}/scripts/combine_checkv.py --virus {input.viruses} --provirus {input.proviruses} --output {output}
+        """
+
+rule filtering_one:
+    input:
+        assembly = out("{sample}", "intermediate", "checkv","combined.fna"),
+        quality = out("{sample}","intermediate", "checkv", "quality_summary.tsv")
+    output:
+        out("{sample}","intermediate","checkv","filtered_checkv.fasta")
+    params:
+        tempdir = out("{sample}","intermediate","checkv","tmp")
+    shell:
+        """
+        python {WORKDIR}/scripts/filtering_one.py --fasta_file {input.assembly} --quality_file {input.quality} --tempdir {params.tempdir} --output_file {output}
+        """
+rule genomad:
+    input:
+        filtered = out("{sample}","intermediate","checkv","filtered_checkv.fasta")
+    output:
+        out("{sample}","intermediate", "genomad", "filtered_checkv_annotate", "filtered_checkv_genes.tsv")
+    params:
+        outdir = out("{sample}","intermediate", "genomad"),
+        db = "databases/genomad_db" 
+    conda:
+         "genomad_env"
+    threads: config["resources"]["threads"]
+    shell:
+        """
+        genomad end-to-end --cleanup {input.filtered} {params.outdir} {params.db} --threads {threads}
+        """
+
+rule filtering_two:
+    input:
+        assembly = out("{sample}","intermediate","checkv","filtered_checkv.fasta"),
+        annotation = out("{sample}","intermediate", "genomad", "filtered_checkv_annotate", "filtered_checkv_genes.tsv")
+    output:
+        out("{sample}","intermediate", "viral_predicted_scaffolds_second_step.fasta")
+    shell:
+        """
+        python {WORKDIR}/scripts/filtering_two.py --fasta_file {input.assembly} --annotation_file {input.annotation} --output_file {output}
+        """
+

@@ -1,9 +1,0 @@
->Feature sample3_467 Table1
-1	120	CDS
-			protein_id	lcl|sample3_467_1
-			product	lipoprotein
-			inference	protein motif PFAM:PF06295.11
-124	999	CDS
-			protein_id	lcl|sample3_467_2
-			product	Tailspike protein
-			inference	protein motif PDB:4OJL_C

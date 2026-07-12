@@ -1,9 +1,0 @@
->Feature sample3_415 Table1
-437	3	CDS
-			protein_id	lcl|sample3_415_1
-			product	Baseplate wedge protein
-			inference	protein motif PDB:5IV5_GH
-1076	450	CDS
-			protein_id	lcl|sample3_415_2
-			product	Baseplate J like protein
-			inference	protein motif PFAM:PF04865.13

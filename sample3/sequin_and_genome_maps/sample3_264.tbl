@@ -1,9 +1,0 @@
->Feature sample3_264 Table1
-947	3	CDS
-			protein_id	lcl|sample3_264_1
-			product	putative encapsidation protein
-			inference	protein motif CDD:PHA01076
-1483	995	CDS
-			protein_id	lcl|sample3_264_2
-			product	hypothetical protein
-			inference	protein motif CDD:PHA01816

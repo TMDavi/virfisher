@@ -1,8 +1,0 @@
-sample3_64	Cenote-Taker	CDS	148	2	.	-	0              	gene_id "lcl|sample3_64_1"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_64	Cenote-Taker	CDS	2648	192	.	-	0              	gene_id "lcl|sample3_64_2"; gene_name "tail tape measure protein "; gene_inference "protein motif Uniprot:T2PM72_GARVA"
-sample3_64	Cenote-Taker	CDS	3382	2798	.	-	0              	gene_id "lcl|sample3_64_3"; gene_name "major tail protein"; gene_inference "protein motif PFAM:PF04630.11"
-sample3_64	Cenote-Taker	CDS	3789	3433	.	-	0              	gene_id "lcl|sample3_64_4"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_64	Cenote-Taker	CDS	4100	3789	.	-	0              	gene_id "lcl|sample3_64_5"; gene_name "Structural protein "; gene_inference "protein motif UniProt:tr|I6PC96_9CAUD"
-sample3_64	Cenote-Taker	CDS	4381	4100	.	-	0              	gene_id "lcl|sample3_64_6"; gene_name "Tail protein"; gene_inference "protein motif UniProt:tr|A0A059PAS5_9CAUD"
-sample3_64	Cenote-Taker	CDS	4656	4378	.	-	0              	gene_id "lcl|sample3_64_7"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_64	Cenote-Taker	CDS	4856	4731	.	-	0              	gene_id "lcl|sample3_64_8"; gene_name "major head protein"; gene_inference "protein motif PFAM:PF06673.10"

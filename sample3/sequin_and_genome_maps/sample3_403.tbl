@@ -1,9 +1,0 @@
->Feature sample3_403 Table1
-1017	1	CDS
-			protein_id	lcl|sample3_403_1
-			product	DNA polymerase
-			inference	protein motif PDB:5IKN_F
-1099	1010	CDS
-			protein_id	lcl|sample3_403_2
-			product	hypothetical protein
-			note	no search hits

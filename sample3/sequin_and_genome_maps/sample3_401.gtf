@@ -1,2 +1,0 @@
-sample3_401	Cenote-Taker	CDS	547	2	.	-	0              	gene_id "lcl|sample3_401_1"; gene_name "lytic transglycosylase"; gene_inference "protein motif PDB:4WLI_A"
-sample3_401	Cenote-Taker	CDS	1103	696	.	-	0              	gene_id "lcl|sample3_401_2"; gene_name "major tail protein"; gene_inference "protein motif PFAM:PF09393.9"

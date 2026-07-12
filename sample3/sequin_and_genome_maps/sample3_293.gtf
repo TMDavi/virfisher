@@ -1,3 +1,0 @@
-sample3_293	Cenote-Taker	CDS	2	571	.	+	0              	gene_id "lcl|sample3_293_1"; gene_name "Minor tail protein "; gene_inference "protein motif UniProt:tr|A0A068F8L3_9CAUD"
-sample3_293	Cenote-Taker	CDS	582	1016	.	+	0              	gene_id "lcl|sample3_293_2"; gene_name "Minor tail protein "; gene_inference "protein motif UniProt:tr|A0A0F6YQK4_9CAUD"
-sample3_293	Cenote-Taker	CDS	1016	1387	.	+	0              	gene_id "lcl|sample3_293_3"; gene_name "hypothetical protein"; gene_inference "no search hits"

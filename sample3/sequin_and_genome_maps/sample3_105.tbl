@@ -1,9 +1,0 @@
->Feature sample3_105 Table1
-2	2836	CDS
-			protein_id	lcl|sample3_105_1
-			product	minor tail protein
-			inference	protein motif PFAM:PF10145.8
-2875	3210	CDS
-			protein_id	lcl|sample3_105_2
-			product	lytic transglycosylase-like domain of tail fiber-like proteins and similar domains
-			inference	protein motif CDD:cd13402

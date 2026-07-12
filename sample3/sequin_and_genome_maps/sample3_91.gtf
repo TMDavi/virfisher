@@ -1,5 +1,0 @@
-sample3_91	Cenote-Taker	CDS	1870	2	.	-	0              	gene_id "lcl|sample3_91_1"; gene_name "tail length tape measure protein"; gene_inference "protein motif PFAM:PF06791.12"
-sample3_91	Cenote-Taker	CDS	2129	1863	.	-	0              	gene_id "lcl|sample3_91_2"; gene_name "tail assembly chaperone"; gene_inference "protein motif PFAM:PF08809.10"
-sample3_91	Cenote-Taker	CDS	2644	2228	.	-	0              	gene_id "lcl|sample3_91_3"; gene_name "tail assembly chaperone"; gene_inference "protein motif PFAM:PF08748.10"
-sample3_91	Cenote-Taker	CDS	2815	2994	.	+	0              	gene_id "lcl|sample3_91_4"; gene_name "Superinfection immunity protein"; gene_inference "protein motif pfam14373"
-sample3_91	Cenote-Taker	CDS	3057	3533	.	+	0              	gene_id "lcl|sample3_91_5"; gene_name "DNA repair exonuclease"; gene_inference "protein motif PFAM:PF12850.6"

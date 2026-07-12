@@ -1,9 +1,0 @@
->Feature sample3_461 Table1
-313	23	CDS
-			protein_id	lcl|sample3_461_1
-			product	hypothetical protein
-			note	no search hits
-1006	479	CDS
-			protein_id	lcl|sample3_461_2
-			product	Terminase
-			inference	protein motif PDB:4BIJ_C

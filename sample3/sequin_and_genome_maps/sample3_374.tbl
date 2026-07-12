@@ -1,9 +1,0 @@
->Feature sample3_374 Table1
-1067	3	CDS
-			protein_id	lcl|sample3_374_1
-			product	Major Capsid Protein
-			inference	protein motif CDD:pfam07068
-1175	1089	CDS
-			protein_id	lcl|sample3_374_2
-			product	hypothetical protein
-			note	no search hits

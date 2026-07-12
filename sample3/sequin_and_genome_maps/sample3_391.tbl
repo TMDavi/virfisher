@@ -1,9 +1,0 @@
->Feature sample3_391 Table1
-1	615	CDS
-			protein_id	lcl|sample3_391_1
-			product	Tail assembly chaperone 
-			inference	protein motif UniProtKB:A0A0A0RPE2_9CAUD
-679	1119	CDS
-			protein_id	lcl|sample3_391_2
-			product	tail associated lysin
-			inference	protein motif PFAM:PF10145.8

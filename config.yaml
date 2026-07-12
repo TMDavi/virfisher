@@ -1,6 +1,6 @@
 WORKDIR: workflow
 resources:
-  threads: 10
+  threads: 4
   mem_mb: 256000
 samples:
   sample1_raw:

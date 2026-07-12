@@ -1,4 +1,0 @@
-sample3_115	Cenote-Taker	CDS	334	2	.	-	0              	gene_id "lcl|sample3_115_1"; gene_name "Baseplate wedge protein"; gene_inference "protein motif PDB:5IV5_A"
-sample3_115	Cenote-Taker	CDS	636	343	.	-	0              	gene_id "lcl|sample3_115_2"; gene_name "Baseplate wedge protein"; gene_inference "protein motif PDB:5IV5_ZA"
-sample3_115	Cenote-Taker	CDS	1157	636	.	-	0              	gene_id "lcl|sample3_115_3"; gene_name "hypothetical protein; Provisional"; gene_inference "protein motif PHA02606"
-sample3_115	Cenote-Taker	CDS	2910	1168	.	-	0              	gene_id "lcl|sample3_115_4"; gene_name "Baseplate"; gene_inference "protein motif CDD:pfam06714"

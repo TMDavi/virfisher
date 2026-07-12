@@ -1,9 +1,0 @@
->Feature sample3_142 Table1
-2063	3	CDS
-			protein_id	lcl|sample3_142_1
-			product	DNA Polymerase I
-			inference	protein motif CDD:cd08642
-2429	2121	CDS
-			protein_id	lcl|sample3_142_2
-			product	DNA Helix Destabilizing Protein
-			inference	protein motif PDB:1JE5_B

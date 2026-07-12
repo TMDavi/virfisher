@@ -1,9 +1,0 @@
->Feature sample3_464 Table1
-266	3	CDS
-			protein_id	lcl|sample3_464_1
-			product	IS66-like element accessory protein TnpA
-			inference	protein motif CDD:NF038385
-1002	373	CDS
-			protein_id	lcl|sample3_464_2
-			product	DNAB Like Replicative Helicase
-			inference	protein motif PDB:3BGW_F

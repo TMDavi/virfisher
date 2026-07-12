@@ -1,2 +1,0 @@
-ORFquery	contig	target	evalue	pvalue	n_aligned_positions	hmm_coverage
-sample3_87_3	sample3_87	levi_cluster.2/PFAM:PF03431.12-RNA-dependent-RNA-polymerase	7.456297225523896e-81	1.4284094301769916e-83	330	1.0

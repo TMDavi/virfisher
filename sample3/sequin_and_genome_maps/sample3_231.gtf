@@ -1,3 +1,0 @@
-sample3_231	Cenote-Taker	CDS	1	231	.	+	0              	gene_id "lcl|sample3_231_1"; gene_name "baseplate assembly protein"; gene_inference "protein motif CDD:PHA02611"
-sample3_231	Cenote-Taker	CDS	228	1397	.	+	0              	gene_id "lcl|sample3_231_2"; gene_name "baseplate hub subunit"; gene_inference "protein motif CDD:PHA02612"
-sample3_231	Cenote-Taker	CDS	1351	1623	.	+	0              	gene_id "lcl|sample3_231_3"; gene_name "Baseplate hub distal subunit"; gene_inference "protein motif PFAM:PF11110.7"

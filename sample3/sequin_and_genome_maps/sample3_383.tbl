@@ -1,9 +1,0 @@
->Feature sample3_383 Table1
-172	2	CDS
-			protein_id	lcl|sample3_383_1
-			product	Minor tail protein
-			inference	protein motif PFAM:PF05100.11
-1144	182	CDS
-			protein_id	lcl|sample3_383_2
-			product	tail assembly protein
-			inference	protein motif PFAM:PF02011.14

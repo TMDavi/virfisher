@@ -1,4 +1,0 @@
-sample3_82	Cenote-Taker	CDS	3	977	.	+	0              	gene_id "lcl|sample3_82_1"; gene_name "Large Terminase"; gene_inference "protein motif PFAM:PF03354.14"
-sample3_82	Cenote-Taker	CDS	968	2209	.	+	0              	gene_id "lcl|sample3_82_2"; gene_name "Portal protein"; gene_inference "protein motif PFAM:PF04860.11"
-sample3_82	Cenote-Taker	CDS	2160	2885	.	+	0              	gene_id "lcl|sample3_82_3"; gene_name "phage prohead protease"; gene_inference "protein motif CDD:TIGR01543"
-sample3_82	Cenote-Taker	CDS	2943	3818	.	+	0              	gene_id "lcl|sample3_82_4"; gene_name "Major Capsid protein"; gene_inference "protein motif PFAM:PF06673.10"

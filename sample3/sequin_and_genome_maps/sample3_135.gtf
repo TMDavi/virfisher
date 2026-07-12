@@ -1,4 +1,0 @@
-sample3_135	Cenote-Taker	CDS	247	2	.	-	0              	gene_id "lcl|sample3_135_1"; gene_name "Portal protein"; gene_inference "protein motif PDB:5NGD_C"
-sample3_135	Cenote-Taker	CDS	1863	259	.	-	0              	gene_id "lcl|sample3_135_2"; gene_name "Large Terminase"; gene_inference "protein motif PDB:5OE8_A"
-sample3_135	Cenote-Taker	CDS	2078	1896	.	-	0              	gene_id "lcl|sample3_135_3"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_135	Cenote-Taker	CDS	2568	2389	.	-	0              	gene_id "lcl|sample3_135_4"; gene_name "hypothetical protein"; gene_inference "no search hits"

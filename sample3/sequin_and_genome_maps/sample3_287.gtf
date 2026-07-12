@@ -1,3 +1,0 @@
-sample3_287	Cenote-Taker	CDS	374	3	.	-	0              	gene_id "lcl|sample3_287_1"; gene_name "RNA ligase, Rnl2 family"; gene_inference "protein motif TIGR02307"
-sample3_287	Cenote-Taker	CDS	698	489	.	-	0              	gene_id "lcl|sample3_287_2"; gene_name "Protein of unknown function (DUF2774)"; gene_inference "protein motif pfam11242"
-sample3_287	Cenote-Taker	CDS	1417	803	.	-	0              	gene_id "lcl|sample3_287_3"; gene_name "head outer capsid protein "; gene_inference "protein motif UniProt:tr|Q7Y4V5_BPR69"
