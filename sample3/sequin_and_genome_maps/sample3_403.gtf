@@ -1,2 +1,0 @@
-sample3_403	Cenote-Taker	CDS	1017	1	.	-	0              	gene_id "lcl|sample3_403_1"; gene_name "DNA polymerase"; gene_inference "protein motif PDB:5IKN_F"
-sample3_403	Cenote-Taker	CDS	1099	1010	.	-	0              	gene_id "lcl|sample3_403_2"; gene_name "hypothetical protein"; gene_inference "no search hits"

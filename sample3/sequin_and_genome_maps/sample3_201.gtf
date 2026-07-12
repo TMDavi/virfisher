@@ -1,4 +1,0 @@
-sample3_201	Cenote-Taker	CDS	1	699	.	+	0              	gene_id "lcl|sample3_201_1"; gene_name "Tail tube protein"; gene_inference "protein motif PDB:5NGJ_A"
-sample3_201	Cenote-Taker	CDS	958	728	.	-	0              	gene_id "lcl|sample3_201_2"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_201	Cenote-Taker	CDS	1188	955	.	-	0              	gene_id "lcl|sample3_201_3"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_201	Cenote-Taker	CDS	1811	1185	.	-	0              	gene_id "lcl|sample3_201_4"; gene_name "DNA polymerase II, small subunit"; gene_inference "protein motif CDD:cd07386"

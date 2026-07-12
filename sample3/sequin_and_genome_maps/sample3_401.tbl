@@ -1,9 +1,0 @@
->Feature sample3_401 Table1
-547	2	CDS
-			protein_id	lcl|sample3_401_1
-			product	lytic transglycosylase
-			inference	protein motif PDB:4WLI_A
-1103	696	CDS
-			protein_id	lcl|sample3_401_2
-			product	major tail protein
-			inference	protein motif PFAM:PF09393.9

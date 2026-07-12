@@ -1,9 +1,0 @@
->Feature sample3_276 Table1
-2	763	CDS
-			protein_id	lcl|sample3_276_1
-			product	Tail needle protein
-			inference	protein motif PDB:3C9I_E
-818	1447	CDS
-			protein_id	lcl|sample3_276_2
-			product	Neck protein 
-			inference	protein motif UniProtKB:D5GVB0_9CAUD

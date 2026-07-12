@@ -1,5 +1,0 @@
-sample3_112	Cenote-Taker	CDS	1	300	.	+	0              	gene_id "lcl|sample3_112_1"; gene_name "HNH endonuclease"; gene_inference "protein motif PFAM:PF05551.10"
-sample3_112	Cenote-Taker	CDS	821	1798	.	+	0              	gene_id "lcl|sample3_112_2"; gene_name "tail tape measure protein "; gene_inference "protein motif Uniprot:K8AAU2_9ENTR"
-sample3_112	Cenote-Taker	CDS	1927	2541	.	+	0              	gene_id "lcl|sample3_112_3"; gene_name "endolysin"; gene_inference "protein motif PFAM:PF06995.10"
-sample3_112	Cenote-Taker	CDS	2531	2944	.	+	0              	gene_id "lcl|sample3_112_4"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_112	Cenote-Taker	CDS	2944	3039	.	+	0              	gene_id "lcl|sample3_112_5"; gene_name "hypothetical protein"; gene_inference "no search hits"

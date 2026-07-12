@@ -1,9 +1,0 @@
->Feature sample3_181 Table1
-1752	1	CDS
-			protein_id	lcl|sample3_181_1
-			product	tail tape measure protein 
-			inference	protein motif Uniprot:A0A0A0RMC0_9CAUD
-1994	1752	CDS
-			protein_id	lcl|sample3_181_2
-			product	Family of unknown function (DUF5361)
-			inference	protein motif CDD:pfam17318

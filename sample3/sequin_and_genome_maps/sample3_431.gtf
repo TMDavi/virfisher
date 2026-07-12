@@ -1,2 +1,0 @@
-sample3_431	Cenote-Taker	CDS	2	895	.	+	0              	gene_id "lcl|sample3_431_1"; gene_name "ORF68; Putative receptor binding protein"; gene_inference "protein motif PDB:5M9F_B"
-sample3_431	Cenote-Taker	CDS	907	1053	.	+	0              	gene_id "lcl|sample3_431_2"; gene_name "endolysin"; gene_inference "protein motif PFAM:PF01510.24"

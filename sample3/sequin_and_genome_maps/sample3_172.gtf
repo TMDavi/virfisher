@@ -1,4 +1,0 @@
-sample3_172	Cenote-Taker	CDS	302	51	.	-	0              	gene_id "lcl|sample3_172_1"; gene_name "Terminase subunit "; gene_inference "protein motif UniProt:tr|A0A0N7CEC6_9VIRU"
-sample3_172	Cenote-Taker	CDS	501	295	.	-	0              	gene_id "lcl|sample3_172_2"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_172	Cenote-Taker	CDS	1708	554	.	-	0              	gene_id "lcl|sample3_172_3"; gene_name "tail protein"; gene_inference "protein motif PFAM:PF06006.11"
-sample3_172	Cenote-Taker	CDS	2067	1834	.	-	0              	gene_id "lcl|sample3_172_4"; gene_name "hypothetical protein"; gene_inference "no search hits"

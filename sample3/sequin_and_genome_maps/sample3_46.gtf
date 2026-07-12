@@ -1,8 +1,0 @@
-sample3_46	Cenote-Taker	CDS	2	1375	.	+	0              	gene_id "lcl|sample3_46_1"; gene_name "Virulence associated protein "; gene_inference "protein motif PFAM:PF05272.10"
-sample3_46	Cenote-Taker	CDS	1365	2135	.	+	0              	gene_id "lcl|sample3_46_2"; gene_name "Bifunctional DNA primase polymerase"; gene_inference "protein motif PFAM:PF09250.10"
-sample3_46	Cenote-Taker	CDS	2188	2667	.	+	0              	gene_id "lcl|sample3_46_3"; gene_name "homing endonuclease"; gene_inference "protein motif PFAM:PF05551.10"
-sample3_46	Cenote-Taker	CDS	2687	4468	.	+	0              	gene_id "lcl|sample3_46_4"; gene_name "DNA polymerase"; gene_inference "protein motif PDB:5MDN_A"
-sample3_46	Cenote-Taker	CDS	4526	5083	.	+	0              	gene_id "lcl|sample3_46_5"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_46	Cenote-Taker	CDS	5153	5776	.	+	0              	gene_id "lcl|sample3_46_6"; gene_name "uncharacterized subgroup which includes Bacillus subtilis YycJ and related proteins; MBL-fold metallo hydrolase domain"; gene_inference "protein motif cd07733"
-sample3_46	Cenote-Taker	CDS	5795	6145	.	+	0              	gene_id "lcl|sample3_46_7"; gene_name "Putative terminase small subunit "; gene_inference "protein motif UniProt:tr|A0A059PB40_9CAUD"
-sample3_46	Cenote-Taker	CDS	6196	6816	.	+	0              	gene_id "lcl|sample3_46_8"; gene_name "Large Terminase"; gene_inference "protein motif PFAM:PF03354.14"

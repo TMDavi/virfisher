@@ -1,9 +1,0 @@
->Feature sample3_277 Table1
-788	3	CDS
-			protein_id	lcl|sample3_277_1
-			product	Baseplate hub assembly protein 
-			inference	protein motif UniProtKB:A0A0E3T9A2_9CAUD
-1442	804	CDS
-			protein_id	lcl|sample3_277_2
-			product	hypothetical protein
-			note	no search hits

@@ -1,7 +1,0 @@
-sample3_49	Cenote-Taker	CDS	379	2	.	-	0              	gene_id "lcl|sample3_49_1"; gene_name "Major Capsid protein"; gene_inference "protein motif PFAM:PF03864.14"
-sample3_49	Cenote-Taker	CDS	788	405	.	-	0              	gene_id "lcl|sample3_49_2"; gene_name "head decoration"; gene_inference "protein motif PFAM:PF02924.13"
-sample3_49	Cenote-Taker	CDS	1865	804	.	-	0              	gene_id "lcl|sample3_49_3"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_49	Cenote-Taker	CDS	2710	1874	.	-	0              	gene_id "lcl|sample3_49_4"; gene_name "Putative phage serine protease XkdF"; gene_inference "protein motif PFAM:PF14550.5"
-sample3_49	Cenote-Taker	CDS	3277	2720	.	-	0              	gene_id "lcl|sample3_49_5"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_49	Cenote-Taker	CDS	4908	3382	.	-	0              	gene_id "lcl|sample3_49_6"; gene_name "Portal protein"; gene_inference "protein motif PDB:5NGD_C"
-sample3_49	Cenote-Taker	CDS	6240	5137	.	-	0              	gene_id "lcl|sample3_49_7"; gene_name "Large Terminase"; gene_inference "protein motif PDB:5OE8_A"

@@ -1,9 +1,0 @@
->Feature sample3_206 Table1
-2	1108	CDS
-			protein_id	lcl|sample3_206_1
-			product	endonuclease
-			inference	protein motif PFAM:PF10544.8
-1770	1150	CDS
-			protein_id	lcl|sample3_206_2
-			product	Major Capsid protein
-			inference	protein motif PFAM:PF03864.14

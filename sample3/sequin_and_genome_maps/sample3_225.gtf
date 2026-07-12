@@ -1,4 +1,0 @@
-sample3_225	Cenote-Taker	CDS	392	3	.	-	0              	gene_id "lcl|sample3_225_1"; gene_name "P22_AR N-terminal domain"; gene_inference "protein motif pfam10547"
-sample3_225	Cenote-Taker	CDS	555	382	.	-	0              	gene_id "lcl|sample3_225_2"; gene_name "partition protein ATPase"; gene_inference "protein motif PFAM:PF16777.4"
-sample3_225	Cenote-Taker	CDS	766	984	.	+	0              	gene_id "lcl|sample3_225_3"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_225	Cenote-Taker	CDS	1654	1001	.	-	0              	gene_id "lcl|sample3_225_4"; gene_name "minor tail protein "; gene_inference "protein motif PFAM:PF05100.11"

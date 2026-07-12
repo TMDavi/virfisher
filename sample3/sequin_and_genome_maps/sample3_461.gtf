@@ -1,2 +1,0 @@
-sample3_461	Cenote-Taker	CDS	313	23	.	-	0              	gene_id "lcl|sample3_461_1"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_461	Cenote-Taker	CDS	1006	479	.	-	0              	gene_id "lcl|sample3_461_2"; gene_name "Terminase"; gene_inference "protein motif PDB:4BIJ_C"

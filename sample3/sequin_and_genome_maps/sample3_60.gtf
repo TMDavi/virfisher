@@ -1,7 +1,0 @@
-sample3_60	Cenote-Taker	CDS	2	2275	.	+	0              	gene_id "lcl|sample3_60_1"; gene_name "Minor capsid protein"; gene_inference "protein motif PFAM:PF06152.10"
-sample3_60	Cenote-Taker	CDS	2272	2478	.	+	0              	gene_id "lcl|sample3_60_2"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_60	Cenote-Taker	CDS	2597	3139	.	+	0              	gene_id "lcl|sample3_60_3"; gene_name "head scaffolding protein"; gene_inference "protein motif PFAM:PF14265.5"
-sample3_60	Cenote-Taker	CDS	3185	4120	.	+	0              	gene_id "lcl|sample3_60_4"; gene_name "Major Capsid protein"; gene_inference "protein motif PDB:3JB5_B"
-sample3_60	Cenote-Taker	CDS	4157	4384	.	+	0              	gene_id "lcl|sample3_60_5"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_60	Cenote-Taker	CDS	4396	4893	.	+	0              	gene_id "lcl|sample3_60_6"; gene_name "head to tail adaptor"; gene_inference "protein motif PFAM:PF09355.9"
-sample3_60	Cenote-Taker	CDS	4893	5231	.	+	0              	gene_id "lcl|sample3_60_7"; gene_name "Minor capsid protein"; gene_inference "protein motif PFAM:PF10665.8"

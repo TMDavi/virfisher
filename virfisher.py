@@ -52,9 +52,7 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-###############################################################################
 # Step 1: Generate config.yaml
-###############################################################################
 
 print("Generating configuration file...")
 
@@ -71,15 +69,11 @@ create_config_cmd = [
 
 subprocess.run(create_config_cmd, check=True)
 
-###############################################################################
 # Step 2: Create output directory
-###############################################################################
 
 Path(args.outdir).mkdir(parents=True, exist_ok=True)
 
-###############################################################################
 # Step 3: Run Snakemake
-###############################################################################
 
 print("Running Snakemake...")
 

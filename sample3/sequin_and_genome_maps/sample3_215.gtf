@@ -1,4 +1,0 @@
-sample3_215	Cenote-Taker	CDS	3	269	.	+	0              	gene_id "lcl|sample3_215_1"; gene_name "Structural protein "; gene_inference "protein motif UniProt:tr|S0A161_9CAUD"
-sample3_215	Cenote-Taker	CDS	414	1265	.	+	0              	gene_id "lcl|sample3_215_2"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_215	Cenote-Taker	CDS	1464	1345	.	-	0              	gene_id "lcl|sample3_215_3"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_215	Cenote-Taker	CDS	1710	1537	.	-	0              	gene_id "lcl|sample3_215_4"; gene_name "hypothetical protein"; gene_inference "no search hits"

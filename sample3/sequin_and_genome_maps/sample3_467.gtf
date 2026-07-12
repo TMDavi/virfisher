@@ -1,2 +1,0 @@
-sample3_467	Cenote-Taker	CDS	1	120	.	+	0              	gene_id "lcl|sample3_467_1"; gene_name "lipoprotein"; gene_inference "protein motif PFAM:PF06295.11"
-sample3_467	Cenote-Taker	CDS	124	999	.	+	0              	gene_id "lcl|sample3_467_2"; gene_name "Tailspike protein"; gene_inference "protein motif PDB:4OJL_C"

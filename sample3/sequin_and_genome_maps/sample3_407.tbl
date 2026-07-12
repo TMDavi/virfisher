@@ -1,9 +1,0 @@
->Feature sample3_407 Table1
-826	2	CDS
-			protein_id	lcl|sample3_407_1
-			product	tail protein
-			inference	protein motif PDB:1WRU_A
-1092	826	CDS
-			protein_id	lcl|sample3_407_2
-			product	hypothetical protein
-			note	no search hits

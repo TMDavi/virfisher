@@ -1,7 +1,0 @@
-sample3_70	Cenote-Taker	CDS	3	1586	.	+	0              	gene_id "lcl|sample3_70_1"; gene_name "Capsid protein"; gene_inference "protein motif PFAM:PF02305.16"
-sample3_70	Cenote-Taker	CDS	1588	2355	.	+	0              	gene_id "lcl|sample3_70_2"; gene_name "Minor capsid protein "; gene_inference "protein motif UniProt:tr|A0A0C5AFV1_9VIRU"
-sample3_70	Cenote-Taker	CDS	2359	2781	.	+	0              	gene_id "lcl|sample3_70_3"; gene_name "capsid scaffold"; gene_inference "protein motif PFAM:PF09675.9"
-sample3_70	Cenote-Taker	CDS	2874	3044	.	+	0              	gene_id "lcl|sample3_70_4"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_70	Cenote-Taker	CDS	3041	3301	.	+	0              	gene_id "lcl|sample3_70_5"; gene_name "DNA binding protein"; gene_inference "protein motif UniProt:tr|A0A0G2UEC9_9VIRU"
-sample3_70	Cenote-Taker	CDS	3414	3539	.	+	0              	gene_id "lcl|sample3_70_6"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_70	Cenote-Taker	CDS	3539	4423	.	+	0              	gene_id "lcl|sample3_70_7"; gene_name "Rep protein"; gene_inference "protein motif PFAM:PF05840.12"

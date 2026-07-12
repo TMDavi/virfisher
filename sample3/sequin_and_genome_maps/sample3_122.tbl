@@ -1,9 +1,0 @@
->Feature sample3_122 Table1
-851	63	CDS
-			protein_id	lcl|sample3_122_1
-			product	Phage tail fibre adhesin Gp38
-			inference	protein motif CDD:pfam05268
-2689	881	CDS
-			protein_id	lcl|sample3_122_2
-			product	Long tail fiber
-			inference	protein motif PDB:5NXF_A

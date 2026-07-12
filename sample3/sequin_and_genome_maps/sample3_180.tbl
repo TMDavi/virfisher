@@ -1,9 +1,0 @@
->Feature sample3_180 Table1
-60	1625	CDS
-			protein_id	lcl|sample3_180_1
-			product	Portal protein
-			inference	protein motif PDB:5NGD_C
-1719	2009	CDS
-			protein_id	lcl|sample3_180_2
-			product	Putative phage serine protease XkdF
-			inference	protein motif PFAM:PF14550.5

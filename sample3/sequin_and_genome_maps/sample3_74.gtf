@@ -1,8 +1,0 @@
-sample3_74	Cenote-Taker	CDS	246	632	.	+	0              	gene_id "lcl|sample3_74_1"; gene_name "Rz like spanin"; gene_inference "protein motif PFAM:PF10828.7"
-sample3_74	Cenote-Taker	CDS	826	1527	.	+	0              	gene_id "lcl|sample3_74_2"; gene_name "Major Capsid Protein"; gene_inference "protein motif PDB:6B0X_d"
-sample3_74	Cenote-Taker	CDS	1750	2580	.	+	0              	gene_id "lcl|sample3_74_3"; gene_name "Major Capsid Protein"; gene_inference "protein motif PDB:4AN5_F"
-sample3_74	Cenote-Taker	CDS	2641	2925	.	+	0              	gene_id "lcl|sample3_74_4"; gene_name "Head fiber protein"; gene_inference "protein motif PDB:3QC7_A"
-sample3_74	Cenote-Taker	CDS	2937	3287	.	+	0              	gene_id "lcl|sample3_74_5"; gene_name "major tail protein"; gene_inference "protein motif PDB:5A21_H"
-sample3_74	Cenote-Taker	CDS	3324	3512	.	+	0              	gene_id "lcl|sample3_74_6"; gene_name "hypothetical protein"; gene_inference "no search hits"
-sample3_74	Cenote-Taker	CDS	3516	4025	.	+	0              	gene_id "lcl|sample3_74_7"; gene_name "Yqbg Putative Head Tail Connector Protein"; gene_inference "protein motif CDD:cd08053"
-sample3_74	Cenote-Taker	CDS	4028	4267	.	+	0              	gene_id "lcl|sample3_74_8"; gene_name "hypothetical protein"; gene_inference "no search hits"

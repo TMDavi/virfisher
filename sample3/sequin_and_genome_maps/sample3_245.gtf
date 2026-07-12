@@ -1,3 +1,0 @@
-sample3_245	Cenote-Taker	CDS	1	243	.	+	0              	gene_id "lcl|sample3_245_1"; gene_name "head completion protein; Provisional"; gene_inference "protein motif PHA02552"
-sample3_245	Cenote-Taker	CDS	231	1067	.	+	0              	gene_id "lcl|sample3_245_2"; gene_name "DNA end protector protein "; gene_inference "protein motif UniProtKB:D7RMF1_9CAUD"
-sample3_245	Cenote-Taker	CDS	1153	1542	.	+	0              	gene_id "lcl|sample3_245_3"; gene_name "Baseplate wedge protein"; gene_inference "protein motif PDB:5IV5_W"

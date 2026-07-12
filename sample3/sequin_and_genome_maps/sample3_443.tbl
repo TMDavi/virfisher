@@ -1,9 +1,0 @@
->Feature sample3_443 Table1
-3	662	CDS
-			protein_id	lcl|sample3_443_1
-			product	Structural protein 
-			inference	protein motif UniProt:tr|S0A1F3_9CAUD
-682	1035	CDS
-			protein_id	lcl|sample3_443_2
-			product	Structural protein 
-			inference	protein motif UniProtKB:S0A4L9_9CAUD

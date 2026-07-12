@@ -21,4 +21,4 @@ rule all:
         out("final_results", "read_mapping", "merged_idxstats.tsv"),
         out("final_results", "read_mapping", "merged_depth.tsv"),
         out("final_results", "read_mapping", "merged_coverage.tsv"),
-        expand(out("{sample}", "intermediate", "viral_predicted_scaffolds_first_step.fasta"), sample=config["samples"].keys())
+        expand(out("{sample}", "intermediate", "viral_predicted_scaffolds_second_step.fasta"), sample=config["samples"].keys())
