@@ -14,6 +14,11 @@ parser.add_argument(
 )
 
 parser.add_argument(
+    "--output_folder",
+    help="Directory where all results will be stored"
+)
+
+parser.add_argument(
     "--config",
     default="config.yaml",
     help="Output configuration file."
@@ -40,6 +45,7 @@ if not input_dir.is_dir():
 
 config = {
     "WORKDIR":"workflow",
+    "OUTDIR": args.output_folder,
     "resources": {
         "threads": args.threads,
         "mem_mb": args.mem_mb

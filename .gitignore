@@ -199,5 +199,6 @@ pyrightconfig.json
 databases/
 programs/
 outtest/
-pharokka_test/
+tests/
+ncldv_input_test/
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode

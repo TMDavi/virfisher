@@ -62,6 +62,7 @@ create_config_cmd = [
     sys.executable,
     str(create_config),
     "--input_folder", args.input,
+    "--output_folder", args.outdir,
     "--config", args.config,
     "--threads", str(args.threads),
     "--mem_mb", str(args.mem_mb),

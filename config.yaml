@@ -1,6 +1,7 @@
 WORKDIR: workflow
+OUTDIR: outtest
 resources:
-  threads: 4
+  threads: 6
   mem_mb: 256000
 samples:
   sample1_raw:
