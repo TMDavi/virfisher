@@ -1,4 +1,4 @@
-name: dvf
+name: viral-id-sop
 channels:
   - conda-forge
   - bioconda
@@ -11,12 +11,9 @@ channels:
   - ursky
   - r
 dependencies:
-  - biopython
-  - h5py=2.10.0
-  - keras=2.2.4
-  - numpy
-  - python=3.6
-  - scikit-learn
-  - theano=1.0.3
+  - checkv
+  - virsorter=2
   - pandas
+  - dram
+  - bioconda::drep
 
