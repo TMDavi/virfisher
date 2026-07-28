@@ -9,8 +9,9 @@ include: "rules/read_preprocessing/qc.smk"
 include: "rules/read_preprocessing/assembly.smk"
 include: "rules/read_preprocessing/mapping_index.smk"
 include: "rules/viral_prediction/bacteriophage_id.smk"
-include: "rules/viral_prediction/NCLDV_virophage_plv_id.smk"
-
+#include: "rules/viral_prediction/NCLDV_virophage_plv_id.smk"
+include: "rules/clustering/clustering.smk"
+include: "rules/viral_prediction/prodigal_run.smk"
 
 rule all:
     input:
@@ -34,7 +35,16 @@ rule all:
         expand(out("{sample}", "final_results", "read_alignment", "{sample}.coverage"), sample=config["samples"].keys()),
 
         #NCLDV identification
-        expand(out("{sample}", "intermediate","BEREN","Final_results","Run_Summary.txt"), sample=config["samples"].keys()),
+        #expand(out("{sample}", "intermediate","BEREN","Final_results","Run_Summary.txt"), sample=config["samples"].keys()),
 
+        expand(out("{sample}", "intermediate","NCLDV_id", "input.min10kb.fasta"), sample=config["samples"].keys()),
+        expand(out("{sample}", "intermediate", "NCLDV_id", "contigs"), sample=config["samples"].keys()),
+        expand(out("{sample}", "intermediate", "NCLDV_id", "prodigal"), sample=config["samples"].keys()),
+        expand(out("{sample}", "intermediate", "NCLDV_id", "results","{sample}.full_output.txt"), sample=config["samples"].keys()),
+
+        #Dereplication
+        expand(out("{sample}","final_results","dereplicated","miuvigs.fasta"), sample=config['samples'].keys())
+
+        
         #expand(out("{sample}", "intermediate","prodigal","{sample}_proteins.faa"), sample=config["samples"].keys()),
         #expand(out("{sample}","intermediate","virophage_plv_id","genomad","viruses_annotate","viruses_genes.tsv"), sample=config["samples"].keys())

@@ -201,4 +201,5 @@ programs/
 outtest/
 tests/
 ncldv_input_test/
+ncldv_outtest
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode

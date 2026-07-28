@@ -1,17 +1,3 @@
-configfile: "config.yaml"
-import os
-
-rule all:
-    input:
-        expand("results/{sample}/ncldv_id/hmmer_results.domout", sample=config['samples'].keys()),
-        expand("results/{sample}/ncldv_id/parsed_results.txt", sample=config['samples'].keys()),
-        expand("results/{sample}/ncldv_id/filtered_results.txt", sample=config['samples'].keys()),
-        expand("results/{sample}/ncldv_id/extracted_genes.faa", sample=config['samples'].keys()),
-        expand("results/{sample}/ncldv_id/putative_ncldv_contig_list.txt", sample=config['samples'].keys()),
-        expand("results/{sample}/ncldv_id/putative_ncldv_contigs.fasta", sample=config['samples'].keys()),
-        expand("results/{sample}/ncldv_id/final_ncldv_contigs.fasta", sample=config['samples'].keys()),
-        
-
 rule ncdlv_extract:
     input:
         out("{sample}", "intermediate","prodigal","{sample}_proteins.faa")
