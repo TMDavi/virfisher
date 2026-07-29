@@ -1,7 +1,7 @@
 
 rule rename_contigs:
     input:  
-        assembly=out("{sample}","intermediate", "viral_predicted_scaffolds_second_step.fasta")
+        assembly=out("{sample}","intermediate", "final_phage_sequences.fasta")
     output:
         temp(out("{sample}", "intermediate", "dereplication", "{sample}_scaffolds.fasta"))
     params:

@@ -60,3 +60,9 @@ rule ncldv_msearch:
         cp {params.samplename}* {params.outdir}
         rm {params.samplename}*
         """
+
+rule extract_putative_ncldvs:
+
+rule viralrecall:
+
+rule extract_final_ncldvs:

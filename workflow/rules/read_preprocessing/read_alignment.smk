@@ -1,121 +1,91 @@
 WORKDIR = config["WORKDIR"]
+SAMPLES = config["samples"]
 
-rule bwa_mem:
+rule bwaDB:
     input:
-        index=expand(
-            out("mappingDB", "mappingDB.{suffix}"),
-            suffix=["amb", "ann", "bwt", "pac", "sa"],
-        ),
-        forward=out("{sample}", "intermediate", "fastp", "{sample}_R1_trimmed.fastq.gz"),
-        reverseR=out("{sample}", "intermediate", "fastp", "{sample}_R2_trimmed.fastq.gz"),
+        scaffolds = out("{sample}", "intermediate","metaspades", "scaffolds.fasta")
     output:
-        bam=out("{sample}", "intermediate", "mapped_reads", "{sample}_vs_" + "all_scaffolds" + "_sorted.bam")
-    log:
-        stderr=out("{sample}", "logs", "bwa.stderr.log")
-    benchmark:
-        out("{sample}", "benchmarks", "bwa.txt")
-    threads:
-        config["resources"]["threads"]
+        amb=out("{sample}", "intermediate", "read_alignment", "index", "mappingDB.amb"),
+        ann=out("{sample}", "intermediate", "read_alignment", "index", "mappingDB.ann"),
+        bwt=out("{sample}", "intermediate", "read_alignment", "index", "mappingDB.bwt"),
+        pac=out("{sample}", "intermediate", "read_alignment", "index", "mappingDB.pac"),
+        sa=out("{sample}", "intermediate", "read_alignment", "index", "mappingDB.sa")
     params:
-        index_prefix=out("mappingDB", "mappingDB")
-    conda:
-        "coverm"
+        index_prefix=out("{sample}", "intermediate", "read_alignment", "index","mappingDB")
     shell:
         """
-        bwa mem -t {threads} {params.index_prefix} {input.forward} {input.reverseR} 2> {log.stderr} | samtools sort -@ {threads} -o {output.bam}
+        bwa index -p {params.index_prefix} {input.scaffolds} -a bwtsw
         """
 
-rule samtools_index:
+rule bwa_alignment:
     input:
-        bam=out("{sample}", "intermediate", "mapped_reads", "{sample}_vs_" + "all_scaffolds" + "_sorted.bam")
+        amb=out("{assembly}", "intermediate", "read_alignment", "index", "mappingDB.amb"),
+        ann=out("{assembly}", "intermediate", "read_alignment", "index", "mappingDB.ann"),
+        bwt=out("{assembly}", "intermediate", "read_alignment", "index", "mappingDB.bwt"),
+        pac=out("{assembly}", "intermediate", "read_alignment", "index", "mappingDB.pac"),
+        sa=out("{assembly}", "intermediate", "read_alignment", "index", "mappingDB.sa"),
+
+        forward=out("{reads}", "intermediate", "fastp", "{reads}_R1_trimmed.fastq.gz"),
+        reverseR=out("{reads}", "intermediate", "fastp", "{reads}_R2_trimmed.fastq.gz"),
+
     output:
-        bai=out("{sample}", "intermediate", "mapped_reads", "{sample}_vs_" + "all_scaffolds" + "_sorted.bam.bai")
+        bam=out("{assembly}", "intermediate", "read_alignment","{reads}_vs_{assembly}_sorted.bam")
+
+    log:
+        stderr=out("{assembly}", "intermediate", "read_alignment","logs", "{reads}_vs_{assembly}_bwa.stderr.log")
+
+    benchmark:
+        out("{assembly}", "intermediate", "read_alignment","benchmarks", "{reads}_vs_{assembly}_bwa.txt")
+
     threads:
         config["resources"]["threads"]
+
+    params:
+        index_prefix=out("{assembly}", "intermediate", "read_alignment",
+                         "index", "mappingDB")
+
     conda:
         "coverm"
+
     shell:
         """
-        samtools index -@ {threads} {input.bam} {output.bai}
+        bwa mem -t {threads} {params.index_prefix} {input.forward} {input.reverseR} 2> {log.stderr} | \
+            samtools sort -@ {threads} -o {output.bam}
         """
 
-rule samtools_idxstats:
+rule metabat_coverage:
     input:
-        bam=out("{sample}", "intermediate", "mapped_reads", "{sample}_vs_" + "all_scaffolds" + "_sorted.bam")
-    output:
-        out("{sample}", "intermediate", "mapped_reads", "{sample}_vs_" + "all_scaffolds" + "_idxstats.tsv")
-    conda:
-        "coverm"
-    shell:
-        """
-        samtools idxstats {input.bam} > {output}
-        """
-
-rule genome_depth:
-    input:
-        bam=out("{sample}", "intermediate", "mapped_reads", "{sample}_vs_" + "all_scaffolds" + "_sorted.bam")
-    output:
-        out("{sample}", "intermediate", "mapped_reads", "{sample}_vs_" + "all_scaffolds" + "_depth.tsv")
-    conda:
-        "coverm"
-    shell:
-        """
-        coverm contig -b {input.bam} -o {output}
-        """
-
-rule calc_coverage:
-    input:
-        bam=out("{sample}", "intermediate", "mapped_reads", "{sample}_vs_" + "all_scaffolds" + "_sorted.bam")
-    output:
-        out("{sample}", "intermediate", "mapped_reads", "{sample}_vs_" + "all_scaffolds" + "_coverage.tsv")
-    conda:
-        "coverm"
-    shell:
-        """
-        bedtools genomecov -ibam {input.bam} > {output}
-        """
-
-rule merge_idxstats:
-    input:
-        expand(
-            out("{sample}", "intermediate", "mapped_reads", "{sample}_vs_" + "all_scaffolds" + "_idxstats.tsv"),
-            sample=config["samples"]
+        bams=lambda wc: expand(
+            out(wc.assembly, "intermediate","read_alignment","{read}_vs_{assembly}_sorted.bam"),
+            read=config["samples"],
+            assembly=wc.assembly
         )
     output:
-        out("final_results", "read_mapping", "merged_idxstats.tsv")
+        out("{assembly}", "final_results", "read_alignment","{assembly}_metabat.coverage")
+
     conda:
         "coverm"
+
     shell:
         """
-        python {WORKDIR}/scripts/merge_idxstats.py --files {input} --output {output}
+        coverm contig -b {input.bams} --methods metabat -o {output}
         """
 
-rule merge_depth:
+rule scaffold_coverage:
     input:
-        expand(
-            out("{sample}", "intermediate", "mapped_reads", "{sample}_vs_" + "all_scaffolds" + "_depth.tsv"),
-            sample=config["samples"]
+        bams=lambda wc: expand(
+            out(wc.assembly,"intermediate","read_alignment","{read}_vs_{assembly}_sorted.bam"),
+            read=config["samples"],
+            assembly=wc.assembly
         )
-    output:
-        out("final_results", "read_mapping", "merged_depth.tsv")
-    conda:
-        "coverm"
-    shell:
-        """
-        python {WORKDIR}/scripts/merge_depth.py --files {input} --output {output}
-        """
 
-rule merge_coverage:
-    input:
-        expand(
-            out("{sample}", "intermediate", "mapped_reads", "{sample}_vs_" + "all_scaffolds" + "_coverage.tsv"),
-            sample=config["samples"]
-        )
     output:
-        out("final_results", "read_mapping", "merged_coverage.tsv")
+        out("{assembly}", "final_results", "read_alignment","{assembly}.coverage")
+
     conda:
         "coverm"
+
     shell:
         """
-        python {WORKDIR}/scripts/merge_coverage.py --files {input} --output {output}
+        coverm contig -b {input.bams} --methods count covered_fraction -o {output}
         """

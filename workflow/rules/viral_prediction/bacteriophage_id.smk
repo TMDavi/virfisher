@@ -161,7 +161,7 @@ rule filtering_two:
         assembly = out("{sample}","intermediate","checkv","filtered_checkv.fasta"),
         annotation = out("{sample}","intermediate", "genomad", "filtered_checkv_annotate", "filtered_checkv_genes.tsv")
     output:
-        out("{sample}","intermediate", "viral_predicted_scaffolds_second_step.fasta")
+        out("{sample}","intermediate", "final_phage_sequences.fasta")
     shell:
         """
         python {WORKDIR}/scripts/filtering_two.py --fasta_file {input.assembly} --annotation_file {input.annotation} --output_file {output}
