@@ -1,0 +1,64 @@
+     1	import os
+     2	
+     3	OUTDIR = config.get("outdir", "results")
+     4	
+     5	def out(*parts):
+     6	    return os.path.join(OUTDIR, *parts)
+     7	    
+     8	include: "rules/read_preprocessing/qc.smk"
+     9	include: "rules/read_preprocessing/assembly.smk"
+    10	include: "rules/read_preprocessing/read_alignment.smk"
+    11	include: "rules/viral_prediction/bacteriophage_id.smk"
+    12	include: "rules/dereplication/dereplication.smk"
+    13	include: "rules/host_prediction_and_lifestyle/vibrant.smk"
+    14	include: "rules/host_prediction_and_lifestyle/bacphlip.smk"
+    15	include: "rules/quality/checkv.smk"
+    16	
+    17	rule all:
+    18	    input:
+    19	        
+    20	        expand(out("{sample}", "intermediate", "fastp", "{sample}_fastp_report.html"), 
+    21	            sample=config["samples"]),
+    22	
+    23	        expand(out("{sample}", "intermediate", "metaspades", "scaffolds.fasta"), sample=config["samples"].keys()),
+    24	
+    25	        #Bacteriophage prediction
+    26	        expand(out("{sample}","intermediate", "final_phage_sequences.fasta"), sample=config["samples"].keys()),
+    27	
+    28	        #Read mapping
+    29	        expand(
+    30	            out("{assembly}", "intermediate", "read_alignment",
+    31	                "{reads}_vs_{assembly}_sorted.bam"),
+    32	            assembly=config["samples"],
+    33	            reads=config["samples"]
+    34	        ),
+    35	        expand(out("{sample}", "final_results", "read_alignment", "{sample}_metabat.coverage"), sample=config["samples"].keys()),
+    36	        expand(out("{sample}", "final_results", "read_alignment", "{sample}.coverage"), sample=config["samples"].keys()),
+    37	
+    38	        #Multiqc
+    39	
+    40	        #Dereplication
+    41	        expand(out("{sample}","final_results","dereplicated","miuvigs.fasta"), sample=config['samples'].keys()),
+    42	
+    43	        #Host predicition
+    44	        #Iphop
+    45	
+    46	        #Life style 
+    47	        expand(out("{sample}","final_results","life_style","vibrant_results", "final_phage_sequences.phages_lysogenic.fna"),sample=config["samples"].keys()),
+    48	        expand(out("{sample}","final_results","life_style","vibrant_results", "final_phage_sequences.phages_lytic.fna"),sample=config["samples"].keys()),
+    49	        expand(out("{sample}","final_results","life_style","bacphlip"),sample=config["samples"].keys()),
+    50	
+    51	        #Annotation
+    52	        #DRAMv
+    53	
+    54	        #pharaokka
+    55	
+    56	        #Miuvig Quality
+    57	        #Checkv
+    58	        expand(out("{sample}","final_results", "quality_summary", "quality_summary.tsv"),sample=config["samples"].keys())
+    59	
+    60	        #Taxonomy
+    61	        #Genomad
+    62	        #Vcontact3
+    63	
+    64	        
