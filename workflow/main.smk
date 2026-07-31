@@ -21,56 +21,56 @@ include: "rules/annotation/dramv.smk"
 
 rule all:
     input:
-        expand(out("{sample}", "intermediate", "fastp", "{sample}_fastp_report.html"),
+        expand(out("per_sample_results", "{sample}", "intermediate", "fastp", "{sample}_fastp_report.html"),
             sample=config["samples"].keys()),
 
-        expand(out("{sample}", "intermediate", "metaspades", "scaffolds.fasta"), 
+        expand(out("per_sample_results", "{sample}", "intermediate", "metaspades", "scaffolds.fasta"), 
             sample=config["samples"].keys()),
 
         #Bacteriophage prediction
-        expand(out("{sample}","intermediate", "final_phage_sequences.fasta"), 
+        expand(out("per_sample_results", "{sample}","intermediate", "final_phage_sequences.fasta"), 
             sample=config["samples"].keys()),
 
         #Read mapping
         expand(
-            out("{assembly}", "intermediate", "read_alignment",
+            out("per_sample_results","{assembly}", "intermediate", "read_alignment",
                 "{reads}_vs_{assembly}_sorted.bam"),
             assembly=config["samples"],
             reads=config["samples"]
         ),
-        expand(out("{sample}", "final_results", "read_alignment", "{sample}_metabat.coverage"), sample=config["samples"].keys()),
-        expand(out("{sample}", "final_results", "read_alignment", "{sample}.coverage"), sample=config["samples"].keys()),
+        expand(out("per_sample_results", "{sample}", "final_results", "read_alignment", "{sample}_metabat.coverage"), sample=config["samples"].keys()),
+        expand(out("per_sample_results", "{sample}", "final_results", "read_alignment", "{sample}.coverage"), sample=config["samples"].keys()),
 
         #Multiqc
 
         #Dereplication
-        expand(out("{sample}","final_results","dereplicated","miuvigs.fasta"), sample=config['samples'].keys()),
+        expand(out("per_sample_results","{sample}","final_results","dereplicated","miuvigs.fasta"), sample=config['samples'].keys()),
 
         #Host predicition
         #Iphop
 
         #Life style 
-        expand(out("{sample}","final_results","life_style","vibrant_results", "final_phage_sequences.phages_lysogenic.fna"),sample=config["samples"].keys()),
-        expand(out("{sample}","final_results","life_style","vibrant_results", "final_phage_sequences.phages_lytic.fna"),sample=config["samples"].keys()),
-        expand(out("{sample}","final_results","life_style","bacphlip"),sample=config["samples"].keys()),
+        expand(out("per_sample_results", "{sample}","final_results","life_style","vibrant_results", "final_phage_sequences.phages_lysogenic.fna"),sample=config["samples"].keys()),
+        expand(out("per_sample_results", "{sample}","final_results","life_style","vibrant_results", "final_phage_sequences.phages_lytic.fna"),sample=config["samples"].keys()),
+        expand(out("per_sample_results", "{sample}","final_results","life_style","bacphlip"),sample=config["samples"].keys()),
 
         #Annotation
         #DRAMv
 
         #pharaokka
-        expand(out("{sample}","final_results", "annotation","pharokka","pharokka_cds_final_merged_output.tsv"),
+        expand(out("per_sample_results", "{sample}","final_results", "annotation","pharokka","pharokka_cds_final_merged_output.tsv"),
             sample=config["samples"].keys()),
 
         #Miuvig Quality
         #Checkv
-        expand(out("{sample}","final_results", "quality_summary", "quality_summary.tsv"),
+        expand(out("per_sample_results", "{sample}","final_results", "quality_summary", "quality_summary.tsv"),
             sample=config["samples"].keys()),
 
         #Taxonomy
         #Genomad
-        expand(out("{sample}","final_results", "taxonomy","genomad", "final_phage_sequences_summary", "final_phage_sequences_virus_summary.tsv"),
+        expand(out("per_sample_results", "{sample}","final_results", "taxonomy","genomad", "final_phage_sequences_summary", "final_phage_sequences_virus_summary.tsv"),
             sample=config["samples"].keys()),
         #Vcontact3
-        out("merged_results","vcontact3","final_assignments.csv")
+        out("merged_results","vcontact3","exports","final_assignments.csv")
 
         

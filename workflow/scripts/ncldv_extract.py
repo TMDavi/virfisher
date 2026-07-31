@@ -1,7 +1,7 @@
 import pandas as pd
 import argparse
 import re
-from crass_extract import parse_hmm, parse_domout, extract_genes
+from unused_rules.crass_extract import parse_hmm, parse_domout, extract_genes
 
 def filter_results(input_file, output_file):
     """

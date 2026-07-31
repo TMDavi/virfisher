@@ -1,6 +1,6 @@
 rule genomad_taxonomy:
     input:
-        filtered = out("{sample}","intermediate","final_phage_sequences.fasta")
+        filtered = out("per_sample_results", "{sample}","intermediate","final_phage_sequences.fasta")
     output:
         out("{sample}","final_results", "taxonomy","genomad", "final_phage_sequences_summary", "final_phage_sequences_virus_summary.tsv")
     params:

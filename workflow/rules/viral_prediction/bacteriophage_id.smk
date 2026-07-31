@@ -1,13 +1,13 @@
 rule virsorter2:
     input:
-        scaffolds = out("{sample}", "intermediate","metaspades", "scaffolds.fasta")
+        scaffolds = out("per_sample_results", "{sample}", "intermediate","metaspades", "scaffolds.fasta")
     output:
-        out("{sample}", "intermediate", "virsorter2", "final-viral-score.tsv")
+        out("per_sample_results", "{sample}", "intermediate", "virsorter2", "final-viral-score.tsv")
     params:
-        outdir = out("{sample}", "intermediate", "virsorter2")
+        outdir = out("per_sample_results", "{sample}", "intermediate", "virsorter2")
     log:
-        stdout = out("{sample}", "intermediate", "virsorter2", "log-stdout.txt"),
-        stderr = out("{sample}", "intermediate", "virsorter2", "log-stderr.txt")
+        stdout = out("per_sample_results", "{sample}", "intermediate", "virsorter2", "log-stdout.txt"),
+        stderr = out("per_sample_results", "{sample}", "intermediate", "virsorter2", "log-stderr.txt")
     conda:
          "viral-id-sop"
     threads: config["resources"]["threads"]
@@ -17,9 +17,9 @@ rule virsorter2:
         """
 rule filter_virsorter2_contigs:
     input:
-        score=out("{sample}", "intermediate", "virsorter2", "final-viral-score.tsv")
+        score=out("per_sample_results", "{sample}", "intermediate", "virsorter2", "final-viral-score.tsv")
     output:
-        ids=out("{sample}", "intermediate", "virsorter2", "viral_scaffolds.txt")
+        ids=out("per_sample_results", "{sample}", "intermediate", "virsorter2", "viral_scaffolds.txt")
     shell:
         """
         tail -n +2 {input.score} | cut -f1 | sed 's/||.*//' > {output.ids}
@@ -27,14 +27,14 @@ rule filter_virsorter2_contigs:
 
 rule deepvirfinder:
     input:
-        scaffolds = out("{sample}", "intermediate","metaspades", "scaffolds.fasta")
+        scaffolds = out("per_sample_results", "{sample}", "intermediate","metaspades", "scaffolds.fasta")
     output:
-        out("{sample}", "intermediate","deepvirfinder","scaffolds.fasta_gt1000bp_dvfpred.txt")
+        out("per_sample_results", "{sample}", "intermediate","deepvirfinder","scaffolds.fasta_gt1000bp_dvfpred.txt")
     params:
-        outdir = out("{sample}", "intermediate","deepvirfinder")
+        outdir = out("per_sample_results", "{sample}", "intermediate","deepvirfinder")
     log:
-        stdout = out("{sample}", "intermediate", "deepvirfinder", "log-stdout.txt"),
-        stderr = out("{sample}", "intermediate", "deepvirfinder", "log-stderr.txt")
+        stdout = out("per_sample_results", "{sample}", "intermediate", "deepvirfinder", "log-stdout.txt"),
+        stderr = out("per_sample_results", "{sample}", "intermediate", "deepvirfinder", "log-stderr.txt")
     conda:
          "dvf"
     threads: config["resources"]["threads"]
@@ -45,9 +45,9 @@ rule deepvirfinder:
 
 rule filter_dvf_contigs:
     input:
-        pred=out("{sample}", "intermediate","deepvirfinder","scaffolds.fasta_gt1000bp_dvfpred.txt")
+        pred=out("per_sample_results", "{sample}", "intermediate","deepvirfinder","scaffolds.fasta_gt1000bp_dvfpred.txt")
     output:
-        ids=out("{sample}", "intermediate", "deepvirfinder", "viral_scaffolds.txt")
+        ids=out("per_sample_results", "{sample}", "intermediate", "deepvirfinder", "viral_scaffolds.txt")
     shell:
         """
         tail -n +2 {input.pred} | cut -f1 > {output.ids}
@@ -55,15 +55,15 @@ rule filter_dvf_contigs:
 
 rule cenotetaker3:
     input:
-        scaffolds=out("{sample}", "intermediate", "metaspades", "scaffolds.fasta")
+        scaffolds=out("per_sample_results", "{sample}", "intermediate", "metaspades", "scaffolds.fasta")
     output:
-        summary=out("{sample}","intermediate","cenote-taker3","{sample}","{sample}_virus_summary.tsv")
+        summary=out("per_sample_results", "{sample}","intermediate","cenote-taker3","{sample}","{sample}_virus_summary.tsv")
     params:
-        outdir = out("{sample}", "intermediate", "cenote-taker3"),
+        outdir = out("per_sample_results", "{sample}", "intermediate", "cenote-taker3"),
         samplename = "{sample}"
     #log:
-    #    stdout=out("{sample}", "intermediate", "cenote-taker3", "log-stdout.txt"),
-    #    stderr=out("{sample}", "intermediate", "cenote-taker3", "log-stderr.txt")
+    #    stdout=out("per_sample_results", "{sample}", "intermediate", "cenote-taker3", "log-stdout.txt"),
+    #    stderr=out("per_sample_results", "{sample}", "intermediate", "cenote-taker3", "log-stderr.txt")
     conda:
          "ct3_env"
     threads:
@@ -75,9 +75,9 @@ rule cenotetaker3:
 
 rule filter_cenote_taker_contigs:
     input:
-        summary=out("{sample}","intermediate","cenote-taker3","{sample}","{sample}_virus_summary.tsv")
+        summary=out("per_sample_results", "{sample}","intermediate","cenote-taker3", "{sample}","{sample}_virus_summary.tsv")
     output:
-        ids=out("{sample}", "intermediate", "cenote-taker3", "viral_scaffolds.txt")
+        ids=out("per_sample_results", "{sample}", "intermediate", "cenote-taker3", "viral_scaffolds.txt")
     shell:
         """
         tail -n +2 {input.summary} | cut -f2 > {output.ids}
@@ -85,13 +85,13 @@ rule filter_cenote_taker_contigs:
 
 rule extract_viral_scaffolds:
     input:
-        fasta=out("{sample}", "intermediate", "metaspades", "scaffolds.fasta"),
-        vs2_ids=out("{sample}", "intermediate", "virsorter2", "viral_scaffolds.txt"),
-        dvf_ids=out("{sample}", "intermediate", "deepvirfinder", "viral_scaffolds.txt"),
-        ct3_ids=out("{sample}", "intermediate", "cenote-taker3", "viral_scaffolds.txt")
+        fasta=out("per_sample_results", "{sample}", "intermediate", "metaspades", "scaffolds.fasta"),
+        vs2_ids=out("per_sample_results", "{sample}", "intermediate", "virsorter2", "viral_scaffolds.txt"),
+        dvf_ids=out("per_sample_results", "{sample}", "intermediate", "deepvirfinder", "viral_scaffolds.txt"),
+        ct3_ids=out("per_sample_results", "{sample}", "intermediate", "cenote-taker3", "viral_scaffolds.txt")
     output:
-        fasta=out("{sample}", "intermediate", "viral_predicted_scaffolds_first_step.fasta"),
-        ids=out("{sample}", "intermediate", "merged_ids.txt")
+        fasta=out("per_sample_results", "{sample}", "intermediate", "viral_predicted_scaffolds_first_step.fasta"),
+        ids=out("per_sample_results", "{sample}", "intermediate", "merged_ids.txt")
     shell:
         """
         cat {input.vs2_ids} {input.dvf_ids} {input.ct3_ids} | sort -u > {output.ids}
@@ -101,14 +101,14 @@ rule extract_viral_scaffolds:
 
 rule checkv:
     input:
-        scaffolds = out("{sample}", "intermediate", "viral_predicted_scaffolds_first_step.fasta")
+        scaffolds = out("per_sample_results", "{sample}", "intermediate", "viral_predicted_scaffolds_first_step.fasta")
     output:
-        viruses = out("{sample}","intermediate", "checkv", "viruses.fna"),
-        proviruses = out("{sample}","intermediate", "checkv", "proviruses.fna"),
-        summary = out("{sample}","intermediate", "checkv", "quality_summary.tsv")
+        viruses = out("per_sample_results", "{sample}","intermediate", "checkv", "viruses.fna"),
+        proviruses = out("per_sample_results", "{sample}","intermediate", "checkv", "proviruses.fna"),
+        summary = out("per_sample_results", "{sample}","intermediate", "checkv", "quality_summary.tsv")
     params:
         db = "databases/checkv-db-v1.5/", 
-        outdir = out("{sample}","intermediate", "checkv")
+        outdir = out("per_sample_results", "{sample}","intermediate", "checkv")
     conda:
          "viral-id-sop"
     threads: config["resources"]["threads"]
@@ -119,10 +119,10 @@ rule checkv:
 
 rule combine_checkv:
     input:
-        viruses = out("{sample}","intermediate", "checkv", "viruses.fna"),
-        proviruses = out("{sample}","intermediate", "checkv", "proviruses.fna")
+        viruses = out("per_sample_results", "{sample}","intermediate", "checkv", "viruses.fna"),
+        proviruses = out("per_sample_results", "{sample}","intermediate", "checkv", "proviruses.fna")
     output:
-        out("{sample}", "intermediate", "checkv","combined.fna")
+        out("per_sample_results", "{sample}", "intermediate", "checkv","combined.fna")
     shell:
         """
         python {WORKDIR}/scripts/combine_checkv.py --virus {input.viruses} --provirus {input.proviruses} --output {output}
@@ -130,23 +130,23 @@ rule combine_checkv:
 
 rule filtering_one:
     input:
-        assembly = out("{sample}", "intermediate", "checkv","combined.fna"),
-        quality = out("{sample}","intermediate", "checkv", "quality_summary.tsv")
+        assembly = out("per_sample_results", "{sample}", "intermediate", "checkv","combined.fna"),
+        quality = out("per_sample_results", "{sample}","intermediate", "checkv", "quality_summary.tsv")
     output:
-        out("{sample}","intermediate","checkv","filtered_checkv.fasta")
+        out("per_sample_results", "{sample}","intermediate","checkv","filtered_checkv.fasta")
     params:
-        tempdir = out("{sample}","intermediate","checkv","tmp")
+        tempdir = out("per_sample_results", "{sample}","intermediate","checkv","tmp")
     shell:
         """
         python {WORKDIR}/scripts/filtering_one.py --fasta_file {input.assembly} --quality_file {input.quality} --tempdir {params.tempdir} --output_file {output}
         """
 rule genomad:
     input:
-        filtered = out("{sample}","intermediate","checkv","filtered_checkv.fasta")
+        filtered = out("per_sample_results", "{sample}","intermediate","checkv","filtered_checkv.fasta")
     output:
-        out("{sample}","intermediate", "genomad", "filtered_checkv_annotate", "filtered_checkv_genes.tsv")
+        out("per_sample_results", "{sample}","intermediate", "genomad", "filtered_checkv_annotate", "filtered_checkv_genes.tsv")
     params:
-        outdir = out("{sample}","intermediate", "genomad"),
+        outdir = out("per_sample_results", "{sample}","intermediate", "genomad"),
         db = "databases/genomad_db" 
     conda:
          "genomad_env"
@@ -158,10 +158,10 @@ rule genomad:
 
 rule filtering_two:
     input:
-        assembly = out("{sample}","intermediate","checkv","filtered_checkv.fasta"),
-        annotation = out("{sample}","intermediate", "genomad", "filtered_checkv_annotate", "filtered_checkv_genes.tsv")
+        assembly = out("per_sample_results", "{sample}","intermediate","checkv","filtered_checkv.fasta"),
+        annotation = out("per_sample_results", "{sample}","intermediate", "genomad", "filtered_checkv_annotate", "filtered_checkv_genes.tsv")
     output:
-        out("{sample}","intermediate", "final_phage_sequences.fasta")
+        out("per_sample_results", "{sample}","intermediate", "final_phage_sequences.fasta")
     shell:
         """
         python {WORKDIR}/scripts/filtering_two.py --fasta_file {input.assembly} --annotation_file {input.annotation} --output_file {output}

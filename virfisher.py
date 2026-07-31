@@ -12,9 +12,13 @@ parser = argparse.ArgumentParser(
 )
 
 parser.add_argument(
-    "--input",
-    required=True,
+    "--input_folder",
     help="Directory containing paired FASTQ files."
+)
+
+parser.add_argument(
+    "--input_sheet",
+    help="Sheet containg fastq file paths"
 )
 
 parser.add_argument(
@@ -58,15 +62,28 @@ print("Generating configuration file...")
 
 create_config = SCRIPT_DIR / "create-config.py"
 
-create_config_cmd = [
-    sys.executable,
-    str(create_config),
-    "--input_folder", args.input,
-    "--output_folder", args.outdir,
-    "--config", args.config,
-    "--threads", str(args.threads),
-    "--mem_mb", str(args.mem_mb),
-]
+if args.input_folder:
+
+    create_config_cmd = [
+        sys.executable,
+        str(create_config),
+        "--input_folder", args.input_folder,
+        "--output_folder", args.outdir,
+        "--config", args.config,
+        "--threads", str(args.threads),
+        "--mem_mb", str(args.mem_mb),
+    ]
+
+elif args.input_sheet:
+    create_config_cmd = [
+            sys.executable,
+            str(create_config),
+            "--input_sheet", args.input_sheet,
+            "--output_folder", args.outdir,
+            "--config", args.config,
+            "--threads", str(args.threads),
+            "--mem_mb", str(args.mem_mb),
+        ]
 
 subprocess.run(create_config_cmd, check=True)
 

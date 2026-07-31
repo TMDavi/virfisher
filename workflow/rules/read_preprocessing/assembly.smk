@@ -4,16 +4,16 @@ OUTDIR = config.get("outdir", "results")
 
 rule metaspades:
     input:
-        forward = out("{sample}", "intermediate", "fastp", "{sample}_R1_trimmed.fastq.gz"),
-        reverseR = out("{sample}", "intermediate", "fastp", "{sample}_R2_trimmed.fastq.gz")
+        forward = out("per_sample_results", "{sample}", "intermediate", "fastp", "{sample}_R1_trimmed.fastq.gz"),
+        reverseR = out("per_sample_results", "{sample}", "intermediate", "fastp", "{sample}_R2_trimmed.fastq.gz")
     output:
-       scaffolds = out("{sample}", "intermediate","metaspades", "scaffolds.fasta")
+       scaffolds = out("per_sample_results", "{sample}", "intermediate","metaspades", "scaffolds.fasta")
     params:
-        outdir=out("{sample}", "intermediate","metaspades"),
+        outdir=out("per_sample_results", "{sample}", "intermediate","metaspades"),
         klist = config["metaspades"]["klist"]
     log:
-        stdout = out("{sample}", "intermediate","metaspades", "stdout.log"),
-        stderr = out("{sample}", "intermediate","metaspades", "stderr.log")
+        stdout = out("per_sample_results", "{sample}", "intermediate","metaspades", "stdout.log"),
+        stderr = out("per_sample_results", "{sample}", "intermediate","metaspades", "stderr.log")
     conda:
          "metagenome"
     resources:

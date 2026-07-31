@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import argparse
 import re
-from crass_extract import parse_hmm, parse_domout, extract_genes
+from unused_rules.crass_extract import parse_hmm, parse_domout, extract_genes
 
 def get_set_repeated_values(list_of_sets):
     """

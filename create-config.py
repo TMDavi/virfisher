@@ -3,6 +3,7 @@
 from pathlib import Path
 import argparse
 import yaml
+import csv
 
 parser = argparse.ArgumentParser(
     description="Generate a configuration file for Virfisher."
@@ -11,6 +12,10 @@ parser = argparse.ArgumentParser(
 parser.add_argument(
     "--input_folder",
     help="Directory containing paired FASTQ files."
+)
+parser.add_argument(
+    "--input_sheet",
+    help="Sheet containg fastq file paths"
 )
 
 parser.add_argument(
@@ -38,11 +43,6 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-input_dir = Path(args.input_folder)
-
-if not input_dir.is_dir():
-    raise SystemExit(f"{input_dir} is not a directory.")
-
 config = {
     "WORKDIR":"workflow",
     "OUTDIR": args.output_folder,
@@ -61,21 +61,44 @@ config = {
     "iphop_db_dir": "databases/iPHoP_db/Jun_2025_pub_rw"
 }
 
-for r1 in sorted(input_dir.rglob("*_R1.*")):
 
-    sample = r1.name.split("_R1")[0]
-    r2 = r1.with_name(r1.name.replace("_R1", "_R2"))
+if args.input_folder:
 
-    if not r2.exists():
-        print(f"Warning: missing pair for {r1.name}")
-        continue
+    input_dir = Path(args.input_folder)
 
-    config["samples"][sample] = {
-        "forward": str(r1.resolve()),
-        "reverseR": str(r2.resolve())
-    }
+    if not input_dir.is_dir():
+        raise SystemExit(f"{input_dir} is not a directory.")
+
+    #Get sample file paths for the --input_folder option
+    for r1 in sorted(input_dir.rglob("*_R1.*")):
+
+        sample = r1.name.split("_R1")[0]
+        r2 = r1.with_name(r1.name.replace("_R1", "_R2"))
+
+        if not r2.exists():
+            print(f"Warning: missing pair for {r1.name}")
+            continue
+
+        config["samples"][sample] = {
+            "forward": str(r1.resolve()),
+            "reverseR": str(r2.resolve())
+        }
+
+elif args.input_sheet:
+    samplesheet = Path(args.input_sheet)
+
+    with open(samplesheet) as f:
+        reader = csv.DictReader(f)
+
+        for row in reader:
+            sample = row["samplename"]
+            config["samples"][sample] = {
+                "forward": row["forward"],
+                "reverseR": row["reverse"],
+            }
 
 with open(args.config, "w") as f:
     yaml.safe_dump(config, f, sort_keys=False)
+
 
 print(f"Wrote {args.config}")
