@@ -1,11 +1,10 @@
 rule vcontact3:
     input:
-        out("dereplicated","derep_miuvigs.fasta")
+        out("merged_results","dereplicated","derep_miuvigs.fasta")
     output:
-        classification = out("merged_results","vcontact3","final_assignments.csv")
+        classification = out("merged_results","vcontact3","exports","final_assignments.csv")
     params:
-        outdir = out("vcontact3"),
-        finaldir = out("merged_results","vcontact3"),
+        outdir = out("merged_results","vcontact3"),
         db = "databases/vcontact3_db" 
     conda:
          "vcontact3"
@@ -14,7 +13,9 @@ rule vcontact3:
         """
         vcontact3 run --nucleotide {input} --output {params.outdir} -t {threads} --db-path {params.db}
 
-        cp {params.outdir}/export/*.csv {params.finaldir}
+        rm {params.outdir}/*.faa
+        rm {params.outdir}/*.parquet
+        rm {params.outdir}/*.gz
+        rm {params.outdir}/*.h5
 
-        rm -r {params.outdir}
         """

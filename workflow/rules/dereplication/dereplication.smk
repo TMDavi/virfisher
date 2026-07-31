@@ -1,9 +1,9 @@
 
 rule rename_contigs:
     input:  
-        assembly=out("{sample}","intermediate", "final_phage_sequences.fasta")
+        assembly=out("per_sample_results", "{sample}","intermediate", "final_phage_sequences.fasta")
     output:
-        temp(out("{sample}", "intermediate", "dereplication", "{sample}_scaffolds.fasta"))
+        temp(out("per_sample_results", "{sample}", "intermediate", "dereplication", "{sample}_scaffolds.fasta"))
     params:
         sample_name=lambda wc: wc.sample
     shell:
@@ -13,11 +13,11 @@ rule rename_contigs:
 rule merge_contigs:
     input:
         expand(
-            out("{sample}", "intermediate", "dereplication", "{sample}_scaffolds.fasta"),
+            out("per_sample_results", "{sample}", "intermediate", "dereplication", "{sample}_scaffolds.fasta"),
             sample=list(config["samples"].keys())
         )
     output:
-        temp(out("dereplicated", "merged_scaffolds.fasta"))
+        temp(out("merged_results","dereplicated", "merged_scaffolds.fasta"))
     shell:
         """
         cat {input} > {output}
@@ -25,17 +25,17 @@ rule merge_contigs:
 
 rule makeblastdb:
     input:
-        out("dereplicated", "merged_scaffolds.fasta")
+        out("merged_results","dereplicated", "merged_scaffolds.fasta")
     output:
-        ndb = out("dereplicated","blastdb","all_viral_contigs.ndb"),
-        nhr = out("dereplicated","blastdb","all_viral_contigs.nhr"),
-        nin = out("dereplicated","blastdb","all_viral_contigs.nin"),
-        no = out("dereplicated","blastdb","all_viral_contigs.not"),
-        nsq = out("dereplicated","blastdb","all_viral_contigs.nsq"),
-        ntf = out("dereplicated","blastdb","all_viral_contigs.ntf"),
-        nto = out("dereplicated","blastdb","all_viral_contigs.nto")
+        ndb = out("merged_results","dereplicated","blastdb","all_viral_contigs.ndb"),
+        nhr = out("merged_results","dereplicated","blastdb","all_viral_contigs.nhr"),
+        nin = out("merged_results","dereplicated","blastdb","all_viral_contigs.nin"),
+        no = out("merged_results","dereplicated","blastdb","all_viral_contigs.not"),
+        nsq = out("merged_results","dereplicated","blastdb","all_viral_contigs.nsq"),
+        ntf = out("merged_results","dereplicated","blastdb","all_viral_contigs.ntf"),
+        nto = out("merged_results","dereplicated","blastdb","all_viral_contigs.nto")
     params:
-        db_name = out("dereplicated","blastdb","all_viral_contigs")
+        db_name = out("merged_results","dereplicated","blastdb","all_viral_contigs")
     conda:
         "viral-id-sop"
     shell:
@@ -45,20 +45,20 @@ rule makeblastdb:
 
 rule blastn:
     input:
-        query = out("dereplicated", "merged_scaffolds.fasta"),
-        ndb = out("dereplicated","blastdb","all_viral_contigs.ndb"),
-        nhr = out("dereplicated","blastdb","all_viral_contigs.nhr"),
-        nin = out("dereplicated","blastdb","all_viral_contigs.nin"),
-        no = out("dereplicated","blastdb","all_viral_contigs.not"),
-        nsq = out("dereplicated","blastdb","all_viral_contigs.nsq"),
-        ntf = out("dereplicated","blastdb","all_viral_contigs.ntf"),
-        nto = out("dereplicated","blastdb","all_viral_contigs.nto")
+        query = out("merged_results","dereplicated", "merged_scaffolds.fasta"),
+        ndb = out("merged_results","dereplicated","blastdb","all_viral_contigs.ndb"),
+        nhr = out("merged_results","dereplicated","blastdb","all_viral_contigs.nhr"),
+        nin = out("merged_results","dereplicated","blastdb","all_viral_contigs.nin"),
+        no = out("merged_results","dereplicated","blastdb","all_viral_contigs.not"),
+        nsq = out("merged_results","dereplicated","blastdb","all_viral_contigs.nsq"),
+        ntf = out("merged_results","dereplicated","blastdb","all_viral_contigs.ntf"),
+        nto = out("merged_results","dereplicated","blastdb","all_viral_contigs.nto")
 
     output:
-        out("dereplicated","all_viral_contigs_blastn.tsv")
+        out("merged_results","dereplicated","all_viral_contigs_blastn.tsv")
 
     params:
-        db = out("dereplicated","blastdb","all_viral_contigs")
+        db = out("merged_results","dereplicated","blastdb","all_viral_contigs")
     conda:
         "viral-id-sop"
     threads:config["resources"]["threads"]
@@ -69,9 +69,9 @@ rule blastn:
 
 rule anicalc:
     input:
-        out("dereplicated","all_viral_contigs_blastn.tsv")
+        out("merged_results","dereplicated","all_viral_contigs_blastn.tsv")
     output:
-        out("dereplicated","all_viral_contigs_ani.tsv")
+        out("merged_results","dereplicated","all_viral_contigs_ani.tsv")
  
     shell:
         """
@@ -80,10 +80,10 @@ rule anicalc:
 
 rule aniclust:
     input:
-        fasta = out("dereplicated", "merged_scaffolds.fasta"),
-        ani = out("dereplicated","all_viral_contigs_ani.tsv")
+        fasta = out("merged_results","dereplicated", "merged_scaffolds.fasta"),
+        ani = out("merged_results","dereplicated","all_viral_contigs_ani.tsv")
     output:
-        out("dereplicated","all_viral_contigs_clusters.tsv")
+        out("merged_results","dereplicated","all_viral_contigs_clusters.tsv")
     shell:
         """
         python programs/clustering_scripts/aniclust.py --fna {input.fasta} --ani {input.ani} --out {output} --min_ani 95 --min_tcov 85 --min_qcov 0
@@ -91,11 +91,11 @@ rule aniclust:
 
 rule filter_miuvigs:
     input:
-        fasta= out("dereplicated", "merged_scaffolds.fasta"),
-        derep_miuvigs_list= out("dereplicated","all_viral_contigs_clusters.tsv")
+        fasta= out("merged_results","dereplicated", "merged_scaffolds.fasta"),
+        derep_miuvigs_list= out("merged_results","dereplicated","all_viral_contigs_clusters.tsv")
     output:
-        fasta = out("dereplicated","derep_miuvigs.fasta"),
-        ids = out("dereplicated","miuvig_ids.txt")
+        fasta = out("merged_results","dereplicated","derep_miuvigs.fasta"),
+        ids = out("merged_results","dereplicated","miuvig_ids.txt")
     shell:
         """
         cut -f 1 {input.derep_miuvigs_list} > {output.ids}
@@ -105,12 +105,12 @@ rule filter_miuvigs:
 
 rule redistribute_miuvigs:
     input:
-        out("dereplicated","derep_miuvigs.fasta")
+        out("merged_results","dereplicated","derep_miuvigs.fasta")
     output:
-        expand(out("{sample}","final_results","dereplicated","miuvigs.fasta"), sample=config['samples'].keys())
+        expand(out("per_sample_results","{sample}","final_results","dereplicated","miuvigs.fasta"), sample=config['samples'].keys())
     params:
         samplelist = list(config["samples"].keys()),
-        outdir=out("")
+        outdir=out("per_sample_results")
     shell:
         """
         python {WORKDIR}/scripts/distribute_contigs.py -m {input} -s {params.samplelist} -o {params.outdir}

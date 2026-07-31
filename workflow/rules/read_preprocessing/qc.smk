@@ -3,16 +3,16 @@ rule fastp:
         forward=lambda wc: config["samples"][wc.sample]["forward"],
         reverseR=lambda wc: config["samples"][wc.sample]["reverseR"]
     output:
-        forward=out("{sample}", "intermediate", "fastp", "{sample}_R1_trimmed.fastq.gz"),
-        reverseR=out("{sample}", "intermediate","fastp", "{sample}_R2_trimmed.fastq.gz"),
-        report=out("{sample}", "intermediate","fastp", "{sample}_fastp_report.html")
+        forward=out("per_sample_results", "{sample}", "intermediate", "fastp", "{sample}_R1_trimmed.fastq.gz"),
+        reverseR=out("per_sample_results", "{sample}", "intermediate","fastp", "{sample}_R2_trimmed.fastq.gz"),
+        report=out("per_sample_results", "{sample}", "intermediate","fastp", "{sample}_fastp_report.html")
 
     log:
-        stdout=out("{sample}", "intermediate","fastp", "stdout.log"),
-        stderr=out("{sample}", "intermediate","fastp", "stderr.log")
+        stdout=out("per_sample_results", "{sample}", "intermediate","fastp", "stdout.log"),
+        stderr=out("per_sample_results", "{sample}", "intermediate","fastp", "stderr.log")
 
     benchmark:
-        out("{sample}", "intermediate", "fastp", "benchmark.txt")
+        out("per_sample_results", "{sample}", "intermediate", "fastp", "benchmark.txt")
     conda:
         "fastp"
 
