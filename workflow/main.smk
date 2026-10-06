@@ -48,6 +48,7 @@ rule all:
 
         #Host predicition
         #Iphop
+        expand(out("per_sample_results", "{sample}","final_results","Host_prediction","Host_prediction_to_genome_m90.csv"), sample=config['samples'].keys()),
 
         #Life style 
         expand(out("per_sample_results", "{sample}","final_results","life_style","vibrant_results", "final_phage_sequences.phages_lysogenic.fna"),sample=config["samples"].keys()),
