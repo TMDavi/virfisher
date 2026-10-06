@@ -24,7 +24,7 @@ conda activate virfisher_env
 - Run the setup_databases.py script
 ```shell
 
-virfisher set_databases --db_dir path/to/dir
+virfisher download_db --db_dir path/to/dir
 ```
 
 # Easy run
